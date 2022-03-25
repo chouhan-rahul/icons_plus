@@ -1,0 +1,41 @@
+name: icons_plus
+description: icons_plus is a package that comes with several popular icons packages.
+version: 1.0.1
+homepage: https://rahulchouhan.me
+repository: https://github.com/imRahulChouhan/icons_plus
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/flags/
+    - assets/brands/
+
+  fonts:
+    - family: Bootstrap
+      fonts:
+        - asset: assets/fonts/Bootstrap.ttf
+    - family: FontAwesomeBrands
+      fonts:
+        - asset: assets/fonts/FontAwesomeBrands.ttf
+    - family: FontAwesomeRegular
+      fonts:
+        - asset: assets/fonts/FontAwesomeRegular.ttf
+    - family: FontAwesomeSolid
+      fonts:
+        - asset: assets/fonts/FontAwesomeSolid.ttf
+    - family: LineAwesome
+      fonts:
+        - asset: assets/fonts/LineAwesome.ttf
