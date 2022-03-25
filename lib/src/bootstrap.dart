@@ -1,8 +1,18 @@
 import 'package:flutter/widgets.dart';
+
+///[IconData] is basically used for bootstrap icons
 class BootstrapIconData extends IconData {
   const BootstrapIconData(int code)
-      : super(code, fontFamily: 'Bootstrap', fontPackage: 'icons_plus');
+      : super(
+          code,
+          fontFamily: 'Bootstrap',
+          fontPackage: 'icons_plus',
+        );
 }
+
+///The Bootstrap 1.7.2 version is used here.
+///Use [Bootstrap] to get official bootstrap's icon
+///There are more than 1500 icons here as of now.
 class Bootstrap {
   static const ico123 = BootstrapIconData(0xe800);
   static const activity = BootstrapIconData(0xe801);

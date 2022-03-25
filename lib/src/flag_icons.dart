@@ -1,19 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+///[SvgPicture] is basically used for read svg files
 class FlagIcon extends SvgPicture {
   final String? flagName;
   FlagIcon(this.flagName,
       {double? size = 35.0,
       Color? color,
       BlendMode? colorBlendMode = BlendMode.srcIn})
-      : super.asset(flagName!,
-            package: 'icons_plus',
-            height: size,
-            colorBlendMode: colorBlendMode!,
-            color: color);
+      : super.asset(
+          flagName!,
+          package: 'icons_plus',
+          height: size,
+          colorBlendMode: colorBlendMode!,
+          color: color,
+        );
 }
 
+///Use [FlagIcons] and get more than 260 svg.
 class FlagIcons {
   static const abkhazia = "assets/flags/abkhazia.svg";
   static const afghanistan = "assets/flags/afghanistan.svg";
@@ -47,13 +51,15 @@ class FlagIcons {
   static const bhutan = "assets/flags/bhutan.svg";
   static const bolivia = "assets/flags/bolivia.svg";
   static const bonaire = "assets/flags/bonaire.svg";
-  static const bosnia_and_herzegovina = "assets/flags/bosnia-and-herzegovina.svg";
+  static const bosnia_and_herzegovina =
+      "assets/flags/bosnia-and-herzegovina.svg";
   static const botswana = "assets/flags/botswana.svg";
   static const brazil = "assets/flags/brazil.svg";
   static const british_columbia = "assets/flags/british-columbia.svg";
   static const british_indian_ocean_territory =
       "assets/flags/british-indian-ocean-territory.svg";
-  static const british_virgin_islands = "assets/flags/british-virgin-islands.svg";
+  static const british_virgin_islands =
+      "assets/flags/british-virgin-islands.svg";
   static const brunei = "assets/flags/brunei.svg";
   static const bulgaria = "assets/flags/bulgaria.svg";
   static const burkina_faso = "assets/flags/burkina-faso.svg";
@@ -64,7 +70,8 @@ class FlagIcons {
   static const canary_islands = "assets/flags/canary-islands.svg";
   static const cape_verde = "assets/flags/cape-verde.svg";
   static const cayman_islands = "assets/flags/cayman-islands.svg";
-  static const central_african_republic = "assets/flags/central-african-republic.svg";
+  static const central_african_republic =
+      "assets/flags/central-african-republic.svg";
   static const ceuta = "assets/flags/ceuta.svg";
   static const chad = "assets/flags/chad.svg";
   static const chile = "assets/flags/chile.svg";
@@ -268,7 +275,8 @@ class FlagIcons {
   static const united_arab_emirates = "assets/flags/united-arab-emirates.svg";
   static const united_kingdom = "assets/flags/united-kingdom.svg";
   static const united_nations = "assets/flags/united-nations.svg";
-  static const united_states_of_america = "assets/flags/united-states-of-america.svg";
+  static const united_states_of_america =
+      "assets/flags/united-states-of-america.svg";
   static const uruguay = "assets/flags/uruguay.svg";
   static const uzbekistan = "assets/flags/uzbekistan.svg";
   static const vanuatu = "assets/flags/vanuatu.svg";
