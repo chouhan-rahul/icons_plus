@@ -11,9 +11,9 @@ Simple answer, using flutter's auto-suggestion, or you can visit the official si
 
 ### Currently available icons
 NowADay, icons_plus has five icons packages. In the next update, you'll get more.
-1. FontAwesome [(license)](/licenses/fontawesome_license)
-2. LineAwesome [(license)](/licenses/lineawesome_license)
-3. Bootstrap [(license)](/licenses/bootstrap_license)
+1. FontAwesome [(license)](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/fontawesome_license)
+2. LineAwesome [(license)](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/lineawesome_license)
+3. Bootstrap [(license)](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/bootstrap_license)
 4. FlagIcon
 5. BrandLogo
 
@@ -23,7 +23,7 @@ In the dependencies: section of your pubspec.yaml add the following line:
 
 ```dart
 dependencies:
-  icons_plus: ^1.0.1
+  icons_plus: ^1.0.2
 ```
 
 Now in your Dart code, you can use:

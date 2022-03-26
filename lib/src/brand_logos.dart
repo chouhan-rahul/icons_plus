@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 ///[SvgPicture] is basically used for read svg files
 class BrandLogo extends SvgPicture {
   final String? brandName;
+
   BrandLogo(this.brandName,
       {double? size = 35.0,
       Color? color,
@@ -17,9 +18,13 @@ class BrandLogo extends SvgPicture {
         );
 }
 
-///Use [BrandLogos] and get more than 700 svg here as of now.
+///[BrandLogos] is a class you can use to access more than 700 logos.
+///
+///Some brands name start with numbers, 
+///but in dart object name never start with a number so just put ico before the number
+///example: 500_px to [ico500_px]
 class BrandLogos {
-  static const five_hundred_px = "assets/brands/500-px.svg";
+  static const ico500_px = "assets/brands/500-px.svg";
   static const about_dot_me = "assets/brands/about-dot-me.svg";
   static const academia_edu = "assets/brands/academia-edu.svg";
   static const accessible_icon = "assets/brands/accessible-icon.svg";

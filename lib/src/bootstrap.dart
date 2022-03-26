@@ -11,8 +11,13 @@ class BootstrapIconData extends IconData {
 }
 
 ///The Bootstrap 1.7.2 version is used here.
-///Use [Bootstrap] to get official bootstrap's icon
 ///There are more than 1500 icons here as of now.
+///
+///[Bootstrap] is a class you can use to access bootstrap's official icons.
+///
+///Some bootstrap icon's name start with numbers, 
+///but in dart object name never start a the number so just put ico before the number
+///example: 123 to [ico123]
 class Bootstrap {
   static const ico123 = BootstrapIconData(0xe800);
   static const activity = BootstrapIconData(0xe801);

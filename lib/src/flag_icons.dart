@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 ///[SvgPicture] is basically used for read svg files
 class FlagIcon extends SvgPicture {
   final String? flagName;
+
   FlagIcon(this.flagName,
       {double? size = 35.0,
       Color? color,
@@ -17,7 +18,7 @@ class FlagIcon extends SvgPicture {
         );
 }
 
-///Use [FlagIcons] and get more than 260 svg.
+///[FlagIcons] is a class you can use to access more the 260 flag icons.
 class FlagIcons {
   static const abkhazia = "assets/flags/abkhazia.svg";
   static const afghanistan = "assets/flags/afghanistan.svg";

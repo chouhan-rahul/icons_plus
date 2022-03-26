@@ -31,8 +31,13 @@ class FASolidIconData extends IconData {
 }
 
 ///The FontAwesome 6.0.0 version is used here.
-///Use [FontAwesome] to get official fontawesome's icon
 ///There are more than 1700 icons here as of now.
+///
+///[FontAwesome] is a class you can use to access fontawesome's official icons
+///
+///Some fontawesome icon's name start with numbers, 
+///but in dart object name never start with a number so just put ico before the number
+///example: 42_group to [ico42_group]
 class FontAwesome {
   static const ico42_group = FABrandIconData(0xe800);
   static const ico500px = FABrandIconData(0xe801);

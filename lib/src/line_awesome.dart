@@ -11,8 +11,13 @@ class LineAwesomeIconData extends IconData {
 }
 
 ///The LineAwesome 1.3.0 version is used here.
-///Use [LineAwesome] to get official lineawesome's icon
 ///There are more than 1500 icons here as of now.
+///
+///[LineAwesome] is a class you can use to access lineawesome's official icons
+///
+///Some lineawesome icon's name start with numbers, 
+///but in dart object name never start with a number so just put ico before the number
+///example: 500px to [ico500px]
 class LineAwesome {
   static const ico500px = LineAwesomeIconData(0xe800);
   static const accessible_icon = LineAwesomeIconData(0xe801);
