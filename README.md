@@ -81,3 +81,10 @@ For Brand logos, copy the following code.
 ```dart
 BrandLogo(BrandLogos.google)
 ```
+
+
+Change Logs
+```
+- 26/03/2022
+  - Initial Release
+```
