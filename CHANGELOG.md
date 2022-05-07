@@ -1,3 +1,3 @@
-## 1.0.2
+## 2.0.0
 
-* dartdoc comments added and some minor changes.
+* Redesigned and more icon packs added.

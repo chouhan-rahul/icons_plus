@@ -1,90 +1,194 @@
-## icons_plus
-![icons_plus_thumbnail](https://user-images.githubusercontent.com/82075108/160166166-d423fce5-1cf1-4032-954c-9c1805e5874a.svg)
+![thumbnail](https://user-images.githubusercontent.com/82075108/166093462-c8fba0d2-fc36-4d64-bf91-aee68a9090d9.svg)
 
-[![github-rahul](https://user-images.githubusercontent.com/82075108/160167113-d49389cc-6455-4587-96a1-5e3358263ce0.svg)](https://www.github.com/imRahulChouhan) *[![donate](https://user-images.githubusercontent.com/82075108/160167116-d82b841d-2a18-4c3c-a7a5-ddda0b3bbca0.svg)](https://www.buymeacoffee.com/rahulchouhan)*
+[![rahul chouhan](https://user-images.githubusercontent.com/82075108/167239496-497f3135-a6b1-4a4c-985b-939e1537a5f9.png)](https://www.github.com/imRahulChouhan) _[![buymeacoffee](https://user-images.githubusercontent.com/82075108/166093500-a61b8749-85d1-4206-a916-e534546c538b.svg)](https://buymeacoffee.com/rahulchouhan)_ _[![paypal](https://user-images.githubusercontent.com/82075108/166870820-8d619e80-3a3b-4bef-a3a8-6ee282f74da5.png)](https://paypal.me/imRahulChouhan)_
 
-icons_plus is a package that comes with several popular icons packages.
+# Why icons_plus?
 
-### How to I know icons' name?
+Icon_plus provides many popular icon packs in one place. It provides you to make your apps more beautiful through a wider variety of options. Icon_plus uses the most popular icon packs in its package.
 
-Simple answer, using flutter's auto-suggestion, or you can visit the official site of the icons provider.
+# What's new in version 2.0?
 
-### Currently available icons
-NowADay, icons_plus has five icons packages. In the next update, you'll get more.
-1. FontAwesome [(license)](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/fontawesome_license)
-2. LineAwesome [(license)](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/lineawesome_license)
-3. Bootstrap [(license)](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/bootstrap_license)
-4. FlagIcon
-5. BrandLogo
+- Improved documentations and code readability.
+- Bug fixes and improvements.
+- More icons packs are added.
 
-### Installation
+# How many icon packs are come with this package?
 
-In the dependencies: section of your pubspec.yaml add the following line:
+Following icon packs are available. In the next version, more icon packs will be added.
 
-```dart
-dependencies:
-  icons_plus: ^1.0.2
-```
+- [Bootstrap](#bootstrap) version: 1.8.1 (with 1669 icons) [LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/bootstrap_license)
+- [BrandLogo](#brandlogo) (with 704 logos)
+- [EvaIcons](#evaicons) version: 1.1.3 (with 490 icons) [LICENSE](https://github.com/akveo/eva-icons/blob/master/LICENSE.txt)
+  - Fill
+  - Outline
+- [FlagIcons](#flagicons) (with 260 flags)
+- [FontAwesome](#fontawesome) version: 6.1.1 (with 2007 icons) [LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/fontawesome_license)
+  - Regular
+  - Solid
+  - Brand
+- [IonIcons](#ionicons) version: 5.5.2 (with 1332 icons) [LICENSE](https://github.com/ionic-team/ionicons/blob/main/LICENSE)
+- [LineAwesome](#lineawesome) version: 1.3.0 (with 1544 icons) [LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/lineawesome_license)
 
-Now in your Dart code, you can use:
+# Bootstrap
 
-```
-import 'package:icons_plus/icons_plus.dart';
-```
+The following example illustrates how to use bootstrap icons.
 
-### FontAwesome
-
-For FontAwesome icons, copy the following code.
-
-![fontawesome_screenshot](https://user-images.githubusercontent.com/82075108/160167120-0569ffd6-e0cd-427f-8eca-ca19b80bc409.svg)
+![bootstrap-screen](https://user-images.githubusercontent.com/82075108/166093497-e3deab7c-5ae4-4cc9-8d5c-0458af3d7237.svg)
 
 ```dart
-Icon(FontAwesome.google)
+  Icon(Bootstrap.google),
+  Icon(Bootstrap.git),
+  Icon(Bootstrap.github),
+  Icon(Bootstrap.meta),
+  Icon(Bootstrap.bootstrap),
 ```
 
-### LineAwesome
+The bootstrap icons pack includes the following properties.
 
-For LineAwesome icons, copy the following code. 
+| Property | Type   |
+| -------- | ------ |
+| size:    | double |
+| color:   | Color  |
 
-![lineawsome_screenshot](https://user-images.githubusercontent.com/82075108/160167002-ade62309-b5e7-4407-94d9-c13060f7a44b.svg)
+# BrandLogo
+
+The following example illustrates how to use brand logo.
+
+
+![brandlogo-screen](https://user-images.githubusercontent.com/82075108/166093499-084804d1-d0c7-439e-924a-d69e6e06e6bb.svg)
 
 ```dart
-Icon(LineAwesome.google)
+  BrandLogo(BrandLogos.google),
+  BrandLogo(BrandLogos.android),
+  BrandLogo(BrandLogos.angular),
+  BrandLogo(BrandLogos.flutter),
+  BrandLogo(BrandLogos.firebase),
 ```
 
-### Bootstrap
+The brand logo pack includes the following properties.
 
-For Bootstrap icons, copy the following code. 
+| Property        | Type      |
+| --------------- | --------- |
+| size:           | double    |
+| color:          | Color     |
+| colorBlendMode: | BlendMode |
 
-![bootstrap_screenshot](https://user-images.githubusercontent.com/82075108/160166483-a50b81b0-b68c-48fc-a216-417481fc34a4.svg)
+# EvaIcons
+
+The following example illustrates how to use eva icons.
+
+![evaicons-screen](https://user-images.githubusercontent.com/82075108/166093501-079b7173-884f-44b4-94ed-36209990f358.svg)
 
 ```dart
-Icon(Bootstrap.google)
+  Icon(EvaIcons.google),
+  Icon(EvaIcons.github),
+  Icon(EvaIcons.linkedin),
+  Icon(EvaIcons.facebook),
+  Icon(EvaIcons.twitter),
 ```
 
-### FlagIcon
+The eva icons pack includes the following properties.
 
-For Flag icons, copy the following code.
+| Property | Type   |
+| -------- | ------ |
+| size:    | double |
+| color:   | Color  |
 
-![flag_screenshort](https://user-images.githubusercontent.com/82075108/160167108-b60c4163-385b-4d69-8c6d-8ef0d1184b22.svg)
+# FlagIcons
+
+The following example illustrates how to use flag icons.
+
+
+![flagicons-screen](https://user-images.githubusercontent.com/82075108/166093503-59115600-68a3-4df3-9a2e-2d09be85f0dd.svg)
 
 ```dart
-FlagIcon(FlagIcons.india)
+  FlagIcon(FlagIcons.india),
+  FlagIcon(FlagIcons.united_state_of_america),
+  FlagIcon(FlagIcons.united_kingdom),
+  FlagIcon(FlagIcons.france),
+  FlagIcon(FlagIcons.spain),
 ```
 
-### BrandLogo
+The flag icons pack includes the following properties.
 
-For Brand logos, copy the following code.
+| Property        | Type      |
+| --------------- | --------- |
+| size:           | double    |
+| color:          | Color     |
+| colorBlendMode: | BlendMode |
 
-![brand_screenshot](https://user-images.githubusercontent.com/82075108/160167123-f3c2a60b-1ff2-40f5-a523-785f11c448c4.svg)
+# FontAwesome
+
+The following example illustrates how to use fontawesome icons.
+
+![fontawesome-screen](https://user-images.githubusercontent.com/82075108/166093505-87ee60fa-4379-4bb8-83cc-e4f72e37e125.svg)
 
 ```dart
-BrandLogo(BrandLogos.google)
+  Icon(FontAwesome.google),
+  Icon(FontAwesome.android),
+  Icon(FontAwesome.angular),
+  Icon(FontAwesome.google_drive),
+  Icon(FontAwesome.golang),
 ```
 
+The fontawesome icons pack includes the following properties.
 
-Change Logs
+| Property | Type   |
+| -------- | ------ |
+| size:    | double |
+| color:   | Color  |
+
+# IonIcons
+
+The following example illustrates how to use ionicons.
+
+![ionicons-screen](https://user-images.githubusercontent.com/82075108/166093509-cd4c48cc-8631-4805-9fea-d1eaaa972899.svg)
+
+```dart
+  Icon(IonIcons.logo_google),
+  Icon(IonIcons.logo_firebase),
+  Icon(IonIcons.logo_angular),
+  Icon(IonIcons.logo_nodejs),
+  Icon(IonIcons.logo_android),
 ```
-- 26/03/2022
-  - Initial Release
+
+The ionicons pack includes the following properties.
+
+| Property | Type   |
+| -------- | ------ |
+| size:    | double |
+| color:   | Color  |
+
+# LineAwesome
+
+The following example illustrates how to use line awesome icons.
+
+
+![lineawesome-screen](https://user-images.githubusercontent.com/82075108/166093510-b0e54b9d-3f65-4be7-9cd8-5e21a37926aa.svg)
+
+```dart
+  Icon(LineAwesome.google),
+  Icon(LineAwesome.android),
+  Icon(LineAwesome.angular),
+  Icon(LineAwesome.github),
+  Icon(LineAwesome.apple),
 ```
+
+The line awesome icons pack includes the following properties.
+
+| Property | Type   |
+| -------- | ------ |
+| size:    | double |
+| color:   | Color  |
+
+# Contributors
+
+[![rohit-chouhan](https://user-images.githubusercontent.com/82075108/166093478-194c7093-8eb2-436d-8ee2-1bb07b53c850.svg)](https://www.github.com/rohit-chouhan)
+
+# Report bugs or issues
+
+You are welcome to open a *[ticket](https://github.com/imRahulChouhan/icons_plus/issues)* on github if any problems arise. New ideas are always welcome.
+
+# Copyright and License
+
+>Copyright © 2022 **[Rahul Chouhan](https://rahulchouhan.me)**. Licensed under the *[MIT LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/LICENSE)*.

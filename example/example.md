@@ -16,20 +16,16 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Icon(Bootstrap.google, size: 35),
-            const Icon(FontAwesome.google, size: 35),
-            const Icon(LineAwesome.google, size: 35),
-            FlagIcon(FlagIcons.india),
-            BrandLogo(BrandLogos.google),
-          ],
-        ),
+      body: ListView(
+        children: [
+          const Icon(Bootstrap.google, size: 35),
+          const Icon(FontAwesome.android, size: 35),
+          const Icon(LineAwesome.angular, size: 35),
+          const Icon(EvaIcons.github, size: 35),
+          const Icon(IonIcons.logo_gitlab, size: 35),
+          FlagIcon(FlagIcons.india),
+          BrandLogo(BrandLogos.apple),
+        ],
       ),
     );
   }

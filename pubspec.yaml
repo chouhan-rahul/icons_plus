@@ -1,6 +1,6 @@
 name: icons_plus
-description: icons_plus is a package that comes with several popular icons packages.
-version: 1.0.2
+description: A collection of popular icon packs is available in icons_plus. Such as bootstrap, font awesome, eva icons, line awesome, ionicons, and many more.
+version: 2.0.0
 homepage: https://rahulchouhan.me
 repository: https://github.com/imRahulChouhan/icons_plus
 
@@ -27,6 +27,12 @@ flutter:
     - family: Bootstrap
       fonts:
         - asset: assets/fonts/Bootstrap.ttf
+    - family: EvaIconsFill
+      fonts:
+        - asset: assets/fonts/EvaIconsFill.ttf
+    - family: EvaIconsOutline
+      fonts:
+        - asset: assets/fonts/EvaIconsOutline.ttf        
     - family: FontAwesomeBrands
       fonts:
         - asset: assets/fonts/FontAwesomeBrands.ttf
@@ -36,6 +42,9 @@ flutter:
     - family: FontAwesomeSolid
       fonts:
         - asset: assets/fonts/FontAwesomeSolid.ttf
+    - family: IonIcons
+      fonts:
+        - asset: assets/fonts/IonIcons.ttf    
     - family: LineAwesome
       fonts:
         - asset: assets/fonts/LineAwesome.ttf
