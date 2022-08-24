@@ -12,7 +12,7 @@ Icon_plus provides many popular icon packs in one place. It provides you to make
 - Bug fixes and improvements.
 - More icons packs are added.
 
-# How many icon packs are come with this package?
+# How many icon packs come with this package?
 
 Following icon packs are available. In the next version, more icon packs will be added.
 
