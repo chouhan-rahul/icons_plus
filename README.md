@@ -1,39 +1,54 @@
-![thumbnail](https://user-images.githubusercontent.com/82075108/166093462-c8fba0d2-fc36-4d64-bf91-aee68a9090d9.svg)
+![icons_plus_thumbnail](https://user-images.githubusercontent.com/82075108/175813496-b79f6ae9-cb6c-42fe-964e-122b0289c266.svg)
 
-[![rahul chouhan](https://user-images.githubusercontent.com/82075108/167239496-497f3135-a6b1-4a4c-985b-939e1537a5f9.png)](https://www.github.com/imRahulChouhan) _[![buymeacoffee](https://user-images.githubusercontent.com/82075108/166093500-a61b8749-85d1-4206-a916-e534546c538b.svg)](https://buymeacoffee.com/rahulchouhan)_ _[![paypal](https://user-images.githubusercontent.com/82075108/166870820-8d619e80-3a3b-4bef-a3a8-6ee282f74da5.png)](https://paypal.me/imRahulChouhan)_
+[![chouhan-rahul](https://user-images.githubusercontent.com/82075108/182797956-c3db4825-97a8-462a-a89a-39772876bbd1.svg)](https://github.com/chouhan-rahul)
+_[![buymeacoffee](https://user-images.githubusercontent.com/82075108/182797941-5ad09afd-7c74-4085-8130-819402cf7eaa.svg)](https://www.buymeacoffee.com/rahulchouhan)_
+_[![ko-fi](https://user-images.githubusercontent.com/82075108/182797959-bd835cdb-7223-4b16-bf1e-284466d0658f.svg)](https://ko-fi.com/rahulchouhan)_
+_[![paypal](https://user-images.githubusercontent.com/82075108/182797963-09475375-9a0a-4342-8e9d-08037d4ba343.svg)](http://paypal.me/rahu1chouhan)_
 
-# Why icons_plus?
+### Become a sponsor
 
-Icon_plus provides many popular icon packs in one place. It provides you to make your apps more beautiful through a wider variety of options. Icon_plus uses the most popular icon packs in its package.
+[![sponsor](https://user-images.githubusercontent.com/82075108/182797969-11208ddc-b84c-4618-8534-18388d24ac18.svg)](https://github.com/sponsors/chouhan-rahul)
 
-# What's new in version 2.0?
+# Icons Plus
+
+Icons plus provides many popular icon packs in one place. It provides you to make your apps more beautiful through a wider variety of options. Icon plus uses the most popular icon packs in its package.
+
+# What's new in version 3.0
 
 - Improved documentations and code readability.
 - Bug fixes and improvements.
-- More icons packs are added.
+- [BoxIcons](#boxicons) is now a part of the package.
+- [PixelArtIcons](#pixelarticons) is now a part of the package.
 
-# How many icon packs are come with this package?
+# Here is a list of all icon packs included in the package
 
 Following icon packs are available. In the next version, more icon packs will be added.
 
-- [Bootstrap](#bootstrap) version: 1.8.1 (with 1669 icons) [LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/bootstrap_license)
-- [BrandLogo](#brandlogo) (with 704 logos)
-- [EvaIcons](#evaicons) version: 1.1.3 (with 490 icons) [LICENSE](https://github.com/akveo/eva-icons/blob/master/LICENSE.txt)
+- [Bootstrap](#bootstrap) version: 1.9.1 [LICENSE](https://github.com/twbs/icons/blob/main/LICENSE.md)
+- [BoxIcons](#boxicons) version: 2.1.2 [LICENSE](https://github.com/atisawd/boxicons/blob/master/LICENSE)
+
+  - Logo
+  - Regular
+  - Solid
+
+- [EvaIcons](#evaicons) version: 1.1.3 [LICENSE](https://github.com/akveo/eva-icons/blob/master/LICENSE.txt)
   - Fill
   - Outline
-- [FlagIcons](#flagicons) (with 260 flags)
-- [FontAwesome](#fontawesome) version: 6.1.1 (with 2007 icons) [LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/fontawesome_license)
+- [Flags](#flags)
+- [FontAwesome](#fontawesome) version: 6.1.2 [LICENSE](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt)
   - Regular
   - Solid
   - Brand
-- [IonIcons](#ionicons) version: 5.5.2 (with 1332 icons) [LICENSE](https://github.com/ionic-team/ionicons/blob/main/LICENSE)
-- [LineAwesome](#lineawesome) version: 1.3.0 (with 1544 icons) [LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/licenses/lineawesome_license)
+- [IonIcons](#ionicons) version: 5.5.2 [LICENSE](https://github.com/ionic-team/ionicons/blob/main/LICENSE)
+- [Logos](#logos)
+- [LineAwesome](#lineawesome) version: 1.3.0 [LICENSE](https://github.com/icons8/line-awesome/blob/master/LICENSE.md)
+- [PixelArtIcons](#pixelarticons) [LICENSE](https://github.com/halfmage/pixelarticons/blob/master/LICENSE)
 
 # Bootstrap
 
-The following example illustrates how to use bootstrap icons.
+The following example shows how to use bootstrap icons.
 
-![bootstrap-screen](https://user-images.githubusercontent.com/82075108/166093497-e3deab7c-5ae4-4cc9-8d5c-0458af3d7237.svg)
+![Bootstrap](https://user-images.githubusercontent.com/82075108/182035811-318b0f89-1ad8-4cfe-a643-5a2c234e9ebb.svg)
 
 ```dart
   Icon(Bootstrap.google),
@@ -43,41 +58,24 @@ The following example illustrates how to use bootstrap icons.
   Icon(Bootstrap.bootstrap),
 ```
 
-The bootstrap icons pack includes the following properties.
+# BoxIcons
+The following example shows how to use boxicons. For boxicons logo icon use prefix `bxl`,for regular icon use `bx` and for solid icon use `bxs`.
 
-| Property | Type   |
-| -------- | ------ |
-| size:    | double |
-| color:   | Color  |
-
-# BrandLogo
-
-The following example illustrates how to use brand logo.
-
-
-![brandlogo-screen](https://user-images.githubusercontent.com/82075108/166093499-084804d1-d0c7-439e-924a-d69e6e06e6bb.svg)
+![BoxIcons](https://user-images.githubusercontent.com/82075108/182035815-74687d01-3299-447d-8258-6aac01290411.svg)
 
 ```dart
-  BrandLogo(BrandLogos.google),
-  BrandLogo(BrandLogos.android),
-  BrandLogo(BrandLogos.angular),
-  BrandLogo(BrandLogos.flutter),
-  BrandLogo(BrandLogos.firebase),
+  Icon(BoxIcons.bxl_google),
+  Icon(BoxIcons.bxl_github),
+  Icon(BoxIcons.bxl_play_store),
+  Icon(BoxIcons.bxl_stripe),
+  Icon(BoxIcons.bxl_firebase),
 ```
-
-The brand logo pack includes the following properties.
-
-| Property        | Type      |
-| --------------- | --------- |
-| size:           | double    |
-| color:          | Color     |
-| colorBlendMode: | BlendMode |
 
 # EvaIcons
 
-The following example illustrates how to use eva icons.
+The following example shows how to use evaicons.
 
-![evaicons-screen](https://user-images.githubusercontent.com/82075108/166093501-079b7173-884f-44b4-94ed-36209990f358.svg)
+![EvaIcons](https://user-images.githubusercontent.com/82075108/182035817-79231ee8-8192-4be0-93af-f8d50c50a1f6.svg)
 
 ```dart
   Icon(EvaIcons.google),
@@ -87,41 +85,25 @@ The following example illustrates how to use eva icons.
   Icon(EvaIcons.twitter),
 ```
 
-The eva icons pack includes the following properties.
+# Flags
 
-| Property | Type   |
-| -------- | ------ |
-| size:    | double |
-| color:   | Color  |
+The following example shows how to use flags.
 
-# FlagIcons
-
-The following example illustrates how to use flag icons.
-
-
-![flagicons-screen](https://user-images.githubusercontent.com/82075108/166093503-59115600-68a3-4df3-9a2e-2d09be85f0dd.svg)
+![Flags ](https://user-images.githubusercontent.com/82075108/182035818-73ca250d-0b5c-42bc-80b6-7be54e5a7bf5.svg)
 
 ```dart
-  FlagIcon(FlagIcons.india),
-  FlagIcon(FlagIcons.united_state_of_america),
-  FlagIcon(FlagIcons.united_kingdom),
-  FlagIcon(FlagIcons.france),
-  FlagIcon(FlagIcons.spain),
+  Flag(Flags.india),
+  Flag(Flags.united_states_of_america),
+  Flag(Flags.united_kingdom),
+  Flag(Flags.france),
+  Flag(Flags.spain),
 ```
-
-The flag icons pack includes the following properties.
-
-| Property        | Type      |
-| --------------- | --------- |
-| size:           | double    |
-| color:          | Color     |
-| colorBlendMode: | BlendMode |
 
 # FontAwesome
 
-The following example illustrates how to use fontawesome icons.
+The following example shows how to use fontawesome icons.
 
-![fontawesome-screen](https://user-images.githubusercontent.com/82075108/166093505-87ee60fa-4379-4bb8-83cc-e4f72e37e125.svg)
+![FontAwesome](https://user-images.githubusercontent.com/82075108/182035819-3d5c2a67-c3a9-419d-8bdf-de4b7de5c88e.svg)
 
 ```dart
   Icon(FontAwesome.google),
@@ -131,18 +113,11 @@ The following example illustrates how to use fontawesome icons.
   Icon(FontAwesome.golang),
 ```
 
-The fontawesome icons pack includes the following properties.
-
-| Property | Type   |
-| -------- | ------ |
-| size:    | double |
-| color:   | Color  |
-
 # IonIcons
 
-The following example illustrates how to use ionicons.
+The following example shows how to use ionicons.
 
-![ionicons-screen](https://user-images.githubusercontent.com/82075108/166093509-cd4c48cc-8631-4805-9fea-d1eaaa972899.svg)
+![IonIcons](https://user-images.githubusercontent.com/82075108/182035824-1a0bfa0c-b0e0-40cf-8ef6-3fbe57024282.svg)
 
 ```dart
   Icon(IonIcons.logo_google),
@@ -152,19 +127,25 @@ The following example illustrates how to use ionicons.
   Icon(IonIcons.logo_android),
 ```
 
-The ionicons pack includes the following properties.
+# Logos
 
-| Property | Type   |
-| -------- | ------ |
-| size:    | double |
-| color:   | Color  |
+The following example shows how to use logos.
+
+![Logos](https://user-images.githubusercontent.com/82075108/182035816-fd07d96b-a951-4a9f-9cbe-70ffd00c44ed.svg)
+
+```dart
+  Logo(Logos.google),
+  Logo(Logos.android),
+  Logo(Logos.angular),
+  Logo(Logos.flutter),
+  Logo(Logos.firebase),
+```
 
 # LineAwesome
 
-The following example illustrates how to use line awesome icons.
+The following example shows how to use lineawesome icons.
 
-
-![lineawesome-screen](https://user-images.githubusercontent.com/82075108/166093510-b0e54b9d-3f65-4be7-9cd8-5e21a37926aa.svg)
+![LineAwesome](https://user-images.githubusercontent.com/82075108/182035825-faefae12-3de8-4fa0-ba64-84df80231c8e.svg)
 
 ```dart
   Icon(LineAwesome.google),
@@ -174,21 +155,28 @@ The following example illustrates how to use line awesome icons.
   Icon(LineAwesome.apple),
 ```
 
-The line awesome icons pack includes the following properties.
+# PixelArtIcons
 
-| Property | Type   |
-| -------- | ------ |
-| size:    | double |
-| color:   | Color  |
+The following example shows how to use pixelarticons.
 
-# Contributors
+![PixelArtIcons](https://user-images.githubusercontent.com/82075108/182035826-e7a91d3a-0fa0-4d3c-a182-02cacc6b7280.svg)
 
-[![rohit-chouhan](https://user-images.githubusercontent.com/82075108/166093478-194c7093-8eb2-436d-8ee2-1bb07b53c850.svg)](https://www.github.com/rohit-chouhan)
+```dart
+  Icon(PixelArtIcons.message),
+  Icon(PixelArtIcons.android),
+  Icon(PixelArtIcons.cloud),
+  Icon(PixelArtIcons.code),
+  Icon(PixelArtIcons.dollar),
+```
 
 # Report bugs or issues
 
-You are welcome to open a *[ticket](https://github.com/imRahulChouhan/icons_plus/issues)* on github if any problems arise. New ideas are always welcome.
+You are welcome to open a _[ticket](https://github.com/chouhan-rahul/icons_plus/issues)_ on github if any problems arise. New ideas are always welcome.
+
+# Contributors
+
+[![rohit-chouhan](https://user-images.githubusercontent.com/82075108/182797964-a92e0c59-b9ef-432d-92af-63b6475a4b1c.svg)](https://www.github.com/rohit-chouhan)
 
 # Copyright and License
 
->Copyright © 2022 **[Rahul Chouhan](https://rahulchouhan.me)**. Licensed under the *[MIT LICENSE](https://github.com/imRahulChouhan/icons_plus/blob/main/LICENSE)*.
+> Copyright © 2022 **[Rahul Chouhan](https://rahulchouhan.me)**. Licensed under the _[MIT LICENSE](https://github.com/chouhan-rahul/icons_plus/blob/main/LICENSE)_.

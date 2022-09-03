@@ -1,28 +1,26 @@
-// Copyright (c) 2022 Rahul Chouhan.
-// Licensed under the MIT License.
-// found in the LICENSE file.
-// ignore_for_file: constant_identifier_names, use_key_in_widget_constructors
+// ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class FlagIcon extends SvgPicture {
-  final String? flagName;
-
-  FlagIcon(this.flagName,
-      {double? size = 35.0,
-      Color? color,
-      BlendMode? colorBlendMode = BlendMode.srcIn})
-      : super.asset(
-          flagName!,
+class Flag extends SvgPicture {
+  Flag(
+    String? assetName, {
+    Key? key,
+    double? size = 35.0,
+    Color? color,
+    BlendMode? colorBlendMode = BlendMode.srcIn,
+  }) : super.asset(
+          assetName!,
           package: 'icons_plus',
+          key: key,
           height: size,
           colorBlendMode: colorBlendMode!,
           color: color,
         );
 }
 
-class FlagIcons {
+class Flags {
   ///FlagIcon's abkhazia flag
   static const abkhazia = "assets/flags/abkhazia.svg";
 
