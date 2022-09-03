@@ -3,7 +3,7 @@
 [![chouhan-rahul](https://user-images.githubusercontent.com/82075108/182797956-c3db4825-97a8-462a-a89a-39772876bbd1.svg)](https://github.com/chouhan-rahul)
 _[![buymeacoffee](https://user-images.githubusercontent.com/82075108/182797941-5ad09afd-7c74-4085-8130-819402cf7eaa.svg)](https://www.buymeacoffee.com/rahulchouhan)_
 _[![ko-fi](https://user-images.githubusercontent.com/82075108/182797959-bd835cdb-7223-4b16-bf1e-284466d0658f.svg)](https://ko-fi.com/rahulchouhan)_
-_[![paypal](https://user-images.githubusercontent.com/82075108/182797963-09475375-9a0a-4342-8e9d-08037d4ba343.svg)](http://paypal.me/rahu1chouhan)_
+_[![paypal](https://user-images.githubusercontent.com/82075108/182797963-09475375-9a0a-4342-8e9d-08037d4ba343.svg)](https://paypal.me/rahu1chouhan)_
 
 ### Become a sponsor
 
