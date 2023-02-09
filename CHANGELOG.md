@@ -1,3 +1,12 @@
+## 4.0.0
+
+- IconsPlus version 4.0.0 released.
+- Bug fixes.
+- Upadated existing icons packs with the latest version.
+- Heroicons added.
+- Iconsax added.
+- Octicons added.
+
 ## 3.0.0
 
 - New version released.

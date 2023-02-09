@@ -1,6 +1,6 @@
 name: icons_plus
-description: A collection of popular icon packs is available in icons_plus. Such as bootstrap, font awesome, eva icons, line awesome, ionicons, and many more.
-version: 3.0.0
+description: The icons plus package offers a convenient collection of popular icon packs, including Bootstrap, Font Awesome, Eva Icons, Line Awesome, Ionicons, and many more.
+version: 4.0.0
 homepage: https://rahulchouhan.me
 repository: https://github.com/chouhan-rahul/icons_plus
 
@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^1.1.1+1
+  flutter_svg: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:
@@ -21,15 +21,15 @@ dev_dependencies:
 flutter:
   assets:
     - assets/flags/
-    - assets/brands/
+    - assets/logos/
 
   fonts:
     - family: bootstrap
       fonts:
         - asset: assets/fonts/bootstrap.ttf
-    - family: boxicons-brand
+    - family: boxicons-logos
       fonts:
-        - asset: assets/fonts/boxicons-brand.ttf
+        - asset: assets/fonts/boxicons-logos.ttf
     - family: boxicons-regular
       fonts:
         - asset: assets/fonts/boxicons-regular.ttf
@@ -42,21 +42,30 @@ flutter:
     - family: eva-outline
       fonts:
         - asset: assets/fonts/eva-outline.ttf
-    - family: fontawesome
+    - family: fontawesome-brands
       fonts:
-        - asset: assets/fonts/fontawesome.ttf
+        - asset: assets/fonts/fontawesome-brands.ttf
     - family: fontawesome-regular
       fonts:
         - asset: assets/fonts/fontawesome-regular.ttf
     - family: fontawesome-solid
       fonts:
         - asset: assets/fonts/fontawesome-solid.ttf
+    - family: heroicons-solid
+      fonts:
+        - asset: assets/fonts/heroicons-solid.ttf
+    - family: iconsax
+      fonts:
+        - asset: assets/fonts/iconsax.ttf
     - family: ionicons
       fonts:
         - asset: assets/fonts/ionicons.ttf
     - family: lineawesome
       fonts:
         - asset: assets/fonts/lineawesome.ttf
+    - family: octicons
+      fonts:
+        - asset: assets/fonts/octicons.ttf
     - family: pixelarticons
       fonts:
         - asset: assets/fonts/pixelarticons.ttf
