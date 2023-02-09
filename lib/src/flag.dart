@@ -8,15 +8,13 @@ class Flag extends SvgPicture {
     String? assetName, {
     Key? key,
     double? size = 35.0,
-    Color? color,
-    BlendMode? colorBlendMode = BlendMode.srcIn,
+    ColorFilter? colorFilter,
   }) : super.asset(
           assetName!,
           package: 'icons_plus',
           key: key,
           height: size,
-          colorBlendMode: colorBlendMode!,
-          color: color,
+          colorFilter: colorFilter,
         );
 }
 
