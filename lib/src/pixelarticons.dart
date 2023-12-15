@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names
+// ignore_for_file: constant_identifier_names, unused_field
 
 import 'package:flutter/widgets.dart';
 
@@ -6,1443 +6,1443 @@ class PixelArtIconData extends IconData {
   const PixelArtIconData(int code)
       : super(
           code,
-          fontFamily: 'pixelarticons',
+          fontFamily: 'PixelArtIcons',
           fontPackage: 'icons_plus',
         );
 }
 
 class PixelArtIcons {
-  ///PixelArtIcons' g icon
-  static const g = PixelArtIconData(0xe900);
+  /// PixelArtIcons'  4g Icon
+  static const num4g = PixelArtIconData(0xe900);
 
-  ///PixelArtIcons' k icon
-  static const k = PixelArtIconData(0xe901);
+  /// PixelArtIcons'  4k Icon
+  static const num4k = PixelArtIconData(0xe901);
 
-  ///PixelArtIcons' k_box icon
+  /// PixelArtIcons' k box Icon
   static const k_box = PixelArtIconData(0xe902);
 
-  ///PixelArtIcons' g1 icon
-  static const g1 = PixelArtIconData(0xe903);
+  /// PixelArtIcons'  5g Icon
+  static const num5g = PixelArtIconData(0xe903);
 
-  ///PixelArtIcons' ab_testing icon
+  /// PixelArtIcons' ab testing Icon
   static const ab_testing = PixelArtIconData(0xe904);
 
-  ///PixelArtIcons' ac icon
+  /// PixelArtIcons' ac Icon
   static const ac = PixelArtIconData(0xe905);
 
-  ///PixelArtIcons' add_box icon
+  /// PixelArtIcons' add box Icon
   static const add_box = PixelArtIconData(0xe906);
 
-  ///PixelArtIcons' add_box_multiple icon
+  /// PixelArtIcons' add box multiple Icon
   static const add_box_multiple = PixelArtIconData(0xe907);
 
-  ///PixelArtIcons' add_col icon
+  /// PixelArtIcons' add col Icon
   static const add_col = PixelArtIconData(0xe908);
 
-  ///PixelArtIcons' add_grid icon
+  /// PixelArtIcons' add grid Icon
   static const add_grid = PixelArtIconData(0xe909);
 
-  ///PixelArtIcons' add_row icon
+  /// PixelArtIcons' add row Icon
   static const add_row = PixelArtIconData(0xe90a);
 
-  ///PixelArtIcons' alert icon
+  /// PixelArtIcons' alert Icon
   static const alert = PixelArtIconData(0xe90b);
 
-  ///PixelArtIcons' align_center icon
+  /// PixelArtIcons' align center Icon
   static const align_center = PixelArtIconData(0xe90c);
 
-  ///PixelArtIcons' align_justify icon
+  /// PixelArtIcons' align justify Icon
   static const align_justify = PixelArtIconData(0xe90d);
 
-  ///PixelArtIcons' align_left icon
+  /// PixelArtIcons' align left Icon
   static const align_left = PixelArtIconData(0xe90e);
 
-  ///PixelArtIcons' align_right icon
+  /// PixelArtIcons' align right Icon
   static const align_right = PixelArtIconData(0xe90f);
 
-  ///PixelArtIcons' analytics icon
+  /// PixelArtIcons' analytics Icon
   static const analytics = PixelArtIconData(0xe910);
 
-  ///PixelArtIcons' anchor icon
+  /// PixelArtIcons' anchor Icon
   static const anchor = PixelArtIconData(0xe911);
 
-  ///PixelArtIcons' android icon
+  /// PixelArtIcons' android Icon
   static const android = PixelArtIconData(0xe912);
 
-  ///PixelArtIcons' animation icon
+  /// PixelArtIcons' animation Icon
   static const animation = PixelArtIconData(0xe913);
 
-  ///PixelArtIcons' archive icon
+  /// PixelArtIcons' archive Icon
   static const archive = PixelArtIconData(0xe914);
 
-  ///PixelArtIcons' arrow_bar_down icon
+  /// PixelArtIcons' arrow bar down Icon
   static const arrow_bar_down = PixelArtIconData(0xe915);
 
-  ///PixelArtIcons' arrow_bar_left icon
+  /// PixelArtIcons' arrow bar left Icon
   static const arrow_bar_left = PixelArtIconData(0xe916);
 
-  ///PixelArtIcons' arrow_bar_right icon
+  /// PixelArtIcons' arrow bar right Icon
   static const arrow_bar_right = PixelArtIconData(0xe917);
 
-  ///PixelArtIcons' arrow_bar_up icon
+  /// PixelArtIcons' arrow bar up Icon
   static const arrow_bar_up = PixelArtIconData(0xe918);
 
-  ///PixelArtIcons' arrow_down icon
+  /// PixelArtIcons' arrow down Icon
   static const arrow_down = PixelArtIconData(0xe919);
 
-  ///PixelArtIcons' arrow_down_box icon
+  /// PixelArtIcons' arrow down box Icon
   static const arrow_down_box = PixelArtIconData(0xe91a);
 
-  ///PixelArtIcons' arrow_left icon
+  /// PixelArtIcons' arrow left Icon
   static const arrow_left = PixelArtIconData(0xe91b);
 
-  ///PixelArtIcons' arrow_left_box icon
+  /// PixelArtIcons' arrow left box Icon
   static const arrow_left_box = PixelArtIconData(0xe91c);
 
-  ///PixelArtIcons' arrow_right icon
+  /// PixelArtIcons' arrow right Icon
   static const arrow_right = PixelArtIconData(0xe91d);
 
-  ///PixelArtIcons' arrow_right_box icon
+  /// PixelArtIcons' arrow right box Icon
   static const arrow_right_box = PixelArtIconData(0xe91e);
 
-  ///PixelArtIcons' arrows_horizontal icon
+  /// PixelArtIcons' arrows horizontal Icon
   static const arrows_horizontal = PixelArtIconData(0xe91f);
 
-  ///PixelArtIcons' arrows_vertical icon
+  /// PixelArtIcons' arrows vertical Icon
   static const arrows_vertical = PixelArtIconData(0xe920);
 
-  ///PixelArtIcons' arrow_up icon
+  /// PixelArtIcons' arrow up Icon
   static const arrow_up = PixelArtIconData(0xe921);
 
-  ///PixelArtIcons' arrow_up_box icon
+  /// PixelArtIcons' arrow up box Icon
   static const arrow_up_box = PixelArtIconData(0xe922);
 
-  ///PixelArtIcons' article icon
+  /// PixelArtIcons' article Icon
   static const article = PixelArtIconData(0xe923);
 
-  ///PixelArtIcons' article_multiple icon
+  /// PixelArtIcons' article multiple Icon
   static const article_multiple = PixelArtIconData(0xe924);
 
-  ///PixelArtIcons' art_text icon
+  /// PixelArtIcons' art text Icon
   static const art_text = PixelArtIconData(0xe925);
 
-  ///PixelArtIcons' aspect_ratio icon
+  /// PixelArtIcons' aspect ratio Icon
   static const aspect_ratio = PixelArtIconData(0xe926);
 
-  ///PixelArtIcons' at icon
+  /// PixelArtIcons' at Icon
   static const at = PixelArtIconData(0xe927);
 
-  ///PixelArtIcons' attachment icon
+  /// PixelArtIcons' attachment Icon
   static const attachment = PixelArtIconData(0xe928);
 
-  ///PixelArtIcons' audio_device icon
+  /// PixelArtIcons' audio device Icon
   static const audio_device = PixelArtIconData(0xe929);
 
-  ///PixelArtIcons' avatar icon
+  /// PixelArtIcons' avatar Icon
   static const avatar = PixelArtIconData(0xe92a);
 
-  ///PixelArtIcons' backburger icon
+  /// PixelArtIcons' backburger Icon
   static const backburger = PixelArtIconData(0xe92b);
 
-  ///PixelArtIcons' battery icon
+  /// PixelArtIcons' battery Icon
   static const battery = PixelArtIconData(0xe92c);
 
-  ///PixelArtIcons' battery_1 icon
+  /// PixelArtIcons' battery 1 Icon
   static const battery_1 = PixelArtIconData(0xe92d);
 
-  ///PixelArtIcons' battery_2 icon
+  /// PixelArtIcons' battery 2 Icon
   static const battery_2 = PixelArtIconData(0xe92e);
 
-  ///PixelArtIcons' battery_charging icon
+  /// PixelArtIcons' battery charging Icon
   static const battery_charging = PixelArtIconData(0xe92f);
 
-  ///PixelArtIcons' battery_full icon
+  /// PixelArtIcons' battery full Icon
   static const battery_full = PixelArtIconData(0xe930);
 
-  ///PixelArtIcons' bed icon
+  /// PixelArtIcons' bed Icon
   static const bed = PixelArtIconData(0xe931);
 
-  ///PixelArtIcons' bitcoin icon
+  /// PixelArtIcons' bitcoin Icon
   static const bitcoin = PixelArtIconData(0xe932);
 
-  ///PixelArtIcons' bluetooth icon
+  /// PixelArtIcons' bluetooth Icon
   static const bluetooth = PixelArtIconData(0xe933);
 
-  ///PixelArtIcons' book icon
+  /// PixelArtIcons' book Icon
   static const book = PixelArtIconData(0xe934);
 
-  ///PixelArtIcons' bookmark icon
+  /// PixelArtIcons' bookmark Icon
   static const bookmark = PixelArtIconData(0xe935);
 
-  ///PixelArtIcons' bookmarks icon
+  /// PixelArtIcons' bookmarks Icon
   static const bookmarks = PixelArtIconData(0xe936);
 
-  ///PixelArtIcons' book_open icon
+  /// PixelArtIcons' book open Icon
   static const book_open = PixelArtIconData(0xe937);
 
-  ///PixelArtIcons' briefcase icon
+  /// PixelArtIcons' briefcase Icon
   static const briefcase = PixelArtIconData(0xe938);
 
-  ///PixelArtIcons' briefcase_account icon
+  /// PixelArtIcons' briefcase account Icon
   static const briefcase_account = PixelArtIconData(0xe939);
 
-  ///PixelArtIcons' briefcase_check icon
+  /// PixelArtIcons' briefcase check Icon
   static const briefcase_check = PixelArtIconData(0xe93a);
 
-  ///PixelArtIcons' briefcase_delete icon
+  /// PixelArtIcons' briefcase delete Icon
   static const briefcase_delete = PixelArtIconData(0xe93b);
 
-  ///PixelArtIcons' briefcase_download icon
+  /// PixelArtIcons' briefcase download Icon
   static const briefcase_download = PixelArtIconData(0xe93c);
 
-  ///PixelArtIcons' briefcase_minus icon
+  /// PixelArtIcons' briefcase minus Icon
   static const briefcase_minus = PixelArtIconData(0xe93d);
 
-  ///PixelArtIcons' briefcase_plus icon
+  /// PixelArtIcons' briefcase plus Icon
   static const briefcase_plus = PixelArtIconData(0xe93e);
 
-  ///PixelArtIcons' briefcase_search icon
+  /// PixelArtIcons' briefcase search Icon
   static const briefcase_search = PixelArtIconData(0xe93f);
 
-  ///PixelArtIcons' briefcase_search_1 icon
+  /// PixelArtIcons' briefcase search 1 Icon
   static const briefcase_search_1 = PixelArtIconData(0xe940);
 
-  ///PixelArtIcons' briefcase_upload icon
+  /// PixelArtIcons' briefcase upload Icon
   static const briefcase_upload = PixelArtIconData(0xe941);
 
-  ///PixelArtIcons' bug icon
+  /// PixelArtIcons' bug Icon
   static const bug = PixelArtIconData(0xe942);
 
-  ///PixelArtIcons' building icon
+  /// PixelArtIcons' building Icon
   static const building = PixelArtIconData(0xe943);
 
-  ///PixelArtIcons' building_community icon
+  /// PixelArtIcons' building community Icon
   static const building_community = PixelArtIconData(0xe944);
 
-  ///PixelArtIcons' buildings icon
+  /// PixelArtIcons' buildings Icon
   static const buildings = PixelArtIconData(0xe945);
 
-  ///PixelArtIcons' building_skyscraper icon
+  /// PixelArtIcons' building skyscraper Icon
   static const building_skyscraper = PixelArtIconData(0xe946);
 
-  ///PixelArtIcons' bulletlist icon
+  /// PixelArtIcons' bulletlist Icon
   static const bulletlist = PixelArtIconData(0xe947);
 
-  ///PixelArtIcons' bullseye icon
+  /// PixelArtIcons' bullseye Icon
   static const bullseye = PixelArtIconData(0xe948);
 
-  ///PixelArtIcons' bullseye_arrow icon
+  /// PixelArtIcons' bullseye arrow Icon
   static const bullseye_arrow = PixelArtIconData(0xe949);
 
-  ///PixelArtIcons' bus icon
+  /// PixelArtIcons' bus Icon
   static const bus = PixelArtIconData(0xe94a);
 
-  ///PixelArtIcons' cake icon
+  /// PixelArtIcons' cake Icon
   static const cake = PixelArtIconData(0xe94b);
 
-  ///PixelArtIcons' calculator icon
+  /// PixelArtIcons' calculator Icon
   static const calculator = PixelArtIconData(0xe94c);
 
-  ///PixelArtIcons' calendar icon
+  /// PixelArtIcons' calendar Icon
   static const calendar = PixelArtIconData(0xe94d);
 
-  ///PixelArtIcons' calendar_alert icon
+  /// PixelArtIcons' calendar alert Icon
   static const calendar_alert = PixelArtIconData(0xe94e);
 
-  ///PixelArtIcons' calendar_arrow_left icon
+  /// PixelArtIcons' calendar arrow left Icon
   static const calendar_arrow_left = PixelArtIconData(0xe94f);
 
-  ///PixelArtIcons' calendar_arrow_right icon
+  /// PixelArtIcons' calendar arrow right Icon
   static const calendar_arrow_right = PixelArtIconData(0xe950);
 
-  ///PixelArtIcons' calendar_check icon
+  /// PixelArtIcons' calendar check Icon
   static const calendar_check = PixelArtIconData(0xe951);
 
-  ///PixelArtIcons' calendar_export icon
+  /// PixelArtIcons' calendar export Icon
   static const calendar_export = PixelArtIconData(0xe952);
 
-  ///PixelArtIcons' calendar_grid icon
+  /// PixelArtIcons' calendar grid Icon
   static const calendar_grid = PixelArtIconData(0xe953);
 
-  ///PixelArtIcons' calendar_import icon
+  /// PixelArtIcons' calendar import Icon
   static const calendar_import = PixelArtIconData(0xe954);
 
-  ///PixelArtIcons' calendar_minus icon
+  /// PixelArtIcons' calendar minus Icon
   static const calendar_minus = PixelArtIconData(0xe955);
 
-  ///PixelArtIcons' calendar_month icon
+  /// PixelArtIcons' calendar month Icon
   static const calendar_month = PixelArtIconData(0xe956);
 
-  ///PixelArtIcons' calendar_multiple icon
+  /// PixelArtIcons' calendar multiple Icon
   static const calendar_multiple = PixelArtIconData(0xe957);
 
-  ///PixelArtIcons' calendar_multiple_check icon
+  /// PixelArtIcons' calendar multiple check Icon
   static const calendar_multiple_check = PixelArtIconData(0xe958);
 
-  ///PixelArtIcons' calendar_plus icon
+  /// PixelArtIcons' calendar plus Icon
   static const calendar_plus = PixelArtIconData(0xe959);
 
-  ///PixelArtIcons' calendar_range icon
+  /// PixelArtIcons' calendar range Icon
   static const calendar_range = PixelArtIconData(0xe95a);
 
-  ///PixelArtIcons' calendar_remove icon
+  /// PixelArtIcons' calendar remove Icon
   static const calendar_remove = PixelArtIconData(0xe95b);
 
-  ///PixelArtIcons' calendar_search icon
+  /// PixelArtIcons' calendar search Icon
   static const calendar_search = PixelArtIconData(0xe95c);
 
-  ///PixelArtIcons' calendar_sort_ascending icon
+  /// PixelArtIcons' calendar sort ascending Icon
   static const calendar_sort_ascending = PixelArtIconData(0xe95d);
 
-  ///PixelArtIcons' calendar_sort_descending icon
+  /// PixelArtIcons' calendar sort descending Icon
   static const calendar_sort_descending = PixelArtIconData(0xe95e);
 
-  ///PixelArtIcons' calendar_text icon
+  /// PixelArtIcons' calendar text Icon
   static const calendar_text = PixelArtIconData(0xe95f);
 
-  ///PixelArtIcons' calendar_today icon
+  /// PixelArtIcons' calendar today Icon
   static const calendar_today = PixelArtIconData(0xe960);
 
-  ///PixelArtIcons' calendar_tomorrow icon
+  /// PixelArtIcons' calendar tomorrow Icon
   static const calendar_tomorrow = PixelArtIconData(0xe961);
 
-  ///PixelArtIcons' calendar_week icon
+  /// PixelArtIcons' calendar week Icon
   static const calendar_week = PixelArtIconData(0xe962);
 
-  ///PixelArtIcons' calendar_week_begin icon
+  /// PixelArtIcons' calendar week begin Icon
   static const calendar_week_begin = PixelArtIconData(0xe963);
 
-  ///PixelArtIcons' calendar_weekend icon
+  /// PixelArtIcons' calendar weekend Icon
   static const calendar_weekend = PixelArtIconData(0xe964);
 
-  ///PixelArtIcons' camera icon
+  /// PixelArtIcons' camera Icon
   static const camera = PixelArtIconData(0xe965);
 
-  ///PixelArtIcons' camera_add icon
+  /// PixelArtIcons' camera add Icon
   static const camera_add = PixelArtIconData(0xe966);
 
-  ///PixelArtIcons' camera_alt icon
+  /// PixelArtIcons' camera alt Icon
   static const camera_alt = PixelArtIconData(0xe967);
 
-  ///PixelArtIcons' camera_face icon
+  /// PixelArtIcons' camera face Icon
   static const camera_face = PixelArtIconData(0xe968);
 
-  ///PixelArtIcons' car icon
+  /// PixelArtIcons' car Icon
   static const car = PixelArtIconData(0xe969);
 
-  ///PixelArtIcons' card icon
+  /// PixelArtIcons' card Icon
   static const card = PixelArtIconData(0xe96a);
 
-  ///PixelArtIcons' card_id icon
+  /// PixelArtIcons' card id Icon
   static const card_id = PixelArtIconData(0xe96b);
 
-  ///PixelArtIcons' card_plus icon
+  /// PixelArtIcons' card plus Icon
   static const card_plus = PixelArtIconData(0xe96c);
 
-  ///PixelArtIcons' card_stack icon
+  /// PixelArtIcons' card stack Icon
   static const card_stack = PixelArtIconData(0xe96d);
 
-  ///PixelArtIcons' card_text icon
+  /// PixelArtIcons' card text Icon
   static const card_text = PixelArtIconData(0xe96e);
 
-  ///PixelArtIcons' cart icon
+  /// PixelArtIcons' cart Icon
   static const cart = PixelArtIconData(0xe96f);
 
-  ///PixelArtIcons' cast icon
+  /// PixelArtIcons' cast Icon
   static const cast = PixelArtIconData(0xe970);
 
-  ///PixelArtIcons' cellular_signal_0 icon
+  /// PixelArtIcons' cellular signal 0 Icon
   static const cellular_signal_0 = PixelArtIconData(0xe971);
 
-  ///PixelArtIcons' cellular_signal_1 icon
+  /// PixelArtIcons' cellular signal 1 Icon
   static const cellular_signal_1 = PixelArtIconData(0xe972);
 
-  ///PixelArtIcons' cellular_signal_2 icon
+  /// PixelArtIcons' cellular signal 2 Icon
   static const cellular_signal_2 = PixelArtIconData(0xe973);
 
-  ///PixelArtIcons' cellular_signal_3 icon
+  /// PixelArtIcons' cellular signal 3 Icon
   static const cellular_signal_3 = PixelArtIconData(0xe974);
 
-  ///PixelArtIcons' cellular_signal_off icon
+  /// PixelArtIcons' cellular signal off Icon
   static const cellular_signal_off = PixelArtIconData(0xe975);
 
-  ///PixelArtIcons' chart icon
+  /// PixelArtIcons' chart Icon
   static const chart = PixelArtIconData(0xe976);
 
-  ///PixelArtIcons' chart_add icon
+  /// PixelArtIcons' chart add Icon
   static const chart_add = PixelArtIconData(0xe977);
 
-  ///PixelArtIcons' chart_bar icon
+  /// PixelArtIcons' chart bar Icon
   static const chart_bar = PixelArtIconData(0xe978);
 
-  ///PixelArtIcons' chart_delete icon
+  /// PixelArtIcons' chart delete Icon
   static const chart_delete = PixelArtIconData(0xe979);
 
-  ///PixelArtIcons' chart_minus icon
+  /// PixelArtIcons' chart minus Icon
   static const chart_minus = PixelArtIconData(0xe97a);
 
-  ///PixelArtIcons' chart_multiple icon
+  /// PixelArtIcons' chart multiple Icon
   static const chart_multiple = PixelArtIconData(0xe97b);
 
-  ///PixelArtIcons' chat icon
+  /// PixelArtIcons' chat Icon
   static const chat = PixelArtIconData(0xe97c);
 
-  ///PixelArtIcons' check icon
+  /// PixelArtIcons' check Icon
   static const check = PixelArtIconData(0xe97d);
 
-  ///PixelArtIcons' checkbox icon
+  /// PixelArtIcons' checkbox Icon
   static const checkbox = PixelArtIconData(0xe97e);
 
-  ///PixelArtIcons' checkbox_on icon
+  /// PixelArtIcons' checkbox on Icon
   static const checkbox_on = PixelArtIconData(0xe97f);
 
-  ///PixelArtIcons' check_double icon
+  /// PixelArtIcons' check double Icon
   static const check_double = PixelArtIconData(0xe980);
 
-  ///PixelArtIcons' checklist icon
+  /// PixelArtIcons' checklist Icon
   static const checklist = PixelArtIconData(0xe981);
 
-  ///PixelArtIcons' chess icon
+  /// PixelArtIcons' chess Icon
   static const chess = PixelArtIconData(0xe982);
 
-  ///PixelArtIcons' chevron_down icon
+  /// PixelArtIcons' chevron down Icon
   static const chevron_down = PixelArtIconData(0xe983);
 
-  ///PixelArtIcons' chevron_left icon
+  /// PixelArtIcons' chevron left Icon
   static const chevron_left = PixelArtIconData(0xe984);
 
-  ///PixelArtIcons' chevron_right icon
+  /// PixelArtIcons' chevron right Icon
   static const chevron_right = PixelArtIconData(0xe985);
 
-  ///PixelArtIcons' chevrons_horizontal icon
+  /// PixelArtIcons' chevrons horizontal Icon
   static const chevrons_horizontal = PixelArtIconData(0xe986);
 
-  ///PixelArtIcons' chevrons_vertical icon
+  /// PixelArtIcons' chevrons vertical Icon
   static const chevrons_vertical = PixelArtIconData(0xe987);
 
-  ///PixelArtIcons' chevron_up icon
+  /// PixelArtIcons' chevron up Icon
   static const chevron_up = PixelArtIconData(0xe988);
 
-  ///PixelArtIcons' circle icon
+  /// PixelArtIcons' circle Icon
   static const circle = PixelArtIconData(0xe989);
 
-  ///PixelArtIcons' clipboard icon
+  /// PixelArtIcons' clipboard Icon
   static const clipboard = PixelArtIconData(0xe98a);
 
-  ///PixelArtIcons' clock icon
+  /// PixelArtIcons' clock Icon
   static const clock = PixelArtIconData(0xe98b);
 
-  ///PixelArtIcons' close icon
+  /// PixelArtIcons' close Icon
   static const close = PixelArtIconData(0xe98c);
 
-  ///PixelArtIcons' close_box icon
+  /// PixelArtIcons' close box Icon
   static const close_box = PixelArtIconData(0xe98d);
 
-  ///PixelArtIcons' cloud icon
+  /// PixelArtIcons' cloud Icon
   static const cloud = PixelArtIconData(0xe98e);
 
-  ///PixelArtIcons' cloud_done icon
+  /// PixelArtIcons' cloud done Icon
   static const cloud_done = PixelArtIconData(0xe98f);
 
-  ///PixelArtIcons' cloud_download icon
+  /// PixelArtIcons' cloud download Icon
   static const cloud_download = PixelArtIconData(0xe990);
 
-  ///PixelArtIcons' cloud_moon icon
+  /// PixelArtIcons' cloud moon Icon
   static const cloud_moon = PixelArtIconData(0xe991);
 
-  ///PixelArtIcons' cloud_sun icon
+  /// PixelArtIcons' cloud sun Icon
   static const cloud_sun = PixelArtIconData(0xe992);
 
-  ///PixelArtIcons' cloud_upload icon
+  /// PixelArtIcons' cloud upload Icon
   static const cloud_upload = PixelArtIconData(0xe993);
 
-  ///PixelArtIcons' cocktail icon
+  /// PixelArtIcons' cocktail Icon
   static const cocktail = PixelArtIconData(0xe994);
 
-  ///PixelArtIcons' code icon
+  /// PixelArtIcons' code Icon
   static const code = PixelArtIconData(0xe995);
 
-  ///PixelArtIcons' coffee icon
+  /// PixelArtIcons' coffee Icon
   static const coffee = PixelArtIconData(0xe996);
 
-  ///PixelArtIcons' coffee_alt icon
+  /// PixelArtIcons' coffee alt Icon
   static const coffee_alt = PixelArtIconData(0xe997);
 
-  ///PixelArtIcons' coin icon
+  /// PixelArtIcons' coin Icon
   static const coin = PixelArtIconData(0xe998);
 
-  ///PixelArtIcons' collapse icon
+  /// PixelArtIcons' collapse Icon
   static const collapse = PixelArtIconData(0xe999);
 
-  ///PixelArtIcons' colors_swatch icon
+  /// PixelArtIcons' colors swatch Icon
   static const colors_swatch = PixelArtIconData(0xe99a);
 
-  ///PixelArtIcons' command icon
+  /// PixelArtIcons' command Icon
   static const command = PixelArtIconData(0xe99b);
 
-  ///PixelArtIcons' comment icon
+  /// PixelArtIcons' comment Icon
   static const comment = PixelArtIconData(0xe99c);
 
-  ///PixelArtIcons' contact icon
+  /// PixelArtIcons' contact Icon
   static const contact = PixelArtIconData(0xe99d);
 
-  ///PixelArtIcons' contact_delete icon
+  /// PixelArtIcons' contact delete Icon
   static const contact_delete = PixelArtIconData(0xe99e);
 
-  ///PixelArtIcons' contact_multiple icon
+  /// PixelArtIcons' contact multiple Icon
   static const contact_multiple = PixelArtIconData(0xe99f);
 
-  ///PixelArtIcons' contact_plus icon
+  /// PixelArtIcons' contact plus Icon
   static const contact_plus = PixelArtIconData(0xe9a0);
 
-  ///PixelArtIcons' copy icon
+  /// PixelArtIcons' copy Icon
   static const copy = PixelArtIconData(0xe9a1);
 
-  ///PixelArtIcons' corner_down_left icon
+  /// PixelArtIcons' corner down left Icon
   static const corner_down_left = PixelArtIconData(0xe9a2);
 
-  ///PixelArtIcons' corner_down_right icon
+  /// PixelArtIcons' corner down right Icon
   static const corner_down_right = PixelArtIconData(0xe9a3);
 
-  ///PixelArtIcons' corner_left_down icon
+  /// PixelArtIcons' corner left down Icon
   static const corner_left_down = PixelArtIconData(0xe9a4);
 
-  ///PixelArtIcons' corner_left_up icon
+  /// PixelArtIcons' corner left up Icon
   static const corner_left_up = PixelArtIconData(0xe9a5);
 
-  ///PixelArtIcons' corner_right_down icon
+  /// PixelArtIcons' corner right down Icon
   static const corner_right_down = PixelArtIconData(0xe9a6);
 
-  ///PixelArtIcons' corner_right_up icon
+  /// PixelArtIcons' corner right up Icon
   static const corner_right_up = PixelArtIconData(0xe9a7);
 
-  ///PixelArtIcons' corner_up_left icon
+  /// PixelArtIcons' corner up left Icon
   static const corner_up_left = PixelArtIconData(0xe9a8);
 
-  ///PixelArtIcons' corner_up_right icon
+  /// PixelArtIcons' corner up right Icon
   static const corner_up_right = PixelArtIconData(0xe9a9);
 
-  ///PixelArtIcons' credit_card icon
+  /// PixelArtIcons' credit card Icon
   static const credit_card = PixelArtIconData(0xe9aa);
 
-  ///PixelArtIcons' credit_card_delete icon
+  /// PixelArtIcons' credit card delete Icon
   static const credit_card_delete = PixelArtIconData(0xe9ab);
 
-  ///PixelArtIcons' credit_card_minus icon
+  /// PixelArtIcons' credit card minus Icon
   static const credit_card_minus = PixelArtIconData(0xe9ac);
 
-  ///PixelArtIcons' credit_card_multiple icon
+  /// PixelArtIcons' credit card multiple Icon
   static const credit_card_multiple = PixelArtIconData(0xe9ad);
 
-  ///PixelArtIcons' credit_card_plus icon
+  /// PixelArtIcons' credit card plus Icon
   static const credit_card_plus = PixelArtIconData(0xe9ae);
 
-  ///PixelArtIcons' credit_card_settings icon
+  /// PixelArtIcons' credit card settings Icon
   static const credit_card_settings = PixelArtIconData(0xe9af);
 
-  ///PixelArtIcons' credit_card_wireless icon
+  /// PixelArtIcons' credit card wireless Icon
   static const credit_card_wireless = PixelArtIconData(0xe9b0);
 
-  ///PixelArtIcons' crop icon
+  /// PixelArtIcons' crop Icon
   static const crop = PixelArtIconData(0xe9b1);
 
-  ///PixelArtIcons' cut icon
+  /// PixelArtIcons' cut Icon
   static const cut = PixelArtIconData(0xe9b2);
 
-  ///PixelArtIcons' dashbaord icon
+  /// PixelArtIcons' dashbaord Icon
   static const dashbaord = PixelArtIconData(0xe9b3);
 
-  ///PixelArtIcons' debug icon
+  /// PixelArtIcons' debug Icon
   static const debug = PixelArtIconData(0xe9b4);
 
-  ///PixelArtIcons' debug_check icon
+  /// PixelArtIcons' debug check Icon
   static const debug_check = PixelArtIconData(0xe9b5);
 
-  ///PixelArtIcons' debug_off icon
+  /// PixelArtIcons' debug off Icon
   static const debug_off = PixelArtIconData(0xe9b6);
 
-  ///PixelArtIcons' debug_pause icon
+  /// PixelArtIcons' debug pause Icon
   static const debug_pause = PixelArtIconData(0xe9b7);
 
-  ///PixelArtIcons' debug_play icon
+  /// PixelArtIcons' debug play Icon
   static const debug_play = PixelArtIconData(0xe9b8);
 
-  ///PixelArtIcons' debug_stop icon
+  /// PixelArtIcons' debug stop Icon
   static const debug_stop = PixelArtIconData(0xe9b9);
 
-  ///PixelArtIcons' delete icon
+  /// PixelArtIcons' delete Icon
   static const delete = PixelArtIconData(0xe9ba);
 
-  ///PixelArtIcons' deskphone icon
+  /// PixelArtIcons' deskphone Icon
   static const deskphone = PixelArtIconData(0xe9bb);
 
-  ///PixelArtIcons' device_laptop icon
+  /// PixelArtIcons' device laptop Icon
   static const device_laptop = PixelArtIconData(0xe9bc);
 
-  ///PixelArtIcons' device_phone icon
+  /// PixelArtIcons' device phone Icon
   static const device_phone = PixelArtIconData(0xe9bd);
 
-  ///PixelArtIcons' devices icon
+  /// PixelArtIcons' devices Icon
   static const devices = PixelArtIconData(0xe9be);
 
-  ///PixelArtIcons' device_tablet icon
+  /// PixelArtIcons' device tablet Icon
   static const device_tablet = PixelArtIconData(0xe9bf);
 
-  ///PixelArtIcons' device_tv icon
+  /// PixelArtIcons' device tv Icon
   static const device_tv = PixelArtIconData(0xe9c0);
 
-  ///PixelArtIcons' device_tv_smart icon
+  /// PixelArtIcons' device tv smart Icon
   static const device_tv_smart = PixelArtIconData(0xe9c1);
 
-  ///PixelArtIcons' device_vibrate icon
+  /// PixelArtIcons' device vibrate Icon
   static const device_vibrate = PixelArtIconData(0xe9c2);
 
-  ///PixelArtIcons' device_watch icon
+  /// PixelArtIcons' device watch Icon
   static const device_watch = PixelArtIconData(0xe9c3);
 
-  ///PixelArtIcons' dice icon
+  /// PixelArtIcons' dice Icon
   static const dice = PixelArtIconData(0xe9c4);
 
-  ///PixelArtIcons' dollar icon
+  /// PixelArtIcons' dollar Icon
   static const dollar = PixelArtIconData(0xe9c5);
 
-  ///PixelArtIcons' downasaur icon
+  /// PixelArtIcons' downasaur Icon
   static const downasaur = PixelArtIconData(0xe9c6);
 
-  ///PixelArtIcons' download icon
+  /// PixelArtIcons' download Icon
   static const download = PixelArtIconData(0xe9c7);
 
-  ///PixelArtIcons' draft icon
+  /// PixelArtIcons' draft Icon
   static const draft = PixelArtIconData(0xe9c8);
 
-  ///PixelArtIcons' drag_and_drop icon
+  /// PixelArtIcons' drag and drop Icon
   static const drag_and_drop = PixelArtIconData(0xe9c9);
 
-  ///PixelArtIcons' drop icon
+  /// PixelArtIcons' drop Icon
   static const drop = PixelArtIconData(0xe9ca);
 
-  ///PixelArtIcons' drop_area icon
+  /// PixelArtIcons' drop area Icon
   static const drop_area = PixelArtIconData(0xe9cb);
 
-  ///PixelArtIcons' drop_full icon
+  /// PixelArtIcons' drop full Icon
   static const drop_full = PixelArtIconData(0xe9cc);
 
-  ///PixelArtIcons' drop_half icon
+  /// PixelArtIcons' drop half Icon
   static const drop_half = PixelArtIconData(0xe9cd);
 
-  ///PixelArtIcons' duplicate icon
+  /// PixelArtIcons' duplicate Icon
   static const duplicate = PixelArtIconData(0xe9ce);
 
-  ///PixelArtIcons' duplicate_alt icon
+  /// PixelArtIcons' duplicate alt Icon
   static const duplicate_alt = PixelArtIconData(0xe9cf);
 
-  ///PixelArtIcons' edit icon
+  /// PixelArtIcons' edit Icon
   static const edit = PixelArtIconData(0xe9d0);
 
-  ///PixelArtIcons' edit_box icon
+  /// PixelArtIcons' edit box Icon
   static const edit_box = PixelArtIconData(0xe9d1);
 
-  ///PixelArtIcons' euro icon
+  /// PixelArtIcons' euro Icon
   static const euro = PixelArtIconData(0xe9d2);
 
-  ///PixelArtIcons' expand icon
+  /// PixelArtIcons' expand Icon
   static const expand = PixelArtIconData(0xe9d3);
 
-  ///PixelArtIcons' external_link icon
+  /// PixelArtIcons' external link Icon
   static const external_link = PixelArtIconData(0xe9d4);
 
-  ///PixelArtIcons' eye icon
+  /// PixelArtIcons' eye Icon
   static const eye = PixelArtIconData(0xe9d5);
 
-  ///PixelArtIcons' eye_closed icon
+  /// PixelArtIcons' eye closed Icon
   static const eye_closed = PixelArtIconData(0xe9d6);
 
-  ///PixelArtIcons' file icon
+  /// PixelArtIcons' file Icon
   static const file = PixelArtIconData(0xe9d7);
 
-  ///PixelArtIcons' file_alt icon
+  /// PixelArtIcons' file alt Icon
   static const file_alt = PixelArtIconData(0xe9d8);
 
-  ///PixelArtIcons' file_delete icon
+  /// PixelArtIcons' file delete Icon
   static const file_delete = PixelArtIconData(0xe9d9);
 
-  ///PixelArtIcons' file_flash icon
+  /// PixelArtIcons' file flash Icon
   static const file_flash = PixelArtIconData(0xe9da);
 
-  ///PixelArtIcons' file_minus icon
+  /// PixelArtIcons' file minus Icon
   static const file_minus = PixelArtIconData(0xe9db);
 
-  ///PixelArtIcons' file_multiple icon
+  /// PixelArtIcons' file multiple Icon
   static const file_multiple = PixelArtIconData(0xe9dc);
 
-  ///PixelArtIcons' file_off icon
+  /// PixelArtIcons' file off Icon
   static const file_off = PixelArtIconData(0xe9dd);
 
-  ///PixelArtIcons' file_plus icon
+  /// PixelArtIcons' file plus Icon
   static const file_plus = PixelArtIconData(0xe9de);
 
-  ///PixelArtIcons' fill icon
+  /// PixelArtIcons' fill Icon
   static const fill = PixelArtIconData(0xe9df);
 
-  ///PixelArtIcons' fill_half icon
+  /// PixelArtIcons' fill half Icon
   static const fill_half = PixelArtIconData(0xe9e0);
 
-  ///PixelArtIcons' flag icon
+  /// PixelArtIcons' flag Icon
   static const flag = PixelArtIconData(0xe9e1);
 
-  ///PixelArtIcons' flatten icon
+  /// PixelArtIcons' flatten Icon
   static const flatten = PixelArtIconData(0xe9e2);
 
-  ///PixelArtIcons' flip_to_back icon
+  /// PixelArtIcons' flip to back Icon
   static const flip_to_back = PixelArtIconData(0xe9e3);
 
-  ///PixelArtIcons' flip_to_front icon
+  /// PixelArtIcons' flip to front Icon
   static const flip_to_front = PixelArtIconData(0xe9e4);
 
-  ///PixelArtIcons' float_center icon
+  /// PixelArtIcons' float center Icon
   static const float_center = PixelArtIconData(0xe9e5);
 
-  ///PixelArtIcons' float_left icon
+  /// PixelArtIcons' float left Icon
   static const float_left = PixelArtIconData(0xe9e6);
 
-  ///PixelArtIcons' float_right icon
+  /// PixelArtIcons' float right Icon
   static const float_right = PixelArtIconData(0xe9e7);
 
-  ///PixelArtIcons' folder icon
+  /// PixelArtIcons' folder Icon
   static const folder = PixelArtIconData(0xe9e8);
 
-  ///PixelArtIcons' folder_minus icon
+  /// PixelArtIcons' folder minus Icon
   static const folder_minus = PixelArtIconData(0xe9e9);
 
-  ///PixelArtIcons' folder_plus icon
+  /// PixelArtIcons' folder plus Icon
   static const folder_plus = PixelArtIconData(0xe9ea);
 
-  ///PixelArtIcons' folder_x icon
+  /// PixelArtIcons' folder x Icon
   static const folder_x = PixelArtIconData(0xe9eb);
 
-  ///PixelArtIcons' forward icon
+  /// PixelArtIcons' forward Icon
   static const forward = PixelArtIconData(0xe9ec);
 
-  ///PixelArtIcons' forwardburger icon
+  /// PixelArtIcons' forwardburger Icon
   static const forwardburger = PixelArtIconData(0xe9ed);
 
-  ///PixelArtIcons' frame icon
+  /// PixelArtIcons' frame Icon
   static const frame = PixelArtIconData(0xe9ee);
 
-  ///PixelArtIcons' frame_add icon
+  /// PixelArtIcons' frame add Icon
   static const frame_add = PixelArtIconData(0xe9ef);
 
-  ///PixelArtIcons' frame_check icon
+  /// PixelArtIcons' frame check Icon
   static const frame_check = PixelArtIconData(0xe9f0);
 
-  ///PixelArtIcons' frame_delete icon
+  /// PixelArtIcons' frame delete Icon
   static const frame_delete = PixelArtIconData(0xe9f1);
 
-  ///PixelArtIcons' frame_minus icon
+  /// PixelArtIcons' frame minus Icon
   static const frame_minus = PixelArtIconData(0xe9f2);
 
-  ///PixelArtIcons' gamepad icon
+  /// PixelArtIcons' gamepad Icon
   static const gamepad = PixelArtIconData(0xe9f3);
 
-  ///PixelArtIcons' gif icon
+  /// PixelArtIcons' gif Icon
   static const gif = PixelArtIconData(0xe9f4);
 
-  ///PixelArtIcons' git_branch icon
+  /// PixelArtIcons' git branch Icon
   static const git_branch = PixelArtIconData(0xe9f6);
 
-  ///PixelArtIcons' git_commit icon
+  /// PixelArtIcons' git commit Icon
   static const git_commit = PixelArtIconData(0xe9f7);
 
-  ///PixelArtIcons' git_merge icon
+  /// PixelArtIcons' git merge Icon
   static const git_merge = PixelArtIconData(0xe9f8);
 
-  ///PixelArtIcons' git_pull_request icon
+  /// PixelArtIcons' git pull request Icon
   static const git_pull_request = PixelArtIconData(0xe9f9);
 
-  ///PixelArtIcons' gps icon
+  /// PixelArtIcons' gps Icon
   static const gps = PixelArtIconData(0xe9fa);
 
-  ///PixelArtIcons' grid icon
+  /// PixelArtIcons' grid Icon
   static const grid = PixelArtIconData(0xe9fb);
 
-  ///PixelArtIcons' group icon
+  /// PixelArtIcons' group Icon
   static const group = PixelArtIconData(0xe9fc);
 
-  ///PixelArtIcons' hd icon
+  /// PixelArtIcons' hd Icon
   static const hd = PixelArtIconData(0xe9fd);
 
-  ///PixelArtIcons' headphone icon
+  /// PixelArtIcons' headphone Icon
   static const headphone = PixelArtIconData(0xe9fe);
 
-  ///PixelArtIcons' headset icon
+  /// PixelArtIcons' headset Icon
   static const headset = PixelArtIconData(0xe9ff);
 
-  ///PixelArtIcons' heart icon
+  /// PixelArtIcons' heart Icon
   static const heart = PixelArtIconData(0xea00);
 
-  ///PixelArtIcons' hidden icon
+  /// PixelArtIcons' hidden Icon
   static const hidden = PixelArtIconData(0xea01);
 
-  ///PixelArtIcons' home icon
+  /// PixelArtIcons' home Icon
   static const home = PixelArtIconData(0xea02);
 
-  ///PixelArtIcons' hourglass icon
+  /// PixelArtIcons' hourglass Icon
   static const hourglass = PixelArtIconData(0xea03);
 
-  ///PixelArtIcons' hq icon
+  /// PixelArtIcons' hq Icon
   static const hq = PixelArtIconData(0xea04);
 
-  ///PixelArtIcons' human icon
+  /// PixelArtIcons' human Icon
   static const human = PixelArtIconData(0xea05);
 
-  ///PixelArtIcons' human_handsdown icon
+  /// PixelArtIcons' human handsdown Icon
   static const human_handsdown = PixelArtIconData(0xea06);
 
-  ///PixelArtIcons' human_handsup icon
+  /// PixelArtIcons' human handsup Icon
   static const human_handsup = PixelArtIconData(0xea07);
 
-  ///PixelArtIcons' human_height icon
+  /// PixelArtIcons' human height Icon
   static const human_height = PixelArtIconData(0xea08);
 
-  ///PixelArtIcons' human_height_alt icon
+  /// PixelArtIcons' human height alt Icon
   static const human_height_alt = PixelArtIconData(0xea09);
 
-  ///PixelArtIcons' human_run icon
+  /// PixelArtIcons' human run Icon
   static const human_run = PixelArtIconData(0xea0a);
 
-  ///PixelArtIcons' image icon
+  /// PixelArtIcons' image Icon
   static const image = PixelArtIconData(0xea0b);
 
-  ///PixelArtIcons' image_arrow_right icon
+  /// PixelArtIcons' image arrow right Icon
   static const image_arrow_right = PixelArtIconData(0xea0c);
 
-  ///PixelArtIcons' image_broken icon
+  /// PixelArtIcons' image broken Icon
   static const image_broken = PixelArtIconData(0xea0d);
 
-  ///PixelArtIcons' image_delete icon
+  /// PixelArtIcons' image delete Icon
   static const image_delete = PixelArtIconData(0xea0e);
 
-  ///PixelArtIcons' image_flash icon
+  /// PixelArtIcons' image flash Icon
   static const image_flash = PixelArtIconData(0xea0f);
 
-  ///PixelArtIcons' image_frame icon
+  /// PixelArtIcons' image frame Icon
   static const image_frame = PixelArtIconData(0xea10);
 
-  ///PixelArtIcons' image_gallery icon
+  /// PixelArtIcons' image gallery Icon
   static const image_gallery = PixelArtIconData(0xea11);
 
-  ///PixelArtIcons' image_multiple icon
+  /// PixelArtIcons' image multiple Icon
   static const image_multiple = PixelArtIconData(0xea12);
 
-  ///PixelArtIcons' image_new icon
+  /// PixelArtIcons' image new Icon
   static const image_new = PixelArtIconData(0xea13);
 
-  ///PixelArtIcons' image_plus icon
+  /// PixelArtIcons' image plus Icon
   static const image_plus = PixelArtIconData(0xea14);
 
-  ///PixelArtIcons' inbox icon
+  /// PixelArtIcons' inbox Icon
   static const inbox = PixelArtIconData(0xea15);
 
-  ///PixelArtIcons' inbox_all icon
+  /// PixelArtIcons' inbox all Icon
   static const inbox_all = PixelArtIconData(0xea16);
 
-  ///PixelArtIcons' inbox_full icon
+  /// PixelArtIcons' inbox full Icon
   static const inbox_full = PixelArtIconData(0xea17);
 
-  ///PixelArtIcons' info_box icon
+  /// PixelArtIcons' info box Icon
   static const info_box = PixelArtIconData(0xea18);
 
-  ///PixelArtIcons' invert icon
+  /// PixelArtIcons' invert Icon
   static const invert = PixelArtIconData(0xea19);
 
-  ///PixelArtIcons' iso icon
+  /// PixelArtIcons' iso Icon
   static const iso = PixelArtIconData(0xea1a);
 
-  ///PixelArtIcons' kanban icon
+  /// PixelArtIcons' kanban Icon
   static const kanban = PixelArtIconData(0xea1b);
 
-  ///PixelArtIcons' keyboard icon
+  /// PixelArtIcons' keyboard Icon
   static const keyboard = PixelArtIconData(0xea1c);
 
-  ///PixelArtIcons' label icon
+  /// PixelArtIcons' label Icon
   static const label = PixelArtIconData(0xea1d);
 
-  ///PixelArtIcons' label_alt icon
+  /// PixelArtIcons' label alt Icon
   static const label_alt = PixelArtIconData(0xea1e);
 
-  ///PixelArtIcons' label_alt_multiple icon
+  /// PixelArtIcons' label alt multiple Icon
   static const label_alt_multiple = PixelArtIconData(0xea1f);
 
-  ///PixelArtIcons' label_sharp icon
+  /// PixelArtIcons' label sharp Icon
   static const label_sharp = PixelArtIconData(0xea20);
 
-  ///PixelArtIcons' layout icon
+  /// PixelArtIcons' layout Icon
   static const layout = PixelArtIconData(0xea21);
 
-  ///PixelArtIcons' layout_align_bottom icon
+  /// PixelArtIcons' layout align bottom Icon
   static const layout_align_bottom = PixelArtIconData(0xea22);
 
-  ///PixelArtIcons' layout_align_left icon
+  /// PixelArtIcons' layout align left Icon
   static const layout_align_left = PixelArtIconData(0xea23);
 
-  ///PixelArtIcons' layout_align_right icon
+  /// PixelArtIcons' layout align right Icon
   static const layout_align_right = PixelArtIconData(0xea24);
 
-  ///PixelArtIcons' layout_align_top icon
+  /// PixelArtIcons' layout align top Icon
   static const layout_align_top = PixelArtIconData(0xea25);
 
-  ///PixelArtIcons' layout_columns icon
+  /// PixelArtIcons' layout columns Icon
   static const layout_columns = PixelArtIconData(0xea26);
 
-  ///PixelArtIcons' layout_distribute_horizontal icon
+  /// PixelArtIcons' layout distribute horizontal Icon
   static const layout_distribute_horizontal = PixelArtIconData(0xea27);
 
-  ///PixelArtIcons' layout_distribute_vertical icon
+  /// PixelArtIcons' layout distribute vertical Icon
   static const layout_distribute_vertical = PixelArtIconData(0xea28);
 
-  ///PixelArtIcons' layout_footer icon
+  /// PixelArtIcons' layout footer Icon
   static const layout_footer = PixelArtIconData(0xea29);
 
-  ///PixelArtIcons' layout_header icon
+  /// PixelArtIcons' layout header Icon
   static const layout_header = PixelArtIconData(0xea2a);
 
-  ///PixelArtIcons' layout_rows icon
+  /// PixelArtIcons' layout rows Icon
   static const layout_rows = PixelArtIconData(0xea2b);
 
-  ///PixelArtIcons' layout_sidebar_left icon
+  /// PixelArtIcons' layout sidebar left Icon
   static const layout_sidebar_left = PixelArtIconData(0xea2c);
 
-  ///PixelArtIcons' layout_sidebar_right icon
+  /// PixelArtIcons' layout sidebar right Icon
   static const layout_sidebar_right = PixelArtIconData(0xea2d);
 
-  ///PixelArtIcons' link icon
+  /// PixelArtIcons' link Icon
   static const link = PixelArtIconData(0xea2e);
 
-  ///PixelArtIcons' list icon
+  /// PixelArtIcons' list Icon
   static const list = PixelArtIconData(0xea2f);
 
-  ///PixelArtIcons' list_box icon
+  /// PixelArtIcons' list box Icon
   static const list_box = PixelArtIconData(0xea30);
 
-  ///PixelArtIcons' loader icon
+  /// PixelArtIcons' loader Icon
   static const loader = PixelArtIconData(0xea31);
 
-  ///PixelArtIcons' lock icon
+  /// PixelArtIcons' lock Icon
   static const lock = PixelArtIconData(0xea32);
 
-  ///PixelArtIcons' lock_open icon
+  /// PixelArtIcons' lock open Icon
   static const lock_open = PixelArtIconData(0xea33);
 
-  ///PixelArtIcons' login icon
+  /// PixelArtIcons' login Icon
   static const login = PixelArtIconData(0xea34);
 
-  ///PixelArtIcons' logout icon
+  /// PixelArtIcons' logout Icon
   static const logout = PixelArtIconData(0xea35);
 
-  ///PixelArtIcons' luggage icon
+  /// PixelArtIcons' luggage Icon
   static const luggage = PixelArtIconData(0xea36);
 
-  ///PixelArtIcons' mail icon
+  /// PixelArtIcons' mail Icon
   static const mail = PixelArtIconData(0xea37);
 
-  ///PixelArtIcons' mail_arrow_right icon
+  /// PixelArtIcons' mail arrow right Icon
   static const mail_arrow_right = PixelArtIconData(0xea38);
 
-  ///PixelArtIcons' mail_check icon
+  /// PixelArtIcons' mail check Icon
   static const mail_check = PixelArtIconData(0xea39);
 
-  ///PixelArtIcons' mail_delete icon
+  /// PixelArtIcons' mail delete Icon
   static const mail_delete = PixelArtIconData(0xea3a);
 
-  ///PixelArtIcons' mail_flash icon
+  /// PixelArtIcons' mail flash Icon
   static const mail_flash = PixelArtIconData(0xea3b);
 
-  ///PixelArtIcons' mail_multiple icon
+  /// PixelArtIcons' mail multiple Icon
   static const mail_multiple = PixelArtIconData(0xea3c);
 
-  ///PixelArtIcons' mail_off icon
+  /// PixelArtIcons' mail off Icon
   static const mail_off = PixelArtIconData(0xea3d);
 
-  ///PixelArtIcons' mail_unread icon
+  /// PixelArtIcons' mail unread Icon
   static const mail_unread = PixelArtIconData(0xea3e);
 
-  ///PixelArtIcons' map icon
+  /// PixelArtIcons' map Icon
   static const map = PixelArtIconData(0xea3f);
 
-  ///PixelArtIcons' membercard icon
+  /// PixelArtIcons' membercard Icon
   static const membercard = PixelArtIconData(0xea40);
 
-  ///PixelArtIcons' menu icon
+  /// PixelArtIcons' menu Icon
   static const menu = PixelArtIconData(0xea41);
 
-  ///PixelArtIcons' message icon
+  /// PixelArtIcons' message Icon
   static const message = PixelArtIconData(0xea42);
 
-  ///PixelArtIcons' message_arrow_left icon
+  /// PixelArtIcons' message arrow left Icon
   static const message_arrow_left = PixelArtIconData(0xea43);
 
-  ///PixelArtIcons' message_arrow_right icon
+  /// PixelArtIcons' message arrow right Icon
   static const message_arrow_right = PixelArtIconData(0xea44);
 
-  ///PixelArtIcons' message_bookmark icon
+  /// PixelArtIcons' message bookmark Icon
   static const message_bookmark = PixelArtIconData(0xea45);
 
-  ///PixelArtIcons' message_clock icon
+  /// PixelArtIcons' message clock Icon
   static const message_clock = PixelArtIconData(0xea46);
 
-  ///PixelArtIcons' message_delete icon
+  /// PixelArtIcons' message delete Icon
   static const message_delete = PixelArtIconData(0xea47);
 
-  ///PixelArtIcons' message_flash icon
+  /// PixelArtIcons' message flash Icon
   static const message_flash = PixelArtIconData(0xea48);
 
-  ///PixelArtIcons' message_image icon
+  /// PixelArtIcons' message image Icon
   static const message_image = PixelArtIconData(0xea49);
 
-  ///PixelArtIcons' message_minus icon
+  /// PixelArtIcons' message minus Icon
   static const message_minus = PixelArtIconData(0xea4a);
 
-  ///PixelArtIcons' message_plus icon
+  /// PixelArtIcons' message plus Icon
   static const message_plus = PixelArtIconData(0xea4b);
 
-  ///PixelArtIcons' message_processing icon
+  /// PixelArtIcons' message processing Icon
   static const message_processing = PixelArtIconData(0xea4c);
 
-  ///PixelArtIcons' message_reply icon
+  /// PixelArtIcons' message reply Icon
   static const message_reply = PixelArtIconData(0xea4d);
 
-  ///PixelArtIcons' message_text icon
+  /// PixelArtIcons' message text Icon
   static const message_text = PixelArtIconData(0xea4e);
 
-  ///PixelArtIcons' minus icon
+  /// PixelArtIcons' minus Icon
   static const minus = PixelArtIconData(0xea4f);
 
-  ///PixelArtIcons' missed_call icon
+  /// PixelArtIcons' missed call Icon
   static const missed_call = PixelArtIconData(0xea50);
 
-  ///PixelArtIcons' modem icon
+  /// PixelArtIcons' modem Icon
   static const modem = PixelArtIconData(0xea51);
 
-  ///PixelArtIcons' money icon
+  /// PixelArtIcons' money Icon
   static const money = PixelArtIconData(0xea52);
 
-  ///PixelArtIcons' monitor icon
+  /// PixelArtIcons' monitor Icon
   static const monitor = PixelArtIconData(0xea53);
 
-  ///PixelArtIcons' mood_happy icon
+  /// PixelArtIcons' mood happy Icon
   static const mood_happy = PixelArtIconData(0xea54);
 
-  ///PixelArtIcons' mood_neutral icon
+  /// PixelArtIcons' mood neutral Icon
   static const mood_neutral = PixelArtIconData(0xea55);
 
-  ///PixelArtIcons' mood_sad icon
+  /// PixelArtIcons' mood sad Icon
   static const mood_sad = PixelArtIconData(0xea56);
 
-  ///PixelArtIcons' moon icon
+  /// PixelArtIcons' moon Icon
   static const moon = PixelArtIconData(0xea57);
 
-  ///PixelArtIcons' moon_star icon
+  /// PixelArtIcons' moon star Icon
   static const moon_star = PixelArtIconData(0xea58);
 
-  ///PixelArtIcons' moon_stars icon
+  /// PixelArtIcons' moon stars Icon
   static const moon_stars = PixelArtIconData(0xea59);
 
-  ///PixelArtIcons' more_horizontal icon
+  /// PixelArtIcons' more horizontal Icon
   static const more_horizontal = PixelArtIconData(0xea5a);
 
-  ///PixelArtIcons' more_vertical icon
+  /// PixelArtIcons' more vertical Icon
   static const more_vertical = PixelArtIconData(0xea5b);
 
-  ///PixelArtIcons' mouse icon
+  /// PixelArtIcons' mouse Icon
   static const mouse = PixelArtIconData(0xea5c);
 
-  ///PixelArtIcons' move icon
+  /// PixelArtIcons' move Icon
   static const move = PixelArtIconData(0xea5d);
 
-  ///PixelArtIcons' movie icon
+  /// PixelArtIcons' movie Icon
   static const movie = PixelArtIconData(0xea5e);
 
-  ///PixelArtIcons' music icon
+  /// PixelArtIcons' music Icon
   static const music = PixelArtIconData(0xea5f);
 
-  ///PixelArtIcons' next icon
+  /// PixelArtIcons' next Icon
   static const next = PixelArtIconData(0xea60);
 
-  ///PixelArtIcons' note icon
+  /// PixelArtIcons' note Icon
   static const note = PixelArtIconData(0xea61);
 
-  ///PixelArtIcons' note_delete icon
+  /// PixelArtIcons' note delete Icon
   static const note_delete = PixelArtIconData(0xea62);
 
-  ///PixelArtIcons' note_multiple icon
+  /// PixelArtIcons' note multiple Icon
   static const note_multiple = PixelArtIconData(0xea63);
 
-  ///PixelArtIcons' note_plus icon
+  /// PixelArtIcons' note plus Icon
   static const note_plus = PixelArtIconData(0xea64);
 
-  ///PixelArtIcons' notes icon
+  /// PixelArtIcons' notes Icon
   static const notes = PixelArtIconData(0xea65);
 
-  ///PixelArtIcons' notes_delete icon
+  /// PixelArtIcons' notes delete Icon
   static const notes_delete = PixelArtIconData(0xea66);
 
-  ///PixelArtIcons' notes_multiple icon
+  /// PixelArtIcons' notes multiple Icon
   static const notes_multiple = PixelArtIconData(0xea67);
 
-  ///PixelArtIcons' notes_plus icon
+  /// PixelArtIcons' notes plus Icon
   static const notes_plus = PixelArtIconData(0xea68);
 
-  ///PixelArtIcons' notification icon
+  /// PixelArtIcons' notification Icon
   static const notification = PixelArtIconData(0xea69);
 
-  ///PixelArtIcons' notification_off icon
+  /// PixelArtIcons' notification off Icon
   static const notification_off = PixelArtIconData(0xea6a);
 
-  ///PixelArtIcons' open icon
+  /// PixelArtIcons' open Icon
   static const open = PixelArtIconData(0xea6b);
 
-  ///PixelArtIcons' paint_bucket icon
+  /// PixelArtIcons' paint bucket Icon
   static const paint_bucket = PixelArtIconData(0xea6c);
 
-  ///PixelArtIcons' paperclip icon
+  /// PixelArtIcons' paperclip Icon
   static const paperclip = PixelArtIconData(0xea6d);
 
-  ///PixelArtIcons' pause icon
+  /// PixelArtIcons' pause Icon
   static const pause = PixelArtIconData(0xea6e);
 
-  ///PixelArtIcons' percent icon
+  /// PixelArtIcons' percent Icon
   static const percent = PixelArtIconData(0xea6f);
 
-  ///PixelArtIcons' picture_in_picture icon
+  /// PixelArtIcons' picture in picture Icon
   static const picture_in_picture = PixelArtIconData(0xea70);
 
-  ///PixelArtIcons' picture_in_picture_alt icon
+  /// PixelArtIcons' picture in picture alt Icon
   static const picture_in_picture_alt = PixelArtIconData(0xea71);
 
-  ///PixelArtIcons' pin icon
+  /// PixelArtIcons' pin Icon
   static const pin = PixelArtIconData(0xea72);
 
-  ///PixelArtIcons' pixelarticons icon
+  /// PixelArtIcons' pixelarticons Icon
   static const pixelarticons = PixelArtIconData(0xea73);
 
-  ///PixelArtIcons' play icon
+  /// PixelArtIcons' play Icon
   static const play = PixelArtIconData(0xea74);
 
-  ///PixelArtIcons' playlist icon
+  /// PixelArtIcons' playlist Icon
   static const playlist = PixelArtIconData(0xea75);
 
-  ///PixelArtIcons' plus icon
+  /// PixelArtIcons' plus Icon
   static const plus = PixelArtIconData(0xea76);
 
-  ///PixelArtIcons' power icon
+  /// PixelArtIcons' power Icon
   static const power = PixelArtIconData(0xea77);
 
-  ///PixelArtIcons' prev icon
+  /// PixelArtIcons' prev Icon
   static const prev = PixelArtIconData(0xea78);
 
-  ///PixelArtIcons' print icon
+  /// PixelArtIcons' print Icon
   static const print = PixelArtIconData(0xea79);
 
-  ///PixelArtIcons' radio_handheld icon
+  /// PixelArtIcons' radio handheld Icon
   static const radio_handheld = PixelArtIconData(0xea7a);
 
-  ///PixelArtIcons' radio_on icon
+  /// PixelArtIcons' radio on Icon
   static const radio_on = PixelArtIconData(0xea7b);
 
-  ///PixelArtIcons' radio_signal icon
+  /// PixelArtIcons' radio signal Icon
   static const radio_signal = PixelArtIconData(0xea7c);
 
-  ///PixelArtIcons' radio_tower icon
+  /// PixelArtIcons' radio tower Icon
   static const radio_tower = PixelArtIconData(0xea7d);
 
-  ///PixelArtIcons' reciept icon
+  /// PixelArtIcons' reciept Icon
   static const reciept = PixelArtIconData(0xea7e);
 
-  ///PixelArtIcons' reciept_alt icon
+  /// PixelArtIcons' reciept alt Icon
   static const reciept_alt = PixelArtIconData(0xea7f);
 
-  ///PixelArtIcons' redo icon
+  /// PixelArtIcons' redo Icon
   static const redo = PixelArtIconData(0xea80);
 
-  ///PixelArtIcons' reload icon
+  /// PixelArtIcons' reload Icon
   static const reload = PixelArtIconData(0xea81);
 
-  ///PixelArtIcons' remove_box icon
+  /// PixelArtIcons' remove box Icon
   static const remove_box = PixelArtIconData(0xea82);
 
-  ///PixelArtIcons' remove_box_multiple icon
+  /// PixelArtIcons' remove box multiple Icon
   static const remove_box_multiple = PixelArtIconData(0xea83);
 
-  ///PixelArtIcons' repeat icon
+  /// PixelArtIcons' repeat Icon
   static const repeat = PixelArtIconData(0xea84);
 
-  ///PixelArtIcons' reply icon
+  /// PixelArtIcons' reply Icon
   static const reply = PixelArtIconData(0xea85);
 
-  ///PixelArtIcons' reply_all icon
+  /// PixelArtIcons' reply all Icon
   static const reply_all = PixelArtIconData(0xea86);
 
-  ///PixelArtIcons' rounded_corner icon
+  /// PixelArtIcons' rounded corner Icon
   static const rounded_corner = PixelArtIconData(0xea87);
 
-  ///PixelArtIcons' save icon
+  /// PixelArtIcons' save Icon
   static const save = PixelArtIconData(0xea88);
 
-  ///PixelArtIcons' scale icon
+  /// PixelArtIcons' scale Icon
   static const scale = PixelArtIconData(0xea89);
 
-  ///PixelArtIcons' script icon
+  /// PixelArtIcons' script Icon
   static const script = PixelArtIconData(0xea8a);
 
-  ///PixelArtIcons' script_text icon
+  /// PixelArtIcons' script text Icon
   static const script_text = PixelArtIconData(0xea8b);
 
-  ///PixelArtIcons' scroll_horizontal icon
+  /// PixelArtIcons' scroll horizontal Icon
   static const scroll_horizontal = PixelArtIconData(0xea8c);
 
-  ///PixelArtIcons' scroll_vertical icon
+  /// PixelArtIcons' scroll vertical Icon
   static const scroll_vertical = PixelArtIconData(0xea8d);
 
-  ///PixelArtIcons' sd icon
+  /// PixelArtIcons' sd Icon
   static const sd = PixelArtIconData(0xea8e);
 
-  ///PixelArtIcons' search icon
+  /// PixelArtIcons' search Icon
   static const search = PixelArtIconData(0xea8f);
 
-  ///PixelArtIcons' section icon
+  /// PixelArtIcons' section Icon
   static const section = PixelArtIconData(0xea90);
 
-  ///PixelArtIcons' section_copy icon
+  /// PixelArtIcons' section copy Icon
   static const section_copy = PixelArtIconData(0xea91);
 
-  ///PixelArtIcons' section_minus icon
+  /// PixelArtIcons' section minus Icon
   static const section_minus = PixelArtIconData(0xea92);
 
-  ///PixelArtIcons' section_plus icon
+  /// PixelArtIcons' section plus Icon
   static const section_plus = PixelArtIconData(0xea93);
 
-  ///PixelArtIcons' section_x icon
+  /// PixelArtIcons' section x Icon
   static const section_x = PixelArtIconData(0xea94);
 
-  ///PixelArtIcons' server icon
+  /// PixelArtIcons' server Icon
   static const server = PixelArtIconData(0xea95);
 
-  ///PixelArtIcons' sharp_corner icon
+  /// PixelArtIcons' sharp corner Icon
   static const sharp_corner = PixelArtIconData(0xea96);
 
-  ///PixelArtIcons' shield icon
+  /// PixelArtIcons' shield Icon
   static const shield = PixelArtIconData(0xea97);
 
-  ///PixelArtIcons' shield_off icon
+  /// PixelArtIcons' shield off Icon
   static const shield_off = PixelArtIconData(0xea98);
 
-  ///PixelArtIcons' ship icon
+  /// PixelArtIcons' ship Icon
   static const ship = PixelArtIconData(0xea99);
 
-  ///PixelArtIcons' shopping_bag icon
+  /// PixelArtIcons' shopping bag Icon
   static const shopping_bag = PixelArtIconData(0xea9a);
 
-  ///PixelArtIcons' shuffle icon
+  /// PixelArtIcons' shuffle Icon
   static const shuffle = PixelArtIconData(0xea9b);
 
-  ///PixelArtIcons' sliders icon
+  /// PixelArtIcons' sliders Icon
   static const sliders = PixelArtIconData(0xea9c);
 
-  ///PixelArtIcons' sort icon
+  /// PixelArtIcons' sort Icon
   static const sort = PixelArtIconData(0xea9e);
 
-  ///PixelArtIcons' sort_alpabetic icon
+  /// PixelArtIcons' sort alpabetic Icon
   static const sort_alpabetic = PixelArtIconData(0xea9f);
 
-  ///PixelArtIcons' sort_numeric icon
+  /// PixelArtIcons' sort numeric Icon
   static const sort_numeric = PixelArtIconData(0xeaa0);
 
-  ///PixelArtIcons' speaker icon
+  /// PixelArtIcons' speaker Icon
   static const speaker = PixelArtIconData(0xeaa1);
 
-  ///PixelArtIcons' speed_fast icon
+  /// PixelArtIcons' speed fast Icon
   static const speed_fast = PixelArtIconData(0xeaa2);
 
-  ///PixelArtIcons' speed_medium icon
+  /// PixelArtIcons' speed medium Icon
   static const speed_medium = PixelArtIconData(0xeaa3);
 
-  ///PixelArtIcons' speed_slow icon
+  /// PixelArtIcons' speed slow Icon
   static const speed_slow = PixelArtIconData(0xeaa4);
 
-  ///PixelArtIcons' spotlight icon
+  /// PixelArtIcons' spotlight Icon
   static const spotlight = PixelArtIconData(0xeaa5);
 
-  ///PixelArtIcons' store icon
+  /// PixelArtIcons' store Icon
   static const store = PixelArtIconData(0xeaa6);
 
-  ///PixelArtIcons' subscriptions icon
+  /// PixelArtIcons' subscriptions Icon
   static const subscriptions = PixelArtIconData(0xeaa7);
 
-  ///PixelArtIcons' subtitles icon
+  /// PixelArtIcons' subtitles Icon
   static const subtitles = PixelArtIconData(0xeaa8);
 
-  ///PixelArtIcons' suitcase icon
+  /// PixelArtIcons' suitcase Icon
   static const suitcase = PixelArtIconData(0xeaa9);
 
-  ///PixelArtIcons' sun icon
+  /// PixelArtIcons' sun Icon
   static const sun = PixelArtIconData(0xeaaa);
 
-  ///PixelArtIcons' sun_alt icon
+  /// PixelArtIcons' sun alt Icon
   static const sun_alt = PixelArtIconData(0xeaab);
 
-  ///PixelArtIcons' switch icon
-  static const swi_tch = PixelArtIconData(0xeaac);
+  /// PixelArtIcons'  switch Icon
+  static const switch_ = PixelArtIconData(0xeaac);
 
-  ///PixelArtIcons' sync icon
+  /// PixelArtIcons' sync Icon
   static const sync = PixelArtIconData(0xeaad);
 
-  ///PixelArtIcons' tab icon
+  /// PixelArtIcons' tab Icon
   static const tab = PixelArtIconData(0xeaae);
 
-  ///PixelArtIcons' table icon
+  /// PixelArtIcons' table Icon
   static const table = PixelArtIconData(0xeaaf);
 
-  ///PixelArtIcons' tea icon
+  /// PixelArtIcons' tea Icon
   static const tea = PixelArtIconData(0xeab0);
 
-  ///PixelArtIcons' teach icon
+  /// PixelArtIcons' teach Icon
   static const teach = PixelArtIconData(0xeab1);
 
-  ///PixelArtIcons' text_add icon
+  /// PixelArtIcons' text add Icon
   static const text_add = PixelArtIconData(0xeab2);
 
-  ///PixelArtIcons' text_colums icon
+  /// PixelArtIcons' text colums Icon
   static const text_colums = PixelArtIconData(0xeab3);
 
-  ///PixelArtIcons' text_search icon
+  /// PixelArtIcons' text search Icon
   static const text_search = PixelArtIconData(0xeab4);
 
-  ///PixelArtIcons' text_wrap icon
+  /// PixelArtIcons' text wrap Icon
   static const text_wrap = PixelArtIconData(0xeab5);
 
-  ///PixelArtIcons' timeline icon
+  /// PixelArtIcons' timeline Icon
   static const timeline = PixelArtIconData(0xeab6);
 
-  ///PixelArtIcons' toggle_left icon
+  /// PixelArtIcons' toggle left Icon
   static const toggle_left = PixelArtIconData(0xeab7);
 
-  ///PixelArtIcons' toggle_right icon
+  /// PixelArtIcons' toggle right Icon
   static const toggle_right = PixelArtIconData(0xeab8);
 
-  ///PixelArtIcons' tournament icon
+  /// PixelArtIcons' tournament Icon
   static const tournament = PixelArtIconData(0xeab9);
 
-  ///PixelArtIcons' track_changes icon
+  /// PixelArtIcons' track changes Icon
   static const track_changes = PixelArtIconData(0xeaba);
 
-  ///PixelArtIcons' trash icon
+  /// PixelArtIcons' trash Icon
   static const trash = PixelArtIconData(0xeabb);
 
-  ///PixelArtIcons' trash_alt icon
+  /// PixelArtIcons' trash alt Icon
   static const trash_alt = PixelArtIconData(0xeabc);
 
-  ///PixelArtIcons' trending icon
+  /// PixelArtIcons' trending Icon
   static const trending = PixelArtIconData(0xeabd);
 
-  ///PixelArtIcons' trending_down icon
+  /// PixelArtIcons' trending down Icon
   static const trending_down = PixelArtIconData(0xeabe);
 
-  ///PixelArtIcons' trending_up icon
+  /// PixelArtIcons' trending up Icon
   static const trending_up = PixelArtIconData(0xeabf);
 
-  ///PixelArtIcons' trophy icon
+  /// PixelArtIcons' trophy Icon
   static const trophy = PixelArtIconData(0xeac0);
 
-  ///PixelArtIcons' truck icon
+  /// PixelArtIcons' truck Icon
   static const truck = PixelArtIconData(0xeac1);
 
-  ///PixelArtIcons' undo icon
+  /// PixelArtIcons' undo Icon
   static const undo = PixelArtIconData(0xeac2);
 
-  ///PixelArtIcons' ungroup icon
+  /// PixelArtIcons' ungroup Icon
   static const ungroup = PixelArtIconData(0xeac3);
 
-  ///PixelArtIcons' unlink icon
+  /// PixelArtIcons' unlink Icon
   static const unlink = PixelArtIconData(0xeac4);
 
-  ///PixelArtIcons' upload icon
+  /// PixelArtIcons' upload Icon
   static const upload = PixelArtIconData(0xeac5);
 
-  ///PixelArtIcons' user icon
+  /// PixelArtIcons' user Icon
   static const user = PixelArtIconData(0xeac6);
 
-  ///PixelArtIcons' user_minus icon
+  /// PixelArtIcons' user minus Icon
   static const user_minus = PixelArtIconData(0xeac7);
 
-  ///PixelArtIcons' user_plus icon
+  /// PixelArtIcons' user plus Icon
   static const user_plus = PixelArtIconData(0xeac8);
 
-  ///PixelArtIcons' users icon
+  /// PixelArtIcons' users Icon
   static const users = PixelArtIconData(0xeac9);
 
-  ///PixelArtIcons' user_x icon
+  /// PixelArtIcons' user x Icon
   static const user_x = PixelArtIconData(0xeaca);
 
-  ///PixelArtIcons' video icon
+  /// PixelArtIcons' video Icon
   static const video = PixelArtIconData(0xeacb);
 
-  ///PixelArtIcons' video_off icon
+  /// PixelArtIcons' video off Icon
   static const video_off = PixelArtIconData(0xeacc);
 
-  ///PixelArtIcons' view_col icon
+  /// PixelArtIcons' view col Icon
   static const view_col = PixelArtIconData(0xeacd);
 
-  ///PixelArtIcons' view_list icon
+  /// PixelArtIcons' view list Icon
   static const view_list = PixelArtIconData(0xeace);
 
-  ///PixelArtIcons' viewport_narrow icon
+  /// PixelArtIcons' viewport narrow Icon
   static const viewport_narrow = PixelArtIconData(0xeacf);
 
-  ///PixelArtIcons' viewport_wide icon
+  /// PixelArtIcons' viewport wide Icon
   static const viewport_wide = PixelArtIconData(0xead0);
 
-  ///PixelArtIcons' visible icon
+  /// PixelArtIcons' visible Icon
   static const visible = PixelArtIconData(0xead1);
 
-  ///PixelArtIcons' volume icon
+  /// PixelArtIcons' volume Icon
   static const volume = PixelArtIconData(0xead2);
 
-  ///PixelArtIcons' volume_1 icon
+  /// PixelArtIcons' volume 1 Icon
   static const volume_1 = PixelArtIconData(0xead3);
 
-  ///PixelArtIcons' volume_2 icon
+  /// PixelArtIcons' volume 2 Icon
   static const volume_2 = PixelArtIconData(0xead4);
 
-  ///PixelArtIcons' volume_3 icon
+  /// PixelArtIcons' volume 3 Icon
   static const volume_3 = PixelArtIconData(0xead5);
 
-  ///PixelArtIcons' volume_minus icon
+  /// PixelArtIcons' volume minus Icon
   static const volume_minus = PixelArtIconData(0xead6);
 
-  ///PixelArtIcons' volume_plus icon
+  /// PixelArtIcons' volume plus Icon
   static const volume_plus = PixelArtIconData(0xead7);
 
-  ///PixelArtIcons' volume_vibrate icon
+  /// PixelArtIcons' volume vibrate Icon
   static const volume_vibrate = PixelArtIconData(0xead8);
 
-  ///PixelArtIcons' volume_x icon
+  /// PixelArtIcons' volume x Icon
   static const volume_x = PixelArtIconData(0xead9);
 
-  ///PixelArtIcons' wallet icon
+  /// PixelArtIcons' wallet Icon
   static const wallet = PixelArtIconData(0xeada);
 
-  ///PixelArtIcons' warning_box icon
+  /// PixelArtIcons' warning box Icon
   static const warning_box = PixelArtIconData(0xeadb);
 
-  ///PixelArtIcons' wind icon
+  /// PixelArtIcons' wind Icon
   static const wind = PixelArtIconData(0xeadc);
 
-  ///PixelArtIcons' zap icon
+  /// PixelArtIcons' zap Icon
   static const zap = PixelArtIconData(0xeadd);
 
-  ///PixelArtIcons' zoom_in icon
+  /// PixelArtIcons' zoom in Icon
   static const zoom_in = PixelArtIconData(0xeade);
 
-  ///PixelArtIcons' zoom_out icon
+  /// PixelArtIcons' zoom out Icon
   static const zoom_out = PixelArtIconData(0xeadf);
 }
