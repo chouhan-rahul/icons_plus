@@ -6,7 +6,7 @@ repository: https://github.com/chouhan-rahul/icons_plus
 issue_tracker: https://github.com/chouhan-rahul/icons_plus/issues
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=2.16.1 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
