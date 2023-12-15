@@ -2,5606 +2,6131 @@
 
 import 'package:flutter/widgets.dart';
 
-class FontAwesomeIconDataBrands extends IconData {
-  const FontAwesomeIconDataBrands(int code)
+class FontAwesomeIconData extends IconData {
+  const FontAwesomeIconData(int code)
       : super(
           code,
-          fontFamily: 'fontawesome-brands',
-          fontPackage: 'icons_plus',
-        );
-}
-
-class FontAwesomeIconDataRegular extends IconData {
-  const FontAwesomeIconDataRegular(int code)
-      : super(
-          code,
-          fontFamily: 'fontawesome-regular',
-          fontPackage: 'icons_plus',
-        );
-}
-
-class FontAwesomeIconDataSolid extends IconData {
-  const FontAwesomeIconDataSolid(int code)
-      : super(
-          code,
-          fontFamily: 'fontawesome-solid',
+          fontFamily: 'FontAwesome',
           fontPackage: 'icons_plus',
         );
 }
 
 class FontAwesome {
-  // FontAwesome - Brands
+  /// FontAwesome's a solid Icon
+  static const a_solid = FontAwesomeIconData(0xe900);
 
-  ///FontAwesomeBrands's group icon
-  static const group = FontAwesomeIconDataBrands(0xe900);
+  /// FontAwesome's address book solid Icon
+  static const address_book_solid = FontAwesomeIconData(0xe901);
 
-  ///FontAwesomeBrands's px icon
-  static const px = FontAwesomeIconDataBrands(0xe901);
+  /// FontAwesome's address card solid Icon
+  static const address_card_solid = FontAwesomeIconData(0xe902);
 
-  ///FontAwesomeBrands's accessible_icon icon
-  static const accessible_icon = FontAwesomeIconDataBrands(0xe902);
+  /// FontAwesome's align center solid Icon
+  static const align_center_solid = FontAwesomeIconData(0xe903);
 
-  ///FontAwesomeBrands's accusoft icon
-  static const accusoft = FontAwesomeIconDataBrands(0xe903);
+  /// FontAwesome's align justify solid Icon
+  static const align_justify_solid = FontAwesomeIconData(0xe904);
 
-  ///FontAwesomeBrands's adn icon
-  static const adn = FontAwesomeIconDataBrands(0xe904);
+  /// FontAwesome's align left solid Icon
+  static const align_left_solid = FontAwesomeIconData(0xe905);
 
-  ///FontAwesomeBrands's adversal icon
-  static const adversal = FontAwesomeIconDataBrands(0xe905);
+  /// FontAwesome's align right solid Icon
+  static const align_right_solid = FontAwesomeIconData(0xe906);
 
-  ///FontAwesomeBrands's affiliatetheme icon
-  static const affiliatetheme = FontAwesomeIconDataBrands(0xe906);
+  /// FontAwesome's anchor solid Icon
+  static const anchor_solid = FontAwesomeIconData(0xe907);
 
-  ///FontAwesomeBrands's airbnb icon
-  static const airbnb = FontAwesomeIconDataBrands(0xe907);
+  /// FontAwesome's anchor circle check solid Icon
+  static const anchor_circle_check_solid = FontAwesomeIconData(0xe908);
 
-  ///FontAwesomeBrands's algolia icon
-  static const algolia = FontAwesomeIconDataBrands(0xe908);
+  /// FontAwesome's anchor circle exclamation solid Icon
+  static const anchor_circle_exclamation_solid = FontAwesomeIconData(0xe909);
 
-  ///FontAwesomeBrands's alipay icon
-  static const alipay = FontAwesomeIconDataBrands(0xe909);
+  /// FontAwesome's anchor circle xmark solid Icon
+  static const anchor_circle_xmark_solid = FontAwesomeIconData(0xe90a);
 
-  ///FontAwesomeBrands's amazon icon
-  static const amazon = FontAwesomeIconDataBrands(0xe90a);
+  /// FontAwesome's anchor lock solid Icon
+  static const anchor_lock_solid = FontAwesomeIconData(0xe90b);
 
-  ///FontAwesomeBrands's amazon_pay icon
-  static const amazon_pay = FontAwesomeIconDataBrands(0xe90b);
+  /// FontAwesome's angle down solid Icon
+  static const angle_down_solid = FontAwesomeIconData(0xe90c);
 
-  ///FontAwesomeBrands's amilia icon
-  static const amilia = FontAwesomeIconDataBrands(0xe90c);
+  /// FontAwesome's angle left solid Icon
+  static const angle_left_solid = FontAwesomeIconData(0xe90d);
 
-  ///FontAwesomeBrands's android icon
-  static const android = FontAwesomeIconDataBrands(0xe90d);
+  /// FontAwesome's angle right solid Icon
+  static const angle_right_solid = FontAwesomeIconData(0xe90e);
 
-  ///FontAwesomeBrands's angellist icon
-  static const angellist = FontAwesomeIconDataBrands(0xe90e);
+  /// FontAwesome's angles down solid Icon
+  static const angles_down_solid = FontAwesomeIconData(0xe90f);
 
-  ///FontAwesomeBrands's angrycreative icon
-  static const angrycreative = FontAwesomeIconDataBrands(0xe90f);
+  /// FontAwesome's angles left solid Icon
+  static const angles_left_solid = FontAwesomeIconData(0xe910);
 
-  ///FontAwesomeBrands's angular icon
-  static const angular = FontAwesomeIconDataBrands(0xe910);
+  /// FontAwesome's angles right solid Icon
+  static const angles_right_solid = FontAwesomeIconData(0xe911);
 
-  ///FontAwesomeBrands's apper icon
-  static const apper = FontAwesomeIconDataBrands(0xe911);
+  /// FontAwesome's angles up solid Icon
+  static const angles_up_solid = FontAwesomeIconData(0xe912);
 
-  ///FontAwesomeBrands's apple icon
-  static const apple = FontAwesomeIconDataBrands(0xe912);
+  /// FontAwesome's angle up solid Icon
+  static const angle_up_solid = FontAwesomeIconData(0xe913);
 
-  ///FontAwesomeBrands's apple_pay icon
-  static const apple_pay = FontAwesomeIconDataBrands(0xe913);
+  /// FontAwesome's ankh solid Icon
+  static const ankh_solid = FontAwesomeIconData(0xe914);
 
-  ///FontAwesomeBrands's app_store icon
-  static const app_store = FontAwesomeIconDataBrands(0xe914);
+  /// FontAwesome's apple whole solid Icon
+  static const apple_whole_solid = FontAwesomeIconData(0xe915);
 
-  ///FontAwesomeBrands's app_store_ios icon
-  static const app_store_ios = FontAwesomeIconDataBrands(0xe915);
+  /// FontAwesome's archway solid Icon
+  static const archway_solid = FontAwesomeIconData(0xe916);
 
-  ///FontAwesomeBrands's artstation icon
-  static const artstation = FontAwesomeIconDataBrands(0xe916);
+  /// FontAwesome's arrow down solid Icon
+  static const arrow_down_solid = FontAwesomeIconData(0xe917);
 
-  ///FontAwesomeBrands's asymmetrik icon
-  static const asymmetrik = FontAwesomeIconDataBrands(0xe917);
+  /// FontAwesome's arrow down 1 9 solid Icon
+  static const arrow_down_1_9_solid = FontAwesomeIconData(0xe918);
 
-  ///FontAwesomeBrands's atlassian icon
-  static const atlassian = FontAwesomeIconDataBrands(0xe918);
+  /// FontAwesome's arrow down 9 1 solid Icon
+  static const arrow_down_9_1_solid = FontAwesomeIconData(0xe919);
 
-  ///FontAwesomeBrands's audible icon
-  static const audible = FontAwesomeIconDataBrands(0xe919);
+  /// FontAwesome's arrow down a z solid Icon
+  static const arrow_down_a_z_solid = FontAwesomeIconData(0xe91a);
 
-  ///FontAwesomeBrands's autoprefixer icon
-  static const autoprefixer = FontAwesomeIconDataBrands(0xe91a);
+  /// FontAwesome's arrow down long solid Icon
+  static const arrow_down_long_solid = FontAwesomeIconData(0xe91b);
 
-  ///FontAwesomeBrands's avianex icon
-  static const avianex = FontAwesomeIconDataBrands(0xe91b);
+  /// FontAwesome's arrow down short wide solid Icon
+  static const arrow_down_short_wide_solid = FontAwesomeIconData(0xe91c);
 
-  ///FontAwesomeBrands's aviato icon
-  static const aviato = FontAwesomeIconDataBrands(0xe91c);
+  /// FontAwesome's arrow down up across line solid Icon
+  static const arrow_down_up_across_line_solid = FontAwesomeIconData(0xe91d);
 
-  ///FontAwesomeBrands's aws icon
-  static const aws = FontAwesomeIconDataBrands(0xe91d);
+  /// FontAwesome's arrow down up lock solid Icon
+  static const arrow_down_up_lock_solid = FontAwesomeIconData(0xe91e);
 
-  ///FontAwesomeBrands's bandcamp icon
-  static const bandcamp = FontAwesomeIconDataBrands(0xe91e);
+  /// FontAwesome's arrow down wide short solid Icon
+  static const arrow_down_wide_short_solid = FontAwesomeIconData(0xe91f);
 
-  ///FontAwesomeBrands's battle_net icon
-  static const battle_net = FontAwesomeIconDataBrands(0xe91f);
+  /// FontAwesome's arrow down z a solid Icon
+  static const arrow_down_z_a_solid = FontAwesomeIconData(0xe920);
 
-  ///FontAwesomeBrands's behance icon
-  static const behance = FontAwesomeIconDataBrands(0xe920);
+  /// FontAwesome's arrow left solid Icon
+  static const arrow_left_solid = FontAwesomeIconData(0xe921);
 
-  ///FontAwesomeBrands's bilibili icon
-  static const bilibili = FontAwesomeIconDataBrands(0xe921);
+  /// FontAwesome's arrow left long solid Icon
+  static const arrow_left_long_solid = FontAwesomeIconData(0xe922);
 
-  ///FontAwesomeBrands's bimobject icon
-  static const bimobject = FontAwesomeIconDataBrands(0xe922);
+  /// FontAwesome's arrow pointer solid Icon
+  static const arrow_pointer_solid = FontAwesomeIconData(0xe923);
 
-  ///FontAwesomeBrands's bitbucket icon
-  static const bitbucket = FontAwesomeIconDataBrands(0xe923);
+  /// FontAwesome's arrow right solid Icon
+  static const arrow_right_solid = FontAwesomeIconData(0xe924);
 
-  ///FontAwesomeBrands's bitcoin icon
-  static const bitcoin = FontAwesomeIconDataBrands(0xe924);
+  /// FontAwesome's arrow right arrow left solid Icon
+  static const arrow_right_arrow_left_solid = FontAwesomeIconData(0xe925);
 
-  ///FontAwesomeBrands's bity icon
-  static const bity = FontAwesomeIconDataBrands(0xe925);
+  /// FontAwesome's arrow right from bracket solid Icon
+  static const arrow_right_from_bracket_solid = FontAwesomeIconData(0xe926);
 
-  ///FontAwesomeBrands's blackberry icon
-  static const blackberry = FontAwesomeIconDataBrands(0xe926);
+  /// FontAwesome's arrow right long solid Icon
+  static const arrow_right_long_solid = FontAwesomeIconData(0xe927);
 
-  ///FontAwesomeBrands's black_tie icon
-  static const black_tie = FontAwesomeIconDataBrands(0xe927);
+  /// FontAwesome's arrow right to bracket solid Icon
+  static const arrow_right_to_bracket_solid = FontAwesomeIconData(0xe928);
 
-  ///FontAwesomeBrands's blogger icon
-  static const blogger = FontAwesomeIconDataBrands(0xe928);
+  /// FontAwesome's arrow right to city solid Icon
+  static const arrow_right_to_city_solid = FontAwesomeIconData(0xe929);
 
-  ///FontAwesomeBrands's blogger_b icon
-  static const blogger_b = FontAwesomeIconDataBrands(0xe929);
+  /// FontAwesome's arrow rotate left solid Icon
+  static const arrow_rotate_left_solid = FontAwesomeIconData(0xe92a);
 
-  ///FontAwesomeBrands's bluetooth icon
-  static const bluetooth = FontAwesomeIconDataBrands(0xe92a);
+  /// FontAwesome's arrow rotate right solid Icon
+  static const arrow_rotate_right_solid = FontAwesomeIconData(0xe92b);
 
-  ///FontAwesomeBrands's bluetooth_b icon
-  static const bluetooth_b = FontAwesomeIconDataBrands(0xe92b);
+  /// FontAwesome's arrows down to line solid Icon
+  static const arrows_down_to_line_solid = FontAwesomeIconData(0xe92c);
 
-  ///FontAwesomeBrands's bootstrap icon
-  static const bootstrap = FontAwesomeIconDataBrands(0xe92c);
+  /// FontAwesome's arrows down to people solid Icon
+  static const arrows_down_to_people_solid = FontAwesomeIconData(0xe92d);
 
-  ///FontAwesomeBrands's bots icon
-  static const bots = FontAwesomeIconDataBrands(0xe92d);
+  /// FontAwesome's arrows left right solid Icon
+  static const arrows_left_right_solid = FontAwesomeIconData(0xe92e);
 
-  ///FontAwesomeBrands's btc icon
-  static const btc = FontAwesomeIconDataBrands(0xe92e);
+  /// FontAwesome's arrows left right to line solid Icon
+  static const arrows_left_right_to_line_solid = FontAwesomeIconData(0xe92f);
 
-  ///FontAwesomeBrands's buffer icon
-  static const buffer = FontAwesomeIconDataBrands(0xe92f);
+  /// FontAwesome's arrows rotate solid Icon
+  static const arrows_rotate_solid = FontAwesomeIconData(0xe930);
 
-  ///FontAwesomeBrands's buromobelexperte icon
-  static const buromobelexperte = FontAwesomeIconDataBrands(0xe930);
+  /// FontAwesome's arrows spin solid Icon
+  static const arrows_spin_solid = FontAwesomeIconData(0xe931);
 
-  ///FontAwesomeBrands's buy_n_large icon
-  static const buy_n_large = FontAwesomeIconDataBrands(0xe931);
+  /// FontAwesome's arrows split up and left solid Icon
+  static const arrows_split_up_and_left_solid = FontAwesomeIconData(0xe932);
 
-  ///FontAwesomeBrands's buysellads icon
-  static const buysellads = FontAwesomeIconDataBrands(0xe932);
+  /// FontAwesome's arrows to circle solid Icon
+  static const arrows_to_circle_solid = FontAwesomeIconData(0xe933);
 
-  ///FontAwesomeBrands's canadian_maple_leaf icon
-  static const canadian_maple_leaf = FontAwesomeIconDataBrands(0xe933);
+  /// FontAwesome's arrows to dot solid Icon
+  static const arrows_to_dot_solid = FontAwesomeIconData(0xe934);
 
-  ///FontAwesomeBrands's cc_amazon_pay icon
-  static const cc_amazon_pay = FontAwesomeIconDataBrands(0xe934);
+  /// FontAwesome's arrows to eye solid Icon
+  static const arrows_to_eye_solid = FontAwesomeIconData(0xe935);
 
-  ///FontAwesomeBrands's cc_amex icon
-  static const cc_amex = FontAwesomeIconDataBrands(0xe935);
+  /// FontAwesome's arrows turn right solid Icon
+  static const arrows_turn_right_solid = FontAwesomeIconData(0xe936);
 
-  ///FontAwesomeBrands's cc_apple_pay icon
-  static const cc_apple_pay = FontAwesomeIconDataBrands(0xe936);
+  /// FontAwesome's arrows turn to dots solid Icon
+  static const arrows_turn_to_dots_solid = FontAwesomeIconData(0xe937);
 
-  ///FontAwesomeBrands's cc_diners_club icon
-  static const cc_diners_club = FontAwesomeIconDataBrands(0xe937);
+  /// FontAwesome's arrows up down solid Icon
+  static const arrows_up_down_solid = FontAwesomeIconData(0xe938);
 
-  ///FontAwesomeBrands's cc_discover icon
-  static const cc_discover = FontAwesomeIconDataBrands(0xe938);
+  /// FontAwesome's arrows up down left right solid Icon
+  static const arrows_up_down_left_right_solid = FontAwesomeIconData(0xe939);
 
-  ///FontAwesomeBrands's cc_jcb icon
-  static const cc_jcb = FontAwesomeIconDataBrands(0xe939);
+  /// FontAwesome's arrows up to line solid Icon
+  static const arrows_up_to_line_solid = FontAwesomeIconData(0xe93a);
 
-  ///FontAwesomeBrands's cc_mastercard icon
-  static const cc_mastercard = FontAwesomeIconDataBrands(0xe93a);
+  /// FontAwesome's arrow trend down solid Icon
+  static const arrow_trend_down_solid = FontAwesomeIconData(0xe93b);
 
-  ///FontAwesomeBrands's cc_paypal icon
-  static const cc_paypal = FontAwesomeIconDataBrands(0xe93b);
+  /// FontAwesome's arrow trend up solid Icon
+  static const arrow_trend_up_solid = FontAwesomeIconData(0xe93c);
 
-  ///FontAwesomeBrands's cc_stripe icon
-  static const cc_stripe = FontAwesomeIconDataBrands(0xe93c);
+  /// FontAwesome's arrow turn down solid Icon
+  static const arrow_turn_down_solid = FontAwesomeIconData(0xe93d);
 
-  ///FontAwesomeBrands's cc_visa icon
-  static const cc_visa = FontAwesomeIconDataBrands(0xe93d);
+  /// FontAwesome's arrow turn up solid Icon
+  static const arrow_turn_up_solid = FontAwesomeIconData(0xe93e);
 
-  ///FontAwesomeBrands's centercode icon
-  static const centercode = FontAwesomeIconDataBrands(0xe93e);
+  /// FontAwesome's arrow up solid Icon
+  static const arrow_up_solid = FontAwesomeIconData(0xe93f);
 
-  ///FontAwesomeBrands's centos icon
-  static const centos = FontAwesomeIconDataBrands(0xe93f);
+  /// FontAwesome's arrow up 1 9 solid Icon
+  static const arrow_up_1_9_solid = FontAwesomeIconData(0xe940);
 
-  ///FontAwesomeBrands's chrome icon
-  static const chrome = FontAwesomeIconDataBrands(0xe940);
+  /// FontAwesome's arrow up 9 1 solid Icon
+  static const arrow_up_9_1_solid = FontAwesomeIconData(0xe941);
 
-  ///FontAwesomeBrands's chromecast icon
-  static const chromecast = FontAwesomeIconDataBrands(0xe941);
+  /// FontAwesome's arrow up a z solid Icon
+  static const arrow_up_a_z_solid = FontAwesomeIconData(0xe942);
 
-  ///FontAwesomeBrands's cloudflare icon
-  static const cloudflare = FontAwesomeIconDataBrands(0xe942);
+  /// FontAwesome's arrow up from bracket solid Icon
+  static const arrow_up_from_bracket_solid = FontAwesomeIconData(0xe943);
 
-  ///FontAwesomeBrands's cloudscale icon
-  static const cloudscale = FontAwesomeIconDataBrands(0xe943);
+  /// FontAwesome's arrow up from ground water solid Icon
+  static const arrow_up_from_ground_water_solid = FontAwesomeIconData(0xe944);
 
-  ///FontAwesomeBrands's cloudsmith icon
-  static const cloudsmith = FontAwesomeIconDataBrands(0xe944);
+  /// FontAwesome's arrow up from water pump solid Icon
+  static const arrow_up_from_water_pump_solid = FontAwesomeIconData(0xe945);
 
-  ///FontAwesomeBrands's cloudversify icon
-  static const cloudversify = FontAwesomeIconDataBrands(0xe945);
+  /// FontAwesome's arrow up long solid Icon
+  static const arrow_up_long_solid = FontAwesomeIconData(0xe946);
 
-  ///FontAwesomeBrands's cmplid icon
-  static const cmplid = FontAwesomeIconDataBrands(0xe946);
+  /// FontAwesome's arrow up right dots solid Icon
+  static const arrow_up_right_dots_solid = FontAwesomeIconData(0xe947);
 
-  ///FontAwesomeBrands's codepen icon
-  static const codepen = FontAwesomeIconDataBrands(0xe947);
+  /// FontAwesome's arrow up right from square solid Icon
+  static const arrow_up_right_from_square_solid = FontAwesomeIconData(0xe948);
 
-  ///FontAwesomeBrands's codiepie icon
-  static const codiepie = FontAwesomeIconDataBrands(0xe948);
+  /// FontAwesome's arrow up short wide solid Icon
+  static const arrow_up_short_wide_solid = FontAwesomeIconData(0xe949);
 
-  ///FontAwesomeBrands's confluence icon
-  static const confluence = FontAwesomeIconDataBrands(0xe949);
+  /// FontAwesome's arrow up wide short solid Icon
+  static const arrow_up_wide_short_solid = FontAwesomeIconData(0xe94a);
 
-  ///FontAwesomeBrands's connectdevelop icon
-  static const connectdevelop = FontAwesomeIconDataBrands(0xe94a);
+  /// FontAwesome's arrow up z a solid Icon
+  static const arrow_up_z_a_solid = FontAwesomeIconData(0xe94b);
 
-  ///FontAwesomeBrands's contao icon
-  static const contao = FontAwesomeIconDataBrands(0xe94b);
+  /// FontAwesome's asterisk solid Icon
+  static const asterisk_solid = FontAwesomeIconData(0xe94c);
 
-  ///FontAwesomeBrands's cotton_bureau icon
-  static const cotton_bureau = FontAwesomeIconDataBrands(0xe94c);
+  /// FontAwesome's at solid Icon
+  static const at_solid = FontAwesomeIconData(0xe94d);
 
-  ///FontAwesomeBrands's cpanel icon
-  static const cpanel = FontAwesomeIconDataBrands(0xe94d);
+  /// FontAwesome's atom solid Icon
+  static const atom_solid = FontAwesomeIconData(0xe94e);
 
-  ///FontAwesomeBrands's creative_commons icon
-  static const creative_commons = FontAwesomeIconDataBrands(0xe94e);
+  /// FontAwesome's audio description solid Icon
+  static const audio_description_solid = FontAwesomeIconData(0xe94f);
 
-  ///FontAwesomeBrands's creative_commons_by icon
-  static const creative_commons_by = FontAwesomeIconDataBrands(0xe94f);
+  /// FontAwesome's austral sign solid Icon
+  static const austral_sign_solid = FontAwesomeIconData(0xe950);
 
-  ///FontAwesomeBrands's creative_commons_nc icon
-  static const creative_commons_nc = FontAwesomeIconDataBrands(0xe950);
+  /// FontAwesome's award solid Icon
+  static const award_solid = FontAwesomeIconData(0xe951);
 
-  ///FontAwesomeBrands's creative_commons_nc_eu icon
-  static const creative_commons_nc_eu = FontAwesomeIconDataBrands(0xe951);
+  /// FontAwesome's b solid Icon
+  static const b_solid = FontAwesomeIconData(0xe952);
 
-  ///FontAwesomeBrands's creative_commons_nc_jp icon
-  static const creative_commons_nc_jp = FontAwesomeIconDataBrands(0xe952);
+  /// FontAwesome's baby solid Icon
+  static const baby_solid = FontAwesomeIconData(0xe953);
 
-  ///FontAwesomeBrands's creative_commons_nd icon
-  static const creative_commons_nd = FontAwesomeIconDataBrands(0xe953);
+  /// FontAwesome's baby carriage solid Icon
+  static const baby_carriage_solid = FontAwesomeIconData(0xe954);
 
-  ///FontAwesomeBrands's creative_commons_pd icon
-  static const creative_commons_pd = FontAwesomeIconDataBrands(0xe954);
+  /// FontAwesome's backward solid Icon
+  static const backward_solid = FontAwesomeIconData(0xe955);
 
-  ///FontAwesomeBrands's creative_commons_pd_alt icon
-  static const creative_commons_pd_alt = FontAwesomeIconDataBrands(0xe955);
+  /// FontAwesome's backward fast solid Icon
+  static const backward_fast_solid = FontAwesomeIconData(0xe956);
 
-  ///FontAwesomeBrands's creative_commons_remix icon
-  static const creative_commons_remix = FontAwesomeIconDataBrands(0xe956);
+  /// FontAwesome's backward step solid Icon
+  static const backward_step_solid = FontAwesomeIconData(0xe957);
 
-  ///FontAwesomeBrands's creative_commons_sa icon
-  static const creative_commons_sa = FontAwesomeIconDataBrands(0xe957);
+  /// FontAwesome's bacon solid Icon
+  static const bacon_solid = FontAwesomeIconData(0xe958);
 
-  ///FontAwesomeBrands's creative_commons_sampling icon
-  static const creative_commons_sampling = FontAwesomeIconDataBrands(0xe958);
+  /// FontAwesome's bacteria solid Icon
+  static const bacteria_solid = FontAwesomeIconData(0xe959);
 
-  ///FontAwesomeBrands's creative_commons_sampling_plus icon
-  static const creative_commons_sampling_plus =
-      FontAwesomeIconDataBrands(0xe959);
+  /// FontAwesome's bacterium solid Icon
+  static const bacterium_solid = FontAwesomeIconData(0xe95a);
 
-  ///FontAwesomeBrands's creative_commons_share icon
-  static const creative_commons_share = FontAwesomeIconDataBrands(0xe95a);
+  /// FontAwesome's bag shopping solid Icon
+  static const bag_shopping_solid = FontAwesomeIconData(0xe95b);
 
-  ///FontAwesomeBrands's creative_commons_zero icon
-  static const creative_commons_zero = FontAwesomeIconDataBrands(0xe95b);
+  /// FontAwesome's bahai solid Icon
+  static const bahai_solid = FontAwesomeIconData(0xe95c);
 
-  ///FontAwesomeBrands's critical_role icon
-  static const critical_role = FontAwesomeIconDataBrands(0xe95c);
+  /// FontAwesome's baht sign solid Icon
+  static const baht_sign_solid = FontAwesomeIconData(0xe95d);
 
-  ///FontAwesomeBrands's css3 icon
-  static const css3 = FontAwesomeIconDataBrands(0xe95d);
+  /// FontAwesome's ban solid Icon
+  static const ban_solid = FontAwesomeIconData(0xe95e);
 
-  ///FontAwesomeBrands's css3_alt icon
-  static const css3_alt = FontAwesomeIconDataBrands(0xe95e);
+  /// FontAwesome's bandage solid Icon
+  static const bandage_solid = FontAwesomeIconData(0xe95f);
 
-  ///FontAwesomeBrands's cuttlefish icon
-  static const cuttlefish = FontAwesomeIconDataBrands(0xe95f);
+  /// FontAwesome's bangladeshi taka sign solid Icon
+  static const bangladeshi_taka_sign_solid = FontAwesomeIconData(0xe960);
 
-  ///FontAwesomeBrands's dailymotion icon
-  static const dailymotion = FontAwesomeIconDataBrands(0xe960);
+  /// FontAwesome's ban smoking solid Icon
+  static const ban_smoking_solid = FontAwesomeIconData(0xe961);
 
-  ///FontAwesomeBrands's d_and_d icon
-  static const d_and_d = FontAwesomeIconDataBrands(0xe961);
+  /// FontAwesome's barcode solid Icon
+  static const barcode_solid = FontAwesomeIconData(0xe962);
 
-  ///FontAwesomeBrands's d_and_d_beyond icon
-  static const d_and_d_beyond = FontAwesomeIconDataBrands(0xe962);
+  /// FontAwesome's bars solid Icon
+  static const bars_solid = FontAwesomeIconData(0xe963);
 
-  ///FontAwesomeBrands's dashcube icon
-  static const dashcube = FontAwesomeIconDataBrands(0xe963);
+  /// FontAwesome's bars progress solid Icon
+  static const bars_progress_solid = FontAwesomeIconData(0xe964);
 
-  ///FontAwesomeBrands's deezer icon
-  static const deezer = FontAwesomeIconDataBrands(0xe964);
+  /// FontAwesome's bars staggered solid Icon
+  static const bars_staggered_solid = FontAwesomeIconData(0xe965);
 
-  ///FontAwesomeBrands's delicious icon
-  static const delicious = FontAwesomeIconDataBrands(0xe965);
+  /// FontAwesome's baseball solid Icon
+  static const baseball_solid = FontAwesomeIconData(0xe966);
 
-  ///FontAwesomeBrands's deploydog icon
-  static const deploydog = FontAwesomeIconDataBrands(0xe966);
+  /// FontAwesome's baseball bat ball solid Icon
+  static const baseball_bat_ball_solid = FontAwesomeIconData(0xe967);
 
-  ///FontAwesomeBrands's deskpro icon
-  static const deskpro = FontAwesomeIconDataBrands(0xe967);
+  /// FontAwesome's basketball solid Icon
+  static const basketball_solid = FontAwesomeIconData(0xe968);
 
-  ///FontAwesomeBrands's dev icon
-  static const dev = FontAwesomeIconDataBrands(0xe968);
+  /// FontAwesome's basket shopping solid Icon
+  static const basket_shopping_solid = FontAwesomeIconData(0xe969);
 
-  ///FontAwesomeBrands's deviantart icon
-  static const deviantart = FontAwesomeIconDataBrands(0xe969);
+  /// FontAwesome's bath solid Icon
+  static const bath_solid = FontAwesomeIconData(0xe96a);
 
-  ///FontAwesomeBrands's dhl icon
-  static const dhl = FontAwesomeIconDataBrands(0xe96a);
+  /// FontAwesome's battery empty solid Icon
+  static const battery_empty_solid = FontAwesomeIconData(0xe96b);
 
-  ///FontAwesomeBrands's diaspora icon
-  static const diaspora = FontAwesomeIconDataBrands(0xe96b);
+  /// FontAwesome's battery full solid Icon
+  static const battery_full_solid = FontAwesomeIconData(0xe96c);
 
-  ///FontAwesomeBrands's digg icon
-  static const digg = FontAwesomeIconDataBrands(0xe96c);
+  /// FontAwesome's battery half solid Icon
+  static const battery_half_solid = FontAwesomeIconData(0xe96d);
 
-  ///FontAwesomeBrands's digital_ocean icon
-  static const digital_ocean = FontAwesomeIconDataBrands(0xe96d);
+  /// FontAwesome's battery quarter solid Icon
+  static const battery_quarter_solid = FontAwesomeIconData(0xe96e);
 
-  ///FontAwesomeBrands's discord icon
-  static const discord = FontAwesomeIconDataBrands(0xe96e);
+  /// FontAwesome's battery three quarters solid Icon
+  static const battery_three_quarters_solid = FontAwesomeIconData(0xe96f);
 
-  ///FontAwesomeBrands's discourse icon
-  static const discourse = FontAwesomeIconDataBrands(0xe96f);
+  /// FontAwesome's bed solid Icon
+  static const bed_solid = FontAwesomeIconData(0xe970);
 
-  ///FontAwesomeBrands's dochub icon
-  static const dochub = FontAwesomeIconDataBrands(0xe970);
+  /// FontAwesome's bed pulse solid Icon
+  static const bed_pulse_solid = FontAwesomeIconData(0xe971);
 
-  ///FontAwesomeBrands's docker icon
-  static const docker = FontAwesomeIconDataBrands(0xe971);
+  /// FontAwesome's beer mug empty solid Icon
+  static const beer_mug_empty_solid = FontAwesomeIconData(0xe972);
 
-  ///FontAwesomeBrands's draft2digital icon
-  static const draft2digital = FontAwesomeIconDataBrands(0xe972);
+  /// FontAwesome's bell solid Icon
+  static const bell_solid = FontAwesomeIconData(0xe973);
 
-  ///FontAwesomeBrands's dribbble icon
-  static const dribbble = FontAwesomeIconDataBrands(0xe973);
+  /// FontAwesome's bell concierge solid Icon
+  static const bell_concierge_solid = FontAwesomeIconData(0xe974);
 
-  ///FontAwesomeBrands's dropbox icon
-  static const dropbox = FontAwesomeIconDataBrands(0xe974);
+  /// FontAwesome's bell slash solid Icon
+  static const bell_slash_solid = FontAwesomeIconData(0xe975);
 
-  ///FontAwesomeBrands's drupal icon
-  static const drupal = FontAwesomeIconDataBrands(0xe975);
+  /// FontAwesome's bezier curve solid Icon
+  static const bezier_curve_solid = FontAwesomeIconData(0xe976);
 
-  ///FontAwesomeBrands's dyalog icon
-  static const dyalog = FontAwesomeIconDataBrands(0xe976);
+  /// FontAwesome's bicycle solid Icon
+  static const bicycle_solid = FontAwesomeIconData(0xe977);
 
-  ///FontAwesomeBrands's earlybirds icon
-  static const earlybirds = FontAwesomeIconDataBrands(0xe977);
+  /// FontAwesome's binoculars solid Icon
+  static const binoculars_solid = FontAwesomeIconData(0xe978);
 
-  ///FontAwesomeBrands's ebay icon
-  static const ebay = FontAwesomeIconDataBrands(0xe978);
+  /// FontAwesome's biohazard solid Icon
+  static const biohazard_solid = FontAwesomeIconData(0xe979);
 
-  ///FontAwesomeBrands's edge icon
-  static const edge = FontAwesomeIconDataBrands(0xe979);
+  /// FontAwesome's bitcoin sign solid Icon
+  static const bitcoin_sign_solid = FontAwesomeIconData(0xe97a);
 
-  ///FontAwesomeBrands's edge_legacy icon
-  static const edge_legacy = FontAwesomeIconDataBrands(0xe97a);
+  /// FontAwesome's blender solid Icon
+  static const blender_solid = FontAwesomeIconData(0xe97b);
 
-  ///FontAwesomeBrands's elementor icon
-  static const elementor = FontAwesomeIconDataBrands(0xe97b);
+  /// FontAwesome's blender phone solid Icon
+  static const blender_phone_solid = FontAwesomeIconData(0xe97c);
 
-  ///FontAwesomeBrands's ello icon
-  static const ello = FontAwesomeIconDataBrands(0xe97c);
+  /// FontAwesome's blog solid Icon
+  static const blog_solid = FontAwesomeIconData(0xe97d);
 
-  ///FontAwesomeBrands's ember icon
-  static const ember = FontAwesomeIconDataBrands(0xe97d);
+  /// FontAwesome's bold solid Icon
+  static const bold_solid = FontAwesomeIconData(0xe97e);
 
-  ///FontAwesomeBrands's empire icon
-  static const empire = FontAwesomeIconDataBrands(0xe97e);
+  /// FontAwesome's bolt solid Icon
+  static const bolt_solid = FontAwesomeIconData(0xe97f);
 
-  ///FontAwesomeBrands's envira icon
-  static const envira = FontAwesomeIconDataBrands(0xe97f);
+  /// FontAwesome's bolt lightning solid Icon
+  static const bolt_lightning_solid = FontAwesomeIconData(0xe980);
 
-  ///FontAwesomeBrands's erlang icon
-  static const erlang = FontAwesomeIconDataBrands(0xe980);
+  /// FontAwesome's bomb solid Icon
+  static const bomb_solid = FontAwesomeIconData(0xe981);
 
-  ///FontAwesomeBrands's ethereum icon
-  static const ethereum = FontAwesomeIconDataBrands(0xe981);
+  /// FontAwesome's bone solid Icon
+  static const bone_solid = FontAwesomeIconData(0xe982);
 
-  ///FontAwesomeBrands's etsy icon
-  static const etsy = FontAwesomeIconDataBrands(0xe982);
+  /// FontAwesome's bong solid Icon
+  static const bong_solid = FontAwesomeIconData(0xe983);
 
-  ///FontAwesomeBrands's evernote icon
-  static const evernote = FontAwesomeIconDataBrands(0xe983);
+  /// FontAwesome's book solid Icon
+  static const book_solid = FontAwesomeIconData(0xe984);
 
-  ///FontAwesomeBrands's expeditedssl icon
-  static const expeditedssl = FontAwesomeIconDataBrands(0xe984);
+  /// FontAwesome's book atlas solid Icon
+  static const book_atlas_solid = FontAwesomeIconData(0xe985);
 
-  ///FontAwesomeBrands's facebook icon
-  static const facebook = FontAwesomeIconDataBrands(0xe985);
+  /// FontAwesome's book bible solid Icon
+  static const book_bible_solid = FontAwesomeIconData(0xe986);
 
-  ///FontAwesomeBrands's facebook_f icon
-  static const facebook_f = FontAwesomeIconDataBrands(0xe986);
+  /// FontAwesome's book bookmark solid Icon
+  static const book_bookmark_solid = FontAwesomeIconData(0xe987);
 
-  ///FontAwesomeBrands's facebook_messenger icon
-  static const facebook_messenger = FontAwesomeIconDataBrands(0xe987);
+  /// FontAwesome's book journal whills solid Icon
+  static const book_journal_whills_solid = FontAwesomeIconData(0xe988);
 
-  ///FontAwesomeBrands's fantasy_flight_games icon
-  static const fantasy_flight_games = FontAwesomeIconDataBrands(0xe988);
+  /// FontAwesome's bookmark solid Icon
+  static const bookmark_solid = FontAwesomeIconData(0xe989);
 
-  ///FontAwesomeBrands's fedex icon
-  static const fedex = FontAwesomeIconDataBrands(0xe989);
+  /// FontAwesome's book medical solid Icon
+  static const book_medical_solid = FontAwesomeIconData(0xe98a);
 
-  ///FontAwesomeBrands's fedora icon
-  static const fedora = FontAwesomeIconDataBrands(0xe98a);
+  /// FontAwesome's book open solid Icon
+  static const book_open_solid = FontAwesomeIconData(0xe98b);
 
-  ///FontAwesomeBrands's figma icon
-  static const figma = FontAwesomeIconDataBrands(0xe98b);
+  /// FontAwesome's book open reader solid Icon
+  static const book_open_reader_solid = FontAwesomeIconData(0xe98c);
 
-  ///FontAwesomeBrands's firefox icon
-  static const firefox = FontAwesomeIconDataBrands(0xe98c);
+  /// FontAwesome's book quran solid Icon
+  static const book_quran_solid = FontAwesomeIconData(0xe98d);
 
-  ///FontAwesomeBrands's firefox_browser icon
-  static const firefox_browser = FontAwesomeIconDataBrands(0xe98d);
+  /// FontAwesome's book skull solid Icon
+  static const book_skull_solid = FontAwesomeIconData(0xe98e);
 
-  ///FontAwesomeBrands's firstdraft icon
-  static const firstdraft = FontAwesomeIconDataBrands(0xe98e);
+  /// FontAwesome's book tanakh solid Icon
+  static const book_tanakh_solid = FontAwesomeIconData(0xe98f);
 
-  ///FontAwesomeBrands's first_order icon
-  static const first_order = FontAwesomeIconDataBrands(0xe98f);
+  /// FontAwesome's border all solid Icon
+  static const border_all_solid = FontAwesomeIconData(0xe990);
 
-  ///FontAwesomeBrands's first_order_alt icon
-  static const first_order_alt = FontAwesomeIconDataBrands(0xe990);
+  /// FontAwesome's border none solid Icon
+  static const border_none_solid = FontAwesomeIconData(0xe991);
 
-  ///FontAwesomeBrands's flickr icon
-  static const flickr = FontAwesomeIconDataBrands(0xe991);
+  /// FontAwesome's border top left solid Icon
+  static const border_top_left_solid = FontAwesomeIconData(0xe992);
 
-  ///FontAwesomeBrands's flipboard icon
-  static const flipboard = FontAwesomeIconDataBrands(0xe992);
+  /// FontAwesome's bore hole solid Icon
+  static const bore_hole_solid = FontAwesomeIconData(0xe993);
 
-  ///FontAwesomeBrands's fly icon
-  static const fly = FontAwesomeIconDataBrands(0xe993);
+  /// FontAwesome's bottle droplet solid Icon
+  static const bottle_droplet_solid = FontAwesomeIconData(0xe994);
 
-  ///FontAwesomeBrands's font_awesome icon
-  static const font_awesome = FontAwesomeIconDataBrands(0xe994);
+  /// FontAwesome's bottle water solid Icon
+  static const bottle_water_solid = FontAwesomeIconData(0xe995);
 
-  ///FontAwesomeBrands's fonticons icon
-  static const fonticons = FontAwesomeIconDataBrands(0xe995);
+  /// FontAwesome's bowl food solid Icon
+  static const bowl_food_solid = FontAwesomeIconData(0xe996);
 
-  ///FontAwesomeBrands's fonticons_fi icon
-  static const fonticons_fi = FontAwesomeIconDataBrands(0xe996);
+  /// FontAwesome's bowling ball solid Icon
+  static const bowling_ball_solid = FontAwesomeIconData(0xe997);
 
-  ///FontAwesomeBrands's fort_awesome icon
-  static const fort_awesome = FontAwesomeIconDataBrands(0xe997);
+  /// FontAwesome's bowl rice solid Icon
+  static const bowl_rice_solid = FontAwesomeIconData(0xe998);
 
-  ///FontAwesomeBrands's fort_awesome_alt icon
-  static const fort_awesome_alt = FontAwesomeIconDataBrands(0xe998);
+  /// FontAwesome's box solid Icon
+  static const box_solid = FontAwesomeIconData(0xe999);
 
-  ///FontAwesomeBrands's forumbee icon
-  static const forumbee = FontAwesomeIconDataBrands(0xe999);
+  /// FontAwesome's box archive solid Icon
+  static const box_archive_solid = FontAwesomeIconData(0xe99a);
 
-  ///FontAwesomeBrands's foursquare icon
-  static const foursquare = FontAwesomeIconDataBrands(0xe99a);
+  /// FontAwesome's boxes packing solid Icon
+  static const boxes_packing_solid = FontAwesomeIconData(0xe99b);
 
-  ///FontAwesomeBrands's freebsd icon
-  static const freebsd = FontAwesomeIconDataBrands(0xe99b);
+  /// FontAwesome's boxes stacked solid Icon
+  static const boxes_stacked_solid = FontAwesomeIconData(0xe99c);
 
-  ///FontAwesomeBrands's free_code_camp icon
-  static const free_code_camp = FontAwesomeIconDataBrands(0xe99c);
+  /// FontAwesome's box open solid Icon
+  static const box_open_solid = FontAwesomeIconData(0xe99d);
 
-  ///FontAwesomeBrands's fulcrum icon
-  static const fulcrum = FontAwesomeIconDataBrands(0xe99d);
+  /// FontAwesome's box tissue solid Icon
+  static const box_tissue_solid = FontAwesomeIconData(0xe99e);
 
-  ///FontAwesomeBrands's galactic_republic icon
-  static const galactic_republic = FontAwesomeIconDataBrands(0xe99e);
+  /// FontAwesome's braille solid Icon
+  static const braille_solid = FontAwesomeIconData(0xe99f);
 
-  ///FontAwesomeBrands's galactic_senate icon
-  static const galactic_senate = FontAwesomeIconDataBrands(0xe99f);
+  /// FontAwesome's brain solid Icon
+  static const brain_solid = FontAwesomeIconData(0xe9a0);
 
-  ///FontAwesomeBrands's get_pocket icon
-  static const get_pocket = FontAwesomeIconDataBrands(0xe9a0);
+  /// FontAwesome's brazilian real sign solid Icon
+  static const brazilian_real_sign_solid = FontAwesomeIconData(0xe9a1);
 
-  ///FontAwesomeBrands's gg icon
-  static const gg = FontAwesomeIconDataBrands(0xe9a1);
+  /// FontAwesome's bread slice solid Icon
+  static const bread_slice_solid = FontAwesomeIconData(0xe9a2);
 
-  ///FontAwesomeBrands's gg_circle icon
-  static const gg_circle = FontAwesomeIconDataBrands(0xe9a2);
+  /// FontAwesome's bridge solid Icon
+  static const bridge_solid = FontAwesomeIconData(0xe9a3);
 
-  ///FontAwesomeBrands's git icon
-  static const git = FontAwesomeIconDataBrands(0xe9a3);
+  /// FontAwesome's bridge circle check solid Icon
+  static const bridge_circle_check_solid = FontAwesomeIconData(0xe9a4);
 
-  ///FontAwesomeBrands's git_alt icon
-  static const git_alt = FontAwesomeIconDataBrands(0xe9a4);
+  /// FontAwesome's bridge circle exclamation solid Icon
+  static const bridge_circle_exclamation_solid = FontAwesomeIconData(0xe9a5);
 
-  ///FontAwesomeBrands's github icon
-  static const github = FontAwesomeIconDataBrands(0xe9a5);
+  /// FontAwesome's bridge circle xmark solid Icon
+  static const bridge_circle_xmark_solid = FontAwesomeIconData(0xe9a6);
 
-  ///FontAwesomeBrands's github_alt icon
-  static const github_alt = FontAwesomeIconDataBrands(0xe9a6);
+  /// FontAwesome's bridge lock solid Icon
+  static const bridge_lock_solid = FontAwesomeIconData(0xe9a7);
 
-  ///FontAwesomeBrands's gitkraken icon
-  static const gitkraken = FontAwesomeIconDataBrands(0xe9a7);
+  /// FontAwesome's bridge water solid Icon
+  static const bridge_water_solid = FontAwesomeIconData(0xe9a8);
 
-  ///FontAwesomeBrands's gitlab icon
-  static const gitlab = FontAwesomeIconDataBrands(0xe9a8);
+  /// FontAwesome's briefcase solid Icon
+  static const briefcase_solid = FontAwesomeIconData(0xe9a9);
 
-  ///FontAwesomeBrands's gitter icon
-  static const gitter = FontAwesomeIconDataBrands(0xe9a9);
+  /// FontAwesome's briefcase medical solid Icon
+  static const briefcase_medical_solid = FontAwesomeIconData(0xe9aa);
 
-  ///FontAwesomeBrands's glide icon
-  static const glide = FontAwesomeIconDataBrands(0xe9aa);
+  /// FontAwesome's broom solid Icon
+  static const broom_solid = FontAwesomeIconData(0xe9ab);
 
-  ///FontAwesomeBrands's glide_g icon
-  static const glide_g = FontAwesomeIconDataBrands(0xe9ab);
+  /// FontAwesome's broom ball solid Icon
+  static const broom_ball_solid = FontAwesomeIconData(0xe9ac);
 
-  ///FontAwesomeBrands's gofore icon
-  static const gofore = FontAwesomeIconDataBrands(0xe9ac);
+  /// FontAwesome's brush solid Icon
+  static const brush_solid = FontAwesomeIconData(0xe9ad);
 
-  ///FontAwesomeBrands's golang icon
-  static const golang = FontAwesomeIconDataBrands(0xe9ad);
+  /// FontAwesome's bucket solid Icon
+  static const bucket_solid = FontAwesomeIconData(0xe9ae);
 
-  ///FontAwesomeBrands's goodreads icon
-  static const goodreads = FontAwesomeIconDataBrands(0xe9ae);
+  /// FontAwesome's bug solid Icon
+  static const bug_solid = FontAwesomeIconData(0xe9af);
 
-  ///FontAwesomeBrands's goodreads_g icon
-  static const goodreads_g = FontAwesomeIconDataBrands(0xe9af);
+  /// FontAwesome's bugs solid Icon
+  static const bugs_solid = FontAwesomeIconData(0xe9b0);
 
-  ///FontAwesomeBrands's google icon
-  static const google = FontAwesomeIconDataBrands(0xe9b0);
+  /// FontAwesome's bug slash solid Icon
+  static const bug_slash_solid = FontAwesomeIconData(0xe9b1);
 
-  ///FontAwesomeBrands's google_drive icon
-  static const google_drive = FontAwesomeIconDataBrands(0xe9b1);
+  /// FontAwesome's building solid Icon
+  static const building_solid = FontAwesomeIconData(0xe9b2);
 
-  ///FontAwesomeBrands's google_pay icon
-  static const google_pay = FontAwesomeIconDataBrands(0xe9b2);
+  /// FontAwesome's building circle arrow right solid Icon
+  static const building_circle_arrow_right_solid = FontAwesomeIconData(0xe9b3);
 
-  ///FontAwesomeBrands's google_play icon
-  static const google_play = FontAwesomeIconDataBrands(0xe9b3);
+  /// FontAwesome's building circle check solid Icon
+  static const building_circle_check_solid = FontAwesomeIconData(0xe9b4);
 
-  ///FontAwesomeBrands's google_plus icon
-  static const google_plus = FontAwesomeIconDataBrands(0xe9b4);
+  /// FontAwesome's building circle exclamation solid Icon
+  static const building_circle_exclamation_solid = FontAwesomeIconData(0xe9b5);
 
-  ///FontAwesomeBrands's google_plus_g icon
-  static const google_plus_g = FontAwesomeIconDataBrands(0xe9b5);
+  /// FontAwesome's building circle xmark solid Icon
+  static const building_circle_xmark_solid = FontAwesomeIconData(0xe9b6);
 
-  ///FontAwesomeBrands's google_wallet icon
-  static const google_wallet = FontAwesomeIconDataBrands(0xe9b6);
+  /// FontAwesome's building columns solid Icon
+  static const building_columns_solid = FontAwesomeIconData(0xe9b7);
 
-  ///FontAwesomeBrands's gratipay icon
-  static const gratipay = FontAwesomeIconDataBrands(0xe9b7);
+  /// FontAwesome's building flag solid Icon
+  static const building_flag_solid = FontAwesomeIconData(0xe9b8);
 
-  ///FontAwesomeBrands's grav icon
-  static const grav = FontAwesomeIconDataBrands(0xe9b8);
+  /// FontAwesome's building lock solid Icon
+  static const building_lock_solid = FontAwesomeIconData(0xe9b9);
 
-  ///FontAwesomeBrands's gripfire icon
-  static const gripfire = FontAwesomeIconDataBrands(0xe9b9);
+  /// FontAwesome's building ngo solid Icon
+  static const building_ngo_solid = FontAwesomeIconData(0xe9ba);
 
-  ///FontAwesomeBrands's grunt icon
-  static const grunt = FontAwesomeIconDataBrands(0xe9ba);
+  /// FontAwesome's building shield solid Icon
+  static const building_shield_solid = FontAwesomeIconData(0xe9bb);
 
-  ///FontAwesomeBrands's guilded icon
-  static const guilded = FontAwesomeIconDataBrands(0xe9bb);
+  /// FontAwesome's building un solid Icon
+  static const building_un_solid = FontAwesomeIconData(0xe9bc);
 
-  ///FontAwesomeBrands's gulp icon
-  static const gulp = FontAwesomeIconDataBrands(0xe9bc);
+  /// FontAwesome's building user solid Icon
+  static const building_user_solid = FontAwesomeIconData(0xe9bd);
 
-  ///FontAwesomeBrands's hacker_news icon
-  static const hacker_news = FontAwesomeIconDataBrands(0xe9bd);
+  /// FontAwesome's building wheat solid Icon
+  static const building_wheat_solid = FontAwesomeIconData(0xe9be);
 
-  ///FontAwesomeBrands's hackerrank icon
-  static const hackerrank = FontAwesomeIconDataBrands(0xe9be);
+  /// FontAwesome's bullhorn solid Icon
+  static const bullhorn_solid = FontAwesomeIconData(0xe9bf);
 
-  ///FontAwesomeBrands's hashnode icon
-  static const hashnode = FontAwesomeIconDataBrands(0xe9bf);
+  /// FontAwesome's bullseye solid Icon
+  static const bullseye_solid = FontAwesomeIconData(0xe9c0);
 
-  ///FontAwesomeBrands's hips icon
-  static const hips = FontAwesomeIconDataBrands(0xe9c0);
+  /// FontAwesome's burger solid Icon
+  static const burger_solid = FontAwesomeIconData(0xe9c1);
 
-  ///FontAwesomeBrands's hire_a_helper icon
-  static const hire_a_helper = FontAwesomeIconDataBrands(0xe9c1);
+  /// FontAwesome's burst solid Icon
+  static const burst_solid = FontAwesomeIconData(0xe9c2);
 
-  ///FontAwesomeBrands's hive icon
-  static const hive = FontAwesomeIconDataBrands(0xe9c2);
+  /// FontAwesome's bus solid Icon
+  static const bus_solid = FontAwesomeIconData(0xe9c3);
 
-  ///FontAwesomeBrands's hooli icon
-  static const hooli = FontAwesomeIconDataBrands(0xe9c3);
+  /// FontAwesome's business time solid Icon
+  static const business_time_solid = FontAwesomeIconData(0xe9c4);
 
-  ///FontAwesomeBrands's hornbill icon
-  static const hornbill = FontAwesomeIconDataBrands(0xe9c4);
+  /// FontAwesome's bus simple solid Icon
+  static const bus_simple_solid = FontAwesomeIconData(0xe9c5);
 
-  ///FontAwesomeBrands's hotjar icon
-  static const hotjar = FontAwesomeIconDataBrands(0xe9c5);
+  /// FontAwesome's c solid Icon
+  static const c_solid = FontAwesomeIconData(0xe9c6);
 
-  ///FontAwesomeBrands's houzz icon
-  static const houzz = FontAwesomeIconDataBrands(0xe9c6);
+  /// FontAwesome's cable car solid Icon
+  static const cable_car_solid = FontAwesomeIconData(0xe9c7);
 
-  ///FontAwesomeBrands's html5 icon
-  static const html5 = FontAwesomeIconDataBrands(0xe9c7);
+  /// FontAwesome's cake candles solid Icon
+  static const cake_candles_solid = FontAwesomeIconData(0xe9c8);
 
-  ///FontAwesomeBrands's hubspot icon
-  static const hubspot = FontAwesomeIconDataBrands(0xe9c8);
+  /// FontAwesome's calculator solid Icon
+  static const calculator_solid = FontAwesomeIconData(0xe9c9);
 
-  ///FontAwesomeBrands's ideal icon
-  static const ideal = FontAwesomeIconDataBrands(0xe9c9);
+  /// FontAwesome's calendar solid Icon
+  static const calendar_solid = FontAwesomeIconData(0xe9ca);
 
-  ///FontAwesomeBrands's imdb icon
-  static const imdb = FontAwesomeIconDataBrands(0xe9ca);
+  /// FontAwesome's calendar check solid Icon
+  static const calendar_check_solid = FontAwesomeIconData(0xe9cb);
 
-  ///FontAwesomeBrands's instagram icon
-  static const instagram = FontAwesomeIconDataBrands(0xe9cb);
+  /// FontAwesome's calendar day solid Icon
+  static const calendar_day_solid = FontAwesomeIconData(0xe9cc);
 
-  ///FontAwesomeBrands's instalod icon
-  static const instalod = FontAwesomeIconDataBrands(0xe9cc);
+  /// FontAwesome's calendar days solid Icon
+  static const calendar_days_solid = FontAwesomeIconData(0xe9cd);
 
-  ///FontAwesomeBrands's intercom icon
-  static const intercom = FontAwesomeIconDataBrands(0xe9cd);
+  /// FontAwesome's calendar minus solid Icon
+  static const calendar_minus_solid = FontAwesomeIconData(0xe9ce);
 
-  ///FontAwesomeBrands's internet_explorer icon
-  static const internet_explorer = FontAwesomeIconDataBrands(0xe9ce);
+  /// FontAwesome's calendar plus solid Icon
+  static const calendar_plus_solid = FontAwesomeIconData(0xe9cf);
 
-  ///FontAwesomeBrands's invision icon
-  static const invision = FontAwesomeIconDataBrands(0xe9cf);
+  /// FontAwesome's calendar week solid Icon
+  static const calendar_week_solid = FontAwesomeIconData(0xe9d0);
 
-  ///FontAwesomeBrands's ioxhost icon
-  static const ioxhost = FontAwesomeIconDataBrands(0xe9d0);
+  /// FontAwesome's calendar xmark solid Icon
+  static const calendar_xmark_solid = FontAwesomeIconData(0xe9d1);
 
-  ///FontAwesomeBrands's itch_io icon
-  static const itch_io = FontAwesomeIconDataBrands(0xe9d1);
+  /// FontAwesome's camera solid Icon
+  static const camera_solid = FontAwesomeIconData(0xe9d2);
 
-  ///FontAwesomeBrands's itunes icon
-  static const itunes = FontAwesomeIconDataBrands(0xe9d2);
+  /// FontAwesome's camera retro solid Icon
+  static const camera_retro_solid = FontAwesomeIconData(0xe9d3);
 
-  ///FontAwesomeBrands's itunes_note icon
-  static const itunes_note = FontAwesomeIconDataBrands(0xe9d3);
+  /// FontAwesome's camera rotate solid Icon
+  static const camera_rotate_solid = FontAwesomeIconData(0xe9d4);
 
-  ///FontAwesomeBrands's java icon
-  static const java = FontAwesomeIconDataBrands(0xe9d4);
+  /// FontAwesome's campground solid Icon
+  static const campground_solid = FontAwesomeIconData(0xe9d5);
 
-  ///FontAwesomeBrands's jedi_order icon
-  static const jedi_order = FontAwesomeIconDataBrands(0xe9d5);
+  /// FontAwesome's candy cane solid Icon
+  static const candy_cane_solid = FontAwesomeIconData(0xe9d6);
 
-  ///FontAwesomeBrands's jenkins icon
-  static const jenkins = FontAwesomeIconDataBrands(0xe9d6);
+  /// FontAwesome's cannabis solid Icon
+  static const cannabis_solid = FontAwesomeIconData(0xe9d7);
 
-  ///FontAwesomeBrands's jira icon
-  static const jira = FontAwesomeIconDataBrands(0xe9d7);
+  /// FontAwesome's capsules solid Icon
+  static const capsules_solid = FontAwesomeIconData(0xe9d8);
 
-  ///FontAwesomeBrands's joget icon
-  static const joget = FontAwesomeIconDataBrands(0xe9d8);
+  /// FontAwesome's car solid Icon
+  static const car_solid = FontAwesomeIconData(0xe9d9);
 
-  ///FontAwesomeBrands's joomla icon
-  static const joomla = FontAwesomeIconDataBrands(0xe9d9);
+  /// FontAwesome's caravan solid Icon
+  static const caravan_solid = FontAwesomeIconData(0xe9da);
 
-  ///FontAwesomeBrands's js icon
-  static const js = FontAwesomeIconDataBrands(0xe9da);
+  /// FontAwesome's car battery solid Icon
+  static const car_battery_solid = FontAwesomeIconData(0xe9db);
 
-  ///FontAwesomeBrands's jsfiddle icon
-  static const jsfiddle = FontAwesomeIconDataBrands(0xe9db);
+  /// FontAwesome's car burst solid Icon
+  static const car_burst_solid = FontAwesomeIconData(0xe9dc);
 
-  ///FontAwesomeBrands's kaggle icon
-  static const kaggle = FontAwesomeIconDataBrands(0xe9dc);
+  /// FontAwesome's caret down solid Icon
+  static const caret_down_solid = FontAwesomeIconData(0xe9dd);
 
-  ///FontAwesomeBrands's keybase icon
-  static const keybase = FontAwesomeIconDataBrands(0xe9dd);
+  /// FontAwesome's caret left solid Icon
+  static const caret_left_solid = FontAwesomeIconData(0xe9de);
 
-  ///FontAwesomeBrands's keycdn icon
-  static const keycdn = FontAwesomeIconDataBrands(0xe9de);
+  /// FontAwesome's caret right solid Icon
+  static const caret_right_solid = FontAwesomeIconData(0xe9df);
 
-  ///FontAwesomeBrands's kickstarter icon
-  static const kickstarter = FontAwesomeIconDataBrands(0xe9df);
+  /// FontAwesome's caret up solid Icon
+  static const caret_up_solid = FontAwesomeIconData(0xe9e0);
 
-  ///FontAwesomeBrands's kickstarter_k icon
-  static const kickstarter_k = FontAwesomeIconDataBrands(0xe9e0);
+  /// FontAwesome's car on solid Icon
+  static const car_on_solid = FontAwesomeIconData(0xe9e1);
 
-  ///FontAwesomeBrands's korvue icon
-  static const korvue = FontAwesomeIconDataBrands(0xe9e1);
+  /// FontAwesome's car rear solid Icon
+  static const car_rear_solid = FontAwesomeIconData(0xe9e2);
 
-  ///FontAwesomeBrands's laravel icon
-  static const laravel = FontAwesomeIconDataBrands(0xe9e2);
+  /// FontAwesome's carrot solid Icon
+  static const carrot_solid = FontAwesomeIconData(0xe9e3);
 
-  ///FontAwesomeBrands's lastfm icon
-  static const lastfm = FontAwesomeIconDataBrands(0xe9e3);
+  /// FontAwesome's car side solid Icon
+  static const car_side_solid = FontAwesomeIconData(0xe9e4);
 
-  ///FontAwesomeBrands's leanpub icon
-  static const leanpub = FontAwesomeIconDataBrands(0xe9e4);
+  /// FontAwesome's cart arrow down solid Icon
+  static const cart_arrow_down_solid = FontAwesomeIconData(0xe9e5);
 
-  ///FontAwesomeBrands's less icon
-  static const less = FontAwesomeIconDataBrands(0xe9e5);
+  /// FontAwesome's cart flatbed solid Icon
+  static const cart_flatbed_solid = FontAwesomeIconData(0xe9e6);
 
-  ///FontAwesomeBrands's line icon
-  static const line = FontAwesomeIconDataBrands(0xe9e6);
+  /// FontAwesome's cart flatbed suitcase solid Icon
+  static const cart_flatbed_suitcase_solid = FontAwesomeIconData(0xe9e7);
 
-  ///FontAwesomeBrands's linkedin icon
-  static const linkedin = FontAwesomeIconDataBrands(0xe9e7);
+  /// FontAwesome's cart plus solid Icon
+  static const cart_plus_solid = FontAwesomeIconData(0xe9e8);
 
-  ///FontAwesomeBrands's linkedin_in icon
-  static const linkedin_in = FontAwesomeIconDataBrands(0xe9e8);
+  /// FontAwesome's cart shopping solid Icon
+  static const cart_shopping_solid = FontAwesomeIconData(0xe9e9);
 
-  ///FontAwesomeBrands's linode icon
-  static const linode = FontAwesomeIconDataBrands(0xe9e9);
+  /// FontAwesome's car tunnel solid Icon
+  static const car_tunnel_solid = FontAwesomeIconData(0xe9ea);
 
-  ///FontAwesomeBrands's linux icon
-  static const linux = FontAwesomeIconDataBrands(0xe9ea);
+  /// FontAwesome's cash register solid Icon
+  static const cash_register_solid = FontAwesomeIconData(0xe9eb);
 
-  ///FontAwesomeBrands's lyft icon
-  static const lyft = FontAwesomeIconDataBrands(0xe9eb);
+  /// FontAwesome's cat solid Icon
+  static const cat_solid = FontAwesomeIconData(0xe9ec);
 
-  ///FontAwesomeBrands's magento icon
-  static const magento = FontAwesomeIconDataBrands(0xe9ec);
+  /// FontAwesome's cedi sign solid Icon
+  static const cedi_sign_solid = FontAwesomeIconData(0xe9ed);
 
-  ///FontAwesomeBrands's mailchimp icon
-  static const mailchimp = FontAwesomeIconDataBrands(0xe9ed);
+  /// FontAwesome's cent sign solid Icon
+  static const cent_sign_solid = FontAwesomeIconData(0xe9ee);
 
-  ///FontAwesomeBrands's mandalorian icon
-  static const mandalorian = FontAwesomeIconDataBrands(0xe9ee);
+  /// FontAwesome's certificate solid Icon
+  static const certificate_solid = FontAwesomeIconData(0xe9ef);
 
-  ///FontAwesomeBrands's markdown icon
-  static const markdown = FontAwesomeIconDataBrands(0xe9ef);
+  /// FontAwesome's chair solid Icon
+  static const chair_solid = FontAwesomeIconData(0xe9f0);
 
-  ///FontAwesomeBrands's mastodon icon
-  static const mastodon = FontAwesomeIconDataBrands(0xe9f0);
+  /// FontAwesome's chalkboard solid Icon
+  static const chalkboard_solid = FontAwesomeIconData(0xe9f1);
 
-  ///FontAwesomeBrands's maxcdn icon
-  static const maxcdn = FontAwesomeIconDataBrands(0xe9f1);
+  /// FontAwesome's chalkboard user solid Icon
+  static const chalkboard_user_solid = FontAwesomeIconData(0xe9f2);
 
-  ///FontAwesomeBrands's mdb icon
-  static const mdb = FontAwesomeIconDataBrands(0xe9f2);
+  /// FontAwesome's champagne glasses solid Icon
+  static const champagne_glasses_solid = FontAwesomeIconData(0xe9f3);
 
-  ///FontAwesomeBrands's medapps icon
-  static const medapps = FontAwesomeIconDataBrands(0xe9f3);
+  /// FontAwesome's charging station solid Icon
+  static const charging_station_solid = FontAwesomeIconData(0xe9f4);
 
-  ///FontAwesomeBrands's medium icon
-  static const medium = FontAwesomeIconDataBrands(0xe9f4);
+  /// FontAwesome's chart area solid Icon
+  static const chart_area_solid = FontAwesomeIconData(0xe9f5);
 
-  ///FontAwesomeBrands's medrt icon
-  static const medrt = FontAwesomeIconDataBrands(0xe9f5);
+  /// FontAwesome's chart bar solid Icon
+  static const chart_bar_solid = FontAwesomeIconData(0xe9f6);
 
-  ///FontAwesomeBrands's meetup icon
-  static const meetup = FontAwesomeIconDataBrands(0xe9f6);
+  /// FontAwesome's chart column solid Icon
+  static const chart_column_solid = FontAwesomeIconData(0xe9f7);
 
-  ///FontAwesomeBrands's megaport icon
-  static const megaport = FontAwesomeIconDataBrands(0xe9f7);
+  /// FontAwesome's chart gantt solid Icon
+  static const chart_gantt_solid = FontAwesomeIconData(0xe9f8);
 
-  ///FontAwesomeBrands's mendeley icon
-  static const mendeley = FontAwesomeIconDataBrands(0xe9f8);
+  /// FontAwesome's chart line solid Icon
+  static const chart_line_solid = FontAwesomeIconData(0xe9f9);
 
-  ///FontAwesomeBrands's meta icon
-  static const meta = FontAwesomeIconDataBrands(0xe9f9);
+  /// FontAwesome's chart pie solid Icon
+  static const chart_pie_solid = FontAwesomeIconData(0xe9fa);
 
-  ///FontAwesomeBrands's microblog icon
-  static const microblog = FontAwesomeIconDataBrands(0xe9fa);
+  /// FontAwesome's chart simple solid Icon
+  static const chart_simple_solid = FontAwesomeIconData(0xe9fb);
 
-  ///FontAwesomeBrands's microsoft icon
-  static const microsoft = FontAwesomeIconDataBrands(0xe9fb);
+  /// FontAwesome's check solid Icon
+  static const check_solid = FontAwesomeIconData(0xe9fc);
 
-  ///FontAwesomeBrands's mix icon
-  static const mix = FontAwesomeIconDataBrands(0xe9fc);
+  /// FontAwesome's check double solid Icon
+  static const check_double_solid = FontAwesomeIconData(0xe9fd);
 
-  ///FontAwesomeBrands's mixcloud icon
-  static const mixcloud = FontAwesomeIconDataBrands(0xe9fd);
+  /// FontAwesome's check to slot solid Icon
+  static const check_to_slot_solid = FontAwesomeIconData(0xe9fe);
 
-  ///FontAwesomeBrands's mixer icon
-  static const mixer = FontAwesomeIconDataBrands(0xe9fe);
+  /// FontAwesome's cheese solid Icon
+  static const cheese_solid = FontAwesomeIconData(0xe9ff);
 
-  ///FontAwesomeBrands's mizuni icon
-  static const mizuni = FontAwesomeIconDataBrands(0xe9ff);
+  /// FontAwesome's chess solid Icon
+  static const chess_solid = FontAwesomeIconData(0xea00);
 
-  ///FontAwesomeBrands's modx icon
-  static const modx = FontAwesomeIconDataBrands(0xea00);
+  /// FontAwesome's chess bishop solid Icon
+  static const chess_bishop_solid = FontAwesomeIconData(0xea01);
 
-  ///FontAwesomeBrands's monero icon
-  static const monero = FontAwesomeIconDataBrands(0xea01);
+  /// FontAwesome's chess board solid Icon
+  static const chess_board_solid = FontAwesomeIconData(0xea02);
 
-  ///FontAwesomeBrands's napster icon
-  static const napster = FontAwesomeIconDataBrands(0xea02);
+  /// FontAwesome's chess king solid Icon
+  static const chess_king_solid = FontAwesomeIconData(0xea03);
 
-  ///FontAwesomeBrands's neos icon
-  static const neos = FontAwesomeIconDataBrands(0xea03);
+  /// FontAwesome's chess knight solid Icon
+  static const chess_knight_solid = FontAwesomeIconData(0xea04);
 
-  ///FontAwesomeBrands's nfc_directional icon
-  static const nfc_directional = FontAwesomeIconDataBrands(0xea04);
+  /// FontAwesome's chess pawn solid Icon
+  static const chess_pawn_solid = FontAwesomeIconData(0xea05);
 
-  ///FontAwesomeBrands's nfc_symbol icon
-  static const nfc_symbol = FontAwesomeIconDataBrands(0xea05);
+  /// FontAwesome's chess queen solid Icon
+  static const chess_queen_solid = FontAwesomeIconData(0xea06);
 
-  ///FontAwesomeBrands's nimblr icon
-  static const nimblr = FontAwesomeIconDataBrands(0xea06);
+  /// FontAwesome's chess rook solid Icon
+  static const chess_rook_solid = FontAwesomeIconData(0xea07);
 
-  ///FontAwesomeBrands's node icon
-  static const node = FontAwesomeIconDataBrands(0xea07);
+  /// FontAwesome's chevron down solid Icon
+  static const chevron_down_solid = FontAwesomeIconData(0xea08);
 
-  ///FontAwesomeBrands's node_js icon
-  static const node_js = FontAwesomeIconDataBrands(0xea08);
+  /// FontAwesome's chevron left solid Icon
+  static const chevron_left_solid = FontAwesomeIconData(0xea09);
 
-  ///FontAwesomeBrands's npm icon
-  static const npm = FontAwesomeIconDataBrands(0xea09);
+  /// FontAwesome's chevron right solid Icon
+  static const chevron_right_solid = FontAwesomeIconData(0xea0a);
 
-  ///FontAwesomeBrands's ns8 icon
-  static const ns8 = FontAwesomeIconDataBrands(0xea0a);
+  /// FontAwesome's chevron up solid Icon
+  static const chevron_up_solid = FontAwesomeIconData(0xea0b);
 
-  ///FontAwesomeBrands's nutritionix icon
-  static const nutritionix = FontAwesomeIconDataBrands(0xea0b);
+  /// FontAwesome's child solid Icon
+  static const child_solid = FontAwesomeIconData(0xea0c);
 
-  ///FontAwesomeBrands's octopus_deploy icon
-  static const octopus_deploy = FontAwesomeIconDataBrands(0xea0c);
+  /// FontAwesome's child combatant solid Icon
+  static const child_combatant_solid = FontAwesomeIconData(0xea0d);
 
-  ///FontAwesomeBrands's odnoklassniki icon
-  static const odnoklassniki = FontAwesomeIconDataBrands(0xea0d);
+  /// FontAwesome's child dress solid Icon
+  static const child_dress_solid = FontAwesomeIconData(0xea0e);
 
-  ///FontAwesomeBrands's old_republic icon
-  static const old_republic = FontAwesomeIconDataBrands(0xea0e);
+  /// FontAwesome's child reaching solid Icon
+  static const child_reaching_solid = FontAwesomeIconData(0xea0f);
 
-  ///FontAwesomeBrands's opencart icon
-  static const opencart = FontAwesomeIconDataBrands(0xea0f);
+  /// FontAwesome's children solid Icon
+  static const children_solid = FontAwesomeIconData(0xea10);
 
-  ///FontAwesomeBrands's openid icon
-  static const openid = FontAwesomeIconDataBrands(0xea10);
+  /// FontAwesome's church solid Icon
+  static const church_solid = FontAwesomeIconData(0xea11);
 
-  ///FontAwesomeBrands's opera icon
-  static const opera = FontAwesomeIconDataBrands(0xea11);
+  /// FontAwesome's circle solid Icon
+  static const circle_solid = FontAwesomeIconData(0xea12);
 
-  ///FontAwesomeBrands's optin_monster icon
-  static const optin_monster = FontAwesomeIconDataBrands(0xea12);
+  /// FontAwesome's circle arrow down solid Icon
+  static const circle_arrow_down_solid = FontAwesomeIconData(0xea13);
 
-  ///FontAwesomeBrands's orcid icon
-  static const orcid = FontAwesomeIconDataBrands(0xea13);
+  /// FontAwesome's circle arrow left solid Icon
+  static const circle_arrow_left_solid = FontAwesomeIconData(0xea14);
 
-  ///FontAwesomeBrands's osi icon
-  static const osi = FontAwesomeIconDataBrands(0xea14);
+  /// FontAwesome's circle arrow right solid Icon
+  static const circle_arrow_right_solid = FontAwesomeIconData(0xea15);
 
-  ///FontAwesomeBrands's padlet icon
-  static const padlet = FontAwesomeIconDataBrands(0xea15);
+  /// FontAwesome's circle arrow up solid Icon
+  static const circle_arrow_up_solid = FontAwesomeIconData(0xea16);
 
-  ///FontAwesomeBrands's page4 icon
-  static const page4 = FontAwesomeIconDataBrands(0xea16);
+  /// FontAwesome's circle check solid Icon
+  static const circle_check_solid = FontAwesomeIconData(0xea17);
 
-  ///FontAwesomeBrands's pagelines icon
-  static const pagelines = FontAwesomeIconDataBrands(0xea17);
+  /// FontAwesome's circle chevron down solid Icon
+  static const circle_chevron_down_solid = FontAwesomeIconData(0xea18);
 
-  ///FontAwesomeBrands's palfed icon
-  static const palfed = FontAwesomeIconDataBrands(0xea18);
+  /// FontAwesome's circle chevron left solid Icon
+  static const circle_chevron_left_solid = FontAwesomeIconData(0xea19);
 
-  ///FontAwesomeBrands's patreon icon
-  static const patreon = FontAwesomeIconDataBrands(0xea19);
+  /// FontAwesome's circle chevron right solid Icon
+  static const circle_chevron_right_solid = FontAwesomeIconData(0xea1a);
 
-  ///FontAwesomeBrands's paypal icon
-  static const paypal = FontAwesomeIconDataBrands(0xea1a);
+  /// FontAwesome's circle chevron up solid Icon
+  static const circle_chevron_up_solid = FontAwesomeIconData(0xea1b);
 
-  ///FontAwesomeBrands's perbyte icon
-  static const perbyte = FontAwesomeIconDataBrands(0xea1b);
+  /// FontAwesome's circle dollar to slot solid Icon
+  static const circle_dollar_to_slot_solid = FontAwesomeIconData(0xea1c);
 
-  ///FontAwesomeBrands's periscope icon
-  static const periscope = FontAwesomeIconDataBrands(0xea1c);
+  /// FontAwesome's circle dot solid Icon
+  static const circle_dot_solid = FontAwesomeIconData(0xea1d);
 
-  ///FontAwesomeBrands's phabricator icon
-  static const phabricator = FontAwesomeIconDataBrands(0xea1d);
+  /// FontAwesome's circle down solid Icon
+  static const circle_down_solid = FontAwesomeIconData(0xea1e);
 
-  ///FontAwesomeBrands's phoenix_framework icon
-  static const phoenix_framework = FontAwesomeIconDataBrands(0xea1e);
+  /// FontAwesome's circle exclamation solid Icon
+  static const circle_exclamation_solid = FontAwesomeIconData(0xea1f);
 
-  ///FontAwesomeBrands's phoenix_squadron icon
-  static const phoenix_squadron = FontAwesomeIconDataBrands(0xea1f);
+  /// FontAwesome's circle h solid Icon
+  static const circle_h_solid = FontAwesomeIconData(0xea20);
 
-  ///FontAwesomeBrands's php icon
-  static const php = FontAwesomeIconDataBrands(0xea20);
+  /// FontAwesome's circle half stroke solid Icon
+  static const circle_half_stroke_solid = FontAwesomeIconData(0xea21);
 
-  ///FontAwesomeBrands's pied_piper icon
-  static const pied_piper = FontAwesomeIconDataBrands(0xea21);
+  /// FontAwesome's circle info solid Icon
+  static const circle_info_solid = FontAwesomeIconData(0xea22);
 
-  ///FontAwesomeBrands's pied_piper_alt icon
-  static const pied_piper_alt = FontAwesomeIconDataBrands(0xea22);
+  /// FontAwesome's circle left solid Icon
+  static const circle_left_solid = FontAwesomeIconData(0xea23);
 
-  ///FontAwesomeBrands's pied_piper_hat icon
-  static const pied_piper_hat = FontAwesomeIconDataBrands(0xea23);
+  /// FontAwesome's circle minus solid Icon
+  static const circle_minus_solid = FontAwesomeIconData(0xea24);
 
-  ///FontAwesomeBrands's pied_piper_pp icon
-  static const pied_piper_pp = FontAwesomeIconDataBrands(0xea24);
+  /// FontAwesome's circle nodes solid Icon
+  static const circle_nodes_solid = FontAwesomeIconData(0xea25);
 
-  ///FontAwesomeBrands's pinterest icon
-  static const pinterest = FontAwesomeIconDataBrands(0xea25);
+  /// FontAwesome's circle notch solid Icon
+  static const circle_notch_solid = FontAwesomeIconData(0xea26);
 
-  ///FontAwesomeBrands's pinterest_p icon
-  static const pinterest_p = FontAwesomeIconDataBrands(0xea26);
+  /// FontAwesome's circle pause solid Icon
+  static const circle_pause_solid = FontAwesomeIconData(0xea27);
 
-  ///FontAwesomeBrands's pix icon
-  static const pix = FontAwesomeIconDataBrands(0xea27);
+  /// FontAwesome's circle play solid Icon
+  static const circle_play_solid = FontAwesomeIconData(0xea28);
 
-  ///FontAwesomeBrands's playstation icon
-  static const playstation = FontAwesomeIconDataBrands(0xea28);
+  /// FontAwesome's circle plus solid Icon
+  static const circle_plus_solid = FontAwesomeIconData(0xea29);
 
-  ///FontAwesomeBrands's product_hunt icon
-  static const product_hunt = FontAwesomeIconDataBrands(0xea29);
+  /// FontAwesome's circle question solid Icon
+  static const circle_question_solid = FontAwesomeIconData(0xea2a);
 
-  ///FontAwesomeBrands's pushed icon
-  static const pushed = FontAwesomeIconDataBrands(0xea2a);
+  /// FontAwesome's circle radiation solid Icon
+  static const circle_radiation_solid = FontAwesomeIconData(0xea2b);
 
-  ///FontAwesomeBrands's python icon
-  static const python = FontAwesomeIconDataBrands(0xea2b);
+  /// FontAwesome's circle right solid Icon
+  static const circle_right_solid = FontAwesomeIconData(0xea2c);
 
-  ///FontAwesomeBrands's qq icon
-  static const qq = FontAwesomeIconDataBrands(0xea2c);
+  /// FontAwesome's circle stop solid Icon
+  static const circle_stop_solid = FontAwesomeIconData(0xea2d);
 
-  ///FontAwesomeBrands's quinscape icon
-  static const quinscape = FontAwesomeIconDataBrands(0xea2d);
+  /// FontAwesome's circle up solid Icon
+  static const circle_up_solid = FontAwesomeIconData(0xea2e);
 
-  ///FontAwesomeBrands's quora icon
-  static const quora = FontAwesomeIconDataBrands(0xea2e);
+  /// FontAwesome's circle user solid Icon
+  static const circle_user_solid = FontAwesomeIconData(0xea2f);
 
-  ///FontAwesomeBrands's raspberry_pi icon
-  static const raspberry_pi = FontAwesomeIconDataBrands(0xea2f);
+  /// FontAwesome's circle xmark solid Icon
+  static const circle_xmark_solid = FontAwesomeIconData(0xea30);
 
-  ///FontAwesomeBrands's ravelry icon
-  static const ravelry = FontAwesomeIconDataBrands(0xea30);
+  /// FontAwesome's city solid Icon
+  static const city_solid = FontAwesomeIconData(0xea31);
 
-  ///FontAwesomeBrands's react icon
-  static const react = FontAwesomeIconDataBrands(0xea31);
+  /// FontAwesome's clapperboard solid Icon
+  static const clapperboard_solid = FontAwesomeIconData(0xea32);
 
-  ///FontAwesomeBrands's reacteurope icon
-  static const reacteurope = FontAwesomeIconDataBrands(0xea32);
+  /// FontAwesome's clipboard solid Icon
+  static const clipboard_solid = FontAwesomeIconData(0xea33);
 
-  ///FontAwesomeBrands's readme icon
-  static const readme = FontAwesomeIconDataBrands(0xea33);
+  /// FontAwesome's clipboard check solid Icon
+  static const clipboard_check_solid = FontAwesomeIconData(0xea34);
 
-  ///FontAwesomeBrands's rebel icon
-  static const rebel = FontAwesomeIconDataBrands(0xea34);
+  /// FontAwesome's clipboard list solid Icon
+  static const clipboard_list_solid = FontAwesomeIconData(0xea35);
 
-  ///FontAwesomeBrands's reddit icon
-  static const reddit = FontAwesomeIconDataBrands(0xea35);
+  /// FontAwesome's clipboard question solid Icon
+  static const clipboard_question_solid = FontAwesomeIconData(0xea36);
 
-  ///FontAwesomeBrands's reddit_alien icon
-  static const reddit_alien = FontAwesomeIconDataBrands(0xea36);
+  /// FontAwesome's clipboard user solid Icon
+  static const clipboard_user_solid = FontAwesomeIconData(0xea37);
 
-  ///FontAwesomeBrands's redhat icon
-  static const redhat = FontAwesomeIconDataBrands(0xea37);
+  /// FontAwesome's clock solid Icon
+  static const clock_solid = FontAwesomeIconData(0xea38);
 
-  ///FontAwesomeBrands's red_river icon
-  static const red_river = FontAwesomeIconDataBrands(0xea38);
+  /// FontAwesome's clock rotate left solid Icon
+  static const clock_rotate_left_solid = FontAwesomeIconData(0xea39);
 
-  ///FontAwesomeBrands's renren icon
-  static const renren = FontAwesomeIconDataBrands(0xea39);
+  /// FontAwesome's clone solid Icon
+  static const clone_solid = FontAwesomeIconData(0xea3a);
 
-  ///FontAwesomeBrands's replyd icon
-  static const replyd = FontAwesomeIconDataBrands(0xea3a);
+  /// FontAwesome's closed captioning solid Icon
+  static const closed_captioning_solid = FontAwesomeIconData(0xea3b);
 
-  ///FontAwesomeBrands's researchgate icon
-  static const researchgate = FontAwesomeIconDataBrands(0xea3b);
+  /// FontAwesome's cloud solid Icon
+  static const cloud_solid = FontAwesomeIconData(0xea3c);
 
-  ///FontAwesomeBrands's resolving icon
-  static const resolving = FontAwesomeIconDataBrands(0xea3c);
+  /// FontAwesome's cloud arrow down solid Icon
+  static const cloud_arrow_down_solid = FontAwesomeIconData(0xea3d);
 
-  ///FontAwesomeBrands's rev icon
-  static const rev = FontAwesomeIconDataBrands(0xea3d);
+  /// FontAwesome's cloud arrow up solid Icon
+  static const cloud_arrow_up_solid = FontAwesomeIconData(0xea3e);
 
-  ///FontAwesomeBrands's rocketchat icon
-  static const rocketchat = FontAwesomeIconDataBrands(0xea3e);
+  /// FontAwesome's cloud bolt solid Icon
+  static const cloud_bolt_solid = FontAwesomeIconData(0xea3f);
 
-  ///FontAwesomeBrands's rockrms icon
-  static const rockrms = FontAwesomeIconDataBrands(0xea3f);
+  /// FontAwesome's cloud meatball solid Icon
+  static const cloud_meatball_solid = FontAwesomeIconData(0xea40);
 
-  ///FontAwesomeBrands's r_project icon
-  static const r_project = FontAwesomeIconDataBrands(0xea40);
+  /// FontAwesome's cloud moon solid Icon
+  static const cloud_moon_solid = FontAwesomeIconData(0xea41);
 
-  ///FontAwesomeBrands's rust icon
-  static const rust = FontAwesomeIconDataBrands(0xea41);
+  /// FontAwesome's cloud moon rain solid Icon
+  static const cloud_moon_rain_solid = FontAwesomeIconData(0xea42);
 
-  ///FontAwesomeBrands's safari icon
-  static const safari = FontAwesomeIconDataBrands(0xea42);
+  /// FontAwesome's cloud rain solid Icon
+  static const cloud_rain_solid = FontAwesomeIconData(0xea43);
 
-  ///FontAwesomeBrands's salesforce icon
-  static const salesforce = FontAwesomeIconDataBrands(0xea43);
+  /// FontAwesome's cloud showers heavy solid Icon
+  static const cloud_showers_heavy_solid = FontAwesomeIconData(0xea44);
 
-  ///FontAwesomeBrands's sass icon
-  static const sass = FontAwesomeIconDataBrands(0xea44);
+  /// FontAwesome's cloud showers water solid Icon
+  static const cloud_showers_water_solid = FontAwesomeIconData(0xea45);
 
-  ///FontAwesomeBrands's schlix icon
-  static const schlix = FontAwesomeIconDataBrands(0xea45);
+  /// FontAwesome's cloud sun solid Icon
+  static const cloud_sun_solid = FontAwesomeIconData(0xea46);
 
-  ///FontAwesomeBrands's screenpal icon
-  static const screenpal = FontAwesomeIconDataBrands(0xea46);
+  /// FontAwesome's cloud sun rain solid Icon
+  static const cloud_sun_rain_solid = FontAwesomeIconData(0xea47);
 
-  ///FontAwesomeBrands's scribd icon
-  static const scribd = FontAwesomeIconDataBrands(0xea47);
+  /// FontAwesome's clover solid Icon
+  static const clover_solid = FontAwesomeIconData(0xea48);
 
-  ///FontAwesomeBrands's searchengin icon
-  static const searchengin = FontAwesomeIconDataBrands(0xea48);
+  /// FontAwesome's code solid Icon
+  static const code_solid = FontAwesomeIconData(0xea49);
 
-  ///FontAwesomeBrands's sellcast icon
-  static const sellcast = FontAwesomeIconDataBrands(0xea49);
+  /// FontAwesome's code branch solid Icon
+  static const code_branch_solid = FontAwesomeIconData(0xea4a);
 
-  ///FontAwesomeBrands's sellsy icon
-  static const sellsy = FontAwesomeIconDataBrands(0xea4a);
+  /// FontAwesome's code commit solid Icon
+  static const code_commit_solid = FontAwesomeIconData(0xea4b);
 
-  ///FontAwesomeBrands's servicestack icon
-  static const servicestack = FontAwesomeIconDataBrands(0xea4b);
+  /// FontAwesome's code compare solid Icon
+  static const code_compare_solid = FontAwesomeIconData(0xea4c);
 
-  ///FontAwesomeBrands's shirtsinbulk icon
-  static const shirtsinbulk = FontAwesomeIconDataBrands(0xea4c);
+  /// FontAwesome's code fork solid Icon
+  static const code_fork_solid = FontAwesomeIconData(0xea4d);
 
-  ///FontAwesomeBrands's shopify icon
-  static const shopify = FontAwesomeIconDataBrands(0xea4d);
+  /// FontAwesome's code merge solid Icon
+  static const code_merge_solid = FontAwesomeIconData(0xea4e);
 
-  ///FontAwesomeBrands's shopware icon
-  static const shopware = FontAwesomeIconDataBrands(0xea4e);
+  /// FontAwesome's code pull request solid Icon
+  static const code_pull_request_solid = FontAwesomeIconData(0xea4f);
 
-  ///FontAwesomeBrands's simplybuilt icon
-  static const simplybuilt = FontAwesomeIconDataBrands(0xea4f);
+  /// FontAwesome's coins solid Icon
+  static const coins_solid = FontAwesomeIconData(0xea50);
 
-  ///FontAwesomeBrands's sistrix icon
-  static const sistrix = FontAwesomeIconDataBrands(0xea50);
+  /// FontAwesome's colon sign solid Icon
+  static const colon_sign_solid = FontAwesomeIconData(0xea51);
 
-  ///FontAwesomeBrands's sith icon
-  static const sith = FontAwesomeIconDataBrands(0xea51);
+  /// FontAwesome's comment solid Icon
+  static const comment_solid = FontAwesomeIconData(0xea52);
 
-  ///FontAwesomeBrands's sitrox icon
-  static const sitrox = FontAwesomeIconDataBrands(0xea52);
+  /// FontAwesome's comment dollar solid Icon
+  static const comment_dollar_solid = FontAwesomeIconData(0xea53);
 
-  ///FontAwesomeBrands's sketch icon
-  static const sketch = FontAwesomeIconDataBrands(0xea53);
+  /// FontAwesome's comment dots solid Icon
+  static const comment_dots_solid = FontAwesomeIconData(0xea54);
 
-  ///FontAwesomeBrands's skyatlas icon
-  static const skyatlas = FontAwesomeIconDataBrands(0xea54);
+  /// FontAwesome's comment medical solid Icon
+  static const comment_medical_solid = FontAwesomeIconData(0xea55);
 
-  ///FontAwesomeBrands's skype icon
-  static const skype = FontAwesomeIconDataBrands(0xea55);
+  /// FontAwesome's comments solid Icon
+  static const comments_solid = FontAwesomeIconData(0xea56);
 
-  ///FontAwesomeBrands's slack icon
-  static const slack = FontAwesomeIconDataBrands(0xea56);
+  /// FontAwesome's comments dollar solid Icon
+  static const comments_dollar_solid = FontAwesomeIconData(0xea57);
 
-  ///FontAwesomeBrands's slideshare icon
-  static const slideshare = FontAwesomeIconDataBrands(0xea57);
+  /// FontAwesome's comment slash solid Icon
+  static const comment_slash_solid = FontAwesomeIconData(0xea58);
 
-  ///FontAwesomeBrands's snapchat icon
-  static const snapchat = FontAwesomeIconDataBrands(0xea58);
+  /// FontAwesome's comment sms solid Icon
+  static const comment_sms_solid = FontAwesomeIconData(0xea59);
 
-  ///FontAwesomeBrands's soundcloud icon
-  static const soundcloud = FontAwesomeIconDataBrands(0xea59);
+  /// FontAwesome's compact disc solid Icon
+  static const compact_disc_solid = FontAwesomeIconData(0xea5a);
 
-  ///FontAwesomeBrands's sourcetree icon
-  static const sourcetree = FontAwesomeIconDataBrands(0xea5a);
+  /// FontAwesome's compass solid Icon
+  static const compass_solid = FontAwesomeIconData(0xea5b);
 
-  ///FontAwesomeBrands's space_awesome icon
-  static const space_awesome = FontAwesomeIconDataBrands(0xea5b);
+  /// FontAwesome's compass drafting solid Icon
+  static const compass_drafting_solid = FontAwesomeIconData(0xea5c);
 
-  ///FontAwesomeBrands's speakap icon
-  static const speakap = FontAwesomeIconDataBrands(0xea5c);
+  /// FontAwesome's compress solid Icon
+  static const compress_solid = FontAwesomeIconData(0xea5d);
 
-  ///FontAwesomeBrands's speaker_deck icon
-  static const speaker_deck = FontAwesomeIconDataBrands(0xea5d);
+  /// FontAwesome's computer solid Icon
+  static const computer_solid = FontAwesomeIconData(0xea5e);
 
-  ///FontAwesomeBrands's spotify icon
-  static const spotify = FontAwesomeIconDataBrands(0xea5e);
+  /// FontAwesome's computer mouse solid Icon
+  static const computer_mouse_solid = FontAwesomeIconData(0xea5f);
 
-  ///FontAwesomeBrands's square_behance icon
-  static const square_behance = FontAwesomeIconDataBrands(0xea5f);
+  /// FontAwesome's cookie solid Icon
+  static const cookie_solid = FontAwesomeIconData(0xea60);
 
-  ///FontAwesomeBrands's square_dribbble icon
-  static const square_dribbble = FontAwesomeIconDataBrands(0xea60);
+  /// FontAwesome's cookie bite solid Icon
+  static const cookie_bite_solid = FontAwesomeIconData(0xea61);
 
-  ///FontAwesomeBrands's square_facebook icon
-  static const square_facebook = FontAwesomeIconDataBrands(0xea61);
+  /// FontAwesome's copy solid Icon
+  static const copy_solid = FontAwesomeIconData(0xea62);
 
-  ///FontAwesomeBrands's square_font_awesome icon
-  static const square_font_awesome = FontAwesomeIconDataBrands(0xea62);
+  /// FontAwesome's copyright solid Icon
+  static const copyright_solid = FontAwesomeIconData(0xea63);
 
-  ///FontAwesomeBrands's square_font_awesome_stroke icon
-  static const square_font_awesome_stroke = FontAwesomeIconDataBrands(0xea63);
+  /// FontAwesome's couch solid Icon
+  static const couch_solid = FontAwesomeIconData(0xea64);
 
-  ///FontAwesomeBrands's square_git icon
-  static const square_git = FontAwesomeIconDataBrands(0xea64);
+  /// FontAwesome's cow solid Icon
+  static const cow_solid = FontAwesomeIconData(0xea65);
 
-  ///FontAwesomeBrands's square_github icon
-  static const square_github = FontAwesomeIconDataBrands(0xea65);
+  /// FontAwesome's credit card solid Icon
+  static const credit_card_solid = FontAwesomeIconData(0xea66);
 
-  ///FontAwesomeBrands's square_gitlab icon
-  static const square_gitlab = FontAwesomeIconDataBrands(0xea66);
+  /// FontAwesome's crop solid Icon
+  static const crop_solid = FontAwesomeIconData(0xea67);
 
-  ///FontAwesomeBrands's square_google_plus icon
-  static const square_google_plus = FontAwesomeIconDataBrands(0xea67);
+  /// FontAwesome's crop simple solid Icon
+  static const crop_simple_solid = FontAwesomeIconData(0xea68);
 
-  ///FontAwesomeBrands's square_hacker_news icon
-  static const square_hacker_news = FontAwesomeIconDataBrands(0xea68);
+  /// FontAwesome's cross solid Icon
+  static const cross_solid = FontAwesomeIconData(0xea69);
 
-  ///FontAwesomeBrands's square_instagram icon
-  static const square_instagram = FontAwesomeIconDataBrands(0xea69);
+  /// FontAwesome's crosshairs solid Icon
+  static const crosshairs_solid = FontAwesomeIconData(0xea6a);
 
-  ///FontAwesomeBrands's square_js icon
-  static const square_js = FontAwesomeIconDataBrands(0xea6a);
+  /// FontAwesome's crow solid Icon
+  static const crow_solid = FontAwesomeIconData(0xea6b);
 
-  ///FontAwesomeBrands's square_lastfm icon
-  static const square_lastfm = FontAwesomeIconDataBrands(0xea6b);
+  /// FontAwesome's crown solid Icon
+  static const crown_solid = FontAwesomeIconData(0xea6c);
 
-  ///FontAwesomeBrands's square_odnoklassniki icon
-  static const square_odnoklassniki = FontAwesomeIconDataBrands(0xea6c);
+  /// FontAwesome's crutch solid Icon
+  static const crutch_solid = FontAwesomeIconData(0xea6d);
 
-  ///FontAwesomeBrands's square_pied_piper icon
-  static const square_pied_piper = FontAwesomeIconDataBrands(0xea6d);
+  /// FontAwesome's cruzeiro sign solid Icon
+  static const cruzeiro_sign_solid = FontAwesomeIconData(0xea6e);
 
-  ///FontAwesomeBrands's square_pinterest icon
-  static const square_pinterest = FontAwesomeIconDataBrands(0xea6e);
+  /// FontAwesome's cube solid Icon
+  static const cube_solid = FontAwesomeIconData(0xea6f);
 
-  ///FontAwesomeBrands's square_reddit icon
-  static const square_reddit = FontAwesomeIconDataBrands(0xea6f);
+  /// FontAwesome's cubes solid Icon
+  static const cubes_solid = FontAwesomeIconData(0xea70);
 
-  ///FontAwesomeBrands's square_snapchat icon
-  static const square_snapchat = FontAwesomeIconDataBrands(0xea70);
+  /// FontAwesome's cubes stacked solid Icon
+  static const cubes_stacked_solid = FontAwesomeIconData(0xea71);
 
-  ///FontAwesomeBrands's squarespace icon
-  static const squarespace = FontAwesomeIconDataBrands(0xea71);
+  /// FontAwesome's d solid Icon
+  static const d_solid = FontAwesomeIconData(0xea72);
 
-  ///FontAwesomeBrands's square_steam icon
-  static const square_steam = FontAwesomeIconDataBrands(0xea72);
+  /// FontAwesome's database solid Icon
+  static const database_solid = FontAwesomeIconData(0xea73);
 
-  ///FontAwesomeBrands's square_tumblr icon
-  static const square_tumblr = FontAwesomeIconDataBrands(0xea73);
+  /// FontAwesome's delete left solid Icon
+  static const delete_left_solid = FontAwesomeIconData(0xea74);
 
-  ///FontAwesomeBrands's square_twitter icon
-  static const square_twitter = FontAwesomeIconDataBrands(0xea74);
+  /// FontAwesome's democrat solid Icon
+  static const democrat_solid = FontAwesomeIconData(0xea75);
 
-  ///FontAwesomeBrands's square_viadeo icon
-  static const square_viadeo = FontAwesomeIconDataBrands(0xea75);
+  /// FontAwesome's desktop solid Icon
+  static const desktop_solid = FontAwesomeIconData(0xea76);
 
-  ///FontAwesomeBrands's square_vimeo icon
-  static const square_vimeo = FontAwesomeIconDataBrands(0xea76);
+  /// FontAwesome's dharmachakra solid Icon
+  static const dharmachakra_solid = FontAwesomeIconData(0xea77);
 
-  ///FontAwesomeBrands's square_whatsapp icon
-  static const square_whatsapp = FontAwesomeIconDataBrands(0xea77);
+  /// FontAwesome's diagram next solid Icon
+  static const diagram_next_solid = FontAwesomeIconData(0xea78);
 
-  ///FontAwesomeBrands's square_xing icon
-  static const square_xing = FontAwesomeIconDataBrands(0xea78);
+  /// FontAwesome's diagram predecessor solid Icon
+  static const diagram_predecessor_solid = FontAwesomeIconData(0xea79);
 
-  ///FontAwesomeBrands's square_youtube icon
-  static const square_youtube = FontAwesomeIconDataBrands(0xea79);
+  /// FontAwesome's diagram project solid Icon
+  static const diagram_project_solid = FontAwesomeIconData(0xea7a);
 
-  ///FontAwesomeBrands's stack_exchange icon
-  static const stack_exchange = FontAwesomeIconDataBrands(0xea7a);
+  /// FontAwesome's diagram successor solid Icon
+  static const diagram_successor_solid = FontAwesomeIconData(0xea7b);
 
-  ///FontAwesomeBrands's stack_overflow icon
-  static const stack_overflow = FontAwesomeIconDataBrands(0xea7b);
+  /// FontAwesome's diamond solid Icon
+  static const diamond_solid = FontAwesomeIconData(0xea7c);
 
-  ///FontAwesomeBrands's stackpath icon
-  static const stackpath = FontAwesomeIconDataBrands(0xea7c);
+  /// FontAwesome's diamond turn right solid Icon
+  static const diamond_turn_right_solid = FontAwesomeIconData(0xea7d);
 
-  ///FontAwesomeBrands's staylinked icon
-  static const staylinked = FontAwesomeIconDataBrands(0xea7d);
+  /// FontAwesome's dice solid Icon
+  static const dice_solid = FontAwesomeIconData(0xea7e);
 
-  ///FontAwesomeBrands's steam icon
-  static const steam = FontAwesomeIconDataBrands(0xea7e);
+  /// FontAwesome's dice d6 solid Icon
+  static const dice_d6_solid = FontAwesomeIconData(0xea7f);
 
-  ///FontAwesomeBrands's steam_symbol icon
-  static const steam_symbol = FontAwesomeIconDataBrands(0xea7f);
+  /// FontAwesome's dice d20 solid Icon
+  static const dice_d20_solid = FontAwesomeIconData(0xea80);
 
-  ///FontAwesomeBrands's sticker_mule icon
-  static const sticker_mule = FontAwesomeIconDataBrands(0xea80);
+  /// FontAwesome's dice five solid Icon
+  static const dice_five_solid = FontAwesomeIconData(0xea81);
 
-  ///FontAwesomeBrands's strava icon
-  static const strava = FontAwesomeIconDataBrands(0xea81);
+  /// FontAwesome's dice four solid Icon
+  static const dice_four_solid = FontAwesomeIconData(0xea82);
 
-  ///FontAwesomeBrands's stripe icon
-  static const stripe = FontAwesomeIconDataBrands(0xea82);
+  /// FontAwesome's dice one solid Icon
+  static const dice_one_solid = FontAwesomeIconData(0xea83);
 
-  ///FontAwesomeBrands's stripe_s icon
-  static const stripe_s = FontAwesomeIconDataBrands(0xea83);
+  /// FontAwesome's dice six solid Icon
+  static const dice_six_solid = FontAwesomeIconData(0xea84);
 
-  ///FontAwesomeBrands's studiovinari icon
-  static const studiovinari = FontAwesomeIconDataBrands(0xea84);
+  /// FontAwesome's dice three solid Icon
+  static const dice_three_solid = FontAwesomeIconData(0xea85);
 
-  ///FontAwesomeBrands's stumbleupon icon
-  static const stumbleupon = FontAwesomeIconDataBrands(0xea85);
+  /// FontAwesome's dice two solid Icon
+  static const dice_two_solid = FontAwesomeIconData(0xea86);
 
-  ///FontAwesomeBrands's stumbleupon_circle icon
-  static const stumbleupon_circle = FontAwesomeIconDataBrands(0xea86);
+  /// FontAwesome's disease solid Icon
+  static const disease_solid = FontAwesomeIconData(0xea87);
 
-  ///FontAwesomeBrands's superpowers icon
-  static const superpowers = FontAwesomeIconDataBrands(0xea87);
+  /// FontAwesome's display solid Icon
+  static const display_solid = FontAwesomeIconData(0xea88);
 
-  ///FontAwesomeBrands's supple icon
-  static const supple = FontAwesomeIconDataBrands(0xea88);
+  /// FontAwesome's divide solid Icon
+  static const divide_solid = FontAwesomeIconData(0xea89);
 
-  ///FontAwesomeBrands's suse icon
-  static const suse = FontAwesomeIconDataBrands(0xea89);
+  /// FontAwesome's dna solid Icon
+  static const dna_solid = FontAwesomeIconData(0xea8a);
 
-  ///FontAwesomeBrands's swift icon
-  static const swift = FontAwesomeIconDataBrands(0xea8a);
+  /// FontAwesome's dog solid Icon
+  static const dog_solid = FontAwesomeIconData(0xea8b);
 
-  ///FontAwesomeBrands's symfony icon
-  static const symfony = FontAwesomeIconDataBrands(0xea8b);
+  /// FontAwesome's dollar sign solid Icon
+  static const dollar_sign_solid = FontAwesomeIconData(0xea8c);
 
-  ///FontAwesomeBrands's teamspeak icon
-  static const teamspeak = FontAwesomeIconDataBrands(0xea8c);
+  /// FontAwesome's dolly solid Icon
+  static const dolly_solid = FontAwesomeIconData(0xea8d);
 
-  ///FontAwesomeBrands's telegram icon
-  static const telegram = FontAwesomeIconDataBrands(0xea8d);
+  /// FontAwesome's dong sign solid Icon
+  static const dong_sign_solid = FontAwesomeIconData(0xea8e);
 
-  ///FontAwesomeBrands's tencent_weibo icon
-  static const tencent_weibo = FontAwesomeIconDataBrands(0xea8e);
+  /// FontAwesome's door closed solid Icon
+  static const door_closed_solid = FontAwesomeIconData(0xea8f);
 
-  ///FontAwesomeBrands's themeco icon
-  static const themeco = FontAwesomeIconDataBrands(0xea8f);
+  /// FontAwesome's door open solid Icon
+  static const door_open_solid = FontAwesomeIconData(0xea90);
 
-  ///FontAwesomeBrands's themeisle icon
-  static const themeisle = FontAwesomeIconDataBrands(0xea90);
+  /// FontAwesome's dove solid Icon
+  static const dove_solid = FontAwesomeIconData(0xea91);
 
-  ///FontAwesomeBrands's the_red_yeti icon
-  static const the_red_yeti = FontAwesomeIconDataBrands(0xea91);
+  /// FontAwesome's down left and up right to center solid Icon
+  static const down_left_and_up_right_to_center_solid =
+      FontAwesomeIconData(0xea92);
 
-  ///FontAwesomeBrands's think_peaks icon
-  static const think_peaks = FontAwesomeIconDataBrands(0xea92);
+  /// FontAwesome's download solid Icon
+  static const download_solid = FontAwesomeIconData(0xea93);
 
-  ///FontAwesomeBrands's tiktok icon
-  static const tiktok = FontAwesomeIconDataBrands(0xea93);
+  /// FontAwesome's down long solid Icon
+  static const down_long_solid = FontAwesomeIconData(0xea94);
 
-  ///FontAwesomeBrands's trade_federation icon
-  static const trade_federation = FontAwesomeIconDataBrands(0xea94);
+  /// FontAwesome's dragon solid Icon
+  static const dragon_solid = FontAwesomeIconData(0xea95);
 
-  ///FontAwesomeBrands's trello icon
-  static const trello = FontAwesomeIconDataBrands(0xea95);
+  /// FontAwesome's draw polygon solid Icon
+  static const draw_polygon_solid = FontAwesomeIconData(0xea96);
 
-  ///FontAwesomeBrands's tumblr icon
-  static const tumblr = FontAwesomeIconDataBrands(0xea96);
+  /// FontAwesome's droplet solid Icon
+  static const droplet_solid = FontAwesomeIconData(0xea97);
 
-  ///FontAwesomeBrands's twitch icon
-  static const twitch = FontAwesomeIconDataBrands(0xea97);
+  /// FontAwesome's droplet slash solid Icon
+  static const droplet_slash_solid = FontAwesomeIconData(0xea98);
 
-  ///FontAwesomeBrands's twitter icon
-  static const twitter = FontAwesomeIconDataBrands(0xea98);
+  /// FontAwesome's drum solid Icon
+  static const drum_solid = FontAwesomeIconData(0xea99);
 
-  ///FontAwesomeBrands's typo3 icon
-  static const typo3 = FontAwesomeIconDataBrands(0xea99);
+  /// FontAwesome's drum steelpan solid Icon
+  static const drum_steelpan_solid = FontAwesomeIconData(0xea9a);
 
-  ///FontAwesomeBrands's uber icon
-  static const uber = FontAwesomeIconDataBrands(0xea9a);
+  /// FontAwesome's drumstick bite solid Icon
+  static const drumstick_bite_solid = FontAwesomeIconData(0xea9b);
 
-  ///FontAwesomeBrands's ubuntu icon
-  static const ubuntu = FontAwesomeIconDataBrands(0xea9b);
+  /// FontAwesome's dumbbell solid Icon
+  static const dumbbell_solid = FontAwesomeIconData(0xea9c);
 
-  ///FontAwesomeBrands's uikit icon
-  static const uikit = FontAwesomeIconDataBrands(0xea9c);
+  /// FontAwesome's dumpster solid Icon
+  static const dumpster_solid = FontAwesomeIconData(0xea9d);
 
-  ///FontAwesomeBrands's umbraco icon
-  static const umbraco = FontAwesomeIconDataBrands(0xea9d);
+  /// FontAwesome's dumpster fire solid Icon
+  static const dumpster_fire_solid = FontAwesomeIconData(0xea9e);
 
-  ///FontAwesomeBrands's uncharted icon
-  static const uncharted = FontAwesomeIconDataBrands(0xea9e);
+  /// FontAwesome's dungeon solid Icon
+  static const dungeon_solid = FontAwesomeIconData(0xea9f);
 
-  ///FontAwesomeBrands's uniregistry icon
-  static const uniregistry = FontAwesomeIconDataBrands(0xea9f);
+  /// FontAwesome's e solid Icon
+  static const e_solid = FontAwesomeIconData(0xeaa0);
 
-  ///FontAwesomeBrands's unity icon
-  static const unity = FontAwesomeIconDataBrands(0xeaa0);
+  /// FontAwesome's ear deaf solid Icon
+  static const ear_deaf_solid = FontAwesomeIconData(0xeaa1);
 
-  ///FontAwesomeBrands's unsplash icon
-  static const unsplash = FontAwesomeIconDataBrands(0xeaa1);
+  /// FontAwesome's ear listen solid Icon
+  static const ear_listen_solid = FontAwesomeIconData(0xeaa2);
 
-  ///FontAwesomeBrands's untappd icon
-  static const untappd = FontAwesomeIconDataBrands(0xeaa2);
+  /// FontAwesome's earth africa solid Icon
+  static const earth_africa_solid = FontAwesomeIconData(0xeaa3);
 
-  ///FontAwesomeBrands's ups icon
-  static const ups = FontAwesomeIconDataBrands(0xeaa3);
+  /// FontAwesome's earth americas solid Icon
+  static const earth_americas_solid = FontAwesomeIconData(0xeaa4);
 
-  ///FontAwesomeBrands's usb icon
-  static const usb = FontAwesomeIconDataBrands(0xeaa4);
+  /// FontAwesome's earth asia solid Icon
+  static const earth_asia_solid = FontAwesomeIconData(0xeaa5);
 
-  ///FontAwesomeBrands's usps icon
-  static const usps = FontAwesomeIconDataBrands(0xeaa5);
+  /// FontAwesome's earth europe solid Icon
+  static const earth_europe_solid = FontAwesomeIconData(0xeaa6);
 
-  ///FontAwesomeBrands's ussunnah icon
-  static const ussunnah = FontAwesomeIconDataBrands(0xeaa6);
+  /// FontAwesome's earth oceania solid Icon
+  static const earth_oceania_solid = FontAwesomeIconData(0xeaa7);
 
-  ///FontAwesomeBrands's vaadin icon
-  static const vaadin = FontAwesomeIconDataBrands(0xeaa7);
+  /// FontAwesome's egg solid Icon
+  static const egg_solid = FontAwesomeIconData(0xeaa8);
 
-  ///FontAwesomeBrands's viacoin icon
-  static const viacoin = FontAwesomeIconDataBrands(0xeaa8);
+  /// FontAwesome's eject solid Icon
+  static const eject_solid = FontAwesomeIconData(0xeaa9);
 
-  ///FontAwesomeBrands's viadeo icon
-  static const viadeo = FontAwesomeIconDataBrands(0xeaa9);
+  /// FontAwesome's elevator solid Icon
+  static const elevator_solid = FontAwesomeIconData(0xeaaa);
 
-  ///FontAwesomeBrands's viber icon
-  static const viber = FontAwesomeIconDataBrands(0xeaaa);
+  /// FontAwesome's ellipsis solid Icon
+  static const ellipsis_solid = FontAwesomeIconData(0xeaab);
 
-  ///FontAwesomeBrands's vimeo icon
-  static const vimeo = FontAwesomeIconDataBrands(0xeaab);
+  /// FontAwesome's ellipsis vertical solid Icon
+  static const ellipsis_vertical_solid = FontAwesomeIconData(0xeaac);
 
-  ///FontAwesomeBrands's vimeo_v icon
-  static const vimeo_v = FontAwesomeIconDataBrands(0xeaac);
+  /// FontAwesome's envelope solid Icon
+  static const envelope_solid = FontAwesomeIconData(0xeaad);
 
-  ///FontAwesomeBrands's vine icon
-  static const vine = FontAwesomeIconDataBrands(0xeaad);
+  /// FontAwesome's envelope circle check solid Icon
+  static const envelope_circle_check_solid = FontAwesomeIconData(0xeaae);
 
-  ///FontAwesomeBrands's vk icon
-  static const vk = FontAwesomeIconDataBrands(0xeaae);
+  /// FontAwesome's envelope open solid Icon
+  static const envelope_open_solid = FontAwesomeIconData(0xeaaf);
 
-  ///FontAwesomeBrands's vnv icon
-  static const vnv = FontAwesomeIconDataBrands(0xeaaf);
+  /// FontAwesome's envelope open text solid Icon
+  static const envelope_open_text_solid = FontAwesomeIconData(0xeab0);
 
-  ///FontAwesomeBrands's vuejs icon
-  static const vuejs = FontAwesomeIconDataBrands(0xeab0);
+  /// FontAwesome's envelopes bulk solid Icon
+  static const envelopes_bulk_solid = FontAwesomeIconData(0xeab1);
 
-  ///FontAwesomeBrands's watchman_monitoring icon
-  static const watchman_monitoring = FontAwesomeIconDataBrands(0xeab1);
+  /// FontAwesome's equals solid Icon
+  static const equals_solid = FontAwesomeIconData(0xeab2);
 
-  ///FontAwesomeBrands's waze icon
-  static const waze = FontAwesomeIconDataBrands(0xeab2);
+  /// FontAwesome's eraser solid Icon
+  static const eraser_solid = FontAwesomeIconData(0xeab3);
 
-  ///FontAwesomeBrands's weebly icon
-  static const weebly = FontAwesomeIconDataBrands(0xeab3);
+  /// FontAwesome's ethernet solid Icon
+  static const ethernet_solid = FontAwesomeIconData(0xeab4);
 
-  ///FontAwesomeBrands's weibo icon
-  static const weibo = FontAwesomeIconDataBrands(0xeab4);
+  /// FontAwesome's euro sign solid Icon
+  static const euro_sign_solid = FontAwesomeIconData(0xeab5);
 
-  ///FontAwesomeBrands's weixin icon
-  static const weixin = FontAwesomeIconDataBrands(0xeab5);
+  /// FontAwesome's exclamation solid Icon
+  static const exclamation_solid = FontAwesomeIconData(0xeab6);
 
-  ///FontAwesomeBrands's whatsapp icon
-  static const whatsapp = FontAwesomeIconDataBrands(0xeab6);
+  /// FontAwesome's expand solid Icon
+  static const expand_solid = FontAwesomeIconData(0xeab7);
 
-  ///FontAwesomeBrands's whmcs icon
-  static const whmcs = FontAwesomeIconDataBrands(0xeab7);
+  /// FontAwesome's explosion solid Icon
+  static const explosion_solid = FontAwesomeIconData(0xeab8);
 
-  ///FontAwesomeBrands's wikipedia_w icon
-  static const wikipedia_w = FontAwesomeIconDataBrands(0xeab8);
+  /// FontAwesome's eye solid Icon
+  static const eye_solid = FontAwesomeIconData(0xeab9);
 
-  ///FontAwesomeBrands's windows icon
-  static const windows = FontAwesomeIconDataBrands(0xeab9);
+  /// FontAwesome's eye dropper solid Icon
+  static const eye_dropper_solid = FontAwesomeIconData(0xeaba);
 
-  ///FontAwesomeBrands's wirsindhandwerk icon
-  static const wirsindhandwerk = FontAwesomeIconDataBrands(0xeaba);
+  /// FontAwesome's eye low vision solid Icon
+  static const eye_low_vision_solid = FontAwesomeIconData(0xeabb);
 
-  ///FontAwesomeBrands's wix icon
-  static const wix = FontAwesomeIconDataBrands(0xeabb);
+  /// FontAwesome's eye slash solid Icon
+  static const eye_slash_solid = FontAwesomeIconData(0xeabc);
 
-  ///FontAwesomeBrands's wizards_of_the_coast icon
-  static const wizards_of_the_coast = FontAwesomeIconDataBrands(0xeabc);
+  /// FontAwesome's f solid Icon
+  static const f_solid = FontAwesomeIconData(0xeabd);
 
-  ///FontAwesomeBrands's wodu icon
-  static const wodu = FontAwesomeIconDataBrands(0xeabd);
+  /// FontAwesome's face angry solid Icon
+  static const face_angry_solid = FontAwesomeIconData(0xeabe);
 
-  ///FontAwesomeBrands's wolf_pack_battalion icon
-  static const wolf_pack_battalion = FontAwesomeIconDataBrands(0xeabe);
+  /// FontAwesome's face dizzy solid Icon
+  static const face_dizzy_solid = FontAwesomeIconData(0xeabf);
 
-  ///FontAwesomeBrands's wordpress icon
-  static const wordpress = FontAwesomeIconDataBrands(0xeabf);
+  /// FontAwesome's face flushed solid Icon
+  static const face_flushed_solid = FontAwesomeIconData(0xeac0);
 
-  ///FontAwesomeBrands's wordpress_simple icon
-  static const wordpress_simple = FontAwesomeIconDataBrands(0xeac0);
+  /// FontAwesome's face frown solid Icon
+  static const face_frown_solid = FontAwesomeIconData(0xeac1);
 
-  ///FontAwesomeBrands's wpbeginner icon
-  static const wpbeginner = FontAwesomeIconDataBrands(0xeac1);
+  /// FontAwesome's face frown open solid Icon
+  static const face_frown_open_solid = FontAwesomeIconData(0xeac2);
 
-  ///FontAwesomeBrands's wpexplorer icon
-  static const wpexplorer = FontAwesomeIconDataBrands(0xeac2);
+  /// FontAwesome's face grimace solid Icon
+  static const face_grimace_solid = FontAwesomeIconData(0xeac3);
 
-  ///FontAwesomeBrands's wpforms icon
-  static const wpforms = FontAwesomeIconDataBrands(0xeac3);
+  /// FontAwesome's face grin solid Icon
+  static const face_grin_solid = FontAwesomeIconData(0xeac4);
 
-  ///FontAwesomeBrands's wpressr icon
-  static const wpressr = FontAwesomeIconDataBrands(0xeac4);
+  /// FontAwesome's face grin beam solid Icon
+  static const face_grin_beam_solid = FontAwesomeIconData(0xeac5);
 
-  ///FontAwesomeBrands's xbox icon
-  static const xbox = FontAwesomeIconDataBrands(0xeac5);
+  /// FontAwesome's face grin beam sweat solid Icon
+  static const face_grin_beam_sweat_solid = FontAwesomeIconData(0xeac6);
 
-  ///FontAwesomeBrands's xing icon
-  static const xing = FontAwesomeIconDataBrands(0xeac6);
+  /// FontAwesome's face grin hearts solid Icon
+  static const face_grin_hearts_solid = FontAwesomeIconData(0xeac7);
 
-  ///FontAwesomeBrands's yahoo icon
-  static const yahoo = FontAwesomeIconDataBrands(0xeac7);
+  /// FontAwesome's face grin squint solid Icon
+  static const face_grin_squint_solid = FontAwesomeIconData(0xeac8);
 
-  ///FontAwesomeBrands's yammer icon
-  static const yammer = FontAwesomeIconDataBrands(0xeac8);
+  /// FontAwesome's face grin squint tears solid Icon
+  static const face_grin_squint_tears_solid = FontAwesomeIconData(0xeac9);
 
-  ///FontAwesomeBrands's yandex icon
-  static const yandex = FontAwesomeIconDataBrands(0xeac9);
+  /// FontAwesome's face grin stars solid Icon
+  static const face_grin_stars_solid = FontAwesomeIconData(0xeaca);
 
-  ///FontAwesomeBrands's yandex_international icon
-  static const yandex_international = FontAwesomeIconDataBrands(0xeaca);
+  /// FontAwesome's face grin tears solid Icon
+  static const face_grin_tears_solid = FontAwesomeIconData(0xeacb);
 
-  ///FontAwesomeBrands's yarn icon
-  static const yarn = FontAwesomeIconDataBrands(0xeacb);
+  /// FontAwesome's face grin tongue solid Icon
+  static const face_grin_tongue_solid = FontAwesomeIconData(0xeacc);
 
-  ///FontAwesomeBrands's y_combinator icon
-  static const y_combinator = FontAwesomeIconDataBrands(0xeacc);
+  /// FontAwesome's face grin tongue squint solid Icon
+  static const face_grin_tongue_squint_solid = FontAwesomeIconData(0xeacd);
 
-  ///FontAwesomeBrands's yelp icon
-  static const yelp = FontAwesomeIconDataBrands(0xeacd);
+  /// FontAwesome's face grin tongue wink solid Icon
+  static const face_grin_tongue_wink_solid = FontAwesomeIconData(0xeace);
 
-  ///FontAwesomeBrands's yoast icon
-  static const yoast = FontAwesomeIconDataBrands(0xeace);
+  /// FontAwesome's face grin wide solid Icon
+  static const face_grin_wide_solid = FontAwesomeIconData(0xeacf);
 
-  ///FontAwesomeBrands's youtube icon
-  static const youtube = FontAwesomeIconDataBrands(0xeacf);
+  /// FontAwesome's face grin wink solid Icon
+  static const face_grin_wink_solid = FontAwesomeIconData(0xead0);
 
-  ///FontAwesomeBrands's zhihu icon
-  static const zhihu = FontAwesomeIconDataBrands(0xead0);
+  /// FontAwesome's face kiss solid Icon
+  static const face_kiss_solid = FontAwesomeIconData(0xead1);
 
-  //FontAwesome - Regular
+  /// FontAwesome's face kiss beam solid Icon
+  static const face_kiss_beam_solid = FontAwesomeIconData(0xead2);
 
-  ///FontAwesomeRegular's address_book icon
-  static const address_book = FontAwesomeIconDataRegular(0xe900);
+  /// FontAwesome's face kiss wink heart solid Icon
+  static const face_kiss_wink_heart_solid = FontAwesomeIconData(0xead3);
 
-  ///FontAwesomeRegular's address_card icon
-  static const address_card = FontAwesomeIconDataRegular(0xe901);
+  /// FontAwesome's face laugh solid Icon
+  static const face_laugh_solid = FontAwesomeIconData(0xead4);
 
-  ///FontAwesomeRegular's bell icon
-  static const bell = FontAwesomeIconDataRegular(0xe902);
+  /// FontAwesome's face laugh beam solid Icon
+  static const face_laugh_beam_solid = FontAwesomeIconData(0xead5);
 
-  ///FontAwesomeRegular's bell_slash icon
-  static const bell_slash = FontAwesomeIconDataRegular(0xe903);
+  /// FontAwesome's face laugh squint solid Icon
+  static const face_laugh_squint_solid = FontAwesomeIconData(0xead6);
 
-  ///FontAwesomeRegular's bookmark icon
-  static const bookmark = FontAwesomeIconDataRegular(0xe904);
+  /// FontAwesome's face laugh wink solid Icon
+  static const face_laugh_wink_solid = FontAwesomeIconData(0xead7);
 
-  ///FontAwesomeRegular's building icon
-  static const building = FontAwesomeIconDataRegular(0xe905);
+  /// FontAwesome's face meh solid Icon
+  static const face_meh_solid = FontAwesomeIconData(0xead8);
 
-  ///FontAwesomeRegular's calendar icon
-  static const calendar = FontAwesomeIconDataRegular(0xe906);
+  /// FontAwesome's face meh blank solid Icon
+  static const face_meh_blank_solid = FontAwesomeIconData(0xead9);
 
-  ///FontAwesomeRegular's calendar_check icon
-  static const calendar_check = FontAwesomeIconDataRegular(0xe907);
+  /// FontAwesome's face rolling eyes solid Icon
+  static const face_rolling_eyes_solid = FontAwesomeIconData(0xeada);
 
-  ///FontAwesomeRegular's calendar_days icon
-  static const calendar_days = FontAwesomeIconDataRegular(0xe908);
+  /// FontAwesome's face sad cry solid Icon
+  static const face_sad_cry_solid = FontAwesomeIconData(0xeadb);
 
-  ///FontAwesomeRegular's calendar_minus icon
-  static const calendar_minus = FontAwesomeIconDataRegular(0xe909);
+  /// FontAwesome's face sad tear solid Icon
+  static const face_sad_tear_solid = FontAwesomeIconData(0xeadc);
 
-  ///FontAwesomeRegular's calendar_plus icon
-  static const calendar_plus = FontAwesomeIconDataRegular(0xe90a);
+  /// FontAwesome's face smile solid Icon
+  static const face_smile_solid = FontAwesomeIconData(0xeadd);
 
-  ///FontAwesomeRegular's calendar_xmark icon
-  static const calendar_xmark = FontAwesomeIconDataRegular(0xe90b);
+  /// FontAwesome's face smile beam solid Icon
+  static const face_smile_beam_solid = FontAwesomeIconData(0xeade);
 
-  ///FontAwesomeRegular's chart_bar icon
-  static const chart_bar = FontAwesomeIconDataRegular(0xe90c);
+  /// FontAwesome's face smile wink solid Icon
+  static const face_smile_wink_solid = FontAwesomeIconData(0xeadf);
 
-  ///FontAwesomeRegular's chess_bishop icon
-  static const chess_bishop = FontAwesomeIconDataRegular(0xe90d);
+  /// FontAwesome's face surprise solid Icon
+  static const face_surprise_solid = FontAwesomeIconData(0xeae0);
 
-  ///FontAwesomeRegular's chess_king icon
-  static const chess_king = FontAwesomeIconDataRegular(0xe90e);
+  /// FontAwesome's face tired solid Icon
+  static const face_tired_solid = FontAwesomeIconData(0xeae1);
 
-  ///FontAwesomeRegular's chess_knight icon
-  static const chess_knight = FontAwesomeIconDataRegular(0xe90f);
+  /// FontAwesome's fan solid Icon
+  static const fan_solid = FontAwesomeIconData(0xeae2);
 
-  ///FontAwesomeRegular's chess_pawn icon
-  static const chess_pawn = FontAwesomeIconDataRegular(0xe910);
+  /// FontAwesome's faucet solid Icon
+  static const faucet_solid = FontAwesomeIconData(0xeae3);
 
-  ///FontAwesomeRegular's chess_queen icon
-  static const chess_queen = FontAwesomeIconDataRegular(0xe911);
+  /// FontAwesome's faucet drip solid Icon
+  static const faucet_drip_solid = FontAwesomeIconData(0xeae4);
 
-  ///FontAwesomeRegular's chess_rook icon
-  static const chess_rook = FontAwesomeIconDataRegular(0xe912);
+  /// FontAwesome's fax solid Icon
+  static const fax_solid = FontAwesomeIconData(0xeae5);
 
-  ///FontAwesomeRegular's circle icon
-  static const circle = FontAwesomeIconDataRegular(0xe913);
+  /// FontAwesome's feather solid Icon
+  static const feather_solid = FontAwesomeIconData(0xeae6);
 
-  ///FontAwesomeRegular's circle_check icon
-  static const circle_check = FontAwesomeIconDataRegular(0xe914);
+  /// FontAwesome's feather pointed solid Icon
+  static const feather_pointed_solid = FontAwesomeIconData(0xeae7);
 
-  ///FontAwesomeRegular's circle_dot icon
-  static const circle_dot = FontAwesomeIconDataRegular(0xe915);
+  /// FontAwesome's ferry solid Icon
+  static const ferry_solid = FontAwesomeIconData(0xeae8);
 
-  ///FontAwesomeRegular's circle_down icon
-  static const circle_down = FontAwesomeIconDataRegular(0xe916);
+  /// FontAwesome's file solid Icon
+  static const file_solid = FontAwesomeIconData(0xeae9);
 
-  ///FontAwesomeRegular's circle_left icon
-  static const circle_left = FontAwesomeIconDataRegular(0xe917);
+  /// FontAwesome's file arrow down solid Icon
+  static const file_arrow_down_solid = FontAwesomeIconData(0xeaea);
 
-  ///FontAwesomeRegular's circle_pause icon
-  static const circle_pause = FontAwesomeIconDataRegular(0xe918);
+  /// FontAwesome's file arrow up solid Icon
+  static const file_arrow_up_solid = FontAwesomeIconData(0xeaeb);
 
-  ///FontAwesomeRegular's circle_play icon
-  static const circle_play = FontAwesomeIconDataRegular(0xe919);
+  /// FontAwesome's file audio solid Icon
+  static const file_audio_solid = FontAwesomeIconData(0xeaec);
 
-  ///FontAwesomeRegular's circle_question icon
-  static const circle_question = FontAwesomeIconDataRegular(0xe91a);
+  /// FontAwesome's file circle check solid Icon
+  static const file_circle_check_solid = FontAwesomeIconData(0xeaed);
 
-  ///FontAwesomeRegular's circle_right icon
-  static const circle_right = FontAwesomeIconDataRegular(0xe91b);
+  /// FontAwesome's file circle exclamation solid Icon
+  static const file_circle_exclamation_solid = FontAwesomeIconData(0xeaee);
 
-  ///FontAwesomeRegular's circle_stop icon
-  static const circle_stop = FontAwesomeIconDataRegular(0xe91c);
+  /// FontAwesome's file circle minus solid Icon
+  static const file_circle_minus_solid = FontAwesomeIconData(0xeaef);
 
-  ///FontAwesomeRegular's circle_up icon
-  static const circle_up = FontAwesomeIconDataRegular(0xe91d);
+  /// FontAwesome's file circle plus solid Icon
+  static const file_circle_plus_solid = FontAwesomeIconData(0xeaf0);
 
-  ///FontAwesomeRegular's circle_user icon
-  static const circle_user = FontAwesomeIconDataRegular(0xe91e);
+  /// FontAwesome's file circle question solid Icon
+  static const file_circle_question_solid = FontAwesomeIconData(0xeaf1);
 
-  ///FontAwesomeRegular's circle_xmark icon
-  static const circle_xmark = FontAwesomeIconDataRegular(0xe91f);
+  /// FontAwesome's file circle xmark solid Icon
+  static const file_circle_xmark_solid = FontAwesomeIconData(0xeaf2);
 
-  ///FontAwesomeRegular's clipboard icon
-  static const clipboard = FontAwesomeIconDataRegular(0xe920);
+  /// FontAwesome's file code solid Icon
+  static const file_code_solid = FontAwesomeIconData(0xeaf3);
 
-  ///FontAwesomeRegular's clock icon
-  static const clock = FontAwesomeIconDataRegular(0xe921);
+  /// FontAwesome's file contract solid Icon
+  static const file_contract_solid = FontAwesomeIconData(0xeaf4);
 
-  ///FontAwesomeRegular's clone icon
-  static const clone = FontAwesomeIconDataRegular(0xe922);
+  /// FontAwesome's file csv solid Icon
+  static const file_csv_solid = FontAwesomeIconData(0xeaf5);
 
-  ///FontAwesomeRegular's closed_captioning icon
-  static const closed_captioning = FontAwesomeIconDataRegular(0xe923);
+  /// FontAwesome's file excel solid Icon
+  static const file_excel_solid = FontAwesomeIconData(0xeaf6);
 
-  ///FontAwesomeRegular's comment icon
-  static const comment = FontAwesomeIconDataRegular(0xe924);
+  /// FontAwesome's file export solid Icon
+  static const file_export_solid = FontAwesomeIconData(0xeaf7);
 
-  ///FontAwesomeRegular's comment_dots icon
-  static const comment_dots = FontAwesomeIconDataRegular(0xe925);
+  /// FontAwesome's file image solid Icon
+  static const file_image_solid = FontAwesomeIconData(0xeaf8);
 
-  ///FontAwesomeRegular's comments icon
-  static const comments = FontAwesomeIconDataRegular(0xe926);
+  /// FontAwesome's file import solid Icon
+  static const file_import_solid = FontAwesomeIconData(0xeaf9);
 
-  ///FontAwesomeRegular's compass icon
-  static const compass = FontAwesomeIconDataRegular(0xe927);
+  /// FontAwesome's file invoice solid Icon
+  static const file_invoice_solid = FontAwesomeIconData(0xeafa);
 
-  ///FontAwesomeRegular's copy icon
-  static const copy = FontAwesomeIconDataRegular(0xe928);
+  /// FontAwesome's file invoice dollar solid Icon
+  static const file_invoice_dollar_solid = FontAwesomeIconData(0xeafb);
 
-  ///FontAwesomeRegular's copyright icon
-  static const copyright = FontAwesomeIconDataRegular(0xe929);
+  /// FontAwesome's file lines solid Icon
+  static const file_lines_solid = FontAwesomeIconData(0xeafc);
 
-  ///FontAwesomeRegular's credit_card icon
-  static const credit_card = FontAwesomeIconDataRegular(0xe92a);
+  /// FontAwesome's file medical solid Icon
+  static const file_medical_solid = FontAwesomeIconData(0xeafd);
 
-  ///FontAwesomeRegular's envelope icon
-  static const envelope = FontAwesomeIconDataRegular(0xe92b);
+  /// FontAwesome's file pdf solid Icon
+  static const file_pdf_solid = FontAwesomeIconData(0xeafe);
 
-  ///FontAwesomeRegular's envelope_open icon
-  static const envelope_open = FontAwesomeIconDataRegular(0xe92c);
+  /// FontAwesome's file pen solid Icon
+  static const file_pen_solid = FontAwesomeIconData(0xeaff);
 
-  ///FontAwesomeRegular's eye icon
-  static const eye = FontAwesomeIconDataRegular(0xe92d);
+  /// FontAwesome's file powerpoint solid Icon
+  static const file_powerpoint_solid = FontAwesomeIconData(0xeb00);
 
-  ///FontAwesomeRegular's eye_slash icon
-  static const eye_slash = FontAwesomeIconDataRegular(0xe92e);
+  /// FontAwesome's file prescription solid Icon
+  static const file_prescription_solid = FontAwesomeIconData(0xeb01);
 
-  ///FontAwesomeRegular's face_angry icon
-  static const face_angry = FontAwesomeIconDataRegular(0xe92f);
+  /// FontAwesome's file shield solid Icon
+  static const file_shield_solid = FontAwesomeIconData(0xeb02);
 
-  ///FontAwesomeRegular's face_dizzy icon
-  static const face_dizzy = FontAwesomeIconDataRegular(0xe930);
+  /// FontAwesome's file signature solid Icon
+  static const file_signature_solid = FontAwesomeIconData(0xeb03);
 
-  ///FontAwesomeRegular's face_flushed icon
-  static const face_flushed = FontAwesomeIconDataRegular(0xe931);
+  /// FontAwesome's file video solid Icon
+  static const file_video_solid = FontAwesomeIconData(0xeb04);
 
-  ///FontAwesomeRegular's face_frown icon
-  static const face_frown = FontAwesomeIconDataRegular(0xe932);
+  /// FontAwesome's file waveform solid Icon
+  static const file_waveform_solid = FontAwesomeIconData(0xeb05);
 
-  ///FontAwesomeRegular's face_frown_open icon
-  static const face_frown_open = FontAwesomeIconDataRegular(0xe933);
+  /// FontAwesome's file word solid Icon
+  static const file_word_solid = FontAwesomeIconData(0xeb06);
 
-  ///FontAwesomeRegular's face_grimace icon
-  static const face_grimace = FontAwesomeIconDataRegular(0xe934);
+  /// FontAwesome's file zipper solid Icon
+  static const file_zipper_solid = FontAwesomeIconData(0xeb07);
 
-  ///FontAwesomeRegular's face_grin icon
-  static const face_grin = FontAwesomeIconDataRegular(0xe935);
+  /// FontAwesome's fill solid Icon
+  static const fill_solid = FontAwesomeIconData(0xeb08);
 
-  ///FontAwesomeRegular's face_grin_beam icon
-  static const face_grin_beam = FontAwesomeIconDataRegular(0xe936);
+  /// FontAwesome's fill drip solid Icon
+  static const fill_drip_solid = FontAwesomeIconData(0xeb09);
 
-  ///FontAwesomeRegular's face_grin_beam_sweat icon
-  static const face_grin_beam_sweat = FontAwesomeIconDataRegular(0xe937);
+  /// FontAwesome's film solid Icon
+  static const film_solid = FontAwesomeIconData(0xeb0a);
 
-  ///FontAwesomeRegular's face_grin_hearts icon
-  static const face_grin_hearts = FontAwesomeIconDataRegular(0xe938);
+  /// FontAwesome's filter solid Icon
+  static const filter_solid = FontAwesomeIconData(0xeb0b);
 
-  ///FontAwesomeRegular's face_grin_squint icon
-  static const face_grin_squint = FontAwesomeIconDataRegular(0xe939);
+  /// FontAwesome's filter circle dollar solid Icon
+  static const filter_circle_dollar_solid = FontAwesomeIconData(0xeb0c);
 
-  ///FontAwesomeRegular's face_grin_squint_tears icon
-  static const face_grin_squint_tears = FontAwesomeIconDataRegular(0xe93a);
+  /// FontAwesome's filter circle xmark solid Icon
+  static const filter_circle_xmark_solid = FontAwesomeIconData(0xeb0d);
 
-  ///FontAwesomeRegular's face_grin_stars icon
-  static const face_grin_stars = FontAwesomeIconDataRegular(0xe93b);
+  /// FontAwesome's fingerprint solid Icon
+  static const fingerprint_solid = FontAwesomeIconData(0xeb0e);
 
-  ///FontAwesomeRegular's face_grin_tears icon
-  static const face_grin_tears = FontAwesomeIconDataRegular(0xe93c);
+  /// FontAwesome's fire solid Icon
+  static const fire_solid = FontAwesomeIconData(0xeb0f);
 
-  ///FontAwesomeRegular's face_grin_tongue icon
-  static const face_grin_tongue = FontAwesomeIconDataRegular(0xe93d);
+  /// FontAwesome's fire burner solid Icon
+  static const fire_burner_solid = FontAwesomeIconData(0xeb10);
 
-  ///FontAwesomeRegular's face_grin_tongue_squint icon
-  static const face_grin_tongue_squint = FontAwesomeIconDataRegular(0xe93e);
+  /// FontAwesome's fire extinguisher solid Icon
+  static const fire_extinguisher_solid = FontAwesomeIconData(0xeb11);
 
-  ///FontAwesomeRegular's face_grin_tongue_wink icon
-  static const face_grin_tongue_wink = FontAwesomeIconDataRegular(0xe93f);
+  /// FontAwesome's fire flame curved solid Icon
+  static const fire_flame_curved_solid = FontAwesomeIconData(0xeb12);
 
-  ///FontAwesomeRegular's face_grin_wide icon
-  static const face_grin_wide = FontAwesomeIconDataRegular(0xe940);
+  /// FontAwesome's fire flame simple solid Icon
+  static const fire_flame_simple_solid = FontAwesomeIconData(0xeb13);
 
-  ///FontAwesomeRegular's face_grin_wink icon
-  static const face_grin_wink = FontAwesomeIconDataRegular(0xe941);
+  /// FontAwesome's fish solid Icon
+  static const fish_solid = FontAwesomeIconData(0xeb14);
 
-  ///FontAwesomeRegular's face_kiss icon
-  static const face_kiss = FontAwesomeIconDataRegular(0xe942);
+  /// FontAwesome's fish fins solid Icon
+  static const fish_fins_solid = FontAwesomeIconData(0xeb15);
 
-  ///FontAwesomeRegular's face_kiss_beam icon
-  static const face_kiss_beam = FontAwesomeIconDataRegular(0xe943);
+  /// FontAwesome's flag solid Icon
+  static const flag_solid = FontAwesomeIconData(0xeb16);
 
-  ///FontAwesomeRegular's face_kiss_wink_heart icon
-  static const face_kiss_wink_heart = FontAwesomeIconDataRegular(0xe944);
+  /// FontAwesome's flag checkered solid Icon
+  static const flag_checkered_solid = FontAwesomeIconData(0xeb17);
 
-  ///FontAwesomeRegular's face_laugh icon
-  static const face_laugh = FontAwesomeIconDataRegular(0xe945);
+  /// FontAwesome's flag usa solid Icon
+  static const flag_usa_solid = FontAwesomeIconData(0xeb18);
 
-  ///FontAwesomeRegular's face_laugh_beam icon
-  static const face_laugh_beam = FontAwesomeIconDataRegular(0xe946);
+  /// FontAwesome's flask solid Icon
+  static const flask_solid = FontAwesomeIconData(0xeb19);
 
-  ///FontAwesomeRegular's face_laugh_squint icon
-  static const face_laugh_squint = FontAwesomeIconDataRegular(0xe947);
+  /// FontAwesome's flask vial solid Icon
+  static const flask_vial_solid = FontAwesomeIconData(0xeb1a);
 
-  ///FontAwesomeRegular's face_laugh_wink icon
-  static const face_laugh_wink = FontAwesomeIconDataRegular(0xe948);
+  /// FontAwesome's floppy disk solid Icon
+  static const floppy_disk_solid = FontAwesomeIconData(0xeb1b);
 
-  ///FontAwesomeRegular's face_meh icon
-  static const face_meh = FontAwesomeIconDataRegular(0xe949);
+  /// FontAwesome's florin sign solid Icon
+  static const florin_sign_solid = FontAwesomeIconData(0xeb1c);
 
-  ///FontAwesomeRegular's face_meh_blank icon
-  static const face_meh_blank = FontAwesomeIconDataRegular(0xe94a);
+  /// FontAwesome's folder solid Icon
+  static const folder_solid = FontAwesomeIconData(0xeb1d);
 
-  ///FontAwesomeRegular's face_rolling_eyes icon
-  static const face_rolling_eyes = FontAwesomeIconDataRegular(0xe94b);
+  /// FontAwesome's folder closed solid Icon
+  static const folder_closed_solid = FontAwesomeIconData(0xeb1e);
 
-  ///FontAwesomeRegular's face_sad_cry icon
-  static const face_sad_cry = FontAwesomeIconDataRegular(0xe94c);
+  /// FontAwesome's folder minus solid Icon
+  static const folder_minus_solid = FontAwesomeIconData(0xeb1f);
 
-  ///FontAwesomeRegular's face_sad_tear icon
-  static const face_sad_tear = FontAwesomeIconDataRegular(0xe94d);
+  /// FontAwesome's folder open solid Icon
+  static const folder_open_solid = FontAwesomeIconData(0xeb20);
 
-  ///FontAwesomeRegular's face_smile icon
-  static const face_smile = FontAwesomeIconDataRegular(0xe94e);
+  /// FontAwesome's folder plus solid Icon
+  static const folder_plus_solid = FontAwesomeIconData(0xeb21);
 
-  ///FontAwesomeRegular's face_smile_beam icon
-  static const face_smile_beam = FontAwesomeIconDataRegular(0xe94f);
+  /// FontAwesome's folder tree solid Icon
+  static const folder_tree_solid = FontAwesomeIconData(0xeb22);
 
-  ///FontAwesomeRegular's face_smile_wink icon
-  static const face_smile_wink = FontAwesomeIconDataRegular(0xe950);
+  /// FontAwesome's font solid Icon
+  static const font_solid = FontAwesomeIconData(0xeb23);
 
-  ///FontAwesomeRegular's face_surprise icon
-  static const face_surprise = FontAwesomeIconDataRegular(0xe951);
+  /// FontAwesome's font awesome solid Icon
+  static const font_awesome_solid = FontAwesomeIconData(0xeb24);
 
-  ///FontAwesomeRegular's face_tired icon
-  static const face_tired = FontAwesomeIconDataRegular(0xe952);
+  /// FontAwesome's football solid Icon
+  static const football_solid = FontAwesomeIconData(0xeb25);
 
-  ///FontAwesomeRegular's file icon
-  static const file = FontAwesomeIconDataRegular(0xe953);
+  /// FontAwesome's forward solid Icon
+  static const forward_solid = FontAwesomeIconData(0xeb26);
 
-  ///FontAwesomeRegular's file_audio icon
-  static const file_audio = FontAwesomeIconDataRegular(0xe954);
+  /// FontAwesome's forward fast solid Icon
+  static const forward_fast_solid = FontAwesomeIconData(0xeb27);
 
-  ///FontAwesomeRegular's file_code icon
-  static const file_code = FontAwesomeIconDataRegular(0xe955);
+  /// FontAwesome's forward step solid Icon
+  static const forward_step_solid = FontAwesomeIconData(0xeb28);
 
-  ///FontAwesomeRegular's file_excel icon
-  static const file_excel = FontAwesomeIconDataRegular(0xe956);
+  /// FontAwesome's franc sign solid Icon
+  static const franc_sign_solid = FontAwesomeIconData(0xeb29);
 
-  ///FontAwesomeRegular's file_image icon
-  static const file_image = FontAwesomeIconDataRegular(0xe957);
+  /// FontAwesome's frog solid Icon
+  static const frog_solid = FontAwesomeIconData(0xeb2a);
 
-  ///FontAwesomeRegular's file_lines icon
-  static const file_lines = FontAwesomeIconDataRegular(0xe958);
+  /// FontAwesome's futbol solid Icon
+  static const futbol_solid = FontAwesomeIconData(0xeb2b);
 
-  ///FontAwesomeRegular's file_pdf icon
-  static const file_pdf = FontAwesomeIconDataRegular(0xe959);
+  /// FontAwesome's g solid Icon
+  static const g_solid = FontAwesomeIconData(0xeb2c);
 
-  ///FontAwesomeRegular's file_powerpoint icon
-  static const file_powerpoint = FontAwesomeIconDataRegular(0xe95a);
+  /// FontAwesome's gamepad solid Icon
+  static const gamepad_solid = FontAwesomeIconData(0xeb2d);
 
-  ///FontAwesomeRegular's file_video icon
-  static const file_video = FontAwesomeIconDataRegular(0xe95b);
+  /// FontAwesome's gas pump solid Icon
+  static const gas_pump_solid = FontAwesomeIconData(0xeb2e);
 
-  ///FontAwesomeRegular's file_word icon
-  static const file_word = FontAwesomeIconDataRegular(0xe95c);
+  /// FontAwesome's gauge solid Icon
+  static const gauge_solid = FontAwesomeIconData(0xeb2f);
 
-  ///FontAwesomeRegular's file_zipper icon
-  static const file_zipper = FontAwesomeIconDataRegular(0xe95d);
+  /// FontAwesome's gauge high solid Icon
+  static const gauge_high_solid = FontAwesomeIconData(0xeb30);
 
-  ///FontAwesomeRegular's flag icon
-  static const flag = FontAwesomeIconDataRegular(0xe95e);
+  /// FontAwesome's gauge simple solid Icon
+  static const gauge_simple_solid = FontAwesomeIconData(0xeb31);
 
-  ///FontAwesomeRegular's floppy_disk icon
-  static const floppy_disk = FontAwesomeIconDataRegular(0xe95f);
+  /// FontAwesome's gauge simple high solid Icon
+  static const gauge_simple_high_solid = FontAwesomeIconData(0xeb32);
 
-  ///FontAwesomeRegular's folder icon
-  static const folder = FontAwesomeIconDataRegular(0xe960);
+  /// FontAwesome's gavel solid Icon
+  static const gavel_solid = FontAwesomeIconData(0xeb33);
 
-  ///FontAwesomeRegular's folder_closed icon
-  static const folder_closed = FontAwesomeIconDataRegular(0xe961);
+  /// FontAwesome's gear solid Icon
+  static const gear_solid = FontAwesomeIconData(0xeb34);
 
-  ///FontAwesomeRegular's folder_open icon
-  static const folder_open = FontAwesomeIconDataRegular(0xe962);
+  /// FontAwesome's gears solid Icon
+  static const gears_solid = FontAwesomeIconData(0xeb35);
 
-  ///FontAwesomeRegular's futbol icon
-  static const futbol = FontAwesomeIconDataRegular(0xe964);
+  /// FontAwesome's gem solid Icon
+  static const gem_solid = FontAwesomeIconData(0xeb36);
 
-  ///FontAwesomeRegular's gem icon
-  static const gem = FontAwesomeIconDataRegular(0xe965);
+  /// FontAwesome's genderless solid Icon
+  static const genderless_solid = FontAwesomeIconData(0xeb37);
 
-  ///FontAwesomeRegular's hand icon
-  static const hand = FontAwesomeIconDataRegular(0xe966);
+  /// FontAwesome's ghost solid Icon
+  static const ghost_solid = FontAwesomeIconData(0xeb38);
 
-  ///FontAwesomeRegular's hand_back_fist icon
-  static const hand_back_fist = FontAwesomeIconDataRegular(0xe967);
+  /// FontAwesome's gift solid Icon
+  static const gift_solid = FontAwesomeIconData(0xeb39);
 
-  ///FontAwesomeRegular's hand_lizard icon
-  static const hand_lizard = FontAwesomeIconDataRegular(0xe968);
+  /// FontAwesome's gifts solid Icon
+  static const gifts_solid = FontAwesomeIconData(0xeb3a);
 
-  ///FontAwesomeRegular's hand_peace icon
-  static const hand_peace = FontAwesomeIconDataRegular(0xe969);
+  /// FontAwesome's glasses solid Icon
+  static const glasses_solid = FontAwesomeIconData(0xeb3b);
 
-  ///FontAwesomeRegular's hand_point_down icon
-  static const hand_point_down = FontAwesomeIconDataRegular(0xe96a);
+  /// FontAwesome's glass water solid Icon
+  static const glass_water_solid = FontAwesomeIconData(0xeb3c);
 
-  ///FontAwesomeRegular's hand_pointer icon
-  static const hand_pointer = FontAwesomeIconDataRegular(0xe96b);
+  /// FontAwesome's glass water droplet solid Icon
+  static const glass_water_droplet_solid = FontAwesomeIconData(0xeb3d);
 
-  ///FontAwesomeRegular's hand_point_left icon
-  static const hand_point_left = FontAwesomeIconDataRegular(0xe96c);
+  /// FontAwesome's globe solid Icon
+  static const globe_solid = FontAwesomeIconData(0xeb3e);
 
-  ///FontAwesomeRegular's hand_point_right icon
-  static const hand_point_right = FontAwesomeIconDataRegular(0xe96d);
+  /// FontAwesome's golf ball tee solid Icon
+  static const golf_ball_tee_solid = FontAwesomeIconData(0xeb3f);
 
-  ///FontAwesomeRegular's hand_point_up icon
-  static const hand_point_up = FontAwesomeIconDataRegular(0xe96e);
+  /// FontAwesome's gopuram solid Icon
+  static const gopuram_solid = FontAwesomeIconData(0xeb40);
 
-  ///FontAwesomeRegular's hand_scissors icon
-  static const hand_scissors = FontAwesomeIconDataRegular(0xe96f);
+  /// FontAwesome's graduation cap solid Icon
+  static const graduation_cap_solid = FontAwesomeIconData(0xeb41);
 
-  ///FontAwesomeRegular's handshake icon
-  static const handshake = FontAwesomeIconDataRegular(0xe970);
+  /// FontAwesome's greater than solid Icon
+  static const greater_than_solid = FontAwesomeIconData(0xeb42);
 
-  ///FontAwesomeRegular's hand_spock icon
-  static const hand_spock = FontAwesomeIconDataRegular(0xe971);
+  /// FontAwesome's greater than equal solid Icon
+  static const greater_than_equal_solid = FontAwesomeIconData(0xeb43);
 
-  ///FontAwesomeRegular's hard_drive icon
-  static const hard_drive = FontAwesomeIconDataRegular(0xe972);
+  /// FontAwesome's grip solid Icon
+  static const grip_solid = FontAwesomeIconData(0xeb44);
 
-  ///FontAwesomeRegular's heart icon
-  static const heart = FontAwesomeIconDataRegular(0xe973);
+  /// FontAwesome's grip lines solid Icon
+  static const grip_lines_solid = FontAwesomeIconData(0xeb45);
 
-  ///FontAwesomeRegular's hospital icon
-  static const hospital = FontAwesomeIconDataRegular(0xe974);
+  /// FontAwesome's grip lines vertical solid Icon
+  static const grip_lines_vertical_solid = FontAwesomeIconData(0xeb46);
 
-  ///FontAwesomeRegular's hourglass icon
-  static const hourglass = FontAwesomeIconDataRegular(0xe975);
+  /// FontAwesome's grip vertical solid Icon
+  static const grip_vertical_solid = FontAwesomeIconData(0xeb47);
 
-  ///FontAwesomeRegular's hourglass_half icon
-  static const hourglass_half = FontAwesomeIconDataRegular(0xe976);
+  /// FontAwesome's group arrows rotate solid Icon
+  static const group_arrows_rotate_solid = FontAwesomeIconData(0xeb48);
 
-  ///FontAwesomeRegular's id_badge icon
-  static const id_badge = FontAwesomeIconDataRegular(0xe977);
+  /// FontAwesome's guarani sign solid Icon
+  static const guarani_sign_solid = FontAwesomeIconData(0xeb49);
 
-  ///FontAwesomeRegular's id_card icon
-  static const id_card = FontAwesomeIconDataRegular(0xe978);
+  /// FontAwesome's guitar solid Icon
+  static const guitar_solid = FontAwesomeIconData(0xeb4a);
 
-  ///FontAwesomeRegular's image icon
-  static const image = FontAwesomeIconDataRegular(0xe979);
+  /// FontAwesome's gun solid Icon
+  static const gun_solid = FontAwesomeIconData(0xeb4b);
 
-  ///FontAwesomeRegular's images icon
-  static const images = FontAwesomeIconDataRegular(0xe97a);
+  /// FontAwesome's h solid Icon
+  static const h_solid = FontAwesomeIconData(0xeb4c);
 
-  ///FontAwesomeRegular's keyboard icon
-  static const keyboard = FontAwesomeIconDataRegular(0xe97b);
+  /// FontAwesome's hammer solid Icon
+  static const hammer_solid = FontAwesomeIconData(0xeb4d);
 
-  ///FontAwesomeRegular's lemon icon
-  static const lemon = FontAwesomeIconDataRegular(0xe97c);
+  /// FontAwesome's hamsa solid Icon
+  static const hamsa_solid = FontAwesomeIconData(0xeb4e);
 
-  ///FontAwesomeRegular's life_ring icon
-  static const life_ring = FontAwesomeIconDataRegular(0xe97d);
+  /// FontAwesome's hand solid Icon
+  static const hand_solid = FontAwesomeIconData(0xeb4f);
 
-  ///FontAwesomeRegular's lightbulb icon
-  static const lightbulb = FontAwesomeIconDataRegular(0xe97e);
+  /// FontAwesome's hand back fist solid Icon
+  static const hand_back_fist_solid = FontAwesomeIconData(0xeb50);
 
-  ///FontAwesomeRegular's map icon
-  static const map = FontAwesomeIconDataRegular(0xe97f);
+  /// FontAwesome's handcuffs solid Icon
+  static const handcuffs_solid = FontAwesomeIconData(0xeb51);
 
-  ///FontAwesomeRegular's message icon
-  static const message = FontAwesomeIconDataRegular(0xe980);
+  /// FontAwesome's hand dots solid Icon
+  static const hand_dots_solid = FontAwesomeIconData(0xeb52);
 
-  ///FontAwesomeRegular's money_bill_1 icon
-  static const money_bill_1 = FontAwesomeIconDataRegular(0xe981);
+  /// FontAwesome's hand fist solid Icon
+  static const hand_fist_solid = FontAwesomeIconData(0xeb53);
 
-  ///FontAwesomeRegular's moon icon
-  static const moon = FontAwesomeIconDataRegular(0xe982);
+  /// FontAwesome's hand holding solid Icon
+  static const hand_holding_solid = FontAwesomeIconData(0xeb54);
 
-  ///FontAwesomeRegular's newspaper icon
-  static const newspaper = FontAwesomeIconDataRegular(0xe983);
+  /// FontAwesome's hand holding dollar solid Icon
+  static const hand_holding_dollar_solid = FontAwesomeIconData(0xeb55);
 
-  ///FontAwesomeRegular's note_sticky icon
-  static const note_sticky = FontAwesomeIconDataRegular(0xe984);
+  /// FontAwesome's hand holding droplet solid Icon
+  static const hand_holding_droplet_solid = FontAwesomeIconData(0xeb56);
 
-  ///FontAwesomeRegular's object_group icon
-  static const object_group = FontAwesomeIconDataRegular(0xe985);
+  /// FontAwesome's hand holding hand solid Icon
+  static const hand_holding_hand_solid = FontAwesomeIconData(0xeb57);
 
-  ///FontAwesomeRegular's object_ungroup icon
-  static const object_ungroup = FontAwesomeIconDataRegular(0xe986);
+  /// FontAwesome's hand holding heart solid Icon
+  static const hand_holding_heart_solid = FontAwesomeIconData(0xeb58);
 
-  ///FontAwesomeRegular's paper_plane icon
-  static const paper_plane = FontAwesomeIconDataRegular(0xe987);
+  /// FontAwesome's hand holding medical solid Icon
+  static const hand_holding_medical_solid = FontAwesomeIconData(0xeb59);
 
-  ///FontAwesomeRegular's paste icon
-  static const paste = FontAwesomeIconDataRegular(0xe988);
+  /// FontAwesome's hand lizard solid Icon
+  static const hand_lizard_solid = FontAwesomeIconData(0xeb5a);
 
-  ///FontAwesomeRegular's pen_to_square icon
-  static const pen_to_square = FontAwesomeIconDataRegular(0xe989);
+  /// FontAwesome's hand middle finger solid Icon
+  static const hand_middle_finger_solid = FontAwesomeIconData(0xeb5b);
 
-  ///FontAwesomeRegular's rectangle_list icon
-  static const rectangle_list = FontAwesomeIconDataRegular(0xe98a);
+  /// FontAwesome's hand peace solid Icon
+  static const hand_peace_solid = FontAwesomeIconData(0xeb5c);
 
-  ///FontAwesomeRegular's rectangle_xmark icon
-  static const rectangle_xmark = FontAwesomeIconDataRegular(0xe98b);
+  /// FontAwesome's hand point down solid Icon
+  static const hand_point_down_solid = FontAwesomeIconData(0xeb5d);
 
-  ///FontAwesomeRegular's registered icon
-  static const registered = FontAwesomeIconDataRegular(0xe98c);
+  /// FontAwesome's hand pointer solid Icon
+  static const hand_pointer_solid = FontAwesomeIconData(0xeb5e);
 
-  ///FontAwesomeRegular's share_from_square icon
-  static const share_from_square = FontAwesomeIconDataRegular(0xe98d);
+  /// FontAwesome's hand point left solid Icon
+  static const hand_point_left_solid = FontAwesomeIconData(0xeb5f);
 
-  ///FontAwesomeRegular's snowflake icon
-  static const snowflake = FontAwesomeIconDataRegular(0xe98e);
+  /// FontAwesome's hand point right solid Icon
+  static const hand_point_right_solid = FontAwesomeIconData(0xeb60);
 
-  ///FontAwesomeRegular's square icon
-  static const square = FontAwesomeIconDataRegular(0xe98f);
+  /// FontAwesome's hand point up solid Icon
+  static const hand_point_up_solid = FontAwesomeIconData(0xeb61);
 
-  ///FontAwesomeRegular's square_caret_down icon
-  static const square_caret_down = FontAwesomeIconDataRegular(0xe990);
+  /// FontAwesome's hands solid Icon
+  static const hands_solid = FontAwesomeIconData(0xeb62);
 
-  ///FontAwesomeRegular's square_caret_left icon
-  static const square_caret_left = FontAwesomeIconDataRegular(0xe991);
+  /// FontAwesome's hands asl interpreting solid Icon
+  static const hands_asl_interpreting_solid = FontAwesomeIconData(0xeb63);
 
-  ///FontAwesomeRegular's square_caret_right icon
-  static const square_caret_right = FontAwesomeIconDataRegular(0xe992);
+  /// FontAwesome's hands bound solid Icon
+  static const hands_bound_solid = FontAwesomeIconData(0xeb64);
 
-  ///FontAwesomeRegular's square_caret_up icon
-  static const square_caret_up = FontAwesomeIconDataRegular(0xe993);
+  /// FontAwesome's hands bubbles solid Icon
+  static const hands_bubbles_solid = FontAwesomeIconData(0xeb65);
 
-  ///FontAwesomeRegular's square_check icon
-  static const square_check = FontAwesomeIconDataRegular(0xe994);
+  /// FontAwesome's hand scissors solid Icon
+  static const hand_scissors_solid = FontAwesomeIconData(0xeb66);
 
-  ///FontAwesomeRegular's square_full icon
-  static const square_full = FontAwesomeIconDataRegular(0xe995);
+  /// FontAwesome's hands clapping solid Icon
+  static const hands_clapping_solid = FontAwesomeIconData(0xeb67);
 
-  ///FontAwesomeRegular's square_minus icon
-  static const square_minus = FontAwesomeIconDataRegular(0xe996);
+  /// FontAwesome's handshake solid Icon
+  static const handshake_solid = FontAwesomeIconData(0xeb68);
 
-  ///FontAwesomeRegular's square_plus icon
-  static const square_plus = FontAwesomeIconDataRegular(0xe997);
+  /// FontAwesome's handshake angle solid Icon
+  static const handshake_angle_solid = FontAwesomeIconData(0xeb69);
 
-  ///FontAwesomeRegular's star icon
-  static const star = FontAwesomeIconDataRegular(0xe998);
+  /// FontAwesome's handshake simple solid Icon
+  static const handshake_simple_solid = FontAwesomeIconData(0xeb6a);
 
-  ///FontAwesomeRegular's star_half icon
-  static const star_half = FontAwesomeIconDataRegular(0xe999);
+  /// FontAwesome's handshake simple slash solid Icon
+  static const handshake_simple_slash_solid = FontAwesomeIconData(0xeb6b);
 
-  ///FontAwesomeRegular's star_half_stroke icon
-  static const star_half_stroke = FontAwesomeIconDataRegular(0xe99a);
+  /// FontAwesome's handshake slash solid Icon
+  static const handshake_slash_solid = FontAwesomeIconData(0xeb6c);
 
-  ///FontAwesomeRegular's sun icon
-  static const sun = FontAwesomeIconDataRegular(0xe99b);
+  /// FontAwesome's hands holding solid Icon
+  static const hands_holding_solid = FontAwesomeIconData(0xeb6d);
 
-  ///FontAwesomeRegular's thumbs_down icon
-  static const thumbs_down = FontAwesomeIconDataRegular(0xe99c);
+  /// FontAwesome's hands holding child solid Icon
+  static const hands_holding_child_solid = FontAwesomeIconData(0xeb6e);
 
-  ///FontAwesomeRegular's thumbs_up icon
-  static const thumbs_up = FontAwesomeIconDataRegular(0xe99d);
+  /// FontAwesome's hands holding circle solid Icon
+  static const hands_holding_circle_solid = FontAwesomeIconData(0xeb6f);
 
-  ///FontAwesomeRegular's trash_can icon
-  static const trash_can = FontAwesomeIconDataRegular(0xe99e);
+  /// FontAwesome's hand sparkles solid Icon
+  static const hand_sparkles_solid = FontAwesomeIconData(0xeb70);
 
-  ///FontAwesomeRegular's user icon
-  static const user = FontAwesomeIconDataRegular(0xe99f);
+  /// FontAwesome's hand spock solid Icon
+  static const hand_spock_solid = FontAwesomeIconData(0xeb71);
 
-  ///FontAwesomeRegular's window_maximize icon
-  static const window_maximize = FontAwesomeIconDataRegular(0xe9a0);
+  /// FontAwesome's hands praying solid Icon
+  static const hands_praying_solid = FontAwesomeIconData(0xeb72);
 
-  ///FontAwesomeRegular's window_minimize icon
-  static const window_minimize = FontAwesomeIconDataRegular(0xe9a1);
+  /// FontAwesome's hanukiah solid Icon
+  static const hanukiah_solid = FontAwesomeIconData(0xeb73);
 
-  ///FontAwesomeRegular's window_restore icon
-  static const window_restore = FontAwesomeIconDataRegular(0xe9a2);
+  /// FontAwesome's hard drive solid Icon
+  static const hard_drive_solid = FontAwesomeIconData(0xeb74);
 
-  //FontAwesome - Solid
+  /// FontAwesome's hashtag solid Icon
+  static const hashtag_solid = FontAwesomeIconData(0xeb75);
 
-  ///FontAwesomeSolid's 0 icon
-  static const num0 = FontAwesomeIconDataSolid(0xe900);
+  /// FontAwesome's hat cowboy solid Icon
+  static const hat_cowboy_solid = FontAwesomeIconData(0xeb76);
 
-  ///FontAwesomeSolid's 1 icon
-  static const num1 = FontAwesomeIconDataSolid(0xe901);
+  /// FontAwesome's hat cowboy side solid Icon
+  static const hat_cowboy_side_solid = FontAwesomeIconData(0xeb77);
 
-  ///FontAwesomeSolid's 2 icon
-  static const num2 = FontAwesomeIconDataSolid(0xe902);
+  /// FontAwesome's hat wizard solid Icon
+  static const hat_wizard_solid = FontAwesomeIconData(0xeb78);
 
-  ///FontAwesomeSolid's 3 icon
-  static const num3 = FontAwesomeIconDataSolid(0xe903);
+  /// FontAwesome's heading solid Icon
+  static const heading_solid = FontAwesomeIconData(0xeb79);
 
-  ///FontAwesomeSolid's 4 icon
-  static const num4 = FontAwesomeIconDataSolid(0xe904);
+  /// FontAwesome's headphones solid Icon
+  static const headphones_solid = FontAwesomeIconData(0xeb7a);
 
-  ///FontAwesomeSolid's 5 icon
-  static const num5 = FontAwesomeIconDataSolid(0xe905);
+  /// FontAwesome's headphones simple solid Icon
+  static const headphones_simple_solid = FontAwesomeIconData(0xeb7b);
 
-  ///FontAwesomeSolid's 6 icon
-  static const num6 = FontAwesomeIconDataSolid(0xe906);
+  /// FontAwesome's headset solid Icon
+  static const headset_solid = FontAwesomeIconData(0xeb7c);
 
-  ///FontAwesomeSolid's 7 icon
-  static const num7 = FontAwesomeIconDataSolid(0xe907);
+  /// FontAwesome's head side cough solid Icon
+  static const head_side_cough_solid = FontAwesomeIconData(0xeb7d);
 
-  ///FontAwesomeSolid's 8 icon
-  static const num8 = FontAwesomeIconDataSolid(0xe908);
+  /// FontAwesome's head side cough slash solid Icon
+  static const head_side_cough_slash_solid = FontAwesomeIconData(0xeb7e);
 
-  ///FontAwesomeSolid's 9 icon
-  static const num9 = FontAwesomeIconDataSolid(0xe909);
+  /// FontAwesome's head side mask solid Icon
+  static const head_side_mask_solid = FontAwesomeIconData(0xeb7f);
 
-  ///FontAwesomeSolid's a icon
-  static const a = FontAwesomeIconDataSolid(0xe90a);
+  /// FontAwesome's head side virus solid Icon
+  static const head_side_virus_solid = FontAwesomeIconData(0xeb80);
 
-  ///FontAwesomeSolid's align_center icon
-  static const align_center = FontAwesomeIconDataSolid(0xe90d);
+  /// FontAwesome's heart solid Icon
+  static const heart_solid = FontAwesomeIconData(0xeb81);
 
-  ///FontAwesomeSolid's align_justify icon
-  static const align_justify = FontAwesomeIconDataSolid(0xe90e);
+  /// FontAwesome's heart circle bolt solid Icon
+  static const heart_circle_bolt_solid = FontAwesomeIconData(0xeb82);
 
-  ///FontAwesomeSolid's align_left icon
-  static const align_left = FontAwesomeIconDataSolid(0xe90f);
+  /// FontAwesome's heart circle check solid Icon
+  static const heart_circle_check_solid = FontAwesomeIconData(0xeb83);
 
-  ///FontAwesomeSolid's align_right icon
-  static const align_right = FontAwesomeIconDataSolid(0xe910);
+  /// FontAwesome's heart circle exclamation solid Icon
+  static const heart_circle_exclamation_solid = FontAwesomeIconData(0xeb84);
 
-  ///FontAwesomeSolid's anchor icon
-  static const anchor = FontAwesomeIconDataSolid(0xe911);
+  /// FontAwesome's heart circle minus solid Icon
+  static const heart_circle_minus_solid = FontAwesomeIconData(0xeb85);
 
-  ///FontAwesomeSolid's anchor_circle_check icon
-  static const anchor_circle_check = FontAwesomeIconDataSolid(0xe912);
+  /// FontAwesome's heart circle plus solid Icon
+  static const heart_circle_plus_solid = FontAwesomeIconData(0xeb86);
 
-  ///FontAwesomeSolid's anchor_circle_exclamation icon
-  static const anchor_circle_exclamation = FontAwesomeIconDataSolid(0xe913);
+  /// FontAwesome's heart circle xmark solid Icon
+  static const heart_circle_xmark_solid = FontAwesomeIconData(0xeb87);
 
-  ///FontAwesomeSolid's anchor_circle_xmark icon
-  static const anchor_circle_xmark = FontAwesomeIconDataSolid(0xe914);
+  /// FontAwesome's heart crack solid Icon
+  static const heart_crack_solid = FontAwesomeIconData(0xeb88);
 
-  ///FontAwesomeSolid's anchor_lock icon
-  static const anchor_lock = FontAwesomeIconDataSolid(0xe915);
+  /// FontAwesome's heart pulse solid Icon
+  static const heart_pulse_solid = FontAwesomeIconData(0xeb89);
 
-  ///FontAwesomeSolid's angle_down icon
-  static const angle_down = FontAwesomeIconDataSolid(0xe916);
+  /// FontAwesome's helicopter solid Icon
+  static const helicopter_solid = FontAwesomeIconData(0xeb8a);
 
-  ///FontAwesomeSolid's angle_left icon
-  static const angle_left = FontAwesomeIconDataSolid(0xe917);
+  /// FontAwesome's helicopter symbol solid Icon
+  static const helicopter_symbol_solid = FontAwesomeIconData(0xeb8b);
 
-  ///FontAwesomeSolid's angle_right icon
-  static const angle_right = FontAwesomeIconDataSolid(0xe918);
+  /// FontAwesome's helmet safety solid Icon
+  static const helmet_safety_solid = FontAwesomeIconData(0xeb8c);
 
-  ///FontAwesomeSolid's angles_down icon
-  static const angles_down = FontAwesomeIconDataSolid(0xe919);
+  /// FontAwesome's helmet un solid Icon
+  static const helmet_un_solid = FontAwesomeIconData(0xeb8d);
 
-  ///FontAwesomeSolid's angles_left icon
-  static const angles_left = FontAwesomeIconDataSolid(0xe91a);
+  /// FontAwesome's highlighter solid Icon
+  static const highlighter_solid = FontAwesomeIconData(0xeb8e);
 
-  ///FontAwesomeSolid's angles_right icon
-  static const angles_right = FontAwesomeIconDataSolid(0xe91b);
+  /// FontAwesome's hill avalanche solid Icon
+  static const hill_avalanche_solid = FontAwesomeIconData(0xeb8f);
 
-  ///FontAwesomeSolid's angles_up icon
-  static const angles_up = FontAwesomeIconDataSolid(0xe91c);
+  /// FontAwesome's hill rockslide solid Icon
+  static const hill_rockslide_solid = FontAwesomeIconData(0xeb90);
 
-  ///FontAwesomeSolid's angle_up icon
-  static const angle_up = FontAwesomeIconDataSolid(0xe91d);
+  /// FontAwesome's hippo solid Icon
+  static const hippo_solid = FontAwesomeIconData(0xeb91);
 
-  ///FontAwesomeSolid's ankh icon
-  static const ankh = FontAwesomeIconDataSolid(0xe91e);
+  /// FontAwesome's hockey puck solid Icon
+  static const hockey_puck_solid = FontAwesomeIconData(0xeb92);
 
-  ///FontAwesomeSolid's apple_whole icon
-  static const apple_whole = FontAwesomeIconDataSolid(0xe91f);
+  /// FontAwesome's holly berry solid Icon
+  static const holly_berry_solid = FontAwesomeIconData(0xeb93);
 
-  ///FontAwesomeSolid's archway icon
-  static const archway = FontAwesomeIconDataSolid(0xe920);
+  /// FontAwesome's horse solid Icon
+  static const horse_solid = FontAwesomeIconData(0xeb94);
 
-  ///FontAwesomeSolid's arrow_down icon
-  static const arrow_down = FontAwesomeIconDataSolid(0xe921);
+  /// FontAwesome's horse head solid Icon
+  static const horse_head_solid = FontAwesomeIconData(0xeb95);
 
-  ///FontAwesomeSolid's arrow_down_1_9 icon
-  static const arrow_down_1_9 = FontAwesomeIconDataSolid(0xe922);
+  /// FontAwesome's hospital solid Icon
+  static const hospital_solid = FontAwesomeIconData(0xeb96);
 
-  ///FontAwesomeSolid's arrow_down_9_1 icon
-  static const arrow_down_9_1 = FontAwesomeIconDataSolid(0xe923);
+  /// FontAwesome's hospital user solid Icon
+  static const hospital_user_solid = FontAwesomeIconData(0xeb97);
 
-  ///FontAwesomeSolid's arrow_down_a_z icon
-  static const arrow_down_a_z = FontAwesomeIconDataSolid(0xe924);
+  /// FontAwesome's hotdog solid Icon
+  static const hotdog_solid = FontAwesomeIconData(0xeb98);
 
-  ///FontAwesomeSolid's arrow_down_long icon
-  static const arrow_down_long = FontAwesomeIconDataSolid(0xe925);
+  /// FontAwesome's hotel solid Icon
+  static const hotel_solid = FontAwesomeIconData(0xeb99);
 
-  ///FontAwesomeSolid's arrow_down_short_wide icon
-  static const arrow_down_short_wide = FontAwesomeIconDataSolid(0xe926);
+  /// FontAwesome's hot tub person solid Icon
+  static const hot_tub_person_solid = FontAwesomeIconData(0xeb9a);
 
-  ///FontAwesomeSolid's arrow_down_up_across_line icon
-  static const arrow_down_up_across_line = FontAwesomeIconDataSolid(0xe927);
+  /// FontAwesome's hourglass solid Icon
+  static const hourglass_solid = FontAwesomeIconData(0xeb9b);
 
-  ///FontAwesomeSolid's arrow_down_up_lock icon
-  static const arrow_down_up_lock = FontAwesomeIconDataSolid(0xe928);
+  /// FontAwesome's hourglass end solid Icon
+  static const hourglass_end_solid = FontAwesomeIconData(0xeb9c);
 
-  ///FontAwesomeSolid's arrow_down_wide_short icon
-  static const arrow_down_wide_short = FontAwesomeIconDataSolid(0xe929);
+  /// FontAwesome's hourglass half solid Icon
+  static const hourglass_half_solid = FontAwesomeIconData(0xeb9d);
 
-  ///FontAwesomeSolid's arrow_down_z_a icon
-  static const arrow_down_z_a = FontAwesomeIconDataSolid(0xe92a);
+  /// FontAwesome's hourglass start solid Icon
+  static const hourglass_start_solid = FontAwesomeIconData(0xeb9e);
 
-  ///FontAwesomeSolid's arrow_left icon
-  static const arrow_left = FontAwesomeIconDataSolid(0xe92b);
+  /// FontAwesome's house solid Icon
+  static const house_solid = FontAwesomeIconData(0xeb9f);
 
-  ///FontAwesomeSolid's arrow_left_long icon
-  static const arrow_left_long = FontAwesomeIconDataSolid(0xe92c);
+  /// FontAwesome's house chimney solid Icon
+  static const house_chimney_solid = FontAwesomeIconData(0xeba0);
 
-  ///FontAwesomeSolid's arrow_pointer icon
-  static const arrow_pointer = FontAwesomeIconDataSolid(0xe92d);
+  /// FontAwesome's house chimney crack solid Icon
+  static const house_chimney_crack_solid = FontAwesomeIconData(0xeba1);
 
-  ///FontAwesomeSolid's arrow_right icon
-  static const arrow_right = FontAwesomeIconDataSolid(0xe92e);
+  /// FontAwesome's house chimney medical solid Icon
+  static const house_chimney_medical_solid = FontAwesomeIconData(0xeba2);
 
-  ///FontAwesomeSolid's arrow_right_arrow_left icon
-  static const arrow_right_arrow_left = FontAwesomeIconDataSolid(0xe92f);
+  /// FontAwesome's house chimney user solid Icon
+  static const house_chimney_user_solid = FontAwesomeIconData(0xeba3);
 
-  ///FontAwesomeSolid's arrow_right_from_bracket icon
-  static const arrow_right_from_bracket = FontAwesomeIconDataSolid(0xe930);
+  /// FontAwesome's house chimney window solid Icon
+  static const house_chimney_window_solid = FontAwesomeIconData(0xeba4);
 
-  ///FontAwesomeSolid's arrow_right_long icon
-  static const arrow_right_long = FontAwesomeIconDataSolid(0xe931);
+  /// FontAwesome's house circle check solid Icon
+  static const house_circle_check_solid = FontAwesomeIconData(0xeba5);
 
-  ///FontAwesomeSolid's arrow_right_to_bracket icon
-  static const arrow_right_to_bracket = FontAwesomeIconDataSolid(0xe932);
+  /// FontAwesome's house circle exclamation solid Icon
+  static const house_circle_exclamation_solid = FontAwesomeIconData(0xeba6);
 
-  ///FontAwesomeSolid's arrow_right_to_city icon
-  static const arrow_right_to_city = FontAwesomeIconDataSolid(0xe933);
+  /// FontAwesome's house circle xmark solid Icon
+  static const house_circle_xmark_solid = FontAwesomeIconData(0xeba7);
 
-  ///FontAwesomeSolid's arrow_rotate_left icon
-  static const arrow_rotate_left = FontAwesomeIconDataSolid(0xe934);
+  /// FontAwesome's house crack solid Icon
+  static const house_crack_solid = FontAwesomeIconData(0xeba8);
 
-  ///FontAwesomeSolid's arrow_rotate_right icon
-  static const arrow_rotate_right = FontAwesomeIconDataSolid(0xe935);
+  /// FontAwesome's house fire solid Icon
+  static const house_fire_solid = FontAwesomeIconData(0xeba9);
 
-  ///FontAwesomeSolid's arrows_down_to_line icon
-  static const arrows_down_to_line = FontAwesomeIconDataSolid(0xe936);
+  /// FontAwesome's house flag solid Icon
+  static const house_flag_solid = FontAwesomeIconData(0xebaa);
 
-  ///FontAwesomeSolid's arrows_down_to_people icon
-  static const arrows_down_to_people = FontAwesomeIconDataSolid(0xe937);
+  /// FontAwesome's house flood water solid Icon
+  static const house_flood_water_solid = FontAwesomeIconData(0xebab);
 
-  ///FontAwesomeSolid's arrows_left_right icon
-  static const arrows_left_right = FontAwesomeIconDataSolid(0xe938);
+  /// FontAwesome's house flood water circle arrow right solid Icon
+  static const house_flood_water_circle_arrow_right_solid =
+      FontAwesomeIconData(0xebac);
 
-  ///FontAwesomeSolid's arrows_left_right_to_line icon
-  static const arrows_left_right_to_line = FontAwesomeIconDataSolid(0xe939);
+  /// FontAwesome's house laptop solid Icon
+  static const house_laptop_solid = FontAwesomeIconData(0xebad);
 
-  ///FontAwesomeSolid's arrows_rotate icon
-  static const arrows_rotate = FontAwesomeIconDataSolid(0xe93a);
+  /// FontAwesome's house lock solid Icon
+  static const house_lock_solid = FontAwesomeIconData(0xebae);
 
-  ///FontAwesomeSolid's arrows_spin icon
-  static const arrows_spin = FontAwesomeIconDataSolid(0xe93b);
+  /// FontAwesome's house medical solid Icon
+  static const house_medical_solid = FontAwesomeIconData(0xebaf);
 
-  ///FontAwesomeSolid's arrows_split_up_and_left icon
-  static const arrows_split_up_and_left = FontAwesomeIconDataSolid(0xe93c);
+  /// FontAwesome's house medical circle check solid Icon
+  static const house_medical_circle_check_solid = FontAwesomeIconData(0xebb0);
 
-  ///FontAwesomeSolid's arrows_to_circle icon
-  static const arrows_to_circle = FontAwesomeIconDataSolid(0xe93d);
+  /// FontAwesome's house medical circle exclamation solid Icon
+  static const house_medical_circle_exclamation_solid =
+      FontAwesomeIconData(0xebb1);
 
-  ///FontAwesomeSolid's arrows_to_dot icon
-  static const arrows_to_dot = FontAwesomeIconDataSolid(0xe93e);
+  /// FontAwesome's house medical circle xmark solid Icon
+  static const house_medical_circle_xmark_solid = FontAwesomeIconData(0xebb2);
 
-  ///FontAwesomeSolid's arrows_to_eye icon
-  static const arrows_to_eye = FontAwesomeIconDataSolid(0xe93f);
+  /// FontAwesome's house medical flag solid Icon
+  static const house_medical_flag_solid = FontAwesomeIconData(0xebb3);
 
-  ///FontAwesomeSolid's arrows_turn_right icon
-  static const arrows_turn_right = FontAwesomeIconDataSolid(0xe940);
+  /// FontAwesome's house signal solid Icon
+  static const house_signal_solid = FontAwesomeIconData(0xebb4);
 
-  ///FontAwesomeSolid's arrows_turn_to_dots icon
-  static const arrows_turn_to_dots = FontAwesomeIconDataSolid(0xe941);
+  /// FontAwesome's house tsunami solid Icon
+  static const house_tsunami_solid = FontAwesomeIconData(0xebb5);
 
-  ///FontAwesomeSolid's arrows_up_down icon
-  static const arrows_up_down = FontAwesomeIconDataSolid(0xe942);
+  /// FontAwesome's house user solid Icon
+  static const house_user_solid = FontAwesomeIconData(0xebb6);
 
-  ///FontAwesomeSolid's arrows_up_down_left_right icon
-  static const arrows_up_down_left_right = FontAwesomeIconDataSolid(0xe943);
+  /// FontAwesome's hryvnia sign solid Icon
+  static const hryvnia_sign_solid = FontAwesomeIconData(0xebb7);
 
-  ///FontAwesomeSolid's arrows_up_to_line icon
-  static const arrows_up_to_line = FontAwesomeIconDataSolid(0xe944);
+  /// FontAwesome's hurricane solid Icon
+  static const hurricane_solid = FontAwesomeIconData(0xebb8);
 
-  ///FontAwesomeSolid's arrow_trend_down icon
-  static const arrow_trend_down = FontAwesomeIconDataSolid(0xe945);
+  /// FontAwesome's i solid Icon
+  static const i_solid = FontAwesomeIconData(0xebb9);
 
-  ///FontAwesomeSolid's arrow_trend_up icon
-  static const arrow_trend_up = FontAwesomeIconDataSolid(0xe946);
+  /// FontAwesome's ice cream solid Icon
+  static const ice_cream_solid = FontAwesomeIconData(0xebba);
 
-  ///FontAwesomeSolid's arrow_turn_down icon
-  static const arrow_turn_down = FontAwesomeIconDataSolid(0xe947);
+  /// FontAwesome's icicles solid Icon
+  static const icicles_solid = FontAwesomeIconData(0xebbb);
 
-  ///FontAwesomeSolid's arrow_turn_up icon
-  static const arrow_turn_up = FontAwesomeIconDataSolid(0xe948);
+  /// FontAwesome's icons solid Icon
+  static const icons_solid = FontAwesomeIconData(0xebbc);
 
-  ///FontAwesomeSolid's arrow_up icon
-  static const arrow_up = FontAwesomeIconDataSolid(0xe949);
+  /// FontAwesome's i cursor solid Icon
+  static const i_cursor_solid = FontAwesomeIconData(0xebbd);
 
-  ///FontAwesomeSolid's arrow_up_1_9 icon
-  static const arrow_up_1_9 = FontAwesomeIconDataSolid(0xe94a);
+  /// FontAwesome's id badge solid Icon
+  static const id_badge_solid = FontAwesomeIconData(0xebbe);
 
-  ///FontAwesomeSolid's arrow_up_9_1 icon
-  static const arrow_up_9_1 = FontAwesomeIconDataSolid(0xe94b);
+  /// FontAwesome's id card solid Icon
+  static const id_card_solid = FontAwesomeIconData(0xebbf);
 
-  ///FontAwesomeSolid's arrow_up_a_z icon
-  static const arrow_up_a_z = FontAwesomeIconDataSolid(0xe94c);
+  /// FontAwesome's id card clip solid Icon
+  static const id_card_clip_solid = FontAwesomeIconData(0xebc0);
 
-  ///FontAwesomeSolid's arrow_up_from_bracket icon
-  static const arrow_up_from_bracket = FontAwesomeIconDataSolid(0xe94d);
+  /// FontAwesome's igloo solid Icon
+  static const igloo_solid = FontAwesomeIconData(0xebc1);
 
-  ///FontAwesomeSolid's arrow_up_from_ground_water icon
-  static const arrow_up_from_ground_water = FontAwesomeIconDataSolid(0xe94e);
+  /// FontAwesome's image solid Icon
+  static const image_solid = FontAwesomeIconData(0xebc2);
 
-  ///FontAwesomeSolid's arrow_up_from_water_pump icon
-  static const arrow_up_from_water_pump = FontAwesomeIconDataSolid(0xe94f);
+  /// FontAwesome's image portrait solid Icon
+  static const image_portrait_solid = FontAwesomeIconData(0xebc3);
 
-  ///FontAwesomeSolid's arrow_up_long icon
-  static const arrow_up_long = FontAwesomeIconDataSolid(0xe950);
+  /// FontAwesome's images solid Icon
+  static const images_solid = FontAwesomeIconData(0xebc4);
 
-  ///FontAwesomeSolid's arrow_up_right_dots icon
-  static const arrow_up_right_dots = FontAwesomeIconDataSolid(0xe951);
+  /// FontAwesome's inbox solid Icon
+  static const inbox_solid = FontAwesomeIconData(0xebc5);
 
-  ///FontAwesomeSolid's arrow_up_right_from_square icon
-  static const arrow_up_right_from_square = FontAwesomeIconDataSolid(0xe952);
+  /// FontAwesome's indent solid Icon
+  static const indent_solid = FontAwesomeIconData(0xebc6);
 
-  ///FontAwesomeSolid's arrow_up_short_wide icon
-  static const arrow_up_short_wide = FontAwesomeIconDataSolid(0xe953);
+  /// FontAwesome's indian rupee sign solid Icon
+  static const indian_rupee_sign_solid = FontAwesomeIconData(0xebc7);
 
-  ///FontAwesomeSolid's arrow_up_wide_short icon
-  static const arrow_up_wide_short = FontAwesomeIconDataSolid(0xe954);
+  /// FontAwesome's industry solid Icon
+  static const industry_solid = FontAwesomeIconData(0xebc8);
 
-  ///FontAwesomeSolid's arrow_up_z_a icon
-  static const arrow_up_z_a = FontAwesomeIconDataSolid(0xe955);
+  /// FontAwesome's infinity solid Icon
+  static const infinity_solid = FontAwesomeIconData(0xebc9);
 
-  ///FontAwesomeSolid's asterisk icon
-  static const asterisk = FontAwesomeIconDataSolid(0xe956);
+  /// FontAwesome's info solid Icon
+  static const info_solid = FontAwesomeIconData(0xebca);
 
-  ///FontAwesomeSolid's at icon
-  static const at = FontAwesomeIconDataSolid(0xe957);
+  /// FontAwesome's italic solid Icon
+  static const italic_solid = FontAwesomeIconData(0xebcb);
 
-  ///FontAwesomeSolid's atom icon
-  static const atom = FontAwesomeIconDataSolid(0xe958);
+  /// FontAwesome's j solid Icon
+  static const j_solid = FontAwesomeIconData(0xebcc);
 
-  ///FontAwesomeSolid's audio_description icon
-  static const audio_description = FontAwesomeIconDataSolid(0xe959);
+  /// FontAwesome's jar solid Icon
+  static const jar_solid = FontAwesomeIconData(0xebcd);
 
-  ///FontAwesomeSolid's austral_sign icon
-  static const austral_sign = FontAwesomeIconDataSolid(0xe95a);
+  /// FontAwesome's jar wheat solid Icon
+  static const jar_wheat_solid = FontAwesomeIconData(0xebce);
 
-  ///FontAwesomeSolid's award icon
-  static const award = FontAwesomeIconDataSolid(0xe95b);
+  /// FontAwesome's jedi solid Icon
+  static const jedi_solid = FontAwesomeIconData(0xebcf);
 
-  ///FontAwesomeSolid's b icon
-  static const b = FontAwesomeIconDataSolid(0xe95c);
+  /// FontAwesome's jet fighter solid Icon
+  static const jet_fighter_solid = FontAwesomeIconData(0xebd0);
 
-  ///FontAwesomeSolid's baby icon
-  static const baby = FontAwesomeIconDataSolid(0xe95d);
+  /// FontAwesome's jet fighter up solid Icon
+  static const jet_fighter_up_solid = FontAwesomeIconData(0xebd1);
 
-  ///FontAwesomeSolid's baby_carriage icon
-  static const baby_carriage = FontAwesomeIconDataSolid(0xe95e);
+  /// FontAwesome's joint solid Icon
+  static const joint_solid = FontAwesomeIconData(0xebd2);
 
-  ///FontAwesomeSolid's backward icon
-  static const backward = FontAwesomeIconDataSolid(0xe95f);
+  /// FontAwesome's jug detergent solid Icon
+  static const jug_detergent_solid = FontAwesomeIconData(0xebd3);
 
-  ///FontAwesomeSolid's backward_fast icon
-  static const backward_fast = FontAwesomeIconDataSolid(0xe960);
+  /// FontAwesome's k solid Icon
+  static const k_solid = FontAwesomeIconData(0xebd4);
 
-  ///FontAwesomeSolid's backward_step icon
-  static const backward_step = FontAwesomeIconDataSolid(0xe961);
+  /// FontAwesome's kaaba solid Icon
+  static const kaaba_solid = FontAwesomeIconData(0xebd5);
 
-  ///FontAwesomeSolid's bacon icon
-  static const bacon = FontAwesomeIconDataSolid(0xe962);
+  /// FontAwesome's key solid Icon
+  static const key_solid = FontAwesomeIconData(0xebd6);
 
-  ///FontAwesomeSolid's bacteria icon
-  static const bacteria = FontAwesomeIconDataSolid(0xe963);
+  /// FontAwesome's keyboard solid Icon
+  static const keyboard_solid = FontAwesomeIconData(0xebd7);
 
-  ///FontAwesomeSolid's bacterium icon
-  static const bacterium = FontAwesomeIconDataSolid(0xe964);
+  /// FontAwesome's khanda solid Icon
+  static const khanda_solid = FontAwesomeIconData(0xebd8);
 
-  ///FontAwesomeSolid's bag_shopping icon
-  static const bag_shopping = FontAwesomeIconDataSolid(0xe965);
+  /// FontAwesome's kip sign solid Icon
+  static const kip_sign_solid = FontAwesomeIconData(0xebd9);
 
-  ///FontAwesomeSolid's bahai icon
-  static const bahai = FontAwesomeIconDataSolid(0xe966);
+  /// FontAwesome's kitchen set solid Icon
+  static const kitchen_set_solid = FontAwesomeIconData(0xebda);
 
-  ///FontAwesomeSolid's baht_sign icon
-  static const baht_sign = FontAwesomeIconDataSolid(0xe967);
+  /// FontAwesome's kit medical solid Icon
+  static const kit_medical_solid = FontAwesomeIconData(0xebdb);
 
-  ///FontAwesomeSolid's ban icon
-  static const ban = FontAwesomeIconDataSolid(0xe968);
+  /// FontAwesome's kiwi bird solid Icon
+  static const kiwi_bird_solid = FontAwesomeIconData(0xebdc);
 
-  ///FontAwesomeSolid's bandage icon
-  static const bandage = FontAwesomeIconDataSolid(0xe969);
+  /// FontAwesome's l solid Icon
+  static const l_solid = FontAwesomeIconData(0xebdd);
 
-  ///FontAwesomeSolid's bangladeshi_taka_sign icon
-  static const bangladeshi_taka_sign = FontAwesomeIconDataSolid(0xe96a);
+  /// FontAwesome's landmark solid Icon
+  static const landmark_solid = FontAwesomeIconData(0xebde);
 
-  ///FontAwesomeSolid's ban_smoking icon
-  static const ban_smoking = FontAwesomeIconDataSolid(0xe96b);
+  /// FontAwesome's landmark dome solid Icon
+  static const landmark_dome_solid = FontAwesomeIconData(0xebdf);
 
-  ///FontAwesomeSolid's barcode icon
-  static const barcode = FontAwesomeIconDataSolid(0xe96c);
+  /// FontAwesome's landmark flag solid Icon
+  static const landmark_flag_solid = FontAwesomeIconData(0xebe0);
 
-  ///FontAwesomeSolid's bars icon
-  static const bars = FontAwesomeIconDataSolid(0xe96d);
+  /// FontAwesome's land mine on solid Icon
+  static const land_mine_on_solid = FontAwesomeIconData(0xebe1);
 
-  ///FontAwesomeSolid's bars_progress icon
-  static const bars_progress = FontAwesomeIconDataSolid(0xe96e);
+  /// FontAwesome's language solid Icon
+  static const language_solid = FontAwesomeIconData(0xebe2);
 
-  ///FontAwesomeSolid's bars_staggered icon
-  static const bars_staggered = FontAwesomeIconDataSolid(0xe96f);
+  /// FontAwesome's laptop solid Icon
+  static const laptop_solid = FontAwesomeIconData(0xebe3);
 
-  ///FontAwesomeSolid's baseball icon
-  static const baseball = FontAwesomeIconDataSolid(0xe970);
+  /// FontAwesome's laptop code solid Icon
+  static const laptop_code_solid = FontAwesomeIconData(0xebe4);
 
-  ///FontAwesomeSolid's baseball_bat_ball icon
-  static const baseball_bat_ball = FontAwesomeIconDataSolid(0xe971);
+  /// FontAwesome's laptop file solid Icon
+  static const laptop_file_solid = FontAwesomeIconData(0xebe5);
 
-  ///FontAwesomeSolid's basketball icon
-  static const basketball = FontAwesomeIconDataSolid(0xe972);
+  /// FontAwesome's laptop medical solid Icon
+  static const laptop_medical_solid = FontAwesomeIconData(0xebe6);
 
-  ///FontAwesomeSolid's basket_shopping icon
-  static const basket_shopping = FontAwesomeIconDataSolid(0xe973);
+  /// FontAwesome's lari sign solid Icon
+  static const lari_sign_solid = FontAwesomeIconData(0xebe7);
 
-  ///FontAwesomeSolid's bath icon
-  static const bath = FontAwesomeIconDataSolid(0xe974);
+  /// FontAwesome's layer group solid Icon
+  static const layer_group_solid = FontAwesomeIconData(0xebe8);
 
-  ///FontAwesomeSolid's battery_empty icon
-  static const battery_empty = FontAwesomeIconDataSolid(0xe975);
+  /// FontAwesome's leaf solid Icon
+  static const leaf_solid = FontAwesomeIconData(0xebe9);
 
-  ///FontAwesomeSolid's battery_full icon
-  static const battery_full = FontAwesomeIconDataSolid(0xe976);
+  /// FontAwesome's left long solid Icon
+  static const left_long_solid = FontAwesomeIconData(0xebea);
 
-  ///FontAwesomeSolid's battery_half icon
-  static const battery_half = FontAwesomeIconDataSolid(0xe977);
+  /// FontAwesome's left right solid Icon
+  static const left_right_solid = FontAwesomeIconData(0xebeb);
 
-  ///FontAwesomeSolid's battery_quarter icon
-  static const battery_quarter = FontAwesomeIconDataSolid(0xe978);
+  /// FontAwesome's lemon solid Icon
+  static const lemon_solid = FontAwesomeIconData(0xebec);
 
-  ///FontAwesomeSolid's battery_three_quarters icon
-  static const battery_three_quarters = FontAwesomeIconDataSolid(0xe979);
+  /// FontAwesome's less than solid Icon
+  static const less_than_solid = FontAwesomeIconData(0xebed);
 
-  ///FontAwesomeSolid's bed icon
-  static const bed = FontAwesomeIconDataSolid(0xe97a);
+  /// FontAwesome's less than equal solid Icon
+  static const less_than_equal_solid = FontAwesomeIconData(0xebee);
 
-  ///FontAwesomeSolid's bed_pulse icon
-  static const bed_pulse = FontAwesomeIconDataSolid(0xe97b);
+  /// FontAwesome's life ring solid Icon
+  static const life_ring_solid = FontAwesomeIconData(0xebef);
 
-  ///FontAwesomeSolid's beer_mug_empty icon
-  static const beer_mug_empty = FontAwesomeIconDataSolid(0xe97c);
+  /// FontAwesome's lightbulb solid Icon
+  static const lightbulb_solid = FontAwesomeIconData(0xebf0);
 
-  ///FontAwesomeSolid's bell_concierge icon
-  static const bell_concierge = FontAwesomeIconDataSolid(0xe97e);
+  /// FontAwesome's lines leaning solid Icon
+  static const lines_leaning_solid = FontAwesomeIconData(0xebf1);
 
-  ///FontAwesomeSolid's bezier_curve icon
-  static const bezier_curve = FontAwesomeIconDataSolid(0xe980);
+  /// FontAwesome's link solid Icon
+  static const link_solid = FontAwesomeIconData(0xebf2);
 
-  ///FontAwesomeSolid's bicycle icon
-  static const bicycle = FontAwesomeIconDataSolid(0xe981);
+  /// FontAwesome's link slash solid Icon
+  static const link_slash_solid = FontAwesomeIconData(0xebf3);
 
-  ///FontAwesomeSolid's binoculars icon
-  static const binoculars = FontAwesomeIconDataSolid(0xe982);
+  /// FontAwesome's lira sign solid Icon
+  static const lira_sign_solid = FontAwesomeIconData(0xebf4);
 
-  ///FontAwesomeSolid's biohazard icon
-  static const biohazard = FontAwesomeIconDataSolid(0xe983);
+  /// FontAwesome's list solid Icon
+  static const list_solid = FontAwesomeIconData(0xebf5);
 
-  ///FontAwesomeSolid's bitcoin_sign icon
-  static const bitcoin_sign = FontAwesomeIconDataSolid(0xe984);
+  /// FontAwesome's list check solid Icon
+  static const list_check_solid = FontAwesomeIconData(0xebf6);
 
-  ///FontAwesomeSolid's blender icon
-  static const blender = FontAwesomeIconDataSolid(0xe985);
+  /// FontAwesome's list ol solid Icon
+  static const list_ol_solid = FontAwesomeIconData(0xebf7);
 
-  ///FontAwesomeSolid's blender_phone icon
-  static const blender_phone = FontAwesomeIconDataSolid(0xe986);
+  /// FontAwesome's list ul solid Icon
+  static const list_ul_solid = FontAwesomeIconData(0xebf8);
 
-  ///FontAwesomeSolid's blog icon
-  static const blog = FontAwesomeIconDataSolid(0xe987);
+  /// FontAwesome's litecoin sign solid Icon
+  static const litecoin_sign_solid = FontAwesomeIconData(0xebf9);
 
-  ///FontAwesomeSolid's bold icon
-  static const bold = FontAwesomeIconDataSolid(0xe988);
+  /// FontAwesome's location arrow solid Icon
+  static const location_arrow_solid = FontAwesomeIconData(0xebfa);
 
-  ///FontAwesomeSolid's bolt icon
-  static const bolt = FontAwesomeIconDataSolid(0xe989);
+  /// FontAwesome's location crosshairs solid Icon
+  static const location_crosshairs_solid = FontAwesomeIconData(0xebfb);
 
-  ///FontAwesomeSolid's bolt_lightning icon
-  static const bolt_lightning = FontAwesomeIconDataSolid(0xe98a);
+  /// FontAwesome's location dot solid Icon
+  static const location_dot_solid = FontAwesomeIconData(0xebfc);
 
-  ///FontAwesomeSolid's bomb icon
-  static const bomb = FontAwesomeIconDataSolid(0xe98b);
+  /// FontAwesome's location pin solid Icon
+  static const location_pin_solid = FontAwesomeIconData(0xebfd);
 
-  ///FontAwesomeSolid's bone icon
-  static const bone = FontAwesomeIconDataSolid(0xe98c);
+  /// FontAwesome's location pin lock solid Icon
+  static const location_pin_lock_solid = FontAwesomeIconData(0xebfe);
 
-  ///FontAwesomeSolid's bong icon
-  static const bong = FontAwesomeIconDataSolid(0xe98d);
+  /// FontAwesome's lock solid Icon
+  static const lock_solid = FontAwesomeIconData(0xebff);
 
-  ///FontAwesomeSolid's book icon
-  static const book = FontAwesomeIconDataSolid(0xe98e);
+  /// FontAwesome's lock open solid Icon
+  static const lock_open_solid = FontAwesomeIconData(0xec00);
 
-  ///FontAwesomeSolid's book_atlas icon
-  static const book_atlas = FontAwesomeIconDataSolid(0xe98f);
+  /// FontAwesome's locust solid Icon
+  static const locust_solid = FontAwesomeIconData(0xec01);
 
-  ///FontAwesomeSolid's book_bible icon
-  static const book_bible = FontAwesomeIconDataSolid(0xe990);
+  /// FontAwesome's lungs solid Icon
+  static const lungs_solid = FontAwesomeIconData(0xec02);
 
-  ///FontAwesomeSolid's book_bookmark icon
-  static const book_bookmark = FontAwesomeIconDataSolid(0xe991);
+  /// FontAwesome's lungs virus solid Icon
+  static const lungs_virus_solid = FontAwesomeIconData(0xec03);
 
-  ///FontAwesomeSolid's book_journal_whills icon
-  static const book_journal_whills = FontAwesomeIconDataSolid(0xe992);
+  /// FontAwesome's m solid Icon
+  static const m_solid = FontAwesomeIconData(0xec04);
 
-  ///FontAwesomeSolid's book_medical icon
-  static const book_medical = FontAwesomeIconDataSolid(0xe994);
+  /// FontAwesome's magnet solid Icon
+  static const magnet_solid = FontAwesomeIconData(0xec05);
 
-  ///FontAwesomeSolid's book_open icon
-  static const book_open = FontAwesomeIconDataSolid(0xe995);
+  /// FontAwesome's magnifying glass solid Icon
+  static const magnifying_glass_solid = FontAwesomeIconData(0xec06);
 
-  ///FontAwesomeSolid's book_open_reader icon
-  static const book_open_reader = FontAwesomeIconDataSolid(0xe996);
+  /// FontAwesome's magnifying glass arrow right solid Icon
+  static const magnifying_glass_arrow_right_solid = FontAwesomeIconData(0xec07);
 
-  ///FontAwesomeSolid's book_quran icon
-  static const book_quran = FontAwesomeIconDataSolid(0xe997);
+  /// FontAwesome's magnifying glass chart solid Icon
+  static const magnifying_glass_chart_solid = FontAwesomeIconData(0xec08);
 
-  ///FontAwesomeSolid's book_skull icon
-  static const book_skull = FontAwesomeIconDataSolid(0xe998);
+  /// FontAwesome's magnifying glass dollar solid Icon
+  static const magnifying_glass_dollar_solid = FontAwesomeIconData(0xec09);
 
-  ///FontAwesomeSolid's book_tanakh icon
-  static const book_tanakh = FontAwesomeIconDataSolid(0xe999);
+  /// FontAwesome's magnifying glass location solid Icon
+  static const magnifying_glass_location_solid = FontAwesomeIconData(0xec0a);
 
-  ///FontAwesomeSolid's border_all icon
-  static const border_all = FontAwesomeIconDataSolid(0xe99a);
+  /// FontAwesome's magnifying glass minus solid Icon
+  static const magnifying_glass_minus_solid = FontAwesomeIconData(0xec0b);
 
-  ///FontAwesomeSolid's border_none icon
-  static const border_none = FontAwesomeIconDataSolid(0xe99b);
+  /// FontAwesome's magnifying glass plus solid Icon
+  static const magnifying_glass_plus_solid = FontAwesomeIconData(0xec0c);
 
-  ///FontAwesomeSolid's border_top_left icon
-  static const border_top_left = FontAwesomeIconDataSolid(0xe99c);
+  /// FontAwesome's manat sign solid Icon
+  static const manat_sign_solid = FontAwesomeIconData(0xec0d);
 
-  ///FontAwesomeSolid's bore_hole icon
-  static const bore_hole = FontAwesomeIconDataSolid(0xe99d);
+  /// FontAwesome's map solid Icon
+  static const map_solid = FontAwesomeIconData(0xec0e);
 
-  ///FontAwesomeSolid's bottle_droplet icon
-  static const bottle_droplet = FontAwesomeIconDataSolid(0xe99e);
+  /// FontAwesome's map location solid Icon
+  static const map_location_solid = FontAwesomeIconData(0xec0f);
 
-  ///FontAwesomeSolid's bottle_water icon
-  static const bottle_water = FontAwesomeIconDataSolid(0xe99f);
+  /// FontAwesome's map location dot solid Icon
+  static const map_location_dot_solid = FontAwesomeIconData(0xec10);
 
-  ///FontAwesomeSolid's bowl_food icon
-  static const bowl_food = FontAwesomeIconDataSolid(0xe9a0);
+  /// FontAwesome's map pin solid Icon
+  static const map_pin_solid = FontAwesomeIconData(0xec11);
 
-  ///FontAwesomeSolid's bowling_ball icon
-  static const bowling_ball = FontAwesomeIconDataSolid(0xe9a1);
+  /// FontAwesome's marker solid Icon
+  static const marker_solid = FontAwesomeIconData(0xec12);
 
-  ///FontAwesomeSolid's bowl_rice icon
-  static const bowl_rice = FontAwesomeIconDataSolid(0xe9a2);
+  /// FontAwesome's mars solid Icon
+  static const mars_solid = FontAwesomeIconData(0xec13);
 
-  ///FontAwesomeSolid's box icon
-  static const box = FontAwesomeIconDataSolid(0xe9a3);
+  /// FontAwesome's mars and venus solid Icon
+  static const mars_and_venus_solid = FontAwesomeIconData(0xec14);
 
-  ///FontAwesomeSolid's box_archive icon
-  static const box_archive = FontAwesomeIconDataSolid(0xe9a4);
+  /// FontAwesome's mars and venus burst solid Icon
+  static const mars_and_venus_burst_solid = FontAwesomeIconData(0xec15);
 
-  ///FontAwesomeSolid's boxes_packing icon
-  static const boxes_packing = FontAwesomeIconDataSolid(0xe9a5);
+  /// FontAwesome's mars double solid Icon
+  static const mars_double_solid = FontAwesomeIconData(0xec16);
 
-  ///FontAwesomeSolid's boxes_stacked icon
-  static const boxes_stacked = FontAwesomeIconDataSolid(0xe9a6);
+  /// FontAwesome's mars stroke solid Icon
+  static const mars_stroke_solid = FontAwesomeIconData(0xec17);
 
-  ///FontAwesomeSolid's box_open icon
-  static const box_open = FontAwesomeIconDataSolid(0xe9a7);
+  /// FontAwesome's mars stroke right solid Icon
+  static const mars_stroke_right_solid = FontAwesomeIconData(0xec18);
 
-  ///FontAwesomeSolid's box_tissue icon
-  static const box_tissue = FontAwesomeIconDataSolid(0xe9a8);
+  /// FontAwesome's mars stroke up solid Icon
+  static const mars_stroke_up_solid = FontAwesomeIconData(0xec19);
 
-  ///FontAwesomeSolid's braille icon
-  static const braille = FontAwesomeIconDataSolid(0xe9a9);
+  /// FontAwesome's martini glass solid Icon
+  static const martini_glass_solid = FontAwesomeIconData(0xec1a);
 
-  ///FontAwesomeSolid's brain icon
-  static const brain = FontAwesomeIconDataSolid(0xe9aa);
+  /// FontAwesome's martini glass citrus solid Icon
+  static const martini_glass_citrus_solid = FontAwesomeIconData(0xec1b);
 
-  ///FontAwesomeSolid's brazilian_real_sign icon
-  static const brazilian_real_sign = FontAwesomeIconDataSolid(0xe9ab);
+  /// FontAwesome's martini glass empty solid Icon
+  static const martini_glass_empty_solid = FontAwesomeIconData(0xec1c);
 
-  ///FontAwesomeSolid's bread_slice icon
-  static const bread_slice = FontAwesomeIconDataSolid(0xe9ac);
+  /// FontAwesome's mask solid Icon
+  static const mask_solid = FontAwesomeIconData(0xec1d);
 
-  ///FontAwesomeSolid's bridge icon
-  static const bridge = FontAwesomeIconDataSolid(0xe9ad);
+  /// FontAwesome's mask face solid Icon
+  static const mask_face_solid = FontAwesomeIconData(0xec1e);
 
-  ///FontAwesomeSolid's bridge_circle_check icon
-  static const bridge_circle_check = FontAwesomeIconDataSolid(0xe9ae);
+  /// FontAwesome's masks theater solid Icon
+  static const masks_theater_solid = FontAwesomeIconData(0xec1f);
 
-  ///FontAwesomeSolid's bridge_circle_exclamation icon
-  static const bridge_circle_exclamation = FontAwesomeIconDataSolid(0xe9af);
+  /// FontAwesome's mask ventilator solid Icon
+  static const mask_ventilator_solid = FontAwesomeIconData(0xec20);
 
-  ///FontAwesomeSolid's bridge_circle_xmark icon
-  static const bridge_circle_xmark = FontAwesomeIconDataSolid(0xe9b0);
+  /// FontAwesome's mattress pillow solid Icon
+  static const mattress_pillow_solid = FontAwesomeIconData(0xec21);
 
-  ///FontAwesomeSolid's bridge_lock icon
-  static const bridge_lock = FontAwesomeIconDataSolid(0xe9b1);
+  /// FontAwesome's maximize solid Icon
+  static const maximize_solid = FontAwesomeIconData(0xec22);
 
-  ///FontAwesomeSolid's bridge_water icon
-  static const bridge_water = FontAwesomeIconDataSolid(0xe9b2);
+  /// FontAwesome's medal solid Icon
+  static const medal_solid = FontAwesomeIconData(0xec23);
 
-  ///FontAwesomeSolid's briefcase icon
-  static const briefcase = FontAwesomeIconDataSolid(0xe9b3);
+  /// FontAwesome's memory solid Icon
+  static const memory_solid = FontAwesomeIconData(0xec24);
 
-  ///FontAwesomeSolid's briefcase_medical icon
-  static const briefcase_medical = FontAwesomeIconDataSolid(0xe9b4);
+  /// FontAwesome's menorah solid Icon
+  static const menorah_solid = FontAwesomeIconData(0xec25);
 
-  ///FontAwesomeSolid's broom icon
-  static const broom = FontAwesomeIconDataSolid(0xe9b5);
+  /// FontAwesome's mercury solid Icon
+  static const mercury_solid = FontAwesomeIconData(0xec26);
 
-  ///FontAwesomeSolid's broom_ball icon
-  static const broom_ball = FontAwesomeIconDataSolid(0xe9b6);
+  /// FontAwesome's message solid Icon
+  static const message_solid = FontAwesomeIconData(0xec27);
 
-  ///FontAwesomeSolid's brush icon
-  static const brush = FontAwesomeIconDataSolid(0xe9b7);
+  /// FontAwesome's meteor solid Icon
+  static const meteor_solid = FontAwesomeIconData(0xec28);
 
-  ///FontAwesomeSolid's bucket icon
-  static const bucket = FontAwesomeIconDataSolid(0xe9b8);
+  /// FontAwesome's microchip solid Icon
+  static const microchip_solid = FontAwesomeIconData(0xec29);
 
-  ///FontAwesomeSolid's bug icon
-  static const bug = FontAwesomeIconDataSolid(0xe9b9);
+  /// FontAwesome's microphone solid Icon
+  static const microphone_solid = FontAwesomeIconData(0xec2a);
 
-  ///FontAwesomeSolid's bugs icon
-  static const bugs = FontAwesomeIconDataSolid(0xe9ba);
+  /// FontAwesome's microphone lines solid Icon
+  static const microphone_lines_solid = FontAwesomeIconData(0xec2b);
 
-  ///FontAwesomeSolid's bug_slash icon
-  static const bug_slash = FontAwesomeIconDataSolid(0xe9bb);
+  /// FontAwesome's microphone lines slash solid Icon
+  static const microphone_lines_slash_solid = FontAwesomeIconData(0xec2c);
 
-  ///FontAwesomeSolid's building_circle_arrow_right icon
-  static const building_circle_arrow_right = FontAwesomeIconDataSolid(0xe9bd);
+  /// FontAwesome's microphone slash solid Icon
+  static const microphone_slash_solid = FontAwesomeIconData(0xec2d);
 
-  ///FontAwesomeSolid's building_circle_check icon
-  static const building_circle_check = FontAwesomeIconDataSolid(0xe9be);
+  /// FontAwesome's microscope solid Icon
+  static const microscope_solid = FontAwesomeIconData(0xec2e);
 
-  ///FontAwesomeSolid's building_circle_exclamation icon
-  static const building_circle_exclamation = FontAwesomeIconDataSolid(0xe9bf);
+  /// FontAwesome's mill sign solid Icon
+  static const mill_sign_solid = FontAwesomeIconData(0xec2f);
 
-  ///FontAwesomeSolid's building_circle_xmark icon
-  static const building_circle_xmark = FontAwesomeIconDataSolid(0xe9c0);
+  /// FontAwesome's minimize solid Icon
+  static const minimize_solid = FontAwesomeIconData(0xec30);
 
-  ///FontAwesomeSolid's building_columns icon
-  static const building_columns = FontAwesomeIconDataSolid(0xe9c1);
+  /// FontAwesome's minus solid Icon
+  static const minus_solid = FontAwesomeIconData(0xec31);
 
-  ///FontAwesomeSolid's building_flag icon
-  static const building_flag = FontAwesomeIconDataSolid(0xe9c2);
+  /// FontAwesome's mitten solid Icon
+  static const mitten_solid = FontAwesomeIconData(0xec32);
 
-  ///FontAwesomeSolid's building_lock icon
-  static const building_lock = FontAwesomeIconDataSolid(0xe9c3);
+  /// FontAwesome's mobile solid Icon
+  static const mobile_solid = FontAwesomeIconData(0xec33);
 
-  ///FontAwesomeSolid's building_ngo icon
-  static const building_ngo = FontAwesomeIconDataSolid(0xe9c4);
+  /// FontAwesome's mobile button solid Icon
+  static const mobile_button_solid = FontAwesomeIconData(0xec34);
 
-  ///FontAwesomeSolid's building_shield icon
-  static const building_shield = FontAwesomeIconDataSolid(0xe9c5);
+  /// FontAwesome's mobile retro solid Icon
+  static const mobile_retro_solid = FontAwesomeIconData(0xec35);
 
-  ///FontAwesomeSolid's building_un icon
-  static const building_un = FontAwesomeIconDataSolid(0xe9c6);
+  /// FontAwesome's mobile screen solid Icon
+  static const mobile_screen_solid = FontAwesomeIconData(0xec36);
 
-  ///FontAwesomeSolid's building_user icon
-  static const building_user = FontAwesomeIconDataSolid(0xe9c7);
+  /// FontAwesome's mobile screen button solid Icon
+  static const mobile_screen_button_solid = FontAwesomeIconData(0xec37);
 
-  ///FontAwesomeSolid's building_wheat icon
-  static const building_wheat = FontAwesomeIconDataSolid(0xe9c8);
+  /// FontAwesome's money bill solid Icon
+  static const money_bill_solid = FontAwesomeIconData(0xec38);
 
-  ///FontAwesomeSolid's bullhorn icon
-  static const bullhorn = FontAwesomeIconDataSolid(0xe9c9);
+  /// FontAwesome's money bill 1 solid Icon
+  static const money_bill_1_solid = FontAwesomeIconData(0xec39);
 
-  ///FontAwesomeSolid's bullseye icon
-  static const bullseye = FontAwesomeIconDataSolid(0xe9ca);
+  /// FontAwesome's money bill 1 wave solid Icon
+  static const money_bill_1_wave_solid = FontAwesomeIconData(0xec3a);
 
-  ///FontAwesomeSolid's burger icon
-  static const burger = FontAwesomeIconDataSolid(0xe9cb);
+  /// FontAwesome's money bills solid Icon
+  static const money_bills_solid = FontAwesomeIconData(0xec3b);
 
-  ///FontAwesomeSolid's burst icon
-  static const burst = FontAwesomeIconDataSolid(0xe9cc);
+  /// FontAwesome's money bill transfer solid Icon
+  static const money_bill_transfer_solid = FontAwesomeIconData(0xec3c);
 
-  ///FontAwesomeSolid's bus icon
-  static const bus = FontAwesomeIconDataSolid(0xe9cd);
+  /// FontAwesome's money bill trend up solid Icon
+  static const money_bill_trend_up_solid = FontAwesomeIconData(0xec3d);
 
-  ///FontAwesomeSolid's business_time icon
-  static const business_time = FontAwesomeIconDataSolid(0xe9ce);
+  /// FontAwesome's money bill wave solid Icon
+  static const money_bill_wave_solid = FontAwesomeIconData(0xec3e);
 
-  ///FontAwesomeSolid's bus_simple icon
-  static const bus_simple = FontAwesomeIconDataSolid(0xe9cf);
+  /// FontAwesome's money bill wheat solid Icon
+  static const money_bill_wheat_solid = FontAwesomeIconData(0xec3f);
 
-  ///FontAwesomeSolid's c icon
-  static const c = FontAwesomeIconDataSolid(0xe9d0);
+  /// FontAwesome's money check solid Icon
+  static const money_check_solid = FontAwesomeIconData(0xec40);
 
-  ///FontAwesomeSolid's cable_car icon
-  static const cable_car = FontAwesomeIconDataSolid(0xe9d1);
+  /// FontAwesome's money check dollar solid Icon
+  static const money_check_dollar_solid = FontAwesomeIconData(0xec41);
 
-  ///FontAwesomeSolid's cake_candles icon
-  static const cake_candles = FontAwesomeIconDataSolid(0xe9d2);
+  /// FontAwesome's monument solid Icon
+  static const monument_solid = FontAwesomeIconData(0xec42);
 
-  ///FontAwesomeSolid's calculator icon
-  static const calculator = FontAwesomeIconDataSolid(0xe9d3);
+  /// FontAwesome's moon solid Icon
+  static const moon_solid = FontAwesomeIconData(0xec43);
 
-  ///FontAwesomeSolid's calendar_day icon
-  static const calendar_day = FontAwesomeIconDataSolid(0xe9d6);
+  /// FontAwesome's mortar pestle solid Icon
+  static const mortar_pestle_solid = FontAwesomeIconData(0xec44);
 
-  ///FontAwesomeSolid's calendar_week icon
-  static const calendar_week = FontAwesomeIconDataSolid(0xe9da);
+  /// FontAwesome's mosque solid Icon
+  static const mosque_solid = FontAwesomeIconData(0xec45);
 
-  ///FontAwesomeSolid's camera icon
-  static const camera = FontAwesomeIconDataSolid(0xe9dc);
+  /// FontAwesome's mosquito solid Icon
+  static const mosquito_solid = FontAwesomeIconData(0xec46);
 
-  ///FontAwesomeSolid's camera_retro icon
-  static const camera_retro = FontAwesomeIconDataSolid(0xe9dd);
+  /// FontAwesome's mosquito net solid Icon
+  static const mosquito_net_solid = FontAwesomeIconData(0xec47);
 
-  ///FontAwesomeSolid's camera_rotate icon
-  static const camera_rotate = FontAwesomeIconDataSolid(0xe9de);
+  /// FontAwesome's motorcycle solid Icon
+  static const motorcycle_solid = FontAwesomeIconData(0xec48);
 
-  ///FontAwesomeSolid's campground icon
-  static const campground = FontAwesomeIconDataSolid(0xe9df);
+  /// FontAwesome's mound solid Icon
+  static const mound_solid = FontAwesomeIconData(0xec49);
 
-  ///FontAwesomeSolid's candy_cane icon
-  static const candy_cane = FontAwesomeIconDataSolid(0xe9e0);
+  /// FontAwesome's mountain solid Icon
+  static const mountain_solid = FontAwesomeIconData(0xec4a);
 
-  ///FontAwesomeSolid's cannabis icon
-  static const cannabis = FontAwesomeIconDataSolid(0xe9e1);
+  /// FontAwesome's mountain city solid Icon
+  static const mountain_city_solid = FontAwesomeIconData(0xec4b);
 
-  ///FontAwesomeSolid's capsules icon
-  static const capsules = FontAwesomeIconDataSolid(0xe9e2);
+  /// FontAwesome's mountain sun solid Icon
+  static const mountain_sun_solid = FontAwesomeIconData(0xec4c);
 
-  ///FontAwesomeSolid's car icon
-  static const car = FontAwesomeIconDataSolid(0xe9e3);
+  /// FontAwesome's mug hot solid Icon
+  static const mug_hot_solid = FontAwesomeIconData(0xec4d);
 
-  ///FontAwesomeSolid's caravan icon
-  static const caravan = FontAwesomeIconDataSolid(0xe9e4);
+  /// FontAwesome's mug saucer solid Icon
+  static const mug_saucer_solid = FontAwesomeIconData(0xec4e);
 
-  ///FontAwesomeSolid's car_battery icon
-  static const car_battery = FontAwesomeIconDataSolid(0xe9e5);
+  /// FontAwesome's music solid Icon
+  static const music_solid = FontAwesomeIconData(0xec4f);
 
-  ///FontAwesomeSolid's car_burst icon
-  static const car_burst = FontAwesomeIconDataSolid(0xe9e6);
+  /// FontAwesome's n solid Icon
+  static const n_solid = FontAwesomeIconData(0xec50);
 
-  ///FontAwesomeSolid's caret_down icon
-  static const caret_down = FontAwesomeIconDataSolid(0xe9e7);
+  /// FontAwesome's naira sign solid Icon
+  static const naira_sign_solid = FontAwesomeIconData(0xec51);
 
-  ///FontAwesomeSolid's caret_left icon
-  static const caret_left = FontAwesomeIconDataSolid(0xe9e8);
+  /// FontAwesome's network wired solid Icon
+  static const network_wired_solid = FontAwesomeIconData(0xec52);
 
-  ///FontAwesomeSolid's caret_right icon
-  static const caret_right = FontAwesomeIconDataSolid(0xe9e9);
+  /// FontAwesome's neuter solid Icon
+  static const neuter_solid = FontAwesomeIconData(0xec53);
 
-  ///FontAwesomeSolid's caret_up icon
-  static const caret_up = FontAwesomeIconDataSolid(0xe9ea);
+  /// FontAwesome's newspaper solid Icon
+  static const newspaper_solid = FontAwesomeIconData(0xec54);
 
-  ///FontAwesomeSolid's car_on icon
-  static const car_on = FontAwesomeIconDataSolid(0xe9eb);
+  /// FontAwesome's notdef solid Icon
+  static const notdef_solid = FontAwesomeIconData(0xec55);
 
-  ///FontAwesomeSolid's car_rear icon
-  static const car_rear = FontAwesomeIconDataSolid(0xe9ec);
+  /// FontAwesome's not equal solid Icon
+  static const not_equal_solid = FontAwesomeIconData(0xec56);
 
-  ///FontAwesomeSolid's carrot icon
-  static const carrot = FontAwesomeIconDataSolid(0xe9ed);
+  /// FontAwesome's notes medical solid Icon
+  static const notes_medical_solid = FontAwesomeIconData(0xec57);
 
-  ///FontAwesomeSolid's car_side icon
-  static const car_side = FontAwesomeIconDataSolid(0xe9ee);
+  /// FontAwesome's note sticky solid Icon
+  static const note_sticky_solid = FontAwesomeIconData(0xec58);
 
-  ///FontAwesomeSolid's cart_arrow_down icon
-  static const cart_arrow_down = FontAwesomeIconDataSolid(0xe9ef);
+  /// FontAwesome's num0 solid Icon
+  static const num0_solid = FontAwesomeIconData(0xec59);
 
-  ///FontAwesomeSolid's cart_flatbed icon
-  static const cart_flatbed = FontAwesomeIconDataSolid(0xe9f0);
+  /// FontAwesome's num1 solid Icon
+  static const num1_solid = FontAwesomeIconData(0xec5a);
 
-  ///FontAwesomeSolid's cart_flatbed_suitcase icon
-  static const cart_flatbed_suitcase = FontAwesomeIconDataSolid(0xe9f1);
+  /// FontAwesome's num2 solid Icon
+  static const num2_solid = FontAwesomeIconData(0xec5b);
 
-  ///FontAwesomeSolid's cart_plus icon
-  static const cart_plus = FontAwesomeIconDataSolid(0xe9f2);
+  /// FontAwesome's num3 solid Icon
+  static const num3_solid = FontAwesomeIconData(0xec5c);
 
-  ///FontAwesomeSolid's cart_shopping icon
-  static const cart_shopping = FontAwesomeIconDataSolid(0xe9f3);
+  /// FontAwesome's num4 solid Icon
+  static const num4_solid = FontAwesomeIconData(0xec5d);
 
-  ///FontAwesomeSolid's car_tunnel icon
-  static const car_tunnel = FontAwesomeIconDataSolid(0xe9f4);
+  /// FontAwesome's num5 solid Icon
+  static const num5_solid = FontAwesomeIconData(0xec5e);
 
-  ///FontAwesomeSolid's cash_register icon
-  static const cash_register = FontAwesomeIconDataSolid(0xe9f5);
+  /// FontAwesome's num6 solid Icon
+  static const num6_solid = FontAwesomeIconData(0xec5f);
 
-  ///FontAwesomeSolid's cat icon
-  static const cat = FontAwesomeIconDataSolid(0xe9f6);
+  /// FontAwesome's num7 solid Icon
+  static const num7_solid = FontAwesomeIconData(0xec60);
 
-  ///FontAwesomeSolid's cedi_sign icon
-  static const cedi_sign = FontAwesomeIconDataSolid(0xe9f7);
+  /// FontAwesome's num8 solid Icon
+  static const num8_solid = FontAwesomeIconData(0xec61);
 
-  ///FontAwesomeSolid's cent_sign icon
-  static const cent_sign = FontAwesomeIconDataSolid(0xe9f8);
+  /// FontAwesome's num9 solid Icon
+  static const num9_solid = FontAwesomeIconData(0xec62);
 
-  ///FontAwesomeSolid's certificate icon
-  static const certificate = FontAwesomeIconDataSolid(0xe9f9);
+  /// FontAwesome's o solid Icon
+  static const o_solid = FontAwesomeIconData(0xec63);
 
-  ///FontAwesomeSolid's chair icon
-  static const chair = FontAwesomeIconDataSolid(0xe9fa);
+  /// FontAwesome's object group solid Icon
+  static const object_group_solid = FontAwesomeIconData(0xec64);
 
-  ///FontAwesomeSolid's chalkboard icon
-  static const chalkboard = FontAwesomeIconDataSolid(0xe9fb);
+  /// FontAwesome's object ungroup solid Icon
+  static const object_ungroup_solid = FontAwesomeIconData(0xec65);
 
-  ///FontAwesomeSolid's chalkboard_user icon
-  static const chalkboard_user = FontAwesomeIconDataSolid(0xe9fc);
+  /// FontAwesome's oil can solid Icon
+  static const oil_can_solid = FontAwesomeIconData(0xec66);
 
-  ///FontAwesomeSolid's champagne_glasses icon
-  static const champagne_glasses = FontAwesomeIconDataSolid(0xe9fd);
+  /// FontAwesome's oil well solid Icon
+  static const oil_well_solid = FontAwesomeIconData(0xec67);
 
-  ///FontAwesomeSolid's charging_station icon
-  static const charging_station = FontAwesomeIconDataSolid(0xe9fe);
+  /// FontAwesome's om solid Icon
+  static const om_solid = FontAwesomeIconData(0xec68);
 
-  ///FontAwesomeSolid's chart_area icon
-  static const chart_area = FontAwesomeIconDataSolid(0xe9ff);
+  /// FontAwesome's otter solid Icon
+  static const otter_solid = FontAwesomeIconData(0xec69);
 
-  ///FontAwesomeSolid's chart_column icon
-  static const chart_column = FontAwesomeIconDataSolid(0xea01);
+  /// FontAwesome's outdent solid Icon
+  static const outdent_solid = FontAwesomeIconData(0xec6a);
 
-  ///FontAwesomeSolid's chart_gantt icon
-  static const chart_gantt = FontAwesomeIconDataSolid(0xea02);
+  /// FontAwesome's p solid Icon
+  static const p_solid = FontAwesomeIconData(0xec6b);
 
-  ///FontAwesomeSolid's chart_line icon
-  static const chart_line = FontAwesomeIconDataSolid(0xea03);
+  /// FontAwesome's pager solid Icon
+  static const pager_solid = FontAwesomeIconData(0xec6c);
 
-  ///FontAwesomeSolid's chart_pie icon
-  static const chart_pie = FontAwesomeIconDataSolid(0xea04);
+  /// FontAwesome's paintbrush solid Icon
+  static const paintbrush_solid = FontAwesomeIconData(0xec6d);
 
-  ///FontAwesomeSolid's chart_simple icon
-  static const chart_simple = FontAwesomeIconDataSolid(0xea05);
+  /// FontAwesome's paint roller solid Icon
+  static const paint_roller_solid = FontAwesomeIconData(0xec6e);
 
-  ///FontAwesomeSolid's check icon
-  static const check = FontAwesomeIconDataSolid(0xea06);
+  /// FontAwesome's palette solid Icon
+  static const palette_solid = FontAwesomeIconData(0xec6f);
 
-  ///FontAwesomeSolid's check_double icon
-  static const check_double = FontAwesomeIconDataSolid(0xea07);
+  /// FontAwesome's pallet solid Icon
+  static const pallet_solid = FontAwesomeIconData(0xec70);
 
-  ///FontAwesomeSolid's check_to_slot icon
-  static const check_to_slot = FontAwesomeIconDataSolid(0xea08);
+  /// FontAwesome's panorama solid Icon
+  static const panorama_solid = FontAwesomeIconData(0xec71);
 
-  ///FontAwesomeSolid's cheese icon
-  static const cheese = FontAwesomeIconDataSolid(0xea09);
+  /// FontAwesome's paperclip solid Icon
+  static const paperclip_solid = FontAwesomeIconData(0xec72);
 
-  ///FontAwesomeSolid's chess icon
-  static const chess = FontAwesomeIconDataSolid(0xea0a);
+  /// FontAwesome's paper plane solid Icon
+  static const paper_plane_solid = FontAwesomeIconData(0xec73);
 
-  ///FontAwesomeSolid's chess_board icon
-  static const chess_board = FontAwesomeIconDataSolid(0xea0c);
+  /// FontAwesome's parachute box solid Icon
+  static const parachute_box_solid = FontAwesomeIconData(0xec74);
 
-  ///FontAwesomeSolid's chevron_down icon
-  static const chevron_down = FontAwesomeIconDataSolid(0xea12);
+  /// FontAwesome's paragraph solid Icon
+  static const paragraph_solid = FontAwesomeIconData(0xec75);
 
-  ///FontAwesomeSolid's chevron_left icon
-  static const chevron_left = FontAwesomeIconDataSolid(0xea13);
+  /// FontAwesome's passport solid Icon
+  static const passport_solid = FontAwesomeIconData(0xec76);
 
-  ///FontAwesomeSolid's chevron_right icon
-  static const chevron_right = FontAwesomeIconDataSolid(0xea14);
+  /// FontAwesome's paste solid Icon
+  static const paste_solid = FontAwesomeIconData(0xec77);
 
-  ///FontAwesomeSolid's chevron_up icon
-  static const chevron_up = FontAwesomeIconDataSolid(0xea15);
+  /// FontAwesome's pause solid Icon
+  static const pause_solid = FontAwesomeIconData(0xec78);
 
-  ///FontAwesomeSolid's child icon
-  static const child = FontAwesomeIconDataSolid(0xea16);
+  /// FontAwesome's paw solid Icon
+  static const paw_solid = FontAwesomeIconData(0xec79);
 
-  ///FontAwesomeSolid's child_combatant icon
-  static const child_combatant = FontAwesomeIconDataSolid(0xea17);
+  /// FontAwesome's peace solid Icon
+  static const peace_solid = FontAwesomeIconData(0xec7a);
 
-  ///FontAwesomeSolid's child_dress icon
-  static const child_dress = FontAwesomeIconDataSolid(0xea18);
+  /// FontAwesome's pen solid Icon
+  static const pen_solid = FontAwesomeIconData(0xec7b);
 
-  ///FontAwesomeSolid's child_reaching icon
-  static const child_reaching = FontAwesomeIconDataSolid(0xea19);
+  /// FontAwesome's pencil solid Icon
+  static const pencil_solid = FontAwesomeIconData(0xec7c);
 
-  ///FontAwesomeSolid's children icon
-  static const children = FontAwesomeIconDataSolid(0xea1a);
+  /// FontAwesome's pen clip solid Icon
+  static const pen_clip_solid = FontAwesomeIconData(0xec7d);
 
-  ///FontAwesomeSolid's church icon
-  static const church = FontAwesomeIconDataSolid(0xea1b);
+  /// FontAwesome's pen fancy solid Icon
+  static const pen_fancy_solid = FontAwesomeIconData(0xec7e);
 
-  ///FontAwesomeSolid's circle_arrow_down icon
-  static const circle_arrow_down = FontAwesomeIconDataSolid(0xea1d);
+  /// FontAwesome's pen nib solid Icon
+  static const pen_nib_solid = FontAwesomeIconData(0xec7f);
 
-  ///FontAwesomeSolid's circle_arrow_left icon
-  static const circle_arrow_left = FontAwesomeIconDataSolid(0xea1e);
+  /// FontAwesome's pen ruler solid Icon
+  static const pen_ruler_solid = FontAwesomeIconData(0xec80);
 
-  ///FontAwesomeSolid's circle_arrow_right icon
-  static const circle_arrow_right = FontAwesomeIconDataSolid(0xea1f);
+  /// FontAwesome's pen to square solid Icon
+  static const pen_to_square_solid = FontAwesomeIconData(0xec81);
 
-  ///FontAwesomeSolid's circle_arrow_up icon
-  static const circle_arrow_up = FontAwesomeIconDataSolid(0xea20);
+  /// FontAwesome's people arrows solid Icon
+  static const people_arrows_solid = FontAwesomeIconData(0xec82);
 
-  ///FontAwesomeSolid's circle_chevron_down icon
-  static const circle_chevron_down = FontAwesomeIconDataSolid(0xea22);
+  /// FontAwesome's people carry box solid Icon
+  static const people_carry_box_solid = FontAwesomeIconData(0xec83);
 
-  ///FontAwesomeSolid's circle_chevron_left icon
-  static const circle_chevron_left = FontAwesomeIconDataSolid(0xea23);
+  /// FontAwesome's people group solid Icon
+  static const people_group_solid = FontAwesomeIconData(0xec84);
 
-  ///FontAwesomeSolid's circle_chevron_right icon
-  static const circle_chevron_right = FontAwesomeIconDataSolid(0xea24);
+  /// FontAwesome's people line solid Icon
+  static const people_line_solid = FontAwesomeIconData(0xec85);
 
-  ///FontAwesomeSolid's circle_chevron_up icon
-  static const circle_chevron_up = FontAwesomeIconDataSolid(0xea25);
+  /// FontAwesome's people pulling solid Icon
+  static const people_pulling_solid = FontAwesomeIconData(0xec86);
 
-  ///FontAwesomeSolid's circle_dollar_to_slot icon
-  static const circle_dollar_to_slot = FontAwesomeIconDataSolid(0xea26);
+  /// FontAwesome's people robbery solid Icon
+  static const people_robbery_solid = FontAwesomeIconData(0xec87);
 
-  ///FontAwesomeSolid's circle_exclamation icon
-  static const circle_exclamation = FontAwesomeIconDataSolid(0xea29);
+  /// FontAwesome's people roof solid Icon
+  static const people_roof_solid = FontAwesomeIconData(0xec88);
 
-  ///FontAwesomeSolid's circle_h icon
-  static const circle_h = FontAwesomeIconDataSolid(0xea2a);
+  /// FontAwesome's pepper hot solid Icon
+  static const pepper_hot_solid = FontAwesomeIconData(0xec89);
 
-  ///FontAwesomeSolid's circle_half_stroke icon
-  static const circle_half_stroke = FontAwesomeIconDataSolid(0xea2b);
+  /// FontAwesome's percent solid Icon
+  static const percent_solid = FontAwesomeIconData(0xec8a);
 
-  ///FontAwesomeSolid's circle_info icon
-  static const circle_info = FontAwesomeIconDataSolid(0xea2c);
+  /// FontAwesome's person solid Icon
+  static const person_solid = FontAwesomeIconData(0xec8b);
 
-  ///FontAwesomeSolid's circle_minus icon
-  static const circle_minus = FontAwesomeIconDataSolid(0xea2e);
+  /// FontAwesome's person arrow down to line solid Icon
+  static const person_arrow_down_to_line_solid = FontAwesomeIconData(0xec8c);
 
-  ///FontAwesomeSolid's circle_nodes icon
-  static const circle_nodes = FontAwesomeIconDataSolid(0xea2f);
+  /// FontAwesome's person arrow up from line solid Icon
+  static const person_arrow_up_from_line_solid = FontAwesomeIconData(0xec8d);
 
-  ///FontAwesomeSolid's circle_notch icon
-  static const circle_notch = FontAwesomeIconDataSolid(0xea30);
+  /// FontAwesome's person biking solid Icon
+  static const person_biking_solid = FontAwesomeIconData(0xec8e);
 
-  ///FontAwesomeSolid's circle_plus icon
-  static const circle_plus = FontAwesomeIconDataSolid(0xea33);
+  /// FontAwesome's person booth solid Icon
+  static const person_booth_solid = FontAwesomeIconData(0xec8f);
 
-  ///FontAwesomeSolid's circle_radiation icon
-  static const circle_radiation = FontAwesomeIconDataSolid(0xea35);
+  /// FontAwesome's person breastfeeding solid Icon
+  static const person_breastfeeding_solid = FontAwesomeIconData(0xec90);
 
-  ///FontAwesomeSolid's city icon
-  static const city = FontAwesomeIconDataSolid(0xea3b);
+  /// FontAwesome's person burst solid Icon
+  static const person_burst_solid = FontAwesomeIconData(0xec91);
 
-  ///FontAwesomeSolid's clapperboard icon
-  static const clapperboard = FontAwesomeIconDataSolid(0xea3c);
+  /// FontAwesome's person cane solid Icon
+  static const person_cane_solid = FontAwesomeIconData(0xec92);
 
-  ///FontAwesomeSolid's clipboard_check icon
-  static const clipboard_check = FontAwesomeIconDataSolid(0xea3e);
+  /// FontAwesome's person chalkboard solid Icon
+  static const person_chalkboard_solid = FontAwesomeIconData(0xec93);
 
-  ///FontAwesomeSolid's clipboard_list icon
-  static const clipboard_list = FontAwesomeIconDataSolid(0xea3f);
+  /// FontAwesome's person circle check solid Icon
+  static const person_circle_check_solid = FontAwesomeIconData(0xec94);
 
-  ///FontAwesomeSolid's clipboard_question icon
-  static const clipboard_question = FontAwesomeIconDataSolid(0xea40);
+  /// FontAwesome's person circle exclamation solid Icon
+  static const person_circle_exclamation_solid = FontAwesomeIconData(0xec95);
 
-  ///FontAwesomeSolid's clipboard_user icon
-  static const clipboard_user = FontAwesomeIconDataSolid(0xea41);
+  /// FontAwesome's person circle minus solid Icon
+  static const person_circle_minus_solid = FontAwesomeIconData(0xec96);
 
-  ///FontAwesomeSolid's clock_rotate_left icon
-  static const clock_rotate_left = FontAwesomeIconDataSolid(0xea43);
+  /// FontAwesome's person circle plus solid Icon
+  static const person_circle_plus_solid = FontAwesomeIconData(0xec97);
 
-  ///FontAwesomeSolid's cloud icon
-  static const cloud = FontAwesomeIconDataSolid(0xea46);
+  /// FontAwesome's person circle question solid Icon
+  static const person_circle_question_solid = FontAwesomeIconData(0xec98);
 
-  ///FontAwesomeSolid's cloud_arrow_down icon
-  static const cloud_arrow_down = FontAwesomeIconDataSolid(0xea47);
+  /// FontAwesome's person circle xmark solid Icon
+  static const person_circle_xmark_solid = FontAwesomeIconData(0xec99);
 
-  ///FontAwesomeSolid's cloud_arrow_up icon
-  static const cloud_arrow_up = FontAwesomeIconDataSolid(0xea48);
+  /// FontAwesome's person digging solid Icon
+  static const person_digging_solid = FontAwesomeIconData(0xec9a);
 
-  ///FontAwesomeSolid's cloud_bolt icon
-  static const cloud_bolt = FontAwesomeIconDataSolid(0xea49);
+  /// FontAwesome's person dots from line solid Icon
+  static const person_dots_from_line_solid = FontAwesomeIconData(0xec9b);
 
-  ///FontAwesomeSolid's cloud_meatball icon
-  static const cloud_meatball = FontAwesomeIconDataSolid(0xea4a);
+  /// FontAwesome's person dress solid Icon
+  static const person_dress_solid = FontAwesomeIconData(0xec9c);
 
-  ///FontAwesomeSolid's cloud_moon icon
-  static const cloud_moon = FontAwesomeIconDataSolid(0xea4b);
+  /// FontAwesome's person dress burst solid Icon
+  static const person_dress_burst_solid = FontAwesomeIconData(0xec9d);
 
-  ///FontAwesomeSolid's cloud_moon_rain icon
-  static const cloud_moon_rain = FontAwesomeIconDataSolid(0xea4c);
+  /// FontAwesome's person drowning solid Icon
+  static const person_drowning_solid = FontAwesomeIconData(0xec9e);
 
-  ///FontAwesomeSolid's cloud_rain icon
-  static const cloud_rain = FontAwesomeIconDataSolid(0xea4d);
+  /// FontAwesome's person falling solid Icon
+  static const person_falling_solid = FontAwesomeIconData(0xec9f);
 
-  ///FontAwesomeSolid's cloud_showers_heavy icon
-  static const cloud_showers_heavy = FontAwesomeIconDataSolid(0xea4e);
+  /// FontAwesome's person falling burst solid Icon
+  static const person_falling_burst_solid = FontAwesomeIconData(0xeca0);
 
-  ///FontAwesomeSolid's cloud_showers_water icon
-  static const cloud_showers_water = FontAwesomeIconDataSolid(0xea4f);
+  /// FontAwesome's person half dress solid Icon
+  static const person_half_dress_solid = FontAwesomeIconData(0xeca1);
 
-  ///FontAwesomeSolid's cloud_sun icon
-  static const cloud_sun = FontAwesomeIconDataSolid(0xea50);
+  /// FontAwesome's person harassing solid Icon
+  static const person_harassing_solid = FontAwesomeIconData(0xeca2);
 
-  ///FontAwesomeSolid's cloud_sun_rain icon
-  static const cloud_sun_rain = FontAwesomeIconDataSolid(0xea51);
+  /// FontAwesome's person hiking solid Icon
+  static const person_hiking_solid = FontAwesomeIconData(0xeca3);
 
-  ///FontAwesomeSolid's clover icon
-  static const clover = FontAwesomeIconDataSolid(0xea52);
+  /// FontAwesome's person military pointing solid Icon
+  static const person_military_pointing_solid = FontAwesomeIconData(0xeca4);
 
-  ///FontAwesomeSolid's code icon
-  static const code = FontAwesomeIconDataSolid(0xea53);
+  /// FontAwesome's person military rifle solid Icon
+  static const person_military_rifle_solid = FontAwesomeIconData(0xeca5);
 
-  ///FontAwesomeSolid's code_branch icon
-  static const code_branch = FontAwesomeIconDataSolid(0xea54);
+  /// FontAwesome's person military to person solid Icon
+  static const person_military_to_person_solid = FontAwesomeIconData(0xeca6);
 
-  ///FontAwesomeSolid's code_commit icon
-  static const code_commit = FontAwesomeIconDataSolid(0xea55);
+  /// FontAwesome's person praying solid Icon
+  static const person_praying_solid = FontAwesomeIconData(0xeca7);
 
-  ///FontAwesomeSolid's code_compare icon
-  static const code_compare = FontAwesomeIconDataSolid(0xea56);
+  /// FontAwesome's person pregnant solid Icon
+  static const person_pregnant_solid = FontAwesomeIconData(0xeca8);
 
-  ///FontAwesomeSolid's code_fork icon
-  static const code_fork = FontAwesomeIconDataSolid(0xea57);
+  /// FontAwesome's person rays solid Icon
+  static const person_rays_solid = FontAwesomeIconData(0xeca9);
 
-  ///FontAwesomeSolid's code_merge icon
-  static const code_merge = FontAwesomeIconDataSolid(0xea58);
+  /// FontAwesome's person rifle solid Icon
+  static const person_rifle_solid = FontAwesomeIconData(0xecaa);
 
-  ///FontAwesomeSolid's code_pull_request icon
-  static const code_pull_request = FontAwesomeIconDataSolid(0xea59);
+  /// FontAwesome's person running solid Icon
+  static const person_running_solid = FontAwesomeIconData(0xecab);
 
-  ///FontAwesomeSolid's coins icon
-  static const coins = FontAwesomeIconDataSolid(0xea5a);
+  /// FontAwesome's person shelter solid Icon
+  static const person_shelter_solid = FontAwesomeIconData(0xecac);
 
-  ///FontAwesomeSolid's colon_sign icon
-  static const colon_sign = FontAwesomeIconDataSolid(0xea5b);
+  /// FontAwesome's person skating solid Icon
+  static const person_skating_solid = FontAwesomeIconData(0xecad);
 
-  ///FontAwesomeSolid's comment_dollar icon
-  static const comment_dollar = FontAwesomeIconDataSolid(0xea5d);
+  /// FontAwesome's person skiing solid Icon
+  static const person_skiing_solid = FontAwesomeIconData(0xecae);
 
-  ///FontAwesomeSolid's comment_medical icon
-  static const comment_medical = FontAwesomeIconDataSolid(0xea5f);
+  /// FontAwesome's person skiing nordic solid Icon
+  static const person_skiing_nordic_solid = FontAwesomeIconData(0xecaf);
 
-  ///FontAwesomeSolid's comments_dollar icon
-  static const comments_dollar = FontAwesomeIconDataSolid(0xea61);
+  /// FontAwesome's person snowboarding solid Icon
+  static const person_snowboarding_solid = FontAwesomeIconData(0xecb0);
 
-  ///FontAwesomeSolid's comment_slash icon
-  static const comment_slash = FontAwesomeIconDataSolid(0xea62);
+  /// FontAwesome's person swimming solid Icon
+  static const person_swimming_solid = FontAwesomeIconData(0xecb1);
 
-  ///FontAwesomeSolid's comment_sms icon
-  static const comment_sms = FontAwesomeIconDataSolid(0xea63);
+  /// FontAwesome's person through window solid Icon
+  static const person_through_window_solid = FontAwesomeIconData(0xecb2);
 
-  ///FontAwesomeSolid's compact_disc icon
-  static const compact_disc = FontAwesomeIconDataSolid(0xea64);
+  /// FontAwesome's person walking solid Icon
+  static const person_walking_solid = FontAwesomeIconData(0xecb3);
 
-  ///FontAwesomeSolid's compass_drafting icon
-  static const compass_drafting = FontAwesomeIconDataSolid(0xea66);
+  /// FontAwesome's person walking arrow loop left solid Icon
+  static const person_walking_arrow_loop_left_solid =
+      FontAwesomeIconData(0xecb4);
 
-  ///FontAwesomeSolid's compress icon
-  static const compress = FontAwesomeIconDataSolid(0xea67);
+  /// FontAwesome's person walking arrow right solid Icon
+  static const person_walking_arrow_right_solid = FontAwesomeIconData(0xecb5);
 
-  ///FontAwesomeSolid's computer icon
-  static const computer = FontAwesomeIconDataSolid(0xea68);
+  /// FontAwesome's person walking dashed line arrow right solid Icon
+  static const person_walking_dashed_line_arrow_right_solid =
+      FontAwesomeIconData(0xecb6);
 
-  ///FontAwesomeSolid's computer_mouse icon
-  static const computer_mouse = FontAwesomeIconDataSolid(0xea69);
+  /// FontAwesome's person walking luggage solid Icon
+  static const person_walking_luggage_solid = FontAwesomeIconData(0xecb7);
 
-  ///FontAwesomeSolid's cookie icon
-  static const cookie = FontAwesomeIconDataSolid(0xea6a);
+  /// FontAwesome's person walking with cane solid Icon
+  static const person_walking_with_cane_solid = FontAwesomeIconData(0xecb8);
 
-  ///FontAwesomeSolid's cookie_bite icon
-  static const cookie_bite = FontAwesomeIconDataSolid(0xea6b);
+  /// FontAwesome's peseta sign solid Icon
+  static const peseta_sign_solid = FontAwesomeIconData(0xecb9);
 
-  ///FontAwesomeSolid's couch icon
-  static const couch = FontAwesomeIconDataSolid(0xea6e);
+  /// FontAwesome's peso sign solid Icon
+  static const peso_sign_solid = FontAwesomeIconData(0xecba);
 
-  ///FontAwesomeSolid's cow icon
-  static const cow = FontAwesomeIconDataSolid(0xea6f);
+  /// FontAwesome's phone solid Icon
+  static const phone_solid = FontAwesomeIconData(0xecbb);
 
-  ///FontAwesomeSolid's crop icon
-  static const crop = FontAwesomeIconDataSolid(0xea71);
+  /// FontAwesome's phone flip solid Icon
+  static const phone_flip_solid = FontAwesomeIconData(0xecbc);
 
-  ///FontAwesomeSolid's crop_simple icon
-  static const crop_simple = FontAwesomeIconDataSolid(0xea72);
+  /// FontAwesome's phone slash solid Icon
+  static const phone_slash_solid = FontAwesomeIconData(0xecbd);
 
-  ///FontAwesomeSolid's cross icon
-  static const cross = FontAwesomeIconDataSolid(0xea73);
+  /// FontAwesome's phone volume solid Icon
+  static const phone_volume_solid = FontAwesomeIconData(0xecbe);
 
-  ///FontAwesomeSolid's crosshairs icon
-  static const crosshairs = FontAwesomeIconDataSolid(0xea74);
+  /// FontAwesome's photo film solid Icon
+  static const photo_film_solid = FontAwesomeIconData(0xecbf);
 
-  ///FontAwesomeSolid's crow icon
-  static const crow = FontAwesomeIconDataSolid(0xea75);
+  /// FontAwesome's piggy bank solid Icon
+  static const piggy_bank_solid = FontAwesomeIconData(0xecc0);
 
-  ///FontAwesomeSolid's crown icon
-  static const crown = FontAwesomeIconDataSolid(0xea76);
+  /// FontAwesome's pills solid Icon
+  static const pills_solid = FontAwesomeIconData(0xecc1);
 
-  ///FontAwesomeSolid's crutch icon
-  static const crutch = FontAwesomeIconDataSolid(0xea77);
+  /// FontAwesome's pizza slice solid Icon
+  static const pizza_slice_solid = FontAwesomeIconData(0xecc2);
 
-  ///FontAwesomeSolid's cruzeiro_sign icon
-  static const cruzeiro_sign = FontAwesomeIconDataSolid(0xea78);
+  /// FontAwesome's place of worship solid Icon
+  static const place_of_worship_solid = FontAwesomeIconData(0xecc3);
 
-  ///FontAwesomeSolid's cube icon
-  static const cube = FontAwesomeIconDataSolid(0xea79);
+  /// FontAwesome's plane solid Icon
+  static const plane_solid = FontAwesomeIconData(0xecc4);
 
-  ///FontAwesomeSolid's cubes icon
-  static const cubes = FontAwesomeIconDataSolid(0xea7a);
+  /// FontAwesome's plane arrival solid Icon
+  static const plane_arrival_solid = FontAwesomeIconData(0xecc5);
 
-  ///FontAwesomeSolid's cubes_stacked icon
-  static const cubes_stacked = FontAwesomeIconDataSolid(0xea7b);
+  /// FontAwesome's plane circle check solid Icon
+  static const plane_circle_check_solid = FontAwesomeIconData(0xecc6);
 
-  ///FontAwesomeSolid's d icon
-  static const d = FontAwesomeIconDataSolid(0xea7c);
+  /// FontAwesome's plane circle exclamation solid Icon
+  static const plane_circle_exclamation_solid = FontAwesomeIconData(0xecc7);
 
-  ///FontAwesomeSolid's database icon
-  static const database = FontAwesomeIconDataSolid(0xea7d);
+  /// FontAwesome's plane circle xmark solid Icon
+  static const plane_circle_xmark_solid = FontAwesomeIconData(0xecc8);
 
-  ///FontAwesomeSolid's delete_left icon
-  static const delete_left = FontAwesomeIconDataSolid(0xea7e);
+  /// FontAwesome's plane departure solid Icon
+  static const plane_departure_solid = FontAwesomeIconData(0xecc9);
 
-  ///FontAwesomeSolid's democrat icon
-  static const democrat = FontAwesomeIconDataSolid(0xea7f);
+  /// FontAwesome's plane lock solid Icon
+  static const plane_lock_solid = FontAwesomeIconData(0xecca);
 
-  ///FontAwesomeSolid's desktop icon
-  static const desktop = FontAwesomeIconDataSolid(0xea80);
+  /// FontAwesome's plane slash solid Icon
+  static const plane_slash_solid = FontAwesomeIconData(0xeccb);
 
-  ///FontAwesomeSolid's dharmachakra icon
-  static const dharmachakra = FontAwesomeIconDataSolid(0xea81);
+  /// FontAwesome's plane up solid Icon
+  static const plane_up_solid = FontAwesomeIconData(0xeccc);
 
-  ///FontAwesomeSolid's diagram_next icon
-  static const diagram_next = FontAwesomeIconDataSolid(0xea82);
+  /// FontAwesome's plant wilt solid Icon
+  static const plant_wilt_solid = FontAwesomeIconData(0xeccd);
 
-  ///FontAwesomeSolid's diagram_predecessor icon
-  static const diagram_predecessor = FontAwesomeIconDataSolid(0xea83);
+  /// FontAwesome's plate wheat solid Icon
+  static const plate_wheat_solid = FontAwesomeIconData(0xecce);
 
-  ///FontAwesomeSolid's diagram_project icon
-  static const diagram_project = FontAwesomeIconDataSolid(0xea84);
+  /// FontAwesome's play solid Icon
+  static const play_solid = FontAwesomeIconData(0xeccf);
 
-  ///FontAwesomeSolid's diagram_successor icon
-  static const diagram_successor = FontAwesomeIconDataSolid(0xea85);
+  /// FontAwesome's plug solid Icon
+  static const plug_solid = FontAwesomeIconData(0xecd0);
 
-  ///FontAwesomeSolid's diamond icon
-  static const diamond = FontAwesomeIconDataSolid(0xea86);
+  /// FontAwesome's plug circle bolt solid Icon
+  static const plug_circle_bolt_solid = FontAwesomeIconData(0xecd1);
 
-  ///FontAwesomeSolid's diamond_turn_right icon
-  static const diamond_turn_right = FontAwesomeIconDataSolid(0xea87);
+  /// FontAwesome's plug circle check solid Icon
+  static const plug_circle_check_solid = FontAwesomeIconData(0xecd2);
 
-  ///FontAwesomeSolid's dice icon
-  static const dice = FontAwesomeIconDataSolid(0xea88);
+  /// FontAwesome's plug circle exclamation solid Icon
+  static const plug_circle_exclamation_solid = FontAwesomeIconData(0xecd3);
 
-  ///FontAwesomeSolid's dice_d6 icon
-  static const dice_d6 = FontAwesomeIconDataSolid(0xea89);
+  /// FontAwesome's plug circle minus solid Icon
+  static const plug_circle_minus_solid = FontAwesomeIconData(0xecd4);
 
-  ///FontAwesomeSolid's dice_d20 icon
-  static const dice_d20 = FontAwesomeIconDataSolid(0xea8a);
+  /// FontAwesome's plug circle plus solid Icon
+  static const plug_circle_plus_solid = FontAwesomeIconData(0xecd5);
 
-  ///FontAwesomeSolid's dice_five icon
-  static const dice_five = FontAwesomeIconDataSolid(0xea8b);
+  /// FontAwesome's plug circle xmark solid Icon
+  static const plug_circle_xmark_solid = FontAwesomeIconData(0xecd6);
 
-  ///FontAwesomeSolid's dice_four icon
-  static const dice_four = FontAwesomeIconDataSolid(0xea8c);
+  /// FontAwesome's plus solid Icon
+  static const plus_solid = FontAwesomeIconData(0xecd7);
 
-  ///FontAwesomeSolid's dice_one icon
-  static const dice_one = FontAwesomeIconDataSolid(0xea8d);
+  /// FontAwesome's plus minus solid Icon
+  static const plus_minus_solid = FontAwesomeIconData(0xecd8);
 
-  ///FontAwesomeSolid's dice_six icon
-  static const dice_six = FontAwesomeIconDataSolid(0xea8e);
+  /// FontAwesome's podcast solid Icon
+  static const podcast_solid = FontAwesomeIconData(0xecd9);
 
-  ///FontAwesomeSolid's dice_three icon
-  static const dice_three = FontAwesomeIconDataSolid(0xea8f);
+  /// FontAwesome's poo solid Icon
+  static const poo_solid = FontAwesomeIconData(0xecda);
 
-  ///FontAwesomeSolid's dice_two icon
-  static const dice_two = FontAwesomeIconDataSolid(0xea90);
+  /// FontAwesome's poop solid Icon
+  static const poop_solid = FontAwesomeIconData(0xecdb);
 
-  ///FontAwesomeSolid's disease icon
-  static const disease = FontAwesomeIconDataSolid(0xea91);
+  /// FontAwesome's poo storm solid Icon
+  static const poo_storm_solid = FontAwesomeIconData(0xecdc);
 
-  ///FontAwesomeSolid's display icon
-  static const display = FontAwesomeIconDataSolid(0xea92);
+  /// FontAwesome's power off solid Icon
+  static const power_off_solid = FontAwesomeIconData(0xecdd);
 
-  ///FontAwesomeSolid's divide icon
-  static const divide = FontAwesomeIconDataSolid(0xea93);
+  /// FontAwesome's prescription solid Icon
+  static const prescription_solid = FontAwesomeIconData(0xecde);
 
-  ///FontAwesomeSolid's dna icon
-  static const dna = FontAwesomeIconDataSolid(0xea94);
+  /// FontAwesome's prescription bottle solid Icon
+  static const prescription_bottle_solid = FontAwesomeIconData(0xecdf);
 
-  ///FontAwesomeSolid's dog icon
-  static const dog = FontAwesomeIconDataSolid(0xea95);
+  /// FontAwesome's prescription bottle medical solid Icon
+  static const prescription_bottle_medical_solid = FontAwesomeIconData(0xece0);
 
-  ///FontAwesomeSolid's dollar_sign icon
-  static const dollar_sign = FontAwesomeIconDataSolid(0xea96);
+  /// FontAwesome's print solid Icon
+  static const print_solid = FontAwesomeIconData(0xece1);
 
-  ///FontAwesomeSolid's dolly icon
-  static const dolly = FontAwesomeIconDataSolid(0xea97);
+  /// FontAwesome's pump medical solid Icon
+  static const pump_medical_solid = FontAwesomeIconData(0xece2);
 
-  ///FontAwesomeSolid's dong_sign icon
-  static const dong_sign = FontAwesomeIconDataSolid(0xea98);
+  /// FontAwesome's pump soap solid Icon
+  static const pump_soap_solid = FontAwesomeIconData(0xece3);
 
-  ///FontAwesomeSolid's door_closed icon
-  static const door_closed = FontAwesomeIconDataSolid(0xea99);
+  /// FontAwesome's puzzle piece solid Icon
+  static const puzzle_piece_solid = FontAwesomeIconData(0xece4);
 
-  ///FontAwesomeSolid's door_open icon
-  static const door_open = FontAwesomeIconDataSolid(0xea9a);
+  /// FontAwesome's q solid Icon
+  static const q_solid = FontAwesomeIconData(0xece5);
 
-  ///FontAwesomeSolid's dove icon
-  static const dove = FontAwesomeIconDataSolid(0xea9b);
+  /// FontAwesome's qrcode solid Icon
+  static const qrcode_solid = FontAwesomeIconData(0xece6);
 
-  ///FontAwesomeSolid's down_left_and_up_right_to_center icon
-  static const down_left_and_up_right_to_center =
-      FontAwesomeIconDataSolid(0xea9c);
+  /// FontAwesome's question solid Icon
+  static const question_solid = FontAwesomeIconData(0xece7);
 
-  ///FontAwesomeSolid's download icon
-  static const download = FontAwesomeIconDataSolid(0xea9d);
+  /// FontAwesome's quote left solid Icon
+  static const quote_left_solid = FontAwesomeIconData(0xece8);
 
-  ///FontAwesomeSolid's down_long icon
-  static const down_long = FontAwesomeIconDataSolid(0xea9e);
+  /// FontAwesome's quote right solid Icon
+  static const quote_right_solid = FontAwesomeIconData(0xece9);
 
-  ///FontAwesomeSolid's dragon icon
-  static const dragon = FontAwesomeIconDataSolid(0xea9f);
+  /// FontAwesome's r solid Icon
+  static const r_solid = FontAwesomeIconData(0xecea);
 
-  ///FontAwesomeSolid's draw_polygon icon
-  static const draw_polygon = FontAwesomeIconDataSolid(0xeaa0);
+  /// FontAwesome's radiation solid Icon
+  static const radiation_solid = FontAwesomeIconData(0xeceb);
 
-  ///FontAwesomeSolid's droplet icon
-  static const droplet = FontAwesomeIconDataSolid(0xeaa1);
+  /// FontAwesome's radio solid Icon
+  static const radio_solid = FontAwesomeIconData(0xecec);
 
-  ///FontAwesomeSolid's droplet_slash icon
-  static const droplet_slash = FontAwesomeIconDataSolid(0xeaa2);
+  /// FontAwesome's rainbow solid Icon
+  static const rainbow_solid = FontAwesomeIconData(0xeced);
 
-  ///FontAwesomeSolid's drum icon
-  static const drum = FontAwesomeIconDataSolid(0xeaa3);
+  /// FontAwesome's ranking star solid Icon
+  static const ranking_star_solid = FontAwesomeIconData(0xecee);
 
-  ///FontAwesomeSolid's drum_steelpan icon
-  static const drum_steelpan = FontAwesomeIconDataSolid(0xeaa4);
+  /// FontAwesome's receipt solid Icon
+  static const receipt_solid = FontAwesomeIconData(0xecef);
 
-  ///FontAwesomeSolid's drumstick_bite icon
-  static const drumstick_bite = FontAwesomeIconDataSolid(0xeaa5);
+  /// FontAwesome's record vinyl solid Icon
+  static const record_vinyl_solid = FontAwesomeIconData(0xecf0);
 
-  ///FontAwesomeSolid's dumbbell icon
-  static const dumbbell = FontAwesomeIconDataSolid(0xeaa6);
+  /// FontAwesome's rectangle ad solid Icon
+  static const rectangle_ad_solid = FontAwesomeIconData(0xecf1);
 
-  ///FontAwesomeSolid's dumpster icon
-  static const dumpster = FontAwesomeIconDataSolid(0xeaa7);
+  /// FontAwesome's rectangle list solid Icon
+  static const rectangle_list_solid = FontAwesomeIconData(0xecf2);
 
-  ///FontAwesomeSolid's dumpster_fire icon
-  static const dumpster_fire = FontAwesomeIconDataSolid(0xeaa8);
+  /// FontAwesome's rectangle xmark solid Icon
+  static const rectangle_xmark_solid = FontAwesomeIconData(0xecf3);
 
-  ///FontAwesomeSolid's dungeon icon
-  static const dungeon = FontAwesomeIconDataSolid(0xeaa9);
+  /// FontAwesome's recycle solid Icon
+  static const recycle_solid = FontAwesomeIconData(0xecf4);
 
-  ///FontAwesomeSolid's e icon
-  static const e = FontAwesomeIconDataSolid(0xeaaa);
+  /// FontAwesome's registered solid Icon
+  static const registered_solid = FontAwesomeIconData(0xecf5);
 
-  ///FontAwesomeSolid's ear_deaf icon
-  static const ear_deaf = FontAwesomeIconDataSolid(0xeaab);
+  /// FontAwesome's repeat solid Icon
+  static const repeat_solid = FontAwesomeIconData(0xecf6);
 
-  ///FontAwesomeSolid's ear_listen icon
-  static const ear_listen = FontAwesomeIconDataSolid(0xeaac);
+  /// FontAwesome's reply solid Icon
+  static const reply_solid = FontAwesomeIconData(0xecf7);
 
-  ///FontAwesomeSolid's earth_africa icon
-  static const earth_africa = FontAwesomeIconDataSolid(0xeaad);
+  /// FontAwesome's reply all solid Icon
+  static const reply_all_solid = FontAwesomeIconData(0xecf8);
 
-  ///FontAwesomeSolid's earth_americas icon
-  static const earth_americas = FontAwesomeIconDataSolid(0xeaae);
+  /// FontAwesome's republican solid Icon
+  static const republican_solid = FontAwesomeIconData(0xecf9);
 
-  ///FontAwesomeSolid's earth_asia icon
-  static const earth_asia = FontAwesomeIconDataSolid(0xeaaf);
+  /// FontAwesome's restroom solid Icon
+  static const restroom_solid = FontAwesomeIconData(0xecfa);
 
-  ///FontAwesomeSolid's earth_europe icon
-  static const earth_europe = FontAwesomeIconDataSolid(0xeab0);
+  /// FontAwesome's retweet solid Icon
+  static const retweet_solid = FontAwesomeIconData(0xecfb);
 
-  ///FontAwesomeSolid's earth_oceania icon
-  static const earth_oceania = FontAwesomeIconDataSolid(0xeab1);
+  /// FontAwesome's ribbon solid Icon
+  static const ribbon_solid = FontAwesomeIconData(0xecfc);
 
-  ///FontAwesomeSolid's egg icon
-  static const egg = FontAwesomeIconDataSolid(0xeab2);
+  /// FontAwesome's right from bracket solid Icon
+  static const right_from_bracket_solid = FontAwesomeIconData(0xecfd);
 
-  ///FontAwesomeSolid's eject icon
-  static const eject = FontAwesomeIconDataSolid(0xeab3);
+  /// FontAwesome's right left solid Icon
+  static const right_left_solid = FontAwesomeIconData(0xecfe);
 
-  ///FontAwesomeSolid's elevator icon
-  static const elevator = FontAwesomeIconDataSolid(0xeab4);
+  /// FontAwesome's right long solid Icon
+  static const right_long_solid = FontAwesomeIconData(0xecff);
 
-  ///FontAwesomeSolid's ellipsis icon
-  static const ellipsis = FontAwesomeIconDataSolid(0xeab5);
+  /// FontAwesome's right to bracket solid Icon
+  static const right_to_bracket_solid = FontAwesomeIconData(0xed00);
 
-  ///FontAwesomeSolid's ellipsis_vertical icon
-  static const ellipsis_vertical = FontAwesomeIconDataSolid(0xeab6);
+  /// FontAwesome's ring solid Icon
+  static const ring_solid = FontAwesomeIconData(0xed01);
 
-  ///FontAwesomeSolid's envelope_circle_check icon
-  static const envelope_circle_check = FontAwesomeIconDataSolid(0xeab8);
+  /// FontAwesome's road solid Icon
+  static const road_solid = FontAwesomeIconData(0xed02);
 
-  ///FontAwesomeSolid's envelope_open_text icon
-  static const envelope_open_text = FontAwesomeIconDataSolid(0xeaba);
+  /// FontAwesome's road barrier solid Icon
+  static const road_barrier_solid = FontAwesomeIconData(0xed03);
 
-  ///FontAwesomeSolid's envelopes_bulk icon
-  static const envelopes_bulk = FontAwesomeIconDataSolid(0xeabb);
+  /// FontAwesome's road bridge solid Icon
+  static const road_bridge_solid = FontAwesomeIconData(0xed04);
 
-  ///FontAwesomeSolid's equals icon
-  static const equals = FontAwesomeIconDataSolid(0xeabc);
+  /// FontAwesome's road circle check solid Icon
+  static const road_circle_check_solid = FontAwesomeIconData(0xed05);
 
-  ///FontAwesomeSolid's eraser icon
-  static const eraser = FontAwesomeIconDataSolid(0xeabd);
+  /// FontAwesome's road circle exclamation solid Icon
+  static const road_circle_exclamation_solid = FontAwesomeIconData(0xed06);
 
-  ///FontAwesomeSolid's ethernet icon
-  static const ethernet = FontAwesomeIconDataSolid(0xeabe);
+  /// FontAwesome's road circle xmark solid Icon
+  static const road_circle_xmark_solid = FontAwesomeIconData(0xed07);
 
-  ///FontAwesomeSolid's euro_sign icon
-  static const euro_sign = FontAwesomeIconDataSolid(0xeabf);
+  /// FontAwesome's road lock solid Icon
+  static const road_lock_solid = FontAwesomeIconData(0xed08);
 
-  ///FontAwesomeSolid's exclamation icon
-  static const exclamation = FontAwesomeIconDataSolid(0xeac0);
+  /// FontAwesome's road spikes solid Icon
+  static const road_spikes_solid = FontAwesomeIconData(0xed09);
 
-  ///FontAwesomeSolid's expand icon
-  static const expand = FontAwesomeIconDataSolid(0xeac1);
+  /// FontAwesome's robot solid Icon
+  static const robot_solid = FontAwesomeIconData(0xed0a);
 
-  ///FontAwesomeSolid's explosion icon
-  static const explosion = FontAwesomeIconDataSolid(0xeac2);
+  /// FontAwesome's rocket solid Icon
+  static const rocket_solid = FontAwesomeIconData(0xed0b);
 
-  ///FontAwesomeSolid's eye_dropper icon
-  static const eye_dropper = FontAwesomeIconDataSolid(0xeac4);
+  /// FontAwesome's rotate solid Icon
+  static const rotate_solid = FontAwesomeIconData(0xed0c);
 
-  ///FontAwesomeSolid's eye_low_vision icon
-  static const eye_low_vision = FontAwesomeIconDataSolid(0xeac5);
+  /// FontAwesome's rotate left solid Icon
+  static const rotate_left_solid = FontAwesomeIconData(0xed0d);
 
-  ///FontAwesomeSolid's f icon
-  static const f = FontAwesomeIconDataSolid(0xeac7);
+  /// FontAwesome's rotate right solid Icon
+  static const rotate_right_solid = FontAwesomeIconData(0xed0e);
 
-  ///FontAwesomeSolid's fan icon
-  static const fan = FontAwesomeIconDataSolid(0xeaec);
+  /// FontAwesome's route solid Icon
+  static const route_solid = FontAwesomeIconData(0xed0f);
 
-  ///FontAwesomeSolid's faucet icon
-  static const faucet = FontAwesomeIconDataSolid(0xeaed);
+  /// FontAwesome's rss solid Icon
+  static const rss_solid = FontAwesomeIconData(0xed10);
 
-  ///FontAwesomeSolid's faucet_drip icon
-  static const faucet_drip = FontAwesomeIconDataSolid(0xeaee);
+  /// FontAwesome's ruble sign solid Icon
+  static const ruble_sign_solid = FontAwesomeIconData(0xed11);
 
-  ///FontAwesomeSolid's fax icon
-  static const fax = FontAwesomeIconDataSolid(0xeaef);
+  /// FontAwesome's rug solid Icon
+  static const rug_solid = FontAwesomeIconData(0xed12);
 
-  ///FontAwesomeSolid's feather icon
-  static const feather = FontAwesomeIconDataSolid(0xeaf0);
+  /// FontAwesome's ruler solid Icon
+  static const ruler_solid = FontAwesomeIconData(0xed13);
 
-  ///FontAwesomeSolid's feather_pointed icon
-  static const feather_pointed = FontAwesomeIconDataSolid(0xeaf1);
+  /// FontAwesome's ruler combined solid Icon
+  static const ruler_combined_solid = FontAwesomeIconData(0xed14);
 
-  ///FontAwesomeSolid's ferry icon
-  static const ferry = FontAwesomeIconDataSolid(0xeaf2);
+  /// FontAwesome's ruler horizontal solid Icon
+  static const ruler_horizontal_solid = FontAwesomeIconData(0xed15);
 
-  ///FontAwesomeSolid's file_arrow_down icon
-  static const file_arrow_down = FontAwesomeIconDataSolid(0xeaf4);
+  /// FontAwesome's ruler vertical solid Icon
+  static const ruler_vertical_solid = FontAwesomeIconData(0xed16);
 
-  ///FontAwesomeSolid's file_arrow_up icon
-  static const file_arrow_up = FontAwesomeIconDataSolid(0xeaf5);
+  /// FontAwesome's rupee sign solid Icon
+  static const rupee_sign_solid = FontAwesomeIconData(0xed17);
 
-  ///FontAwesomeSolid's file_circle_check icon
-  static const file_circle_check = FontAwesomeIconDataSolid(0xeaf7);
+  /// FontAwesome's rupiah sign solid Icon
+  static const rupiah_sign_solid = FontAwesomeIconData(0xed18);
 
-  ///FontAwesomeSolid's file_circle_exclamation icon
-  static const file_circle_exclamation = FontAwesomeIconDataSolid(0xeaf8);
+  /// FontAwesome's s solid Icon
+  static const s_solid = FontAwesomeIconData(0xed19);
 
-  ///FontAwesomeSolid's file_circle_minus icon
-  static const file_circle_minus = FontAwesomeIconDataSolid(0xeaf9);
+  /// FontAwesome's sack dollar solid Icon
+  static const sack_dollar_solid = FontAwesomeIconData(0xed1a);
 
-  ///FontAwesomeSolid's file_circle_plus icon
-  static const file_circle_plus = FontAwesomeIconDataSolid(0xeafa);
+  /// FontAwesome's sack xmark solid Icon
+  static const sack_xmark_solid = FontAwesomeIconData(0xed1b);
 
-  ///FontAwesomeSolid's file_circle_question icon
-  static const file_circle_question = FontAwesomeIconDataSolid(0xeafb);
+  /// FontAwesome's sailboat solid Icon
+  static const sailboat_solid = FontAwesomeIconData(0xed1c);
 
-  ///FontAwesomeSolid's file_circle_xmark icon
-  static const file_circle_xmark = FontAwesomeIconDataSolid(0xeafc);
+  /// FontAwesome's satellite solid Icon
+  static const satellite_solid = FontAwesomeIconData(0xed1d);
 
-  ///FontAwesomeSolid's file_contract icon
-  static const file_contract = FontAwesomeIconDataSolid(0xeafe);
+  /// FontAwesome's satellite dish solid Icon
+  static const satellite_dish_solid = FontAwesomeIconData(0xed1e);
 
-  ///FontAwesomeSolid's file_csv icon
-  static const file_csv = FontAwesomeIconDataSolid(0xeaff);
+  /// FontAwesome's scale balanced solid Icon
+  static const scale_balanced_solid = FontAwesomeIconData(0xed1f);
 
-  ///FontAwesomeSolid's file_export icon
-  static const file_export = FontAwesomeIconDataSolid(0xeb01);
+  /// FontAwesome's scale unbalanced solid Icon
+  static const scale_unbalanced_solid = FontAwesomeIconData(0xed20);
 
-  ///FontAwesomeSolid's file_import icon
-  static const file_import = FontAwesomeIconDataSolid(0xeb03);
+  /// FontAwesome's scale unbalanced flip solid Icon
+  static const scale_unbalanced_flip_solid = FontAwesomeIconData(0xed21);
 
-  ///FontAwesomeSolid's file_invoice icon
-  static const file_invoice = FontAwesomeIconDataSolid(0xeb04);
+  /// FontAwesome's school solid Icon
+  static const school_solid = FontAwesomeIconData(0xed22);
 
-  ///FontAwesomeSolid's file_invoice_dollar icon
-  static const file_invoice_dollar = FontAwesomeIconDataSolid(0xeb05);
+  /// FontAwesome's school circle check solid Icon
+  static const school_circle_check_solid = FontAwesomeIconData(0xed23);
 
-  ///FontAwesomeSolid's file_medical icon
-  static const file_medical = FontAwesomeIconDataSolid(0xeb07);
+  /// FontAwesome's school circle exclamation solid Icon
+  static const school_circle_exclamation_solid = FontAwesomeIconData(0xed24);
 
-  ///FontAwesomeSolid's file_pen icon
-  static const file_pen = FontAwesomeIconDataSolid(0xeb09);
+  /// FontAwesome's school circle xmark solid Icon
+  static const school_circle_xmark_solid = FontAwesomeIconData(0xed25);
 
-  ///FontAwesomeSolid's file_prescription icon
-  static const file_prescription = FontAwesomeIconDataSolid(0xeb0b);
+  /// FontAwesome's school flag solid Icon
+  static const school_flag_solid = FontAwesomeIconData(0xed26);
 
-  ///FontAwesomeSolid's file_shield icon
-  static const file_shield = FontAwesomeIconDataSolid(0xeb0c);
+  /// FontAwesome's school lock solid Icon
+  static const school_lock_solid = FontAwesomeIconData(0xed27);
 
-  ///FontAwesomeSolid's file_signature icon
-  static const file_signature = FontAwesomeIconDataSolid(0xeb0d);
+  /// FontAwesome's scissors solid Icon
+  static const scissors_solid = FontAwesomeIconData(0xed28);
 
-  ///FontAwesomeSolid's file_waveform icon
-  static const file_waveform = FontAwesomeIconDataSolid(0xeb0f);
+  /// FontAwesome's screwdriver solid Icon
+  static const screwdriver_solid = FontAwesomeIconData(0xed29);
 
-  ///FontAwesomeSolid's fill icon
-  static const fill = FontAwesomeIconDataSolid(0xeb12);
+  /// FontAwesome's screwdriver wrench solid Icon
+  static const screwdriver_wrench_solid = FontAwesomeIconData(0xed2a);
 
-  ///FontAwesomeSolid's fill_drip icon
-  static const fill_drip = FontAwesomeIconDataSolid(0xeb13);
+  /// FontAwesome's scroll solid Icon
+  static const scroll_solid = FontAwesomeIconData(0xed2b);
 
-  ///FontAwesomeSolid's film icon
-  static const film = FontAwesomeIconDataSolid(0xeb14);
+  /// FontAwesome's scroll torah solid Icon
+  static const scroll_torah_solid = FontAwesomeIconData(0xed2c);
 
-  ///FontAwesomeSolid's filter icon
-  static const filter = FontAwesomeIconDataSolid(0xeb15);
+  /// FontAwesome's sd card solid Icon
+  static const sd_card_solid = FontAwesomeIconData(0xed2d);
 
-  ///FontAwesomeSolid's filter_circle_dollar icon
-  static const filter_circle_dollar = FontAwesomeIconDataSolid(0xeb16);
+  /// FontAwesome's section solid Icon
+  static const section_solid = FontAwesomeIconData(0xed2e);
 
-  ///FontAwesomeSolid's filter_circle_xmark icon
-  static const filter_circle_xmark = FontAwesomeIconDataSolid(0xeb17);
+  /// FontAwesome's seedling solid Icon
+  static const seedling_solid = FontAwesomeIconData(0xed2f);
 
-  ///FontAwesomeSolid's fingerprint icon
-  static const fingerprint = FontAwesomeIconDataSolid(0xeb18);
+  /// FontAwesome's server solid Icon
+  static const server_solid = FontAwesomeIconData(0xed30);
 
-  ///FontAwesomeSolid's fire icon
-  static const fire = FontAwesomeIconDataSolid(0xeb19);
+  /// FontAwesome's shapes solid Icon
+  static const shapes_solid = FontAwesomeIconData(0xed31);
 
-  ///FontAwesomeSolid's fire_burner icon
-  static const fire_burner = FontAwesomeIconDataSolid(0xeb1a);
+  /// FontAwesome's share solid Icon
+  static const share_solid = FontAwesomeIconData(0xed32);
 
-  ///FontAwesomeSolid's fire_extinguisher icon
-  static const fire_extinguisher = FontAwesomeIconDataSolid(0xeb1b);
+  /// FontAwesome's share from square solid Icon
+  static const share_from_square_solid = FontAwesomeIconData(0xed33);
 
-  ///FontAwesomeSolid's fire_flame_curved icon
-  static const fire_flame_curved = FontAwesomeIconDataSolid(0xeb1c);
+  /// FontAwesome's share nodes solid Icon
+  static const share_nodes_solid = FontAwesomeIconData(0xed34);
 
-  ///FontAwesomeSolid's fire_flame_simple icon
-  static const fire_flame_simple = FontAwesomeIconDataSolid(0xeb1d);
+  /// FontAwesome's sheet plastic solid Icon
+  static const sheet_plastic_solid = FontAwesomeIconData(0xed35);
 
-  ///FontAwesomeSolid's fish icon
-  static const fish = FontAwesomeIconDataSolid(0xeb1e);
+  /// FontAwesome's shekel sign solid Icon
+  static const shekel_sign_solid = FontAwesomeIconData(0xed36);
 
-  ///FontAwesomeSolid's fish_fins icon
-  static const fish_fins = FontAwesomeIconDataSolid(0xeb1f);
+  /// FontAwesome's shield solid Icon
+  static const shield_solid = FontAwesomeIconData(0xed37);
 
-  ///FontAwesomeSolid's flag_checkered icon
-  static const flag_checkered = FontAwesomeIconDataSolid(0xeb21);
+  /// FontAwesome's shield cat solid Icon
+  static const shield_cat_solid = FontAwesomeIconData(0xed38);
 
-  ///FontAwesomeSolid's flag_usa icon
-  static const flag_usa = FontAwesomeIconDataSolid(0xeb22);
+  /// FontAwesome's shield dog solid Icon
+  static const shield_dog_solid = FontAwesomeIconData(0xed39);
 
-  ///FontAwesomeSolid's flask icon
-  static const flask = FontAwesomeIconDataSolid(0xeb23);
+  /// FontAwesome's shield halved solid Icon
+  static const shield_halved_solid = FontAwesomeIconData(0xed3a);
 
-  ///FontAwesomeSolid's flask_vial icon
-  static const flask_vial = FontAwesomeIconDataSolid(0xeb24);
+  /// FontAwesome's shield heart solid Icon
+  static const shield_heart_solid = FontAwesomeIconData(0xed3b);
 
-  ///FontAwesomeSolid's florin_sign icon
-  static const florin_sign = FontAwesomeIconDataSolid(0xeb26);
+  /// FontAwesome's shield virus solid Icon
+  static const shield_virus_solid = FontAwesomeIconData(0xed3c);
 
-  ///FontAwesomeSolid's folder_minus icon
-  static const folder_minus = FontAwesomeIconDataSolid(0xeb29);
+  /// FontAwesome's ship solid Icon
+  static const ship_solid = FontAwesomeIconData(0xed3d);
 
-  ///FontAwesomeSolid's folder_plus icon
-  static const folder_plus = FontAwesomeIconDataSolid(0xeb2b);
+  /// FontAwesome's shirt solid Icon
+  static const shirt_solid = FontAwesomeIconData(0xed3e);
 
-  ///FontAwesomeSolid's folder_tree icon
-  static const folder_tree = FontAwesomeIconDataSolid(0xeb2c);
+  /// FontAwesome's shoe prints solid Icon
+  static const shoe_prints_solid = FontAwesomeIconData(0xed3f);
 
-  ///FontAwesomeSolid's font icon
-  static const font = FontAwesomeIconDataSolid(0xeb2d);
+  /// FontAwesome's shop solid Icon
+  static const shop_solid = FontAwesomeIconData(0xed40);
 
-  ///FontAwesomeSolid's football icon
-  static const football = FontAwesomeIconDataSolid(0xeb2f);
+  /// FontAwesome's shop lock solid Icon
+  static const shop_lock_solid = FontAwesomeIconData(0xed41);
 
-  ///FontAwesomeSolid's forward icon
-  static const forward = FontAwesomeIconDataSolid(0xeb30);
+  /// FontAwesome's shop slash solid Icon
+  static const shop_slash_solid = FontAwesomeIconData(0xed42);
 
-  ///FontAwesomeSolid's forward_fast icon
-  static const forward_fast = FontAwesomeIconDataSolid(0xeb31);
+  /// FontAwesome's shower solid Icon
+  static const shower_solid = FontAwesomeIconData(0xed43);
 
-  ///FontAwesomeSolid's forward_step icon
-  static const forward_step = FontAwesomeIconDataSolid(0xeb32);
+  /// FontAwesome's shrimp solid Icon
+  static const shrimp_solid = FontAwesomeIconData(0xed44);
 
-  ///FontAwesomeSolid's franc_sign icon
-  static const franc_sign = FontAwesomeIconDataSolid(0xeb33);
+  /// FontAwesome's shuffle solid Icon
+  static const shuffle_solid = FontAwesomeIconData(0xed45);
 
-  ///FontAwesomeSolid's frog icon
-  static const frog = FontAwesomeIconDataSolid(0xeb34);
+  /// FontAwesome's shuttle space solid Icon
+  static const shuttle_space_solid = FontAwesomeIconData(0xed46);
 
-  ///FontAwesomeSolid's g icon
-  static const g = FontAwesomeIconDataSolid(0xeb36);
+  /// FontAwesome's signal solid Icon
+  static const signal_solid = FontAwesomeIconData(0xed47);
 
-  ///FontAwesomeSolid's gamepad icon
-  static const gamepad = FontAwesomeIconDataSolid(0xeb37);
+  /// FontAwesome's signature solid Icon
+  static const signature_solid = FontAwesomeIconData(0xed48);
 
-  ///FontAwesomeSolid's gas_pump icon
-  static const gas_pump = FontAwesomeIconDataSolid(0xeb38);
+  /// FontAwesome's sign hanging solid Icon
+  static const sign_hanging_solid = FontAwesomeIconData(0xed49);
 
-  ///FontAwesomeSolid's gauge icon
-  static const gauge = FontAwesomeIconDataSolid(0xeb39);
+  /// FontAwesome's signs post solid Icon
+  static const signs_post_solid = FontAwesomeIconData(0xed4a);
 
-  ///FontAwesomeSolid's gauge_high icon
-  static const gauge_high = FontAwesomeIconDataSolid(0xeb3a);
+  /// FontAwesome's sim card solid Icon
+  static const sim_card_solid = FontAwesomeIconData(0xed4b);
 
-  ///FontAwesomeSolid's gauge_simple icon
-  static const gauge_simple = FontAwesomeIconDataSolid(0xeb3b);
+  /// FontAwesome's sink solid Icon
+  static const sink_solid = FontAwesomeIconData(0xed4c);
 
-  ///FontAwesomeSolid's gauge_simple_high icon
-  static const gauge_simple_high = FontAwesomeIconDataSolid(0xeb3c);
+  /// FontAwesome's sitemap solid Icon
+  static const sitemap_solid = FontAwesomeIconData(0xed4d);
 
-  ///FontAwesomeSolid's gavel icon
-  static const gavel = FontAwesomeIconDataSolid(0xeb3d);
+  /// FontAwesome's skull solid Icon
+  static const skull_solid = FontAwesomeIconData(0xed4e);
 
-  ///FontAwesomeSolid's gear icon
-  static const gear = FontAwesomeIconDataSolid(0xeb3e);
+  /// FontAwesome's skull crossbones solid Icon
+  static const skull_crossbones_solid = FontAwesomeIconData(0xed4f);
 
-  ///FontAwesomeSolid's gears icon
-  static const gears = FontAwesomeIconDataSolid(0xeb3f);
+  /// FontAwesome's slash solid Icon
+  static const slash_solid = FontAwesomeIconData(0xed50);
 
-  ///FontAwesomeSolid's genderless icon
-  static const genderless = FontAwesomeIconDataSolid(0xeb41);
+  /// FontAwesome's sleigh solid Icon
+  static const sleigh_solid = FontAwesomeIconData(0xed51);
 
-  ///FontAwesomeSolid's ghost icon
-  static const ghost = FontAwesomeIconDataSolid(0xeb42);
+  /// FontAwesome's sliders solid Icon
+  static const sliders_solid = FontAwesomeIconData(0xed52);
 
-  ///FontAwesomeSolid's gift icon
-  static const gift = FontAwesomeIconDataSolid(0xeb43);
+  /// FontAwesome's smog solid Icon
+  static const smog_solid = FontAwesomeIconData(0xed53);
 
-  ///FontAwesomeSolid's gifts icon
-  static const gifts = FontAwesomeIconDataSolid(0xeb44);
+  /// FontAwesome's smoking solid Icon
+  static const smoking_solid = FontAwesomeIconData(0xed54);
 
-  ///FontAwesomeSolid's glasses icon
-  static const glasses = FontAwesomeIconDataSolid(0xeb45);
+  /// FontAwesome's snowflake solid Icon
+  static const snowflake_solid = FontAwesomeIconData(0xed55);
 
-  ///FontAwesomeSolid's glass_water icon
-  static const glass_water = FontAwesomeIconDataSolid(0xeb46);
+  /// FontAwesome's snowman solid Icon
+  static const snowman_solid = FontAwesomeIconData(0xed56);
 
-  ///FontAwesomeSolid's glass_water_droplet icon
-  static const glass_water_droplet = FontAwesomeIconDataSolid(0xeb47);
+  /// FontAwesome's snowplow solid Icon
+  static const snowplow_solid = FontAwesomeIconData(0xed57);
 
-  ///FontAwesomeSolid's globe icon
-  static const globe = FontAwesomeIconDataSolid(0xeb48);
+  /// FontAwesome's soap solid Icon
+  static const soap_solid = FontAwesomeIconData(0xed58);
 
-  ///FontAwesomeSolid's golf_ball_tee icon
-  static const golf_ball_tee = FontAwesomeIconDataSolid(0xeb49);
+  /// FontAwesome's socks solid Icon
+  static const socks_solid = FontAwesomeIconData(0xed59);
 
-  ///FontAwesomeSolid's gopuram icon
-  static const gopuram = FontAwesomeIconDataSolid(0xeb4a);
+  /// FontAwesome's solar panel solid Icon
+  static const solar_panel_solid = FontAwesomeIconData(0xed5a);
 
-  ///FontAwesomeSolid's graduation_cap icon
-  static const graduation_cap = FontAwesomeIconDataSolid(0xeb4b);
+  /// FontAwesome's sort solid Icon
+  static const sort_solid = FontAwesomeIconData(0xed5b);
 
-  ///FontAwesomeSolid's greater_than icon
-  static const greater_than = FontAwesomeIconDataSolid(0xeb4c);
+  /// FontAwesome's sort down solid Icon
+  static const sort_down_solid = FontAwesomeIconData(0xed5c);
 
-  ///FontAwesomeSolid's greater_than_equal icon
-  static const greater_than_equal = FontAwesomeIconDataSolid(0xeb4d);
+  /// FontAwesome's sort up solid Icon
+  static const sort_up_solid = FontAwesomeIconData(0xed5d);
 
-  ///FontAwesomeSolid's grip icon
-  static const grip = FontAwesomeIconDataSolid(0xeb4e);
+  /// FontAwesome's spa solid Icon
+  static const spa_solid = FontAwesomeIconData(0xed5e);
 
-  ///FontAwesomeSolid's grip_lines icon
-  static const grip_lines = FontAwesomeIconDataSolid(0xeb4f);
+  /// FontAwesome's spaghetti monster flying solid Icon
+  static const spaghetti_monster_flying_solid = FontAwesomeIconData(0xed5f);
 
-  ///FontAwesomeSolid's grip_lines_vertical icon
-  static const grip_lines_vertical = FontAwesomeIconDataSolid(0xeb50);
+  /// FontAwesome's spell check solid Icon
+  static const spell_check_solid = FontAwesomeIconData(0xed60);
 
-  ///FontAwesomeSolid's grip_vertical icon
-  static const grip_vertical = FontAwesomeIconDataSolid(0xeb51);
+  /// FontAwesome's spider solid Icon
+  static const spider_solid = FontAwesomeIconData(0xed61);
 
-  ///FontAwesomeSolid's group_arrows_rotate icon
-  static const group_arrows_rotate = FontAwesomeIconDataSolid(0xeb52);
+  /// FontAwesome's spinner solid Icon
+  static const spinner_solid = FontAwesomeIconData(0xed62);
 
-  ///FontAwesomeSolid's guarani_sign icon
-  static const guarani_sign = FontAwesomeIconDataSolid(0xeb53);
+  /// FontAwesome's splotch solid Icon
+  static const splotch_solid = FontAwesomeIconData(0xed63);
 
-  ///FontAwesomeSolid's guitar icon
-  static const guitar = FontAwesomeIconDataSolid(0xeb54);
+  /// FontAwesome's spoon solid Icon
+  static const spoon_solid = FontAwesomeIconData(0xed64);
 
-  ///FontAwesomeSolid's gun icon
-  static const gun = FontAwesomeIconDataSolid(0xeb55);
+  /// FontAwesome's spray can solid Icon
+  static const spray_can_solid = FontAwesomeIconData(0xed65);
 
-  ///FontAwesomeSolid's h icon
-  static const h = FontAwesomeIconDataSolid(0xeb56);
+  /// FontAwesome's spray can sparkles solid Icon
+  static const spray_can_sparkles_solid = FontAwesomeIconData(0xed66);
 
-  ///FontAwesomeSolid's hammer icon
-  static const hammer = FontAwesomeIconDataSolid(0xeb57);
+  /// FontAwesome's square solid Icon
+  static const square_solid = FontAwesomeIconData(0xed67);
 
-  ///FontAwesomeSolid's hamsa icon
-  static const hamsa = FontAwesomeIconDataSolid(0xeb58);
+  /// FontAwesome's square arrow up right solid Icon
+  static const square_arrow_up_right_solid = FontAwesomeIconData(0xed68);
 
-  ///FontAwesomeSolid's handcuffs icon
-  static const handcuffs = FontAwesomeIconDataSolid(0xeb5b);
+  /// FontAwesome's square caret down solid Icon
+  static const square_caret_down_solid = FontAwesomeIconData(0xed69);
 
-  ///FontAwesomeSolid's hand_dots icon
-  static const hand_dots = FontAwesomeIconDataSolid(0xeb5c);
+  /// FontAwesome's square caret left solid Icon
+  static const square_caret_left_solid = FontAwesomeIconData(0xed6a);
 
-  ///FontAwesomeSolid's hand_fist icon
-  static const hand_fist = FontAwesomeIconDataSolid(0xeb5d);
+  /// FontAwesome's square caret right solid Icon
+  static const square_caret_right_solid = FontAwesomeIconData(0xed6b);
 
-  ///FontAwesomeSolid's hand_holding icon
-  static const hand_holding = FontAwesomeIconDataSolid(0xeb5e);
+  /// FontAwesome's square caret up solid Icon
+  static const square_caret_up_solid = FontAwesomeIconData(0xed6c);
 
-  ///FontAwesomeSolid's hand_holding_dollar icon
-  static const hand_holding_dollar = FontAwesomeIconDataSolid(0xeb5f);
+  /// FontAwesome's square check solid Icon
+  static const square_check_solid = FontAwesomeIconData(0xed6d);
 
-  ///FontAwesomeSolid's hand_holding_droplet icon
-  static const hand_holding_droplet = FontAwesomeIconDataSolid(0xeb60);
+  /// FontAwesome's square envelope solid Icon
+  static const square_envelope_solid = FontAwesomeIconData(0xed6e);
 
-  ///FontAwesomeSolid's hand_holding_hand icon
-  static const hand_holding_hand = FontAwesomeIconDataSolid(0xeb61);
+  /// FontAwesome's square full solid Icon
+  static const square_full_solid = FontAwesomeIconData(0xed6f);
 
-  ///FontAwesomeSolid's hand_holding_heart icon
-  static const hand_holding_heart = FontAwesomeIconDataSolid(0xeb62);
+  /// FontAwesome's square h solid Icon
+  static const square_h_solid = FontAwesomeIconData(0xed70);
 
-  ///FontAwesomeSolid's hand_holding_medical icon
-  static const hand_holding_medical = FontAwesomeIconDataSolid(0xeb63);
+  /// FontAwesome's square minus solid Icon
+  static const square_minus_solid = FontAwesomeIconData(0xed71);
 
-  ///FontAwesomeSolid's hand_middle_finger icon
-  static const hand_middle_finger = FontAwesomeIconDataSolid(0xeb65);
+  /// FontAwesome's square nfi solid Icon
+  static const square_nfi_solid = FontAwesomeIconData(0xed72);
 
-  ///FontAwesomeSolid's hands icon
-  static const hands = FontAwesomeIconDataSolid(0xeb6c);
+  /// FontAwesome's square parking solid Icon
+  static const square_parking_solid = FontAwesomeIconData(0xed73);
 
-  ///FontAwesomeSolid's hands_asl_interpreting icon
-  static const hands_asl_interpreting = FontAwesomeIconDataSolid(0xeb6d);
+  /// FontAwesome's square pen solid Icon
+  static const square_pen_solid = FontAwesomeIconData(0xed74);
 
-  ///FontAwesomeSolid's hands_bound icon
-  static const hands_bound = FontAwesomeIconDataSolid(0xeb6e);
+  /// FontAwesome's square person confined solid Icon
+  static const square_person_confined_solid = FontAwesomeIconData(0xed75);
 
-  ///FontAwesomeSolid's hands_bubbles icon
-  static const hands_bubbles = FontAwesomeIconDataSolid(0xeb6f);
+  /// FontAwesome's square phone solid Icon
+  static const square_phone_solid = FontAwesomeIconData(0xed76);
 
-  ///FontAwesomeSolid's hands_clapping icon
-  static const hands_clapping = FontAwesomeIconDataSolid(0xeb71);
+  /// FontAwesome's square phone flip solid Icon
+  static const square_phone_flip_solid = FontAwesomeIconData(0xed77);
 
-  ///FontAwesomeSolid's handshake_angle icon
-  static const handshake_angle = FontAwesomeIconDataSolid(0xeb73);
+  /// FontAwesome's square plus solid Icon
+  static const square_plus_solid = FontAwesomeIconData(0xed78);
 
-  ///FontAwesomeSolid's handshake_simple icon
-  static const handshake_simple = FontAwesomeIconDataSolid(0xeb74);
+  /// FontAwesome's square poll horizontal solid Icon
+  static const square_poll_horizontal_solid = FontAwesomeIconData(0xed79);
 
-  ///FontAwesomeSolid's handshake_simple_slash icon
-  static const handshake_simple_slash = FontAwesomeIconDataSolid(0xeb75);
+  /// FontAwesome's square poll vertical solid Icon
+  static const square_poll_vertical_solid = FontAwesomeIconData(0xed7a);
 
-  ///FontAwesomeSolid's handshake_slash icon
-  static const handshake_slash = FontAwesomeIconDataSolid(0xeb76);
+  /// FontAwesome's square root variable solid Icon
+  static const square_root_variable_solid = FontAwesomeIconData(0xed7b);
 
-  ///FontAwesomeSolid's hands_holding icon
-  static const hands_holding = FontAwesomeIconDataSolid(0xeb77);
+  /// FontAwesome's square rss solid Icon
+  static const square_rss_solid = FontAwesomeIconData(0xed7c);
 
-  ///FontAwesomeSolid's hands_holding_child icon
-  static const hands_holding_child = FontAwesomeIconDataSolid(0xeb78);
+  /// FontAwesome's square share nodes solid Icon
+  static const square_share_nodes_solid = FontAwesomeIconData(0xed7d);
 
-  ///FontAwesomeSolid's hands_holding_circle icon
-  static const hands_holding_circle = FontAwesomeIconDataSolid(0xeb79);
+  /// FontAwesome's square up right solid Icon
+  static const square_up_right_solid = FontAwesomeIconData(0xed7e);
 
-  ///FontAwesomeSolid's hand_sparkles icon
-  static const hand_sparkles = FontAwesomeIconDataSolid(0xeb7a);
+  /// FontAwesome's square virus solid Icon
+  static const square_virus_solid = FontAwesomeIconData(0xed7f);
 
-  ///FontAwesomeSolid's hands_praying icon
-  static const hands_praying = FontAwesomeIconDataSolid(0xeb7c);
+  /// FontAwesome's square xmark solid Icon
+  static const square_xmark_solid = FontAwesomeIconData(0xed80);
 
-  ///FontAwesomeSolid's hanukiah icon
-  static const hanukiah = FontAwesomeIconDataSolid(0xeb7d);
+  /// FontAwesome's staff snake solid Icon
+  static const staff_snake_solid = FontAwesomeIconData(0xed81);
 
-  ///FontAwesomeSolid's hashtag icon
-  static const hashtag = FontAwesomeIconDataSolid(0xeb7f);
+  /// FontAwesome's stairs solid Icon
+  static const stairs_solid = FontAwesomeIconData(0xed82);
 
-  ///FontAwesomeSolid's hat_cowboy icon
-  static const hat_cowboy = FontAwesomeIconDataSolid(0xeb80);
+  /// FontAwesome's stamp solid Icon
+  static const stamp_solid = FontAwesomeIconData(0xed83);
 
-  ///FontAwesomeSolid's hat_cowboy_side icon
-  static const hat_cowboy_side = FontAwesomeIconDataSolid(0xeb81);
+  /// FontAwesome's stapler solid Icon
+  static const stapler_solid = FontAwesomeIconData(0xed84);
 
-  ///FontAwesomeSolid's hat_wizard icon
-  static const hat_wizard = FontAwesomeIconDataSolid(0xeb82);
+  /// FontAwesome's star solid Icon
+  static const star_solid = FontAwesomeIconData(0xed85);
 
-  ///FontAwesomeSolid's heading icon
-  static const heading = FontAwesomeIconDataSolid(0xeb83);
+  /// FontAwesome's star and crescent solid Icon
+  static const star_and_crescent_solid = FontAwesomeIconData(0xed86);
 
-  ///FontAwesomeSolid's headphones icon
-  static const headphones = FontAwesomeIconDataSolid(0xeb84);
+  /// FontAwesome's star half solid Icon
+  static const star_half_solid = FontAwesomeIconData(0xed87);
 
-  ///FontAwesomeSolid's headphones_simple icon
-  static const headphones_simple = FontAwesomeIconDataSolid(0xeb85);
+  /// FontAwesome's star half stroke solid Icon
+  static const star_half_stroke_solid = FontAwesomeIconData(0xed88);
 
-  ///FontAwesomeSolid's headset icon
-  static const headset = FontAwesomeIconDataSolid(0xeb86);
+  /// FontAwesome's star of david solid Icon
+  static const star_of_david_solid = FontAwesomeIconData(0xed89);
 
-  ///FontAwesomeSolid's head_side_cough icon
-  static const head_side_cough = FontAwesomeIconDataSolid(0xeb87);
+  /// FontAwesome's star of life solid Icon
+  static const star_of_life_solid = FontAwesomeIconData(0xed8a);
 
-  ///FontAwesomeSolid's head_side_cough_slash icon
-  static const head_side_cough_slash = FontAwesomeIconDataSolid(0xeb88);
+  /// FontAwesome's sterling sign solid Icon
+  static const sterling_sign_solid = FontAwesomeIconData(0xed8b);
 
-  ///FontAwesomeSolid's head_side_mask icon
-  static const head_side_mask = FontAwesomeIconDataSolid(0xeb89);
+  /// FontAwesome's stethoscope solid Icon
+  static const stethoscope_solid = FontAwesomeIconData(0xed8c);
 
-  ///FontAwesomeSolid's head_side_virus icon
-  static const head_side_virus = FontAwesomeIconDataSolid(0xeb8a);
+  /// FontAwesome's stop solid Icon
+  static const stop_solid = FontAwesomeIconData(0xed8d);
 
-  ///FontAwesomeSolid's heart_circle_bolt icon
-  static const heart_circle_bolt = FontAwesomeIconDataSolid(0xeb8c);
+  /// FontAwesome's stopwatch solid Icon
+  static const stopwatch_solid = FontAwesomeIconData(0xed8e);
 
-  ///FontAwesomeSolid's heart_circle_check icon
-  static const heart_circle_check = FontAwesomeIconDataSolid(0xeb8d);
+  /// FontAwesome's stopwatch 20 solid Icon
+  static const stopwatch_20_solid = FontAwesomeIconData(0xed8f);
 
-  ///FontAwesomeSolid's heart_circle_exclamation icon
-  static const heart_circle_exclamation = FontAwesomeIconDataSolid(0xeb8e);
+  /// FontAwesome's store solid Icon
+  static const store_solid = FontAwesomeIconData(0xed90);
 
-  ///FontAwesomeSolid's heart_circle_minus icon
-  static const heart_circle_minus = FontAwesomeIconDataSolid(0xeb8f);
+  /// FontAwesome's store slash solid Icon
+  static const store_slash_solid = FontAwesomeIconData(0xed91);
 
-  ///FontAwesomeSolid's heart_circle_plus icon
-  static const heart_circle_plus = FontAwesomeIconDataSolid(0xeb90);
+  /// FontAwesome's street view solid Icon
+  static const street_view_solid = FontAwesomeIconData(0xed92);
 
-  ///FontAwesomeSolid's heart_circle_xmark icon
-  static const heart_circle_xmark = FontAwesomeIconDataSolid(0xeb91);
+  /// FontAwesome's strikethrough solid Icon
+  static const strikethrough_solid = FontAwesomeIconData(0xed93);
 
-  ///FontAwesomeSolid's heart_crack icon
-  static const heart_crack = FontAwesomeIconDataSolid(0xeb92);
+  /// FontAwesome's stroopwafel solid Icon
+  static const stroopwafel_solid = FontAwesomeIconData(0xed94);
 
-  ///FontAwesomeSolid's heart_pulse icon
-  static const heart_pulse = FontAwesomeIconDataSolid(0xeb93);
+  /// FontAwesome's subscript solid Icon
+  static const subscript_solid = FontAwesomeIconData(0xed95);
 
-  ///FontAwesomeSolid's helicopter icon
-  static const helicopter = FontAwesomeIconDataSolid(0xeb94);
+  /// FontAwesome's suitcase solid Icon
+  static const suitcase_solid = FontAwesomeIconData(0xed96);
 
-  ///FontAwesomeSolid's helicopter_symbol icon
-  static const helicopter_symbol = FontAwesomeIconDataSolid(0xeb95);
+  /// FontAwesome's suitcase medical solid Icon
+  static const suitcase_medical_solid = FontAwesomeIconData(0xed97);
 
-  ///FontAwesomeSolid's helmet_safety icon
-  static const helmet_safety = FontAwesomeIconDataSolid(0xeb96);
+  /// FontAwesome's suitcase rolling solid Icon
+  static const suitcase_rolling_solid = FontAwesomeIconData(0xed98);
 
-  ///FontAwesomeSolid's helmet_un icon
-  static const helmet_un = FontAwesomeIconDataSolid(0xeb97);
+  /// FontAwesome's sun solid Icon
+  static const sun_solid = FontAwesomeIconData(0xed99);
 
-  ///FontAwesomeSolid's highlighter icon
-  static const highlighter = FontAwesomeIconDataSolid(0xeb98);
+  /// FontAwesome's sun plant wilt solid Icon
+  static const sun_plant_wilt_solid = FontAwesomeIconData(0xed9a);
 
-  ///FontAwesomeSolid's hill_avalanche icon
-  static const hill_avalanche = FontAwesomeIconDataSolid(0xeb99);
+  /// FontAwesome's superscript solid Icon
+  static const superscript_solid = FontAwesomeIconData(0xed9b);
 
-  ///FontAwesomeSolid's hill_rockslide icon
-  static const hill_rockslide = FontAwesomeIconDataSolid(0xeb9a);
+  /// FontAwesome's swatchbook solid Icon
+  static const swatchbook_solid = FontAwesomeIconData(0xed9c);
 
-  ///FontAwesomeSolid's hippo icon
-  static const hippo = FontAwesomeIconDataSolid(0xeb9b);
+  /// FontAwesome's synagogue solid Icon
+  static const synagogue_solid = FontAwesomeIconData(0xed9d);
 
-  ///FontAwesomeSolid's hockey_puck icon
-  static const hockey_puck = FontAwesomeIconDataSolid(0xeb9c);
+  /// FontAwesome's syringe solid Icon
+  static const syringe_solid = FontAwesomeIconData(0xed9e);
 
-  ///FontAwesomeSolid's holly_berry icon
-  static const holly_berry = FontAwesomeIconDataSolid(0xeb9d);
+  /// FontAwesome's t solid Icon
+  static const t_solid = FontAwesomeIconData(0xed9f);
 
-  ///FontAwesomeSolid's horse icon
-  static const horse = FontAwesomeIconDataSolid(0xeb9e);
+  /// FontAwesome's table solid Icon
+  static const table_solid = FontAwesomeIconData(0xeda0);
 
-  ///FontAwesomeSolid's horse_head icon
-  static const horse_head = FontAwesomeIconDataSolid(0xeb9f);
+  /// FontAwesome's table cells solid Icon
+  static const table_cells_solid = FontAwesomeIconData(0xeda1);
 
-  ///FontAwesomeSolid's hospital_user icon
-  static const hospital_user = FontAwesomeIconDataSolid(0xeba1);
+  /// FontAwesome's table cells large solid Icon
+  static const table_cells_large_solid = FontAwesomeIconData(0xeda2);
 
-  ///FontAwesomeSolid's hotdog icon
-  static const hotdog = FontAwesomeIconDataSolid(0xeba2);
+  /// FontAwesome's table columns solid Icon
+  static const table_columns_solid = FontAwesomeIconData(0xeda3);
 
-  ///FontAwesomeSolid's hotel icon
-  static const hotel = FontAwesomeIconDataSolid(0xeba3);
+  /// FontAwesome's table list solid Icon
+  static const table_list_solid = FontAwesomeIconData(0xeda4);
 
-  ///FontAwesomeSolid's hot_tub_person icon
-  static const hot_tub_person = FontAwesomeIconDataSolid(0xeba4);
+  /// FontAwesome's tablet solid Icon
+  static const tablet_solid = FontAwesomeIconData(0xeda5);
 
-  ///FontAwesomeSolid's hourglass_end icon
-  static const hourglass_end = FontAwesomeIconDataSolid(0xeba6);
+  /// FontAwesome's tablet button solid Icon
+  static const tablet_button_solid = FontAwesomeIconData(0xeda6);
 
-  ///FontAwesomeSolid's hourglass_start icon
-  static const hourglass_start = FontAwesomeIconDataSolid(0xeba8);
+  /// FontAwesome's table tennis paddle ball solid Icon
+  static const table_tennis_paddle_ball_solid = FontAwesomeIconData(0xeda7);
 
-  ///FontAwesomeSolid's house icon
-  static const house = FontAwesomeIconDataSolid(0xeba9);
+  /// FontAwesome's tablets solid Icon
+  static const tablets_solid = FontAwesomeIconData(0xeda8);
 
-  ///FontAwesomeSolid's house_chimney icon
-  static const house_chimney = FontAwesomeIconDataSolid(0xebaa);
+  /// FontAwesome's tablet screen button solid Icon
+  static const tablet_screen_button_solid = FontAwesomeIconData(0xeda9);
 
-  ///FontAwesomeSolid's house_chimney_crack icon
-  static const house_chimney_crack = FontAwesomeIconDataSolid(0xebab);
+  /// FontAwesome's tachograph digital solid Icon
+  static const tachograph_digital_solid = FontAwesomeIconData(0xedaa);
 
-  ///FontAwesomeSolid's house_chimney_medical icon
-  static const house_chimney_medical = FontAwesomeIconDataSolid(0xebac);
+  /// FontAwesome's tag solid Icon
+  static const tag_solid = FontAwesomeIconData(0xedab);
 
-  ///FontAwesomeSolid's house_chimney_user icon
-  static const house_chimney_user = FontAwesomeIconDataSolid(0xebad);
+  /// FontAwesome's tags solid Icon
+  static const tags_solid = FontAwesomeIconData(0xedac);
 
-  ///FontAwesomeSolid's house_chimney_window icon
-  static const house_chimney_window = FontAwesomeIconDataSolid(0xebae);
+  /// FontAwesome's tape solid Icon
+  static const tape_solid = FontAwesomeIconData(0xedad);
 
-  ///FontAwesomeSolid's house_circle_check icon
-  static const house_circle_check = FontAwesomeIconDataSolid(0xebaf);
+  /// FontAwesome's tarp solid Icon
+  static const tarp_solid = FontAwesomeIconData(0xedae);
 
-  ///FontAwesomeSolid's house_circle_exclamation icon
-  static const house_circle_exclamation = FontAwesomeIconDataSolid(0xebb0);
+  /// FontAwesome's tarp droplet solid Icon
+  static const tarp_droplet_solid = FontAwesomeIconData(0xedaf);
 
-  ///FontAwesomeSolid's house_circle_xmark icon
-  static const house_circle_xmark = FontAwesomeIconDataSolid(0xebb1);
+  /// FontAwesome's taxi solid Icon
+  static const taxi_solid = FontAwesomeIconData(0xedb0);
 
-  ///FontAwesomeSolid's house_crack icon
-  static const house_crack = FontAwesomeIconDataSolid(0xebb2);
+  /// FontAwesome's teeth solid Icon
+  static const teeth_solid = FontAwesomeIconData(0xedb1);
 
-  ///FontAwesomeSolid's house_fire icon
-  static const house_fire = FontAwesomeIconDataSolid(0xebb3);
+  /// FontAwesome's teeth open solid Icon
+  static const teeth_open_solid = FontAwesomeIconData(0xedb2);
 
-  ///FontAwesomeSolid's house_flag icon
-  static const house_flag = FontAwesomeIconDataSolid(0xebb4);
+  /// FontAwesome's temperature arrow down solid Icon
+  static const temperature_arrow_down_solid = FontAwesomeIconData(0xedb3);
 
-  ///FontAwesomeSolid's house_flood_water icon
-  static const house_flood_water = FontAwesomeIconDataSolid(0xebb5);
+  /// FontAwesome's temperature arrow up solid Icon
+  static const temperature_arrow_up_solid = FontAwesomeIconData(0xedb4);
 
-  ///FontAwesomeSolid's house_flood_water_circle_arrow_right icon
-  static const house_flood_water_circle_arrow_right =
-      FontAwesomeIconDataSolid(0xebb6);
+  /// FontAwesome's temperature empty solid Icon
+  static const temperature_empty_solid = FontAwesomeIconData(0xedb5);
 
-  ///FontAwesomeSolid's house_laptop icon
-  static const house_laptop = FontAwesomeIconDataSolid(0xebb7);
+  /// FontAwesome's temperature full solid Icon
+  static const temperature_full_solid = FontAwesomeIconData(0xedb6);
 
-  ///FontAwesomeSolid's house_lock icon
-  static const house_lock = FontAwesomeIconDataSolid(0xebb8);
+  /// FontAwesome's temperature half solid Icon
+  static const temperature_half_solid = FontAwesomeIconData(0xedb7);
 
-  ///FontAwesomeSolid's house_medical icon
-  static const house_medical = FontAwesomeIconDataSolid(0xebb9);
+  /// FontAwesome's temperature high solid Icon
+  static const temperature_high_solid = FontAwesomeIconData(0xedb8);
 
-  ///FontAwesomeSolid's house_medical_circle_check icon
-  static const house_medical_circle_check = FontAwesomeIconDataSolid(0xebba);
+  /// FontAwesome's temperature low solid Icon
+  static const temperature_low_solid = FontAwesomeIconData(0xedb9);
 
-  ///FontAwesomeSolid's house_medical_circle_exclamation icon
-  static const house_medical_circle_exclamation =
-      FontAwesomeIconDataSolid(0xebbb);
+  /// FontAwesome's temperature quarter solid Icon
+  static const temperature_quarter_solid = FontAwesomeIconData(0xedba);
 
-  ///FontAwesomeSolid's house_medical_circle_xmark icon
-  static const house_medical_circle_xmark = FontAwesomeIconDataSolid(0xebbc);
+  /// FontAwesome's temperature three quarters solid Icon
+  static const temperature_three_quarters_solid = FontAwesomeIconData(0xedbb);
 
-  ///FontAwesomeSolid's house_medical_flag icon
-  static const house_medical_flag = FontAwesomeIconDataSolid(0xebbd);
+  /// FontAwesome's tenge sign solid Icon
+  static const tenge_sign_solid = FontAwesomeIconData(0xedbc);
 
-  ///FontAwesomeSolid's house_signal icon
-  static const house_signal = FontAwesomeIconDataSolid(0xebbe);
+  /// FontAwesome's tent solid Icon
+  static const tent_solid = FontAwesomeIconData(0xedbd);
 
-  ///FontAwesomeSolid's house_tsunami icon
-  static const house_tsunami = FontAwesomeIconDataSolid(0xebbf);
+  /// FontAwesome's tent arrow down to line solid Icon
+  static const tent_arrow_down_to_line_solid = FontAwesomeIconData(0xedbe);
 
-  ///FontAwesomeSolid's house_user icon
-  static const house_user = FontAwesomeIconDataSolid(0xebc0);
+  /// FontAwesome's tent arrow left right solid Icon
+  static const tent_arrow_left_right_solid = FontAwesomeIconData(0xedbf);
 
-  ///FontAwesomeSolid's hryvnia_sign icon
-  static const hryvnia_sign = FontAwesomeIconDataSolid(0xebc1);
+  /// FontAwesome's tent arrows down solid Icon
+  static const tent_arrows_down_solid = FontAwesomeIconData(0xedc0);
 
-  ///FontAwesomeSolid's hurricane icon
-  static const hurricane = FontAwesomeIconDataSolid(0xebc2);
+  /// FontAwesome's tent arrow turn left solid Icon
+  static const tent_arrow_turn_left_solid = FontAwesomeIconData(0xedc1);
 
-  ///FontAwesomeSolid's i icon
-  static const i = FontAwesomeIconDataSolid(0xebc3);
+  /// FontAwesome's tents solid Icon
+  static const tents_solid = FontAwesomeIconData(0xedc2);
 
-  ///FontAwesomeSolid's ice_cream icon
-  static const ice_cream = FontAwesomeIconDataSolid(0xebc4);
+  /// FontAwesome's terminal solid Icon
+  static const terminal_solid = FontAwesomeIconData(0xedc3);
 
-  ///FontAwesomeSolid's icicles icon
-  static const icicles = FontAwesomeIconDataSolid(0xebc5);
+  /// FontAwesome's text height solid Icon
+  static const text_height_solid = FontAwesomeIconData(0xedc4);
 
-  ///FontAwesomeSolid's icons icon
-  static const icons = FontAwesomeIconDataSolid(0xebc6);
+  /// FontAwesome's text slash solid Icon
+  static const text_slash_solid = FontAwesomeIconData(0xedc5);
 
-  ///FontAwesomeSolid's i_cursor icon
-  static const i_cursor = FontAwesomeIconDataSolid(0xebc7);
+  /// FontAwesome's text width solid Icon
+  static const text_width_solid = FontAwesomeIconData(0xedc6);
 
-  ///FontAwesomeSolid's id_card_clip icon
-  static const id_card_clip = FontAwesomeIconDataSolid(0xebca);
+  /// FontAwesome's thermometer solid Icon
+  static const thermometer_solid = FontAwesomeIconData(0xedc7);
 
-  ///FontAwesomeSolid's igloo icon
-  static const igloo = FontAwesomeIconDataSolid(0xebcb);
+  /// FontAwesome's thumbs down solid Icon
+  static const thumbs_down_solid = FontAwesomeIconData(0xedc8);
 
-  ///FontAwesomeSolid's image_portrait icon
-  static const image_portrait = FontAwesomeIconDataSolid(0xebcd);
+  /// FontAwesome's thumbs up solid Icon
+  static const thumbs_up_solid = FontAwesomeIconData(0xedc9);
 
-  ///FontAwesomeSolid's inbox icon
-  static const inbox = FontAwesomeIconDataSolid(0xebcf);
+  /// FontAwesome's thumbtack solid Icon
+  static const thumbtack_solid = FontAwesomeIconData(0xedca);
 
-  ///FontAwesomeSolid's indent icon
-  static const indent = FontAwesomeIconDataSolid(0xebd0);
+  /// FontAwesome's ticket solid Icon
+  static const ticket_solid = FontAwesomeIconData(0xedcb);
 
-  ///FontAwesomeSolid's indian_rupee_sign icon
-  static const indian_rupee_sign = FontAwesomeIconDataSolid(0xebd1);
+  /// FontAwesome's ticket simple solid Icon
+  static const ticket_simple_solid = FontAwesomeIconData(0xedcc);
 
-  ///FontAwesomeSolid's industry icon
-  static const industry = FontAwesomeIconDataSolid(0xebd2);
+  /// FontAwesome's timeline solid Icon
+  static const timeline_solid = FontAwesomeIconData(0xedcd);
 
-  ///FontAwesomeSolid's infinity icon
-  static const infinity = FontAwesomeIconDataSolid(0xebd3);
+  /// FontAwesome's toggle off solid Icon
+  static const toggle_off_solid = FontAwesomeIconData(0xedce);
 
-  ///FontAwesomeSolid's info icon
-  static const info = FontAwesomeIconDataSolid(0xebd4);
+  /// FontAwesome's toggle on solid Icon
+  static const toggle_on_solid = FontAwesomeIconData(0xedcf);
 
-  ///FontAwesomeSolid's italic icon
-  static const italic = FontAwesomeIconDataSolid(0xebd5);
+  /// FontAwesome's toilet solid Icon
+  static const toilet_solid = FontAwesomeIconData(0xedd0);
 
-  ///FontAwesomeSolid's j icon
-  static const j = FontAwesomeIconDataSolid(0xebd6);
+  /// FontAwesome's toilet paper solid Icon
+  static const toilet_paper_solid = FontAwesomeIconData(0xedd1);
 
-  ///FontAwesomeSolid's jar icon
-  static const jar = FontAwesomeIconDataSolid(0xebd7);
+  /// FontAwesome's toilet paper slash solid Icon
+  static const toilet_paper_slash_solid = FontAwesomeIconData(0xedd2);
 
-  ///FontAwesomeSolid's jar_wheat icon
-  static const jar_wheat = FontAwesomeIconDataSolid(0xebd8);
+  /// FontAwesome's toilet portable solid Icon
+  static const toilet_portable_solid = FontAwesomeIconData(0xedd3);
 
-  ///FontAwesomeSolid's jedi icon
-  static const jedi = FontAwesomeIconDataSolid(0xebd9);
+  /// FontAwesome's toilets portable solid Icon
+  static const toilets_portable_solid = FontAwesomeIconData(0xedd4);
 
-  ///FontAwesomeSolid's jet_fighter icon
-  static const jet_fighter = FontAwesomeIconDataSolid(0xebda);
+  /// FontAwesome's toolbox solid Icon
+  static const toolbox_solid = FontAwesomeIconData(0xedd5);
 
-  ///FontAwesomeSolid's jet_fighter_up icon
-  static const jet_fighter_up = FontAwesomeIconDataSolid(0xebdb);
+  /// FontAwesome's tooth solid Icon
+  static const tooth_solid = FontAwesomeIconData(0xedd6);
 
-  ///FontAwesomeSolid's joint icon
-  static const joint = FontAwesomeIconDataSolid(0xebdc);
+  /// FontAwesome's torii gate solid Icon
+  static const torii_gate_solid = FontAwesomeIconData(0xedd7);
 
-  ///FontAwesomeSolid's jug_detergent icon
-  static const jug_detergent = FontAwesomeIconDataSolid(0xebdd);
+  /// FontAwesome's tornado solid Icon
+  static const tornado_solid = FontAwesomeIconData(0xedd8);
 
-  ///FontAwesomeSolid's k icon
-  static const k = FontAwesomeIconDataSolid(0xebde);
+  /// FontAwesome's tower broadcast solid Icon
+  static const tower_broadcast_solid = FontAwesomeIconData(0xedd9);
 
-  ///FontAwesomeSolid's kaaba icon
-  static const kaaba = FontAwesomeIconDataSolid(0xebdf);
+  /// FontAwesome's tower cell solid Icon
+  static const tower_cell_solid = FontAwesomeIconData(0xedda);
 
-  ///FontAwesomeSolid's key icon
-  static const key = FontAwesomeIconDataSolid(0xebe0);
+  /// FontAwesome's tower observation solid Icon
+  static const tower_observation_solid = FontAwesomeIconData(0xeddb);
 
-  ///FontAwesomeSolid's khanda icon
-  static const khanda = FontAwesomeIconDataSolid(0xebe2);
+  /// FontAwesome's tractor solid Icon
+  static const tractor_solid = FontAwesomeIconData(0xeddc);
 
-  ///FontAwesomeSolid's kip_sign icon
-  static const kip_sign = FontAwesomeIconDataSolid(0xebe3);
+  /// FontAwesome's trademark solid Icon
+  static const trademark_solid = FontAwesomeIconData(0xeddd);
 
-  ///FontAwesomeSolid's kitchen_set icon
-  static const kitchen_set = FontAwesomeIconDataSolid(0xebe4);
+  /// FontAwesome's traffic light solid Icon
+  static const traffic_light_solid = FontAwesomeIconData(0xedde);
 
-  ///FontAwesomeSolid's kit_medical icon
-  static const kit_medical = FontAwesomeIconDataSolid(0xebe5);
+  /// FontAwesome's trailer solid Icon
+  static const trailer_solid = FontAwesomeIconData(0xeddf);
 
-  ///FontAwesomeSolid's kiwi_bird icon
-  static const kiwi_bird = FontAwesomeIconDataSolid(0xebe6);
+  /// FontAwesome's train solid Icon
+  static const train_solid = FontAwesomeIconData(0xede0);
 
-  ///FontAwesomeSolid's l icon
-  static const l = FontAwesomeIconDataSolid(0xebe7);
+  /// FontAwesome's train subway solid Icon
+  static const train_subway_solid = FontAwesomeIconData(0xede1);
 
-  ///FontAwesomeSolid's landmark icon
-  static const landmark = FontAwesomeIconDataSolid(0xebe8);
+  /// FontAwesome's train tram solid Icon
+  static const train_tram_solid = FontAwesomeIconData(0xede2);
 
-  ///FontAwesomeSolid's landmark_dome icon
-  static const landmark_dome = FontAwesomeIconDataSolid(0xebe9);
+  /// FontAwesome's transgender solid Icon
+  static const transgender_solid = FontAwesomeIconData(0xede3);
 
-  ///FontAwesomeSolid's landmark_flag icon
-  static const landmark_flag = FontAwesomeIconDataSolid(0xebea);
+  /// FontAwesome's trash solid Icon
+  static const trash_solid = FontAwesomeIconData(0xede4);
 
-  ///FontAwesomeSolid's land_mine_on icon
-  static const land_mine_on = FontAwesomeIconDataSolid(0xebeb);
+  /// FontAwesome's trash arrow up solid Icon
+  static const trash_arrow_up_solid = FontAwesomeIconData(0xede5);
 
-  ///FontAwesomeSolid's language icon
-  static const language = FontAwesomeIconDataSolid(0xebec);
+  /// FontAwesome's trash can solid Icon
+  static const trash_can_solid = FontAwesomeIconData(0xede6);
 
-  ///FontAwesomeSolid's laptop icon
-  static const laptop = FontAwesomeIconDataSolid(0xebed);
+  /// FontAwesome's trash can arrow up solid Icon
+  static const trash_can_arrow_up_solid = FontAwesomeIconData(0xede7);
 
-  ///FontAwesomeSolid's laptop_code icon
-  static const laptop_code = FontAwesomeIconDataSolid(0xebee);
+  /// FontAwesome's tree solid Icon
+  static const tree_solid = FontAwesomeIconData(0xede8);
 
-  ///FontAwesomeSolid's laptop_file icon
-  static const laptop_file = FontAwesomeIconDataSolid(0xebef);
+  /// FontAwesome's tree city solid Icon
+  static const tree_city_solid = FontAwesomeIconData(0xede9);
 
-  ///FontAwesomeSolid's laptop_medical icon
-  static const laptop_medical = FontAwesomeIconDataSolid(0xebf0);
+  /// FontAwesome's triangle exclamation solid Icon
+  static const triangle_exclamation_solid = FontAwesomeIconData(0xedea);
 
-  ///FontAwesomeSolid's lari_sign icon
-  static const lari_sign = FontAwesomeIconDataSolid(0xebf1);
+  /// FontAwesome's trophy solid Icon
+  static const trophy_solid = FontAwesomeIconData(0xedeb);
 
-  ///FontAwesomeSolid's layer_group icon
-  static const layer_group = FontAwesomeIconDataSolid(0xebf2);
+  /// FontAwesome's trowel solid Icon
+  static const trowel_solid = FontAwesomeIconData(0xedec);
 
-  ///FontAwesomeSolid's leaf icon
-  static const leaf = FontAwesomeIconDataSolid(0xebf3);
+  /// FontAwesome's trowel bricks solid Icon
+  static const trowel_bricks_solid = FontAwesomeIconData(0xeded);
 
-  ///FontAwesomeSolid's left_long icon
-  static const left_long = FontAwesomeIconDataSolid(0xebf4);
+  /// FontAwesome's truck solid Icon
+  static const truck_solid = FontAwesomeIconData(0xedee);
 
-  ///FontAwesomeSolid's left_right icon
-  static const left_right = FontAwesomeIconDataSolid(0xebf5);
+  /// FontAwesome's truck arrow right solid Icon
+  static const truck_arrow_right_solid = FontAwesomeIconData(0xedef);
 
-  ///FontAwesomeSolid's less_than icon
-  static const less_than = FontAwesomeIconDataSolid(0xebf7);
+  /// FontAwesome's truck droplet solid Icon
+  static const truck_droplet_solid = FontAwesomeIconData(0xedf0);
 
-  ///FontAwesomeSolid's less_than_equal icon
-  static const less_than_equal = FontAwesomeIconDataSolid(0xebf8);
+  /// FontAwesome's truck fast solid Icon
+  static const truck_fast_solid = FontAwesomeIconData(0xedf1);
 
-  ///FontAwesomeSolid's lines_leaning icon
-  static const lines_leaning = FontAwesomeIconDataSolid(0xebfb);
+  /// FontAwesome's truck field solid Icon
+  static const truck_field_solid = FontAwesomeIconData(0xedf2);
 
-  ///FontAwesomeSolid's link icon
-  static const link = FontAwesomeIconDataSolid(0xebfc);
+  /// FontAwesome's truck field un solid Icon
+  static const truck_field_un_solid = FontAwesomeIconData(0xedf3);
 
-  ///FontAwesomeSolid's link_slash icon
-  static const link_slash = FontAwesomeIconDataSolid(0xebfd);
+  /// FontAwesome's truck front solid Icon
+  static const truck_front_solid = FontAwesomeIconData(0xedf4);
 
-  ///FontAwesomeSolid's lira_sign icon
-  static const lira_sign = FontAwesomeIconDataSolid(0xebfe);
+  /// FontAwesome's truck medical solid Icon
+  static const truck_medical_solid = FontAwesomeIconData(0xedf5);
 
-  ///FontAwesomeSolid's list icon
-  static const list = FontAwesomeIconDataSolid(0xebff);
+  /// FontAwesome's truck monster solid Icon
+  static const truck_monster_solid = FontAwesomeIconData(0xedf6);
 
-  ///FontAwesomeSolid's list_check icon
-  static const list_check = FontAwesomeIconDataSolid(0xec00);
+  /// FontAwesome's truck moving solid Icon
+  static const truck_moving_solid = FontAwesomeIconData(0xedf7);
 
-  ///FontAwesomeSolid's list_ol icon
-  static const list_ol = FontAwesomeIconDataSolid(0xec01);
+  /// FontAwesome's truck pickup solid Icon
+  static const truck_pickup_solid = FontAwesomeIconData(0xedf8);
 
-  ///FontAwesomeSolid's list_ul icon
-  static const list_ul = FontAwesomeIconDataSolid(0xec02);
+  /// FontAwesome's truck plane solid Icon
+  static const truck_plane_solid = FontAwesomeIconData(0xedf9);
 
-  ///FontAwesomeSolid's litecoin_sign icon
-  static const litecoin_sign = FontAwesomeIconDataSolid(0xec03);
+  /// FontAwesome's truck ramp box solid Icon
+  static const truck_ramp_box_solid = FontAwesomeIconData(0xedfa);
 
-  ///FontAwesomeSolid's location_arrow icon
-  static const location_arrow = FontAwesomeIconDataSolid(0xec04);
+  /// FontAwesome's tty solid Icon
+  static const tty_solid = FontAwesomeIconData(0xedfb);
 
-  ///FontAwesomeSolid's location_crosshairs icon
-  static const location_crosshairs = FontAwesomeIconDataSolid(0xec05);
+  /// FontAwesome's turkish lira sign solid Icon
+  static const turkish_lira_sign_solid = FontAwesomeIconData(0xedfc);
 
-  ///FontAwesomeSolid's location_dot icon
-  static const location_dot = FontAwesomeIconDataSolid(0xec06);
+  /// FontAwesome's turn down solid Icon
+  static const turn_down_solid = FontAwesomeIconData(0xedfd);
 
-  ///FontAwesomeSolid's location_pin icon
-  static const location_pin = FontAwesomeIconDataSolid(0xec07);
+  /// FontAwesome's turn up solid Icon
+  static const turn_up_solid = FontAwesomeIconData(0xedfe);
 
-  ///FontAwesomeSolid's location_pin_lock icon
-  static const location_pin_lock = FontAwesomeIconDataSolid(0xec08);
+  /// FontAwesome's tv solid Icon
+  static const tv_solid = FontAwesomeIconData(0xedff);
 
-  ///FontAwesomeSolid's lock icon
-  static const lock = FontAwesomeIconDataSolid(0xec09);
+  /// FontAwesome's u solid Icon
+  static const u_solid = FontAwesomeIconData(0xee00);
 
-  ///FontAwesomeSolid's lock_open icon
-  static const lock_open = FontAwesomeIconDataSolid(0xec0a);
+  /// FontAwesome's umbrella solid Icon
+  static const umbrella_solid = FontAwesomeIconData(0xee01);
 
-  ///FontAwesomeSolid's locust icon
-  static const locust = FontAwesomeIconDataSolid(0xec0b);
+  /// FontAwesome's umbrella beach solid Icon
+  static const umbrella_beach_solid = FontAwesomeIconData(0xee02);
 
-  ///FontAwesomeSolid's lungs icon
-  static const lungs = FontAwesomeIconDataSolid(0xec0c);
+  /// FontAwesome's underline solid Icon
+  static const underline_solid = FontAwesomeIconData(0xee03);
 
-  ///FontAwesomeSolid's lungs_virus icon
-  static const lungs_virus = FontAwesomeIconDataSolid(0xec0d);
+  /// FontAwesome's universal access solid Icon
+  static const universal_access_solid = FontAwesomeIconData(0xee04);
 
-  ///FontAwesomeSolid's m icon
-  static const m = FontAwesomeIconDataSolid(0xec0e);
+  /// FontAwesome's unlock solid Icon
+  static const unlock_solid = FontAwesomeIconData(0xee05);
 
-  ///FontAwesomeSolid's magnet icon
-  static const magnet = FontAwesomeIconDataSolid(0xec0f);
+  /// FontAwesome's unlock keyhole solid Icon
+  static const unlock_keyhole_solid = FontAwesomeIconData(0xee06);
 
-  ///FontAwesomeSolid's magnifying_glass icon
-  static const magnifying_glass = FontAwesomeIconDataSolid(0xec10);
+  /// FontAwesome's up down solid Icon
+  static const up_down_solid = FontAwesomeIconData(0xee07);
 
-  ///FontAwesomeSolid's magnifying_glass_arrow_right icon
-  static const magnifying_glass_arrow_right = FontAwesomeIconDataSolid(0xec11);
+  /// FontAwesome's up down left right solid Icon
+  static const up_down_left_right_solid = FontAwesomeIconData(0xee08);
 
-  ///FontAwesomeSolid's magnifying_glass_chart icon
-  static const magnifying_glass_chart = FontAwesomeIconDataSolid(0xec12);
+  /// FontAwesome's upload solid Icon
+  static const upload_solid = FontAwesomeIconData(0xee09);
 
-  ///FontAwesomeSolid's magnifying_glass_dollar icon
-  static const magnifying_glass_dollar = FontAwesomeIconDataSolid(0xec13);
+  /// FontAwesome's up long solid Icon
+  static const up_long_solid = FontAwesomeIconData(0xee0a);
 
-  ///FontAwesomeSolid's magnifying_glass_location icon
-  static const magnifying_glass_location = FontAwesomeIconDataSolid(0xec14);
+  /// FontAwesome's up right and down left from center solid Icon
+  static const up_right_and_down_left_from_center_solid =
+      FontAwesomeIconData(0xee0b);
 
-  ///FontAwesomeSolid's magnifying_glass_minus icon
-  static const magnifying_glass_minus = FontAwesomeIconDataSolid(0xec15);
+  /// FontAwesome's up right from square solid Icon
+  static const up_right_from_square_solid = FontAwesomeIconData(0xee0c);
 
-  ///FontAwesomeSolid's magnifying_glass_plus icon
-  static const magnifying_glass_plus = FontAwesomeIconDataSolid(0xec16);
+  /// FontAwesome's user solid Icon
+  static const user_solid = FontAwesomeIconData(0xee0d);
 
-  ///FontAwesomeSolid's manat_sign icon
-  static const manat_sign = FontAwesomeIconDataSolid(0xec17);
+  /// FontAwesome's user astronaut solid Icon
+  static const user_astronaut_solid = FontAwesomeIconData(0xee0e);
 
-  ///FontAwesomeSolid's map_location icon
-  static const map_location = FontAwesomeIconDataSolid(0xec19);
+  /// FontAwesome's user check solid Icon
+  static const user_check_solid = FontAwesomeIconData(0xee0f);
 
-  ///FontAwesomeSolid's map_location_dot icon
-  static const map_location_dot = FontAwesomeIconDataSolid(0xec1a);
+  /// FontAwesome's user clock solid Icon
+  static const user_clock_solid = FontAwesomeIconData(0xee10);
 
-  ///FontAwesomeSolid's map_pin icon
-  static const map_pin = FontAwesomeIconDataSolid(0xec1b);
+  /// FontAwesome's user doctor solid Icon
+  static const user_doctor_solid = FontAwesomeIconData(0xee11);
 
-  ///FontAwesomeSolid's marker icon
-  static const marker = FontAwesomeIconDataSolid(0xec1c);
+  /// FontAwesome's user gear solid Icon
+  static const user_gear_solid = FontAwesomeIconData(0xee12);
 
-  ///FontAwesomeSolid's mars icon
-  static const mars = FontAwesomeIconDataSolid(0xec1d);
+  /// FontAwesome's user graduate solid Icon
+  static const user_graduate_solid = FontAwesomeIconData(0xee13);
 
-  ///FontAwesomeSolid's mars_and_venus icon
-  static const mars_and_venus = FontAwesomeIconDataSolid(0xec1e);
+  /// FontAwesome's user group solid Icon
+  static const user_group_solid = FontAwesomeIconData(0xee14);
 
-  ///FontAwesomeSolid's mars_and_venus_burst icon
-  static const mars_and_venus_burst = FontAwesomeIconDataSolid(0xec1f);
+  /// FontAwesome's user injured solid Icon
+  static const user_injured_solid = FontAwesomeIconData(0xee15);
 
-  ///FontAwesomeSolid's mars_double icon
-  static const mars_double = FontAwesomeIconDataSolid(0xec20);
+  /// FontAwesome's user large solid Icon
+  static const user_large_solid = FontAwesomeIconData(0xee16);
 
-  ///FontAwesomeSolid's mars_stroke icon
-  static const mars_stroke = FontAwesomeIconDataSolid(0xec21);
+  /// FontAwesome's user large slash solid Icon
+  static const user_large_slash_solid = FontAwesomeIconData(0xee17);
 
-  ///FontAwesomeSolid's mars_stroke_right icon
-  static const mars_stroke_right = FontAwesomeIconDataSolid(0xec22);
+  /// FontAwesome's user lock solid Icon
+  static const user_lock_solid = FontAwesomeIconData(0xee18);
 
-  ///FontAwesomeSolid's mars_stroke_up icon
-  static const mars_stroke_up = FontAwesomeIconDataSolid(0xec23);
+  /// FontAwesome's user minus solid Icon
+  static const user_minus_solid = FontAwesomeIconData(0xee19);
 
-  ///FontAwesomeSolid's martini_glass icon
-  static const martini_glass = FontAwesomeIconDataSolid(0xec24);
+  /// FontAwesome's user ninja solid Icon
+  static const user_ninja_solid = FontAwesomeIconData(0xee1a);
 
-  ///FontAwesomeSolid's martini_glass_citrus icon
-  static const martini_glass_citrus = FontAwesomeIconDataSolid(0xec25);
+  /// FontAwesome's user nurse solid Icon
+  static const user_nurse_solid = FontAwesomeIconData(0xee1b);
 
-  ///FontAwesomeSolid's martini_glass_empty icon
-  static const martini_glass_empty = FontAwesomeIconDataSolid(0xec26);
+  /// FontAwesome's user pen solid Icon
+  static const user_pen_solid = FontAwesomeIconData(0xee1c);
 
-  ///FontAwesomeSolid's mask icon
-  static const mask = FontAwesomeIconDataSolid(0xec27);
+  /// FontAwesome's user plus solid Icon
+  static const user_plus_solid = FontAwesomeIconData(0xee1d);
 
-  ///FontAwesomeSolid's mask_face icon
-  static const mask_face = FontAwesomeIconDataSolid(0xec28);
+  /// FontAwesome's users solid Icon
+  static const users_solid = FontAwesomeIconData(0xee1e);
 
-  ///FontAwesomeSolid's masks_theater icon
-  static const masks_theater = FontAwesomeIconDataSolid(0xec29);
+  /// FontAwesome's users between lines solid Icon
+  static const users_between_lines_solid = FontAwesomeIconData(0xee1f);
 
-  ///FontAwesomeSolid's mask_ventilator icon
-  static const mask_ventilator = FontAwesomeIconDataSolid(0xec2a);
+  /// FontAwesome's user secret solid Icon
+  static const user_secret_solid = FontAwesomeIconData(0xee20);
 
-  ///FontAwesomeSolid's mattress_pillow icon
-  static const mattress_pillow = FontAwesomeIconDataSolid(0xec2b);
+  /// FontAwesome's users gear solid Icon
+  static const users_gear_solid = FontAwesomeIconData(0xee21);
 
-  ///FontAwesomeSolid's maximize icon
-  static const maximize = FontAwesomeIconDataSolid(0xec2c);
+  /// FontAwesome's user shield solid Icon
+  static const user_shield_solid = FontAwesomeIconData(0xee22);
 
-  ///FontAwesomeSolid's medal icon
-  static const medal = FontAwesomeIconDataSolid(0xec2d);
+  /// FontAwesome's user slash solid Icon
+  static const user_slash_solid = FontAwesomeIconData(0xee23);
 
-  ///FontAwesomeSolid's memory icon
-  static const memory = FontAwesomeIconDataSolid(0xec2e);
+  /// FontAwesome's users line solid Icon
+  static const users_line_solid = FontAwesomeIconData(0xee24);
 
-  ///FontAwesomeSolid's menorah icon
-  static const menorah = FontAwesomeIconDataSolid(0xec2f);
+  /// FontAwesome's users rays solid Icon
+  static const users_rays_solid = FontAwesomeIconData(0xee25);
 
-  ///FontAwesomeSolid's mercury icon
-  static const mercury = FontAwesomeIconDataSolid(0xec30);
+  /// FontAwesome's users rectangle solid Icon
+  static const users_rectangle_solid = FontAwesomeIconData(0xee26);
 
-  ///FontAwesomeSolid's meteor icon
-  static const meteor = FontAwesomeIconDataSolid(0xec32);
+  /// FontAwesome's users slash solid Icon
+  static const users_slash_solid = FontAwesomeIconData(0xee27);
 
-  ///FontAwesomeSolid's microchip icon
-  static const microchip = FontAwesomeIconDataSolid(0xec33);
+  /// FontAwesome's users viewfinder solid Icon
+  static const users_viewfinder_solid = FontAwesomeIconData(0xee28);
 
-  ///FontAwesomeSolid's microphone icon
-  static const microphone = FontAwesomeIconDataSolid(0xec34);
+  /// FontAwesome's user tag solid Icon
+  static const user_tag_solid = FontAwesomeIconData(0xee29);
 
-  ///FontAwesomeSolid's microphone_lines icon
-  static const microphone_lines = FontAwesomeIconDataSolid(0xec35);
+  /// FontAwesome's user tie solid Icon
+  static const user_tie_solid = FontAwesomeIconData(0xee2a);
 
-  ///FontAwesomeSolid's microphone_lines_slash icon
-  static const microphone_lines_slash = FontAwesomeIconDataSolid(0xec36);
+  /// FontAwesome's user xmark solid Icon
+  static const user_xmark_solid = FontAwesomeIconData(0xee2b);
 
-  ///FontAwesomeSolid's microphone_slash icon
-  static const microphone_slash = FontAwesomeIconDataSolid(0xec37);
+  /// FontAwesome's utensils solid Icon
+  static const utensils_solid = FontAwesomeIconData(0xee2c);
 
-  ///FontAwesomeSolid's microscope icon
-  static const microscope = FontAwesomeIconDataSolid(0xec38);
+  /// FontAwesome's v solid Icon
+  static const v_solid = FontAwesomeIconData(0xee2d);
 
-  ///FontAwesomeSolid's mill_sign icon
-  static const mill_sign = FontAwesomeIconDataSolid(0xec39);
+  /// FontAwesome's van shuttle solid Icon
+  static const van_shuttle_solid = FontAwesomeIconData(0xee2e);
 
-  ///FontAwesomeSolid's minimize icon
-  static const minimize = FontAwesomeIconDataSolid(0xec3a);
+  /// FontAwesome's vault solid Icon
+  static const vault_solid = FontAwesomeIconData(0xee2f);
 
-  ///FontAwesomeSolid's minus icon
-  static const minus = FontAwesomeIconDataSolid(0xec3b);
+  /// FontAwesome's vector square solid Icon
+  static const vector_square_solid = FontAwesomeIconData(0xee30);
 
-  ///FontAwesomeSolid's mitten icon
-  static const mitten = FontAwesomeIconDataSolid(0xec3c);
+  /// FontAwesome's venus solid Icon
+  static const venus_solid = FontAwesomeIconData(0xee31);
 
-  ///FontAwesomeSolid's mobile icon
-  static const mobile = FontAwesomeIconDataSolid(0xec3d);
+  /// FontAwesome's venus double solid Icon
+  static const venus_double_solid = FontAwesomeIconData(0xee32);
 
-  ///FontAwesomeSolid's mobile_button icon
-  static const mobile_button = FontAwesomeIconDataSolid(0xec3e);
+  /// FontAwesome's venus mars solid Icon
+  static const venus_mars_solid = FontAwesomeIconData(0xee33);
 
-  ///FontAwesomeSolid's mobile_retro icon
-  static const mobile_retro = FontAwesomeIconDataSolid(0xec3f);
+  /// FontAwesome's vest solid Icon
+  static const vest_solid = FontAwesomeIconData(0xee34);
 
-  ///FontAwesomeSolid's mobile_screen icon
-  static const mobile_screen = FontAwesomeIconDataSolid(0xec40);
+  /// FontAwesome's vest patches solid Icon
+  static const vest_patches_solid = FontAwesomeIconData(0xee35);
 
-  ///FontAwesomeSolid's mobile_screen_button icon
-  static const mobile_screen_button = FontAwesomeIconDataSolid(0xec41);
+  /// FontAwesome's vial solid Icon
+  static const vial_solid = FontAwesomeIconData(0xee36);
 
-  ///FontAwesomeSolid's money_bill icon
-  static const money_bill = FontAwesomeIconDataSolid(0xec42);
+  /// FontAwesome's vial circle check solid Icon
+  static const vial_circle_check_solid = FontAwesomeIconData(0xee37);
 
-  ///FontAwesomeSolid's money_bill_1_wave icon
-  static const money_bill_1_wave = FontAwesomeIconDataSolid(0xec44);
+  /// FontAwesome's vials solid Icon
+  static const vials_solid = FontAwesomeIconData(0xee38);
 
-  ///FontAwesomeSolid's money_bills icon
-  static const money_bills = FontAwesomeIconDataSolid(0xec45);
+  /// FontAwesome's vial virus solid Icon
+  static const vial_virus_solid = FontAwesomeIconData(0xee39);
 
-  ///FontAwesomeSolid's money_bill_transfer icon
-  static const money_bill_transfer = FontAwesomeIconDataSolid(0xec46);
+  /// FontAwesome's video solid Icon
+  static const video_solid = FontAwesomeIconData(0xee3a);
 
-  ///FontAwesomeSolid's money_bill_trend_up icon
-  static const money_bill_trend_up = FontAwesomeIconDataSolid(0xec47);
+  /// FontAwesome's video slash solid Icon
+  static const video_slash_solid = FontAwesomeIconData(0xee3b);
 
-  ///FontAwesomeSolid's money_bill_wave icon
-  static const money_bill_wave = FontAwesomeIconDataSolid(0xec48);
+  /// FontAwesome's vihara solid Icon
+  static const vihara_solid = FontAwesomeIconData(0xee3c);
 
-  ///FontAwesomeSolid's money_bill_wheat icon
-  static const money_bill_wheat = FontAwesomeIconDataSolid(0xec49);
+  /// FontAwesome's virus solid Icon
+  static const virus_solid = FontAwesomeIconData(0xee3d);
 
-  ///FontAwesomeSolid's money_check icon
-  static const money_check = FontAwesomeIconDataSolid(0xec4a);
+  /// FontAwesome's virus covid solid Icon
+  static const virus_covid_solid = FontAwesomeIconData(0xee3e);
 
-  ///FontAwesomeSolid's money_check_dollar icon
-  static const money_check_dollar = FontAwesomeIconDataSolid(0xec4b);
+  /// FontAwesome's virus covid slash solid Icon
+  static const virus_covid_slash_solid = FontAwesomeIconData(0xee3f);
 
-  ///FontAwesomeSolid's monument icon
-  static const monument = FontAwesomeIconDataSolid(0xec4c);
+  /// FontAwesome's viruses solid Icon
+  static const viruses_solid = FontAwesomeIconData(0xee40);
 
-  ///FontAwesomeSolid's mortar_pestle icon
-  static const mortar_pestle = FontAwesomeIconDataSolid(0xec4e);
+  /// FontAwesome's virus slash solid Icon
+  static const virus_slash_solid = FontAwesomeIconData(0xee41);
 
-  ///FontAwesomeSolid's mosque icon
-  static const mosque = FontAwesomeIconDataSolid(0xec4f);
+  /// FontAwesome's voicemail solid Icon
+  static const voicemail_solid = FontAwesomeIconData(0xee42);
 
-  ///FontAwesomeSolid's mosquito icon
-  static const mosquito = FontAwesomeIconDataSolid(0xec50);
+  /// FontAwesome's volcano solid Icon
+  static const volcano_solid = FontAwesomeIconData(0xee43);
 
-  ///FontAwesomeSolid's mosquito_net icon
-  static const mosquito_net = FontAwesomeIconDataSolid(0xec51);
+  /// FontAwesome's volleyball solid Icon
+  static const volleyball_solid = FontAwesomeIconData(0xee44);
 
-  ///FontAwesomeSolid's motorcycle icon
-  static const motorcycle = FontAwesomeIconDataSolid(0xec52);
+  /// FontAwesome's volume high solid Icon
+  static const volume_high_solid = FontAwesomeIconData(0xee45);
 
-  ///FontAwesomeSolid's mound icon
-  static const mound = FontAwesomeIconDataSolid(0xec53);
+  /// FontAwesome's volume low solid Icon
+  static const volume_low_solid = FontAwesomeIconData(0xee46);
 
-  ///FontAwesomeSolid's mountain icon
-  static const mountain = FontAwesomeIconDataSolid(0xec54);
+  /// FontAwesome's volume off solid Icon
+  static const volume_off_solid = FontAwesomeIconData(0xee47);
 
-  ///FontAwesomeSolid's mountain_city icon
-  static const mountain_city = FontAwesomeIconDataSolid(0xec55);
+  /// FontAwesome's volume xmark solid Icon
+  static const volume_xmark_solid = FontAwesomeIconData(0xee48);
 
-  ///FontAwesomeSolid's mountain_sun icon
-  static const mountain_sun = FontAwesomeIconDataSolid(0xec56);
+  /// FontAwesome's vr cardboard solid Icon
+  static const vr_cardboard_solid = FontAwesomeIconData(0xee49);
 
-  ///FontAwesomeSolid's mug_hot icon
-  static const mug_hot = FontAwesomeIconDataSolid(0xec57);
+  /// FontAwesome's w solid Icon
+  static const w_solid = FontAwesomeIconData(0xee4a);
 
-  ///FontAwesomeSolid's mug_saucer icon
-  static const mug_saucer = FontAwesomeIconDataSolid(0xec58);
+  /// FontAwesome's walkie talkie solid Icon
+  static const walkie_talkie_solid = FontAwesomeIconData(0xee4b);
 
-  ///FontAwesomeSolid's music icon
-  static const music = FontAwesomeIconDataSolid(0xec59);
+  /// FontAwesome's wallet solid Icon
+  static const wallet_solid = FontAwesomeIconData(0xee4c);
 
-  ///FontAwesomeSolid's n icon
-  static const n = FontAwesomeIconDataSolid(0xec5a);
+  /// FontAwesome's wand magic solid Icon
+  static const wand_magic_solid = FontAwesomeIconData(0xee4d);
 
-  ///FontAwesomeSolid's naira_sign icon
-  static const naira_sign = FontAwesomeIconDataSolid(0xec5b);
+  /// FontAwesome's wand magic sparkles solid Icon
+  static const wand_magic_sparkles_solid = FontAwesomeIconData(0xee4e);
 
-  ///FontAwesomeSolid's network_wired icon
-  static const network_wired = FontAwesomeIconDataSolid(0xec5c);
+  /// FontAwesome's wand sparkles solid Icon
+  static const wand_sparkles_solid = FontAwesomeIconData(0xee4f);
 
-  ///FontAwesomeSolid's neuter icon
-  static const neuter = FontAwesomeIconDataSolid(0xec5d);
+  /// FontAwesome's warehouse solid Icon
+  static const warehouse_solid = FontAwesomeIconData(0xee50);
 
-  ///FontAwesomeSolid's notdef icon
-  static const notdef = FontAwesomeIconDataSolid(0xec5f);
+  /// FontAwesome's water solid Icon
+  static const water_solid = FontAwesomeIconData(0xee51);
 
-  ///FontAwesomeSolid's not_equal icon
-  static const not_equal = FontAwesomeIconDataSolid(0xec60);
+  /// FontAwesome's water ladder solid Icon
+  static const water_ladder_solid = FontAwesomeIconData(0xee52);
 
-  ///FontAwesomeSolid's notes_medical icon
-  static const notes_medical = FontAwesomeIconDataSolid(0xec61);
+  /// FontAwesome's wave square solid Icon
+  static const wave_square_solid = FontAwesomeIconData(0xee53);
 
-  ///FontAwesomeSolid's o icon
-  static const o = FontAwesomeIconDataSolid(0xec63);
+  /// FontAwesome's weight hanging solid Icon
+  static const weight_hanging_solid = FontAwesomeIconData(0xee54);
 
-  ///FontAwesomeSolid's oil_can icon
-  static const oil_can = FontAwesomeIconDataSolid(0xec66);
+  /// FontAwesome's weight scale solid Icon
+  static const weight_scale_solid = FontAwesomeIconData(0xee55);
 
-  ///FontAwesomeSolid's oil_well icon
-  static const oil_well = FontAwesomeIconDataSolid(0xec67);
+  /// FontAwesome's wheat awn solid Icon
+  static const wheat_awn_solid = FontAwesomeIconData(0xee56);
 
-  ///FontAwesomeSolid's om icon
-  static const om = FontAwesomeIconDataSolid(0xec68);
+  /// FontAwesome's wheat awn circle exclamation solid Icon
+  static const wheat_awn_circle_exclamation_solid = FontAwesomeIconData(0xee57);
 
-  ///FontAwesomeSolid's otter icon
-  static const otter = FontAwesomeIconDataSolid(0xec69);
+  /// FontAwesome's wheelchair solid Icon
+  static const wheelchair_solid = FontAwesomeIconData(0xee58);
 
-  ///FontAwesomeSolid's outdent icon
-  static const outdent = FontAwesomeIconDataSolid(0xec6a);
+  /// FontAwesome's wheelchair move solid Icon
+  static const wheelchair_move_solid = FontAwesomeIconData(0xee59);
 
-  ///FontAwesomeSolid's p icon
-  static const p = FontAwesomeIconDataSolid(0xec6b);
+  /// FontAwesome's whiskey glass solid Icon
+  static const whiskey_glass_solid = FontAwesomeIconData(0xee5a);
 
-  ///FontAwesomeSolid's pager icon
-  static const pager = FontAwesomeIconDataSolid(0xec6c);
+  /// FontAwesome's wifi solid Icon
+  static const wifi_solid = FontAwesomeIconData(0xee5b);
 
-  ///FontAwesomeSolid's paintbrush icon
-  static const paintbrush = FontAwesomeIconDataSolid(0xec6d);
+  /// FontAwesome's wind solid Icon
+  static const wind_solid = FontAwesomeIconData(0xee5c);
 
-  ///FontAwesomeSolid's paint_roller icon
-  static const paint_roller = FontAwesomeIconDataSolid(0xec6e);
+  /// FontAwesome's window maximize solid Icon
+  static const window_maximize_solid = FontAwesomeIconData(0xee5d);
 
-  ///FontAwesomeSolid's palette icon
-  static const palette = FontAwesomeIconDataSolid(0xec6f);
+  /// FontAwesome's window minimize solid Icon
+  static const window_minimize_solid = FontAwesomeIconData(0xee5e);
 
-  ///FontAwesomeSolid's pallet icon
-  static const pallet = FontAwesomeIconDataSolid(0xec70);
+  /// FontAwesome's window restore solid Icon
+  static const window_restore_solid = FontAwesomeIconData(0xee5f);
 
-  ///FontAwesomeSolid's panorama icon
-  static const panorama = FontAwesomeIconDataSolid(0xec71);
+  /// FontAwesome's wine bottle solid Icon
+  static const wine_bottle_solid = FontAwesomeIconData(0xee60);
 
-  ///FontAwesomeSolid's paperclip icon
-  static const paperclip = FontAwesomeIconDataSolid(0xec72);
+  /// FontAwesome's wine glass solid Icon
+  static const wine_glass_solid = FontAwesomeIconData(0xee61);
 
-  ///FontAwesomeSolid's parachute_box icon
-  static const parachute_box = FontAwesomeIconDataSolid(0xec74);
+  /// FontAwesome's wine glass empty solid Icon
+  static const wine_glass_empty_solid = FontAwesomeIconData(0xee62);
 
-  ///FontAwesomeSolid's paragraph icon
-  static const paragraph = FontAwesomeIconDataSolid(0xec75);
+  /// FontAwesome's won sign solid Icon
+  static const won_sign_solid = FontAwesomeIconData(0xee63);
 
-  ///FontAwesomeSolid's passport icon
-  static const passport = FontAwesomeIconDataSolid(0xec76);
+  /// FontAwesome's worm solid Icon
+  static const worm_solid = FontAwesomeIconData(0xee64);
 
-  ///FontAwesomeSolid's pause icon
-  static const pause = FontAwesomeIconDataSolid(0xec78);
+  /// FontAwesome's wrench solid Icon
+  static const wrench_solid = FontAwesomeIconData(0xee65);
 
-  ///FontAwesomeSolid's paw icon
-  static const paw = FontAwesomeIconDataSolid(0xec79);
+  /// FontAwesome's x solid Icon
+  static const x_solid = FontAwesomeIconData(0xee66);
 
-  ///FontAwesomeSolid's peace icon
-  static const peace = FontAwesomeIconDataSolid(0xec7a);
+  /// FontAwesome's xmark solid Icon
+  static const xmark_solid = FontAwesomeIconData(0xee67);
 
-  ///FontAwesomeSolid's pen icon
-  static const pen = FontAwesomeIconDataSolid(0xec7b);
+  /// FontAwesome's xmarks lines solid Icon
+  static const xmarks_lines_solid = FontAwesomeIconData(0xee68);
 
-  ///FontAwesomeSolid's pencil icon
-  static const pencil = FontAwesomeIconDataSolid(0xec7c);
+  /// FontAwesome's x ray solid Icon
+  static const x_ray_solid = FontAwesomeIconData(0xee69);
 
-  ///FontAwesomeSolid's pen_clip icon
-  static const pen_clip = FontAwesomeIconDataSolid(0xec7d);
+  /// FontAwesome's y solid Icon
+  static const y_solid = FontAwesomeIconData(0xee6a);
 
-  ///FontAwesomeSolid's pen_fancy icon
-  static const pen_fancy = FontAwesomeIconDataSolid(0xec7e);
+  /// FontAwesome's yen sign solid Icon
+  static const yen_sign_solid = FontAwesomeIconData(0xee6b);
 
-  ///FontAwesomeSolid's pen_nib icon
-  static const pen_nib = FontAwesomeIconDataSolid(0xec7f);
+  /// FontAwesome's yin yang solid Icon
+  static const yin_yang_solid = FontAwesomeIconData(0xee6c);
 
-  ///FontAwesomeSolid's pen_ruler icon
-  static const pen_ruler = FontAwesomeIconDataSolid(0xec80);
+  /// FontAwesome's z solid Icon
+  static const z_solid = FontAwesomeIconData(0xee6d);
 
-  ///FontAwesomeSolid's people_arrows icon
-  static const people_arrows = FontAwesomeIconDataSolid(0xec82);
+  /// FontAwesome's address book Icon
+  static const address_book = FontAwesomeIconData(0xee6e);
 
-  ///FontAwesomeSolid's people_carry_box icon
-  static const people_carry_box = FontAwesomeIconDataSolid(0xec83);
+  /// FontAwesome's address card Icon
+  static const address_card = FontAwesomeIconData(0xee6f);
 
-  ///FontAwesomeSolid's people_group icon
-  static const people_group = FontAwesomeIconDataSolid(0xec84);
+  /// FontAwesome's bell Icon
+  static const bell = FontAwesomeIconData(0xee70);
 
-  ///FontAwesomeSolid's people_line icon
-  static const people_line = FontAwesomeIconDataSolid(0xec85);
+  /// FontAwesome's bell slash Icon
+  static const bell_slash = FontAwesomeIconData(0xee71);
 
-  ///FontAwesomeSolid's people_pulling icon
-  static const people_pulling = FontAwesomeIconDataSolid(0xec86);
+  /// FontAwesome's bookmark Icon
+  static const bookmark = FontAwesomeIconData(0xee72);
 
-  ///FontAwesomeSolid's people_robbery icon
-  static const people_robbery = FontAwesomeIconDataSolid(0xec87);
+  /// FontAwesome's building Icon
+  static const building = FontAwesomeIconData(0xee73);
 
-  ///FontAwesomeSolid's people_roof icon
-  static const people_roof = FontAwesomeIconDataSolid(0xec88);
+  /// FontAwesome's calendar Icon
+  static const calendar = FontAwesomeIconData(0xee74);
 
-  ///FontAwesomeSolid's pepper_hot icon
-  static const pepper_hot = FontAwesomeIconDataSolid(0xec89);
+  /// FontAwesome's calendar check Icon
+  static const calendar_check = FontAwesomeIconData(0xee75);
 
-  ///FontAwesomeSolid's percent icon
-  static const percent = FontAwesomeIconDataSolid(0xec8a);
+  /// FontAwesome's calendar days Icon
+  static const calendar_days = FontAwesomeIconData(0xee76);
 
-  ///FontAwesomeSolid's person icon
-  static const person = FontAwesomeIconDataSolid(0xec8b);
+  /// FontAwesome's calendar minus Icon
+  static const calendar_minus = FontAwesomeIconData(0xee77);
 
-  ///FontAwesomeSolid's person_arrow_down_to_line icon
-  static const person_arrow_down_to_line = FontAwesomeIconDataSolid(0xec8c);
+  /// FontAwesome's calendar plus Icon
+  static const calendar_plus = FontAwesomeIconData(0xee78);
 
-  ///FontAwesomeSolid's person_arrow_up_from_line icon
-  static const person_arrow_up_from_line = FontAwesomeIconDataSolid(0xec8d);
+  /// FontAwesome's calendar xmark Icon
+  static const calendar_xmark = FontAwesomeIconData(0xee79);
 
-  ///FontAwesomeSolid's person_biking icon
-  static const person_biking = FontAwesomeIconDataSolid(0xec8e);
+  /// FontAwesome's chart bar Icon
+  static const chart_bar = FontAwesomeIconData(0xee7a);
 
-  ///FontAwesomeSolid's person_booth icon
-  static const person_booth = FontAwesomeIconDataSolid(0xec8f);
+  /// FontAwesome's chess bishop Icon
+  static const chess_bishop = FontAwesomeIconData(0xee7b);
 
-  ///FontAwesomeSolid's person_breastfeeding icon
-  static const person_breastfeeding = FontAwesomeIconDataSolid(0xec90);
+  /// FontAwesome's chess king Icon
+  static const chess_king = FontAwesomeIconData(0xee7c);
 
-  ///FontAwesomeSolid's person_burst icon
-  static const person_burst = FontAwesomeIconDataSolid(0xec91);
+  /// FontAwesome's chess knight Icon
+  static const chess_knight = FontAwesomeIconData(0xee7d);
 
-  ///FontAwesomeSolid's person_cane icon
-  static const person_cane = FontAwesomeIconDataSolid(0xec92);
+  /// FontAwesome's chess pawn Icon
+  static const chess_pawn = FontAwesomeIconData(0xee7e);
 
-  ///FontAwesomeSolid's person_chalkboard icon
-  static const person_chalkboard = FontAwesomeIconDataSolid(0xec93);
+  /// FontAwesome's chess queen Icon
+  static const chess_queen = FontAwesomeIconData(0xee7f);
 
-  ///FontAwesomeSolid's person_circle_check icon
-  static const person_circle_check = FontAwesomeIconDataSolid(0xec94);
+  /// FontAwesome's chess rook Icon
+  static const chess_rook = FontAwesomeIconData(0xee80);
 
-  ///FontAwesomeSolid's person_circle_exclamation icon
-  static const person_circle_exclamation = FontAwesomeIconDataSolid(0xec95);
+  /// FontAwesome's circle Icon
+  static const circle = FontAwesomeIconData(0xee81);
 
-  ///FontAwesomeSolid's person_circle_minus icon
-  static const person_circle_minus = FontAwesomeIconDataSolid(0xec96);
+  /// FontAwesome's circle check Icon
+  static const circle_check = FontAwesomeIconData(0xee82);
 
-  ///FontAwesomeSolid's person_circle_plus icon
-  static const person_circle_plus = FontAwesomeIconDataSolid(0xec97);
+  /// FontAwesome's circle dot Icon
+  static const circle_dot = FontAwesomeIconData(0xee83);
 
-  ///FontAwesomeSolid's person_circle_question icon
-  static const person_circle_question = FontAwesomeIconDataSolid(0xec98);
+  /// FontAwesome's circle down Icon
+  static const circle_down = FontAwesomeIconData(0xee84);
 
-  ///FontAwesomeSolid's person_circle_xmark icon
-  static const person_circle_xmark = FontAwesomeIconDataSolid(0xec99);
+  /// FontAwesome's circle left Icon
+  static const circle_left = FontAwesomeIconData(0xee85);
 
-  ///FontAwesomeSolid's person_digging icon
-  static const person_digging = FontAwesomeIconDataSolid(0xec9a);
+  /// FontAwesome's circle pause Icon
+  static const circle_pause = FontAwesomeIconData(0xee86);
 
-  ///FontAwesomeSolid's person_dots_from_line icon
-  static const person_dots_from_line = FontAwesomeIconDataSolid(0xec9b);
+  /// FontAwesome's circle play Icon
+  static const circle_play = FontAwesomeIconData(0xee87);
 
-  ///FontAwesomeSolid's person_dress icon
-  static const person_dress = FontAwesomeIconDataSolid(0xec9c);
+  /// FontAwesome's circle question Icon
+  static const circle_question = FontAwesomeIconData(0xee88);
 
-  ///FontAwesomeSolid's person_dress_burst icon
-  static const person_dress_burst = FontAwesomeIconDataSolid(0xec9d);
+  /// FontAwesome's circle right Icon
+  static const circle_right = FontAwesomeIconData(0xee89);
 
-  ///FontAwesomeSolid's person_drowning icon
-  static const person_drowning = FontAwesomeIconDataSolid(0xec9e);
+  /// FontAwesome's circle stop Icon
+  static const circle_stop = FontAwesomeIconData(0xee8a);
 
-  ///FontAwesomeSolid's person_falling icon
-  static const person_falling = FontAwesomeIconDataSolid(0xec9f);
+  /// FontAwesome's circle up Icon
+  static const circle_up = FontAwesomeIconData(0xee8b);
 
-  ///FontAwesomeSolid's person_falling_burst icon
-  static const person_falling_burst = FontAwesomeIconDataSolid(0xeca0);
+  /// FontAwesome's circle user Icon
+  static const circle_user = FontAwesomeIconData(0xee8c);
 
-  ///FontAwesomeSolid's person_half_dress icon
-  static const person_half_dress = FontAwesomeIconDataSolid(0xeca1);
+  /// FontAwesome's circle xmark Icon
+  static const circle_xmark = FontAwesomeIconData(0xee8d);
 
-  ///FontAwesomeSolid's person_harassing icon
-  static const person_harassing = FontAwesomeIconDataSolid(0xeca2);
+  /// FontAwesome's clipboard Icon
+  static const clipboard = FontAwesomeIconData(0xee8e);
 
-  ///FontAwesomeSolid's person_hiking icon
-  static const person_hiking = FontAwesomeIconDataSolid(0xeca3);
+  /// FontAwesome's clock Icon
+  static const clock = FontAwesomeIconData(0xee8f);
 
-  ///FontAwesomeSolid's person_military_pointing icon
-  static const person_military_pointing = FontAwesomeIconDataSolid(0xeca4);
+  /// FontAwesome's clone Icon
+  static const clone = FontAwesomeIconData(0xee90);
 
-  ///FontAwesomeSolid's person_military_rifle icon
-  static const person_military_rifle = FontAwesomeIconDataSolid(0xeca5);
+  /// FontAwesome's closed captioning Icon
+  static const closed_captioning = FontAwesomeIconData(0xee91);
 
-  ///FontAwesomeSolid's person_military_to_person icon
-  static const person_military_to_person = FontAwesomeIconDataSolid(0xeca6);
+  /// FontAwesome's comment Icon
+  static const comment = FontAwesomeIconData(0xee92);
 
-  ///FontAwesomeSolid's person_praying icon
-  static const person_praying = FontAwesomeIconDataSolid(0xeca7);
+  /// FontAwesome's comment dots Icon
+  static const comment_dots = FontAwesomeIconData(0xee93);
 
-  ///FontAwesomeSolid's person_pregnant icon
-  static const person_pregnant = FontAwesomeIconDataSolid(0xeca8);
+  /// FontAwesome's comments Icon
+  static const comments = FontAwesomeIconData(0xee94);
 
-  ///FontAwesomeSolid's person_rays icon
-  static const person_rays = FontAwesomeIconDataSolid(0xeca9);
+  /// FontAwesome's compass Icon
+  static const compass = FontAwesomeIconData(0xee95);
 
-  ///FontAwesomeSolid's person_rifle icon
-  static const person_rifle = FontAwesomeIconDataSolid(0xecaa);
+  /// FontAwesome's copy Icon
+  static const copy = FontAwesomeIconData(0xee96);
 
-  ///FontAwesomeSolid's person_running icon
-  static const person_running = FontAwesomeIconDataSolid(0xecab);
+  /// FontAwesome's copyright Icon
+  static const copyright = FontAwesomeIconData(0xee97);
 
-  ///FontAwesomeSolid's person_shelter icon
-  static const person_shelter = FontAwesomeIconDataSolid(0xecac);
+  /// FontAwesome's credit card Icon
+  static const credit_card = FontAwesomeIconData(0xee98);
 
-  ///FontAwesomeSolid's person_skating icon
-  static const person_skating = FontAwesomeIconDataSolid(0xecad);
+  /// FontAwesome's envelope Icon
+  static const envelope = FontAwesomeIconData(0xee99);
 
-  ///FontAwesomeSolid's person_skiing icon
-  static const person_skiing = FontAwesomeIconDataSolid(0xecae);
+  /// FontAwesome's envelope open Icon
+  static const envelope_open = FontAwesomeIconData(0xee9a);
 
-  ///FontAwesomeSolid's person_skiing_nordic icon
-  static const person_skiing_nordic = FontAwesomeIconDataSolid(0xecaf);
+  /// FontAwesome's eye Icon
+  static const eye = FontAwesomeIconData(0xee9b);
 
-  ///FontAwesomeSolid's person_snowboarding icon
-  static const person_snowboarding = FontAwesomeIconDataSolid(0xecb0);
+  /// FontAwesome's eye slash Icon
+  static const eye_slash = FontAwesomeIconData(0xee9c);
 
-  ///FontAwesomeSolid's person_swimming icon
-  static const person_swimming = FontAwesomeIconDataSolid(0xecb1);
+  /// FontAwesome's face angry Icon
+  static const face_angry = FontAwesomeIconData(0xee9d);
 
-  ///FontAwesomeSolid's person_through_window icon
-  static const person_through_window = FontAwesomeIconDataSolid(0xecb2);
+  /// FontAwesome's face dizzy Icon
+  static const face_dizzy = FontAwesomeIconData(0xee9e);
 
-  ///FontAwesomeSolid's person_walking icon
-  static const person_walking = FontAwesomeIconDataSolid(0xecb3);
+  /// FontAwesome's face flushed Icon
+  static const face_flushed = FontAwesomeIconData(0xee9f);
 
-  ///FontAwesomeSolid's person_walking_arrow_loop_left icon
-  static const person_walking_arrow_loop_left =
-      FontAwesomeIconDataSolid(0xecb4);
+  /// FontAwesome's face frown Icon
+  static const face_frown = FontAwesomeIconData(0xeea0);
 
-  ///FontAwesomeSolid's person_walking_arrow_right icon
-  static const person_walking_arrow_right = FontAwesomeIconDataSolid(0xecb5);
+  /// FontAwesome's face frown open Icon
+  static const face_frown_open = FontAwesomeIconData(0xeea1);
 
-  ///FontAwesomeSolid's person_walking_dashed_line_arrow_right icon
-  static const person_walking_dashed_line_arrow_right =
-      FontAwesomeIconDataSolid(0xecb6);
+  /// FontAwesome's face grimace Icon
+  static const face_grimace = FontAwesomeIconData(0xeea2);
 
-  ///FontAwesomeSolid's person_walking_luggage icon
-  static const person_walking_luggage = FontAwesomeIconDataSolid(0xecb7);
+  /// FontAwesome's face grin Icon
+  static const face_grin = FontAwesomeIconData(0xeea3);
 
-  ///FontAwesomeSolid's person_walking_with_cane icon
-  static const person_walking_with_cane = FontAwesomeIconDataSolid(0xecb8);
+  /// FontAwesome's face grin beam Icon
+  static const face_grin_beam = FontAwesomeIconData(0xeea4);
 
-  ///FontAwesomeSolid's peseta_sign icon
-  static const peseta_sign = FontAwesomeIconDataSolid(0xecb9);
+  /// FontAwesome's face grin beam sweat Icon
+  static const face_grin_beam_sweat = FontAwesomeIconData(0xeea5);
 
-  ///FontAwesomeSolid's peso_sign icon
-  static const peso_sign = FontAwesomeIconDataSolid(0xecba);
+  /// FontAwesome's face grin hearts Icon
+  static const face_grin_hearts = FontAwesomeIconData(0xeea6);
 
-  ///FontAwesomeSolid's phone icon
-  static const phone = FontAwesomeIconDataSolid(0xecbb);
+  /// FontAwesome's face grin squint Icon
+  static const face_grin_squint = FontAwesomeIconData(0xeea7);
 
-  ///FontAwesomeSolid's phone_flip icon
-  static const phone_flip = FontAwesomeIconDataSolid(0xecbc);
+  /// FontAwesome's face grin squint tears Icon
+  static const face_grin_squint_tears = FontAwesomeIconData(0xeea8);
 
-  ///FontAwesomeSolid's phone_slash icon
-  static const phone_slash = FontAwesomeIconDataSolid(0xecbd);
+  /// FontAwesome's face grin stars Icon
+  static const face_grin_stars = FontAwesomeIconData(0xeea9);
 
-  ///FontAwesomeSolid's phone_volume icon
-  static const phone_volume = FontAwesomeIconDataSolid(0xecbe);
+  /// FontAwesome's face grin tears Icon
+  static const face_grin_tears = FontAwesomeIconData(0xeeaa);
 
-  ///FontAwesomeSolid's photo_film icon
-  static const photo_film = FontAwesomeIconDataSolid(0xecbf);
+  /// FontAwesome's face grin tongue Icon
+  static const face_grin_tongue = FontAwesomeIconData(0xeeab);
 
-  ///FontAwesomeSolid's piggy_bank icon
-  static const piggy_bank = FontAwesomeIconDataSolid(0xecc0);
+  /// FontAwesome's face grin tongue squint Icon
+  static const face_grin_tongue_squint = FontAwesomeIconData(0xeeac);
 
-  ///FontAwesomeSolid's pills icon
-  static const pills = FontAwesomeIconDataSolid(0xecc1);
+  /// FontAwesome's face grin tongue wink Icon
+  static const face_grin_tongue_wink = FontAwesomeIconData(0xeead);
 
-  ///FontAwesomeSolid's pizza_slice icon
-  static const pizza_slice = FontAwesomeIconDataSolid(0xecc2);
+  /// FontAwesome's face grin wide Icon
+  static const face_grin_wide = FontAwesomeIconData(0xeeae);
 
-  ///FontAwesomeSolid's place_of_worship icon
-  static const place_of_worship = FontAwesomeIconDataSolid(0xecc3);
+  /// FontAwesome's face grin wink Icon
+  static const face_grin_wink = FontAwesomeIconData(0xeeaf);
 
-  ///FontAwesomeSolid's plane icon
-  static const plane = FontAwesomeIconDataSolid(0xecc4);
+  /// FontAwesome's face kiss Icon
+  static const face_kiss = FontAwesomeIconData(0xeeb0);
 
-  ///FontAwesomeSolid's plane_arrival icon
-  static const plane_arrival = FontAwesomeIconDataSolid(0xecc5);
+  /// FontAwesome's face kiss beam Icon
+  static const face_kiss_beam = FontAwesomeIconData(0xeeb1);
 
-  ///FontAwesomeSolid's plane_circle_check icon
-  static const plane_circle_check = FontAwesomeIconDataSolid(0xecc6);
+  /// FontAwesome's face kiss wink heart Icon
+  static const face_kiss_wink_heart = FontAwesomeIconData(0xeeb2);
 
-  ///FontAwesomeSolid's plane_circle_exclamation icon
-  static const plane_circle_exclamation = FontAwesomeIconDataSolid(0xecc7);
+  /// FontAwesome's face laugh Icon
+  static const face_laugh = FontAwesomeIconData(0xeeb3);
 
-  ///FontAwesomeSolid's plane_circle_xmark icon
-  static const plane_circle_xmark = FontAwesomeIconDataSolid(0xecc8);
+  /// FontAwesome's face laugh beam Icon
+  static const face_laugh_beam = FontAwesomeIconData(0xeeb4);
 
-  ///FontAwesomeSolid's plane_departure icon
-  static const plane_departure = FontAwesomeIconDataSolid(0xecc9);
+  /// FontAwesome's face laugh squint Icon
+  static const face_laugh_squint = FontAwesomeIconData(0xeeb5);
 
-  ///FontAwesomeSolid's plane_lock icon
-  static const plane_lock = FontAwesomeIconDataSolid(0xecca);
+  /// FontAwesome's face laugh wink Icon
+  static const face_laugh_wink = FontAwesomeIconData(0xeeb6);
 
-  ///FontAwesomeSolid's plane_slash icon
-  static const plane_slash = FontAwesomeIconDataSolid(0xeccb);
+  /// FontAwesome's face meh Icon
+  static const face_meh = FontAwesomeIconData(0xeeb7);
 
-  ///FontAwesomeSolid's plane_up icon
-  static const plane_up = FontAwesomeIconDataSolid(0xeccc);
+  /// FontAwesome's face meh blank Icon
+  static const face_meh_blank = FontAwesomeIconData(0xeeb8);
 
-  ///FontAwesomeSolid's plant_wilt icon
-  static const plant_wilt = FontAwesomeIconDataSolid(0xeccd);
+  /// FontAwesome's face rolling eyes Icon
+  static const face_rolling_eyes = FontAwesomeIconData(0xeeb9);
 
-  ///FontAwesomeSolid's plate_wheat icon
-  static const plate_wheat = FontAwesomeIconDataSolid(0xecce);
+  /// FontAwesome's face sad cry Icon
+  static const face_sad_cry = FontAwesomeIconData(0xeeba);
 
-  ///FontAwesomeSolid's play icon
-  static const play = FontAwesomeIconDataSolid(0xeccf);
+  /// FontAwesome's face sad tear Icon
+  static const face_sad_tear = FontAwesomeIconData(0xeebb);
 
-  ///FontAwesomeSolid's plug icon
-  static const plug = FontAwesomeIconDataSolid(0xecd0);
+  /// FontAwesome's face smile Icon
+  static const face_smile = FontAwesomeIconData(0xeebc);
 
-  ///FontAwesomeSolid's plug_circle_bolt icon
-  static const plug_circle_bolt = FontAwesomeIconDataSolid(0xecd1);
+  /// FontAwesome's face smile beam Icon
+  static const face_smile_beam = FontAwesomeIconData(0xeebd);
 
-  ///FontAwesomeSolid's plug_circle_check icon
-  static const plug_circle_check = FontAwesomeIconDataSolid(0xecd2);
+  /// FontAwesome's face smile wink Icon
+  static const face_smile_wink = FontAwesomeIconData(0xeebe);
 
-  ///FontAwesomeSolid's plug_circle_exclamation icon
-  static const plug_circle_exclamation = FontAwesomeIconDataSolid(0xecd3);
+  /// FontAwesome's face surprise Icon
+  static const face_surprise = FontAwesomeIconData(0xeebf);
 
-  ///FontAwesomeSolid's plug_circle_minus icon
-  static const plug_circle_minus = FontAwesomeIconDataSolid(0xecd4);
+  /// FontAwesome's face tired Icon
+  static const face_tired = FontAwesomeIconData(0xeec0);
 
-  ///FontAwesomeSolid's plug_circle_plus icon
-  static const plug_circle_plus = FontAwesomeIconDataSolid(0xecd5);
+  /// FontAwesome's file Icon
+  static const file = FontAwesomeIconData(0xeec1);
 
-  ///FontAwesomeSolid's plug_circle_xmark icon
-  static const plug_circle_xmark = FontAwesomeIconDataSolid(0xecd6);
+  /// FontAwesome's file audio Icon
+  static const file_audio = FontAwesomeIconData(0xeec2);
 
-  ///FontAwesomeSolid's plus icon
-  static const plus = FontAwesomeIconDataSolid(0xecd7);
+  /// FontAwesome's file code Icon
+  static const file_code = FontAwesomeIconData(0xeec3);
 
-  ///FontAwesomeSolid's plus_minus icon
-  static const plus_minus = FontAwesomeIconDataSolid(0xecd8);
+  /// FontAwesome's file excel Icon
+  static const file_excel = FontAwesomeIconData(0xeec4);
 
-  ///FontAwesomeSolid's podcast icon
-  static const podcast = FontAwesomeIconDataSolid(0xecd9);
+  /// FontAwesome's file image Icon
+  static const file_image = FontAwesomeIconData(0xeec5);
 
-  ///FontAwesomeSolid's poo icon
-  static const poo = FontAwesomeIconDataSolid(0xecda);
+  /// FontAwesome's file lines Icon
+  static const file_lines = FontAwesomeIconData(0xeec6);
 
-  ///FontAwesomeSolid's poop icon
-  static const poop = FontAwesomeIconDataSolid(0xecdb);
+  /// FontAwesome's file pdf Icon
+  static const file_pdf = FontAwesomeIconData(0xeec7);
 
-  ///FontAwesomeSolid's poo_storm icon
-  static const poo_storm = FontAwesomeIconDataSolid(0xecdc);
+  /// FontAwesome's file powerpoint Icon
+  static const file_powerpoint = FontAwesomeIconData(0xeec8);
 
-  ///FontAwesomeSolid's power_off icon
-  static const power_off = FontAwesomeIconDataSolid(0xecdd);
+  /// FontAwesome's file video Icon
+  static const file_video = FontAwesomeIconData(0xeec9);
 
-  ///FontAwesomeSolid's prescription icon
-  static const prescription = FontAwesomeIconDataSolid(0xecde);
+  /// FontAwesome's file word Icon
+  static const file_word = FontAwesomeIconData(0xeeca);
 
-  ///FontAwesomeSolid's prescription_bottle icon
-  static const prescription_bottle = FontAwesomeIconDataSolid(0xecdf);
+  /// FontAwesome's file zipper Icon
+  static const file_zipper = FontAwesomeIconData(0xeecb);
 
-  ///FontAwesomeSolid's prescription_bottle_medical icon
-  static const prescription_bottle_medical = FontAwesomeIconDataSolid(0xece0);
+  /// FontAwesome's flag Icon
+  static const flag = FontAwesomeIconData(0xeecc);
 
-  ///FontAwesomeSolid's print icon
-  static const print = FontAwesomeIconDataSolid(0xece1);
+  /// FontAwesome's floppy disk Icon
+  static const floppy_disk = FontAwesomeIconData(0xeecd);
 
-  ///FontAwesomeSolid's pump_medical icon
-  static const pump_medical = FontAwesomeIconDataSolid(0xece2);
+  /// FontAwesome's folder Icon
+  static const folder = FontAwesomeIconData(0xeece);
 
-  ///FontAwesomeSolid's pump_soap icon
-  static const pump_soap = FontAwesomeIconDataSolid(0xece3);
+  /// FontAwesome's folder closed Icon
+  static const folder_closed = FontAwesomeIconData(0xeecf);
 
-  ///FontAwesomeSolid's puzzle_piece icon
-  static const puzzle_piece = FontAwesomeIconDataSolid(0xece4);
+  /// FontAwesome's folder open Icon
+  static const folder_open = FontAwesomeIconData(0xeed0);
 
-  ///FontAwesomeSolid's q icon
-  static const q = FontAwesomeIconDataSolid(0xece5);
+  /// FontAwesome's font awesome Icon
+  static const font_awesome = FontAwesomeIconData(0xeed1);
 
-  ///FontAwesomeSolid's qrcode icon
-  static const qrcode = FontAwesomeIconDataSolid(0xece6);
+  /// FontAwesome's futbol Icon
+  static const futbol = FontAwesomeIconData(0xeed2);
 
-  ///FontAwesomeSolid's question icon
-  static const question = FontAwesomeIconDataSolid(0xece7);
+  /// FontAwesome's gem Icon
+  static const gem = FontAwesomeIconData(0xeed3);
 
-  ///FontAwesomeSolid's quote_left icon
-  static const quote_left = FontAwesomeIconDataSolid(0xece8);
+  /// FontAwesome's hand Icon
+  static const hand = FontAwesomeIconData(0xeed4);
 
-  ///FontAwesomeSolid's quote_right icon
-  static const quote_right = FontAwesomeIconDataSolid(0xece9);
+  /// FontAwesome's hand back fist Icon
+  static const hand_back_fist = FontAwesomeIconData(0xeed5);
 
-  ///FontAwesomeSolid's r icon
-  static const r = FontAwesomeIconDataSolid(0xecea);
+  /// FontAwesome's hand lizard Icon
+  static const hand_lizard = FontAwesomeIconData(0xeed6);
 
-  ///FontAwesomeSolid's radiation icon
-  static const radiation = FontAwesomeIconDataSolid(0xeceb);
+  /// FontAwesome's hand peace Icon
+  static const hand_peace = FontAwesomeIconData(0xeed7);
 
-  ///FontAwesomeSolid's radio icon
-  static const radio = FontAwesomeIconDataSolid(0xecec);
+  /// FontAwesome's hand point down Icon
+  static const hand_point_down = FontAwesomeIconData(0xeed8);
 
-  ///FontAwesomeSolid's rainbow icon
-  static const rainbow = FontAwesomeIconDataSolid(0xeced);
+  /// FontAwesome's hand pointer Icon
+  static const hand_pointer = FontAwesomeIconData(0xeed9);
 
-  ///FontAwesomeSolid's ranking_star icon
-  static const ranking_star = FontAwesomeIconDataSolid(0xecee);
+  /// FontAwesome's hand point left Icon
+  static const hand_point_left = FontAwesomeIconData(0xeeda);
 
-  ///FontAwesomeSolid's receipt icon
-  static const receipt = FontAwesomeIconDataSolid(0xecef);
+  /// FontAwesome's hand point right Icon
+  static const hand_point_right = FontAwesomeIconData(0xeedb);
 
-  ///FontAwesomeSolid's record_vinyl icon
-  static const record_vinyl = FontAwesomeIconDataSolid(0xecf0);
+  /// FontAwesome's hand point up Icon
+  static const hand_point_up = FontAwesomeIconData(0xeedc);
 
-  ///FontAwesomeSolid's rectangle_ad icon
-  static const rectangle_ad = FontAwesomeIconDataSolid(0xecf1);
+  /// FontAwesome's hand scissors Icon
+  static const hand_scissors = FontAwesomeIconData(0xeedd);
 
-  ///FontAwesomeSolid's recycle icon
-  static const recycle = FontAwesomeIconDataSolid(0xecf4);
+  /// FontAwesome's handshake Icon
+  static const handshake = FontAwesomeIconData(0xeede);
 
-  ///FontAwesomeSolid's repeat icon
-  static const repeat = FontAwesomeIconDataSolid(0xecf6);
+  /// FontAwesome's hand spock Icon
+  static const hand_spock = FontAwesomeIconData(0xeedf);
 
-  ///FontAwesomeSolid's reply icon
-  static const reply = FontAwesomeIconDataSolid(0xecf7);
+  /// FontAwesome's hard drive Icon
+  static const hard_drive = FontAwesomeIconData(0xeee0);
 
-  ///FontAwesomeSolid's reply_all icon
-  static const reply_all = FontAwesomeIconDataSolid(0xecf8);
+  /// FontAwesome's heart Icon
+  static const heart = FontAwesomeIconData(0xeee1);
 
-  ///FontAwesomeSolid's republican icon
-  static const republican = FontAwesomeIconDataSolid(0xecf9);
+  /// FontAwesome's hospital Icon
+  static const hospital = FontAwesomeIconData(0xeee2);
 
-  ///FontAwesomeSolid's restroom icon
-  static const restroom = FontAwesomeIconDataSolid(0xecfa);
+  /// FontAwesome's hourglass Icon
+  static const hourglass = FontAwesomeIconData(0xeee3);
 
-  ///FontAwesomeSolid's retweet icon
-  static const retweet = FontAwesomeIconDataSolid(0xecfb);
+  /// FontAwesome's hourglass half Icon
+  static const hourglass_half = FontAwesomeIconData(0xeee4);
 
-  ///FontAwesomeSolid's ribbon icon
-  static const ribbon = FontAwesomeIconDataSolid(0xecfc);
+  /// FontAwesome's id badge Icon
+  static const id_badge = FontAwesomeIconData(0xeee5);
 
-  ///FontAwesomeSolid's right_from_bracket icon
-  static const right_from_bracket = FontAwesomeIconDataSolid(0xecfd);
+  /// FontAwesome's id card Icon
+  static const id_card = FontAwesomeIconData(0xeee6);
 
-  ///FontAwesomeSolid's right_left icon
-  static const right_left = FontAwesomeIconDataSolid(0xecfe);
+  /// FontAwesome's image Icon
+  static const image = FontAwesomeIconData(0xeee7);
 
-  ///FontAwesomeSolid's right_long icon
-  static const right_long = FontAwesomeIconDataSolid(0xecff);
+  /// FontAwesome's images Icon
+  static const images = FontAwesomeIconData(0xeee8);
 
-  ///FontAwesomeSolid's right_to_bracket icon
-  static const right_to_bracket = FontAwesomeIconDataSolid(0xed00);
+  /// FontAwesome's keyboard Icon
+  static const keyboard = FontAwesomeIconData(0xeee9);
 
-  ///FontAwesomeSolid's ring icon
-  static const ring = FontAwesomeIconDataSolid(0xed01);
+  /// FontAwesome's lemon Icon
+  static const lemon = FontAwesomeIconData(0xeeea);
 
-  ///FontAwesomeSolid's road icon
-  static const road = FontAwesomeIconDataSolid(0xed02);
+  /// FontAwesome's life ring Icon
+  static const life_ring = FontAwesomeIconData(0xeeeb);
 
-  ///FontAwesomeSolid's road_barrier icon
-  static const road_barrier = FontAwesomeIconDataSolid(0xed03);
+  /// FontAwesome's lightbulb Icon
+  static const lightbulb = FontAwesomeIconData(0xeeec);
 
-  ///FontAwesomeSolid's road_bridge icon
-  static const road_bridge = FontAwesomeIconDataSolid(0xed04);
+  /// FontAwesome's map Icon
+  static const map = FontAwesomeIconData(0xeeed);
 
-  ///FontAwesomeSolid's road_circle_check icon
-  static const road_circle_check = FontAwesomeIconDataSolid(0xed05);
+  /// FontAwesome's message Icon
+  static const message = FontAwesomeIconData(0xeeee);
 
-  ///FontAwesomeSolid's road_circle_exclamation icon
-  static const road_circle_exclamation = FontAwesomeIconDataSolid(0xed06);
+  /// FontAwesome's money bill 1 Icon
+  static const money_bill_1 = FontAwesomeIconData(0xeeef);
 
-  ///FontAwesomeSolid's road_circle_xmark icon
-  static const road_circle_xmark = FontAwesomeIconDataSolid(0xed07);
+  /// FontAwesome's moon Icon
+  static const moon = FontAwesomeIconData(0xeef0);
 
-  ///FontAwesomeSolid's road_lock icon
-  static const road_lock = FontAwesomeIconDataSolid(0xed08);
+  /// FontAwesome's newspaper Icon
+  static const newspaper = FontAwesomeIconData(0xeef1);
 
-  ///FontAwesomeSolid's road_spikes icon
-  static const road_spikes = FontAwesomeIconDataSolid(0xed09);
+  /// FontAwesome's note sticky Icon
+  static const note_sticky = FontAwesomeIconData(0xeef2);
 
-  ///FontAwesomeSolid's robot icon
-  static const robot = FontAwesomeIconDataSolid(0xed0a);
+  /// FontAwesome's object group Icon
+  static const object_group = FontAwesomeIconData(0xeef3);
 
-  ///FontAwesomeSolid's rocket icon
-  static const rocket = FontAwesomeIconDataSolid(0xed0b);
+  /// FontAwesome's object ungroup Icon
+  static const object_ungroup = FontAwesomeIconData(0xeef4);
 
-  ///FontAwesomeSolid's rotate icon
-  static const rotate = FontAwesomeIconDataSolid(0xed0c);
+  /// FontAwesome's paper plane Icon
+  static const paper_plane = FontAwesomeIconData(0xeef5);
 
-  ///FontAwesomeSolid's rotate_left icon
-  static const rotate_left = FontAwesomeIconDataSolid(0xed0d);
+  /// FontAwesome's paste Icon
+  static const paste = FontAwesomeIconData(0xeef6);
 
-  ///FontAwesomeSolid's rotate_right icon
-  static const rotate_right = FontAwesomeIconDataSolid(0xed0e);
+  /// FontAwesome's pen to square Icon
+  static const pen_to_square = FontAwesomeIconData(0xeef7);
 
-  ///FontAwesomeSolid's route icon
-  static const route = FontAwesomeIconDataSolid(0xed0f);
+  /// FontAwesome's rectangle list Icon
+  static const rectangle_list = FontAwesomeIconData(0xeef8);
 
-  ///FontAwesomeSolid's rss icon
-  static const rss = FontAwesomeIconDataSolid(0xed10);
+  /// FontAwesome's rectangle xmark Icon
+  static const rectangle_xmark = FontAwesomeIconData(0xeef9);
 
-  ///FontAwesomeSolid's ruble_sign icon
-  static const ruble_sign = FontAwesomeIconDataSolid(0xed11);
+  /// FontAwesome's registered Icon
+  static const registered = FontAwesomeIconData(0xeefa);
 
-  ///FontAwesomeSolid's rug icon
-  static const rug = FontAwesomeIconDataSolid(0xed12);
+  /// FontAwesome's share from square Icon
+  static const share_from_square = FontAwesomeIconData(0xeefb);
 
-  ///FontAwesomeSolid's ruler icon
-  static const ruler = FontAwesomeIconDataSolid(0xed13);
+  /// FontAwesome's snowflake Icon
+  static const snowflake = FontAwesomeIconData(0xeefc);
 
-  ///FontAwesomeSolid's ruler_combined icon
-  static const ruler_combined = FontAwesomeIconDataSolid(0xed14);
+  /// FontAwesome's square Icon
+  static const square = FontAwesomeIconData(0xeefd);
 
-  ///FontAwesomeSolid's ruler_horizontal icon
-  static const ruler_horizontal = FontAwesomeIconDataSolid(0xed15);
+  /// FontAwesome's square caret down Icon
+  static const square_caret_down = FontAwesomeIconData(0xeefe);
 
-  ///FontAwesomeSolid's ruler_vertical icon
-  static const ruler_vertical = FontAwesomeIconDataSolid(0xed16);
+  /// FontAwesome's square caret left Icon
+  static const square_caret_left = FontAwesomeIconData(0xeeff);
 
-  ///FontAwesomeSolid's rupee_sign icon
-  static const rupee_sign = FontAwesomeIconDataSolid(0xed17);
+  /// FontAwesome's square caret right Icon
+  static const square_caret_right = FontAwesomeIconData(0xef00);
 
-  ///FontAwesomeSolid's rupiah_sign icon
-  static const rupiah_sign = FontAwesomeIconDataSolid(0xed18);
+  /// FontAwesome's square caret up Icon
+  static const square_caret_up = FontAwesomeIconData(0xef01);
 
-  ///FontAwesomeSolid's s icon
-  static const s = FontAwesomeIconDataSolid(0xed19);
+  /// FontAwesome's square check Icon
+  static const square_check = FontAwesomeIconData(0xef02);
 
-  ///FontAwesomeSolid's sack_dollar icon
-  static const sack_dollar = FontAwesomeIconDataSolid(0xed1a);
+  /// FontAwesome's square full Icon
+  static const square_full = FontAwesomeIconData(0xef03);
 
-  ///FontAwesomeSolid's sack_xmark icon
-  static const sack_xmark = FontAwesomeIconDataSolid(0xed1b);
+  /// FontAwesome's square minus Icon
+  static const square_minus = FontAwesomeIconData(0xef04);
 
-  ///FontAwesomeSolid's sailboat icon
-  static const sailboat = FontAwesomeIconDataSolid(0xed1c);
+  /// FontAwesome's square plus Icon
+  static const square_plus = FontAwesomeIconData(0xef05);
 
-  ///FontAwesomeSolid's satellite icon
-  static const satellite = FontAwesomeIconDataSolid(0xed1d);
+  /// FontAwesome's star Icon
+  static const star = FontAwesomeIconData(0xef06);
 
-  ///FontAwesomeSolid's satellite_dish icon
-  static const satellite_dish = FontAwesomeIconDataSolid(0xed1e);
+  /// FontAwesome's star half Icon
+  static const star_half = FontAwesomeIconData(0xef07);
 
-  ///FontAwesomeSolid's scale_balanced icon
-  static const scale_balanced = FontAwesomeIconDataSolid(0xed1f);
+  /// FontAwesome's star half stroke Icon
+  static const star_half_stroke = FontAwesomeIconData(0xef08);
 
-  ///FontAwesomeSolid's scale_unbalanced icon
-  static const scale_unbalanced = FontAwesomeIconDataSolid(0xed20);
+  /// FontAwesome's sun Icon
+  static const sun = FontAwesomeIconData(0xef09);
 
-  ///FontAwesomeSolid's scale_unbalanced_flip icon
-  static const scale_unbalanced_flip = FontAwesomeIconDataSolid(0xed21);
+  /// FontAwesome's thumbs down Icon
+  static const thumbs_down = FontAwesomeIconData(0xef0a);
 
-  ///FontAwesomeSolid's school icon
-  static const school = FontAwesomeIconDataSolid(0xed22);
+  /// FontAwesome's thumbs up Icon
+  static const thumbs_up = FontAwesomeIconData(0xef0b);
 
-  ///FontAwesomeSolid's school_circle_check icon
-  static const school_circle_check = FontAwesomeIconDataSolid(0xed23);
+  /// FontAwesome's trash can Icon
+  static const trash_can = FontAwesomeIconData(0xef0c);
 
-  ///FontAwesomeSolid's school_circle_exclamation icon
-  static const school_circle_exclamation = FontAwesomeIconDataSolid(0xed24);
+  /// FontAwesome's user Icon
+  static const user = FontAwesomeIconData(0xef0d);
 
-  ///FontAwesomeSolid's school_circle_xmark icon
-  static const school_circle_xmark = FontAwesomeIconDataSolid(0xed25);
+  /// FontAwesome's window maximize Icon
+  static const window_maximize = FontAwesomeIconData(0xef0e);
 
-  ///FontAwesomeSolid's school_flag icon
-  static const school_flag = FontAwesomeIconDataSolid(0xed26);
+  /// FontAwesome's window minimize Icon
+  static const window_minimize = FontAwesomeIconData(0xef0f);
 
-  ///FontAwesomeSolid's school_lock icon
-  static const school_lock = FontAwesomeIconDataSolid(0xed27);
+  /// FontAwesome's window restore Icon
+  static const window_restore = FontAwesomeIconData(0xef10);
 
-  ///FontAwesomeSolid's scissors icon
-  static const scissors = FontAwesomeIconDataSolid(0xed28);
+  /// FontAwesome's accessible icon brand Icon
+  static const accessible_icon_brand = FontAwesomeIconData(0xef11);
 
-  ///FontAwesomeSolid's screwdriver icon
-  static const screwdriver = FontAwesomeIconDataSolid(0xed29);
+  /// FontAwesome's accusoft brand Icon
+  static const accusoft_brand = FontAwesomeIconData(0xef12);
 
-  ///FontAwesomeSolid's screwdriver_wrench icon
-  static const screwdriver_wrench = FontAwesomeIconDataSolid(0xed2a);
+  /// FontAwesome's adn brand Icon
+  static const adn_brand = FontAwesomeIconData(0xef13);
 
-  ///FontAwesomeSolid's scroll icon
-  static const scroll = FontAwesomeIconDataSolid(0xed2b);
+  /// FontAwesome's adversal brand Icon
+  static const adversal_brand = FontAwesomeIconData(0xef14);
 
-  ///FontAwesomeSolid's scroll_torah icon
-  static const scroll_torah = FontAwesomeIconDataSolid(0xed2c);
+  /// FontAwesome's affiliatetheme brand Icon
+  static const affiliatetheme_brand = FontAwesomeIconData(0xef15);
 
-  ///FontAwesomeSolid's sd_card icon
-  static const sd_card = FontAwesomeIconDataSolid(0xed2d);
+  /// FontAwesome's airbnb brand Icon
+  static const airbnb_brand = FontAwesomeIconData(0xef16);
 
-  ///FontAwesomeSolid's section icon
-  static const section = FontAwesomeIconDataSolid(0xed2e);
+  /// FontAwesome's algolia brand Icon
+  static const algolia_brand = FontAwesomeIconData(0xef17);
 
-  ///FontAwesomeSolid's seedling icon
-  static const seedling = FontAwesomeIconDataSolid(0xed2f);
+  /// FontAwesome's alipay brand Icon
+  static const alipay_brand = FontAwesomeIconData(0xef18);
 
-  ///FontAwesomeSolid's server icon
-  static const server = FontAwesomeIconDataSolid(0xed30);
+  /// FontAwesome's amazon brand Icon
+  static const amazon_brand = FontAwesomeIconData(0xef19);
 
-  ///FontAwesomeSolid's shapes icon
-  static const shapes = FontAwesomeIconDataSolid(0xed31);
+  /// FontAwesome's amazon pay brand Icon
+  static const amazon_pay_brand = FontAwesomeIconData(0xef1a);
 
-  ///FontAwesomeSolid's share icon
-  static const share = FontAwesomeIconDataSolid(0xed32);
+  /// FontAwesome's amilia brand Icon
+  static const amilia_brand = FontAwesomeIconData(0xef1b);
 
-  ///FontAwesomeSolid's share_nodes icon
-  static const share_nodes = FontAwesomeIconDataSolid(0xed34);
+  /// FontAwesome's android brand Icon
+  static const android_brand = FontAwesomeIconData(0xef1c);
 
-  ///FontAwesomeSolid's sheet_plastic icon
-  static const sheet_plastic = FontAwesomeIconDataSolid(0xed35);
+  /// FontAwesome's angellist brand Icon
+  static const angellist_brand = FontAwesomeIconData(0xef1d);
 
-  ///FontAwesomeSolid's shekel_sign icon
-  static const shekel_sign = FontAwesomeIconDataSolid(0xed36);
+  /// FontAwesome's angrycreative brand Icon
+  static const angrycreative_brand = FontAwesomeIconData(0xef1e);
 
-  ///FontAwesomeSolid's shield icon
-  static const shield = FontAwesomeIconDataSolid(0xed37);
+  /// FontAwesome's angular brand Icon
+  static const angular_brand = FontAwesomeIconData(0xef1f);
 
-  ///FontAwesomeSolid's shield_cat icon
-  static const shield_cat = FontAwesomeIconDataSolid(0xed38);
+  /// FontAwesome's apper brand Icon
+  static const apper_brand = FontAwesomeIconData(0xef20);
 
-  ///FontAwesomeSolid's shield_dog icon
-  static const shield_dog = FontAwesomeIconDataSolid(0xed39);
+  /// FontAwesome's apple brand Icon
+  static const apple_brand = FontAwesomeIconData(0xef21);
 
-  ///FontAwesomeSolid's shield_halved icon
-  static const shield_halved = FontAwesomeIconDataSolid(0xed3a);
+  /// FontAwesome's apple pay brand Icon
+  static const apple_pay_brand = FontAwesomeIconData(0xef22);
 
-  ///FontAwesomeSolid's shield_heart icon
-  static const shield_heart = FontAwesomeIconDataSolid(0xed3b);
+  /// FontAwesome's app store brand Icon
+  static const app_store_brand = FontAwesomeIconData(0xef23);
 
-  ///FontAwesomeSolid's shield_virus icon
-  static const shield_virus = FontAwesomeIconDataSolid(0xed3c);
+  /// FontAwesome's app store ios brand Icon
+  static const app_store_ios_brand = FontAwesomeIconData(0xef24);
 
-  ///FontAwesomeSolid's ship icon
-  static const ship = FontAwesomeIconDataSolid(0xed3d);
+  /// FontAwesome's artstation brand Icon
+  static const artstation_brand = FontAwesomeIconData(0xef25);
 
-  ///FontAwesomeSolid's shirt icon
-  static const shirt = FontAwesomeIconDataSolid(0xed3e);
+  /// FontAwesome's asymmetrik brand Icon
+  static const asymmetrik_brand = FontAwesomeIconData(0xef26);
 
-  ///FontAwesomeSolid's shoe_prints icon
-  static const shoe_prints = FontAwesomeIconDataSolid(0xed3f);
+  /// FontAwesome's atlassian brand Icon
+  static const atlassian_brand = FontAwesomeIconData(0xef27);
 
-  ///FontAwesomeSolid's shop icon
-  static const shop = FontAwesomeIconDataSolid(0xed40);
+  /// FontAwesome's audible brand Icon
+  static const audible_brand = FontAwesomeIconData(0xef28);
 
-  ///FontAwesomeSolid's shop_lock icon
-  static const shop_lock = FontAwesomeIconDataSolid(0xed41);
+  /// FontAwesome's autoprefixer brand Icon
+  static const autoprefixer_brand = FontAwesomeIconData(0xef29);
 
-  ///FontAwesomeSolid's shop_slash icon
-  static const shop_slash = FontAwesomeIconDataSolid(0xed42);
+  /// FontAwesome's avianex brand Icon
+  static const avianex_brand = FontAwesomeIconData(0xef2a);
 
-  ///FontAwesomeSolid's shower icon
-  static const shower = FontAwesomeIconDataSolid(0xed43);
+  /// FontAwesome's aviato brand Icon
+  static const aviato_brand = FontAwesomeIconData(0xef2b);
 
-  ///FontAwesomeSolid's shrimp icon
-  static const shrimp = FontAwesomeIconDataSolid(0xed44);
+  /// FontAwesome's aws brand Icon
+  static const aws_brand = FontAwesomeIconData(0xef2c);
 
-  ///FontAwesomeSolid's shuffle icon
-  static const shuffle = FontAwesomeIconDataSolid(0xed45);
+  /// FontAwesome's bandcamp brand Icon
+  static const bandcamp_brand = FontAwesomeIconData(0xef2d);
 
-  ///FontAwesomeSolid's shuttle_space icon
-  static const shuttle_space = FontAwesomeIconDataSolid(0xed46);
+  /// FontAwesome's battle net brand Icon
+  static const battle_net_brand = FontAwesomeIconData(0xef2e);
 
-  ///FontAwesomeSolid's signal icon
-  static const signal = FontAwesomeIconDataSolid(0xed47);
+  /// FontAwesome's behance brand Icon
+  static const behance_brand = FontAwesomeIconData(0xef2f);
 
-  ///FontAwesomeSolid's signature icon
-  static const signature = FontAwesomeIconDataSolid(0xed48);
+  /// FontAwesome's bilibili brand Icon
+  static const bilibili_brand = FontAwesomeIconData(0xef30);
 
-  ///FontAwesomeSolid's sign_hanging icon
-  static const sign_hanging = FontAwesomeIconDataSolid(0xed49);
+  /// FontAwesome's bimobject brand Icon
+  static const bimobject_brand = FontAwesomeIconData(0xef31);
 
-  ///FontAwesomeSolid's signs_post icon
-  static const signs_post = FontAwesomeIconDataSolid(0xed4a);
+  /// FontAwesome's bitbucket brand Icon
+  static const bitbucket_brand = FontAwesomeIconData(0xef32);
 
-  ///FontAwesomeSolid's sim_card icon
-  static const sim_card = FontAwesomeIconDataSolid(0xed4b);
+  /// FontAwesome's bitcoin brand Icon
+  static const bitcoin_brand = FontAwesomeIconData(0xef33);
 
-  ///FontAwesomeSolid's sink icon
-  static const sink = FontAwesomeIconDataSolid(0xed4c);
+  /// FontAwesome's bity brand Icon
+  static const bity_brand = FontAwesomeIconData(0xef34);
 
-  ///FontAwesomeSolid's sitemap icon
-  static const sitemap = FontAwesomeIconDataSolid(0xed4d);
+  /// FontAwesome's blackberry brand Icon
+  static const blackberry_brand = FontAwesomeIconData(0xef35);
 
-  ///FontAwesomeSolid's skull icon
-  static const skull = FontAwesomeIconDataSolid(0xed4e);
+  /// FontAwesome's black tie brand Icon
+  static const black_tie_brand = FontAwesomeIconData(0xef36);
 
-  ///FontAwesomeSolid's skull_crossbones icon
-  static const skull_crossbones = FontAwesomeIconDataSolid(0xed4f);
+  /// FontAwesome's blogger brand Icon
+  static const blogger_brand = FontAwesomeIconData(0xef37);
 
-  ///FontAwesomeSolid's slash icon
-  static const slash = FontAwesomeIconDataSolid(0xed50);
+  /// FontAwesome's blogger b brand Icon
+  static const blogger_b_brand = FontAwesomeIconData(0xef38);
 
-  ///FontAwesomeSolid's sleigh icon
-  static const sleigh = FontAwesomeIconDataSolid(0xed51);
+  /// FontAwesome's bluetooth brand Icon
+  static const bluetooth_brand = FontAwesomeIconData(0xef39);
 
-  ///FontAwesomeSolid's sliders icon
-  static const sliders = FontAwesomeIconDataSolid(0xed52);
+  /// FontAwesome's bluetooth b brand Icon
+  static const bluetooth_b_brand = FontAwesomeIconData(0xef3a);
 
-  ///FontAwesomeSolid's smog icon
-  static const smog = FontAwesomeIconDataSolid(0xed53);
+  /// FontAwesome's bootstrap brand Icon
+  static const bootstrap_brand = FontAwesomeIconData(0xef3b);
 
-  ///FontAwesomeSolid's smoking icon
-  static const smoking = FontAwesomeIconDataSolid(0xed54);
+  /// FontAwesome's bots brand Icon
+  static const bots_brand = FontAwesomeIconData(0xef3c);
 
-  ///FontAwesomeSolid's snowman icon
-  static const snowman = FontAwesomeIconDataSolid(0xed56);
+  /// FontAwesome's brave brand Icon
+  static const brave_brand = FontAwesomeIconData(0xef3d);
 
-  ///FontAwesomeSolid's snowplow icon
-  static const snowplow = FontAwesomeIconDataSolid(0xed57);
+  /// FontAwesome's brave reverse brand Icon
+  static const brave_reverse_brand = FontAwesomeIconData(0xef3e);
 
-  ///FontAwesomeSolid's soap icon
-  static const soap = FontAwesomeIconDataSolid(0xed58);
+  /// FontAwesome's btc brand Icon
+  static const btc_brand = FontAwesomeIconData(0xef3f);
 
-  ///FontAwesomeSolid's socks icon
-  static const socks = FontAwesomeIconDataSolid(0xed59);
+  /// FontAwesome's buffer brand Icon
+  static const buffer_brand = FontAwesomeIconData(0xef40);
 
-  ///FontAwesomeSolid's solar_panel icon
-  static const solar_panel = FontAwesomeIconDataSolid(0xed5a);
+  /// FontAwesome's buromobelexperte brand Icon
+  static const buromobelexperte_brand = FontAwesomeIconData(0xef41);
 
-  ///FontAwesomeSolid's sort icon
-  static const sort = FontAwesomeIconDataSolid(0xed5b);
+  /// FontAwesome's buy n large brand Icon
+  static const buy_n_large_brand = FontAwesomeIconData(0xef42);
 
-  ///FontAwesomeSolid's sort_down icon
-  static const sort_down = FontAwesomeIconDataSolid(0xed5c);
+  /// FontAwesome's buysellads brand Icon
+  static const buysellads_brand = FontAwesomeIconData(0xef43);
 
-  ///FontAwesomeSolid's sort_up icon
-  static const sort_up = FontAwesomeIconDataSolid(0xed5d);
+  /// FontAwesome's canadian maple leaf brand Icon
+  static const canadian_maple_leaf_brand = FontAwesomeIconData(0xef44);
 
-  ///FontAwesomeSolid's spa icon
-  static const spa = FontAwesomeIconDataSolid(0xed5e);
+  /// FontAwesome's cc amazon pay brand Icon
+  static const cc_amazon_pay_brand = FontAwesomeIconData(0xef45);
 
-  ///FontAwesomeSolid's spaghetti_monster_flying icon
-  static const spaghetti_monster_flying = FontAwesomeIconDataSolid(0xed5f);
+  /// FontAwesome's cc amex brand Icon
+  static const cc_amex_brand = FontAwesomeIconData(0xef46);
 
-  ///FontAwesomeSolid's spell_check icon
-  static const spell_check = FontAwesomeIconDataSolid(0xed60);
+  /// FontAwesome's cc apple pay brand Icon
+  static const cc_apple_pay_brand = FontAwesomeIconData(0xef47);
 
-  ///FontAwesomeSolid's spider icon
-  static const spider = FontAwesomeIconDataSolid(0xed61);
+  /// FontAwesome's cc diners club brand Icon
+  static const cc_diners_club_brand = FontAwesomeIconData(0xef48);
 
-  ///FontAwesomeSolid's spinner icon
-  static const spinner = FontAwesomeIconDataSolid(0xed62);
+  /// FontAwesome's cc discover brand Icon
+  static const cc_discover_brand = FontAwesomeIconData(0xef49);
 
-  ///FontAwesomeSolid's splotch icon
-  static const splotch = FontAwesomeIconDataSolid(0xed63);
+  /// FontAwesome's cc jcb brand Icon
+  static const cc_jcb_brand = FontAwesomeIconData(0xef4a);
 
-  ///FontAwesomeSolid's spoon icon
-  static const spoon = FontAwesomeIconDataSolid(0xed64);
+  /// FontAwesome's cc mastercard brand Icon
+  static const cc_mastercard_brand = FontAwesomeIconData(0xef4b);
 
-  ///FontAwesomeSolid's spray_can icon
-  static const spray_can = FontAwesomeIconDataSolid(0xed65);
+  /// FontAwesome's cc paypal brand Icon
+  static const cc_paypal_brand = FontAwesomeIconData(0xef4c);
 
-  ///FontAwesomeSolid's spray_can_sparkles icon
-  static const spray_can_sparkles = FontAwesomeIconDataSolid(0xed66);
+  /// FontAwesome's cc stripe brand Icon
+  static const cc_stripe_brand = FontAwesomeIconData(0xef4d);
 
-  ///FontAwesomeSolid's square_arrow_up_right icon
-  static const square_arrow_up_right = FontAwesomeIconDataSolid(0xed68);
+  /// FontAwesome's cc visa brand Icon
+  static const cc_visa_brand = FontAwesomeIconData(0xef4e);
 
-  ///FontAwesomeSolid's square_envelope icon
-  static const square_envelope = FontAwesomeIconDataSolid(0xed6e);
+  /// FontAwesome's centercode brand Icon
+  static const centercode_brand = FontAwesomeIconData(0xef4f);
 
-  ///FontAwesomeSolid's square_h icon
-  static const square_h = FontAwesomeIconDataSolid(0xed70);
+  /// FontAwesome's centos brand Icon
+  static const centos_brand = FontAwesomeIconData(0xef50);
 
-  ///FontAwesomeSolid's square_nfi icon
-  static const square_nfi = FontAwesomeIconDataSolid(0xed72);
+  /// FontAwesome's chrome brand Icon
+  static const chrome_brand = FontAwesomeIconData(0xef51);
 
-  ///FontAwesomeSolid's square_parking icon
-  static const square_parking = FontAwesomeIconDataSolid(0xed73);
+  /// FontAwesome's chromecast brand Icon
+  static const chromecast_brand = FontAwesomeIconData(0xef52);
 
-  ///FontAwesomeSolid's square_pen icon
-  static const square_pen = FontAwesomeIconDataSolid(0xed74);
+  /// FontAwesome's cloudflare brand Icon
+  static const cloudflare_brand = FontAwesomeIconData(0xef53);
 
-  ///FontAwesomeSolid's square_person_confined icon
-  static const square_person_confined = FontAwesomeIconDataSolid(0xed75);
+  /// FontAwesome's cloudscale brand Icon
+  static const cloudscale_brand = FontAwesomeIconData(0xef54);
 
-  ///FontAwesomeSolid's square_phone icon
-  static const square_phone = FontAwesomeIconDataSolid(0xed76);
+  /// FontAwesome's cloudsmith brand Icon
+  static const cloudsmith_brand = FontAwesomeIconData(0xef55);
 
-  ///FontAwesomeSolid's square_phone_flip icon
-  static const square_phone_flip = FontAwesomeIconDataSolid(0xed77);
+  /// FontAwesome's cloudversify brand Icon
+  static const cloudversify_brand = FontAwesomeIconData(0xef56);
 
-  ///FontAwesomeSolid's square_poll_horizontal icon
-  static const square_poll_horizontal = FontAwesomeIconDataSolid(0xed79);
+  /// FontAwesome's cmplid brand Icon
+  static const cmplid_brand = FontAwesomeIconData(0xef57);
 
-  ///FontAwesomeSolid's square_poll_vertical icon
-  static const square_poll_vertical = FontAwesomeIconDataSolid(0xed7a);
+  /// FontAwesome's codepen brand Icon
+  static const codepen_brand = FontAwesomeIconData(0xef58);
 
-  ///FontAwesomeSolid's square_root_variable icon
-  static const square_root_variable = FontAwesomeIconDataSolid(0xed7b);
+  /// FontAwesome's codiepie brand Icon
+  static const codiepie_brand = FontAwesomeIconData(0xef59);
 
-  ///FontAwesomeSolid's square_rss icon
-  static const square_rss = FontAwesomeIconDataSolid(0xed7c);
+  /// FontAwesome's confluence brand Icon
+  static const confluence_brand = FontAwesomeIconData(0xef5a);
 
-  ///FontAwesomeSolid's square_share_nodes icon
-  static const square_share_nodes = FontAwesomeIconDataSolid(0xed7d);
+  /// FontAwesome's connectdevelop brand Icon
+  static const connectdevelop_brand = FontAwesomeIconData(0xef5b);
 
-  ///FontAwesomeSolid's square_up_right icon
-  static const square_up_right = FontAwesomeIconDataSolid(0xed7e);
+  /// FontAwesome's contao brand Icon
+  static const contao_brand = FontAwesomeIconData(0xef5c);
 
-  ///FontAwesomeSolid's square_virus icon
-  static const square_virus = FontAwesomeIconDataSolid(0xed7f);
+  /// FontAwesome's cotton bureau brand Icon
+  static const cotton_bureau_brand = FontAwesomeIconData(0xef5d);
 
-  ///FontAwesomeSolid's square_xmark icon
-  static const square_xmark = FontAwesomeIconDataSolid(0xed80);
+  /// FontAwesome's cpanel brand Icon
+  static const cpanel_brand = FontAwesomeIconData(0xef5e);
 
-  ///FontAwesomeSolid's staff_snake icon
-  static const staff_snake = FontAwesomeIconDataSolid(0xed81);
+  /// FontAwesome's creative commons brand Icon
+  static const creative_commons_brand = FontAwesomeIconData(0xef5f);
 
-  ///FontAwesomeSolid's stairs icon
-  static const stairs = FontAwesomeIconDataSolid(0xed82);
+  /// FontAwesome's creative commons by brand Icon
+  static const creative_commons_by_brand = FontAwesomeIconData(0xef60);
 
-  ///FontAwesomeSolid's stamp icon
-  static const stamp = FontAwesomeIconDataSolid(0xed83);
+  /// FontAwesome's creative commons nc brand Icon
+  static const creative_commons_nc_brand = FontAwesomeIconData(0xef61);
 
-  ///FontAwesomeSolid's stapler icon
-  static const stapler = FontAwesomeIconDataSolid(0xed84);
+  /// FontAwesome's creative commons nc eu brand Icon
+  static const creative_commons_nc_eu_brand = FontAwesomeIconData(0xef62);
 
-  ///FontAwesomeSolid's star_and_crescent icon
-  static const star_and_crescent = FontAwesomeIconDataSolid(0xed86);
+  /// FontAwesome's creative commons nc jp brand Icon
+  static const creative_commons_nc_jp_brand = FontAwesomeIconData(0xef63);
 
-  ///FontAwesomeSolid's star_of_david icon
-  static const star_of_david = FontAwesomeIconDataSolid(0xed89);
+  /// FontAwesome's creative commons nd brand Icon
+  static const creative_commons_nd_brand = FontAwesomeIconData(0xef64);
 
-  ///FontAwesomeSolid's star_of_life icon
-  static const star_of_life = FontAwesomeIconDataSolid(0xed8a);
+  /// FontAwesome's creative commons pd brand Icon
+  static const creative_commons_pd_brand = FontAwesomeIconData(0xef65);
 
-  ///FontAwesomeSolid's sterling_sign icon
-  static const sterling_sign = FontAwesomeIconDataSolid(0xed8b);
+  /// FontAwesome's creative commons pd alt brand Icon
+  static const creative_commons_pd_alt_brand = FontAwesomeIconData(0xef66);
 
-  ///FontAwesomeSolid's stethoscope icon
-  static const stethoscope = FontAwesomeIconDataSolid(0xed8c);
+  /// FontAwesome's creative commons remix brand Icon
+  static const creative_commons_remix_brand = FontAwesomeIconData(0xef67);
 
-  ///FontAwesomeSolid's stop icon
-  static const stop = FontAwesomeIconDataSolid(0xed8d);
+  /// FontAwesome's creative commons sa brand Icon
+  static const creative_commons_sa_brand = FontAwesomeIconData(0xef68);
 
-  ///FontAwesomeSolid's stopwatch icon
-  static const stopwatch = FontAwesomeIconDataSolid(0xed8e);
+  /// FontAwesome's creative commons sampling brand Icon
+  static const creative_commons_sampling_brand = FontAwesomeIconData(0xef69);
 
-  ///FontAwesomeSolid's stopwatch_20 icon
-  static const stopwatch_20 = FontAwesomeIconDataSolid(0xed8f);
+  /// FontAwesome's creative commons sampling plus brand Icon
+  static const creative_commons_sampling_plus_brand =
+      FontAwesomeIconData(0xef6a);
 
-  ///FontAwesomeSolid's store icon
-  static const store = FontAwesomeIconDataSolid(0xed90);
+  /// FontAwesome's creative commons share brand Icon
+  static const creative_commons_share_brand = FontAwesomeIconData(0xef6b);
 
-  ///FontAwesomeSolid's store_slash icon
-  static const store_slash = FontAwesomeIconDataSolid(0xed91);
+  /// FontAwesome's creative commons zero brand Icon
+  static const creative_commons_zero_brand = FontAwesomeIconData(0xef6c);
 
-  ///FontAwesomeSolid's street_view icon
-  static const street_view = FontAwesomeIconDataSolid(0xed92);
+  /// FontAwesome's critical role brand Icon
+  static const critical_role_brand = FontAwesomeIconData(0xef6d);
 
-  ///FontAwesomeSolid's strikethrough icon
-  static const strikethrough = FontAwesomeIconDataSolid(0xed93);
+  /// FontAwesome's css3 brand Icon
+  static const css3_brand = FontAwesomeIconData(0xef6e);
 
-  ///FontAwesomeSolid's stroopwafel icon
-  static const stroopwafel = FontAwesomeIconDataSolid(0xed94);
+  /// FontAwesome's css3 alt brand Icon
+  static const css3_alt_brand = FontAwesomeIconData(0xef6f);
 
-  ///FontAwesomeSolid's subscript icon
-  static const subscript = FontAwesomeIconDataSolid(0xed95);
+  /// FontAwesome's cuttlefish brand Icon
+  static const cuttlefish_brand = FontAwesomeIconData(0xef70);
 
-  ///FontAwesomeSolid's suitcase icon
-  static const suitcase = FontAwesomeIconDataSolid(0xed96);
+  /// FontAwesome's dailymotion brand Icon
+  static const dailymotion_brand = FontAwesomeIconData(0xef71);
 
-  ///FontAwesomeSolid's suitcase_medical icon
-  static const suitcase_medical = FontAwesomeIconDataSolid(0xed97);
+  /// FontAwesome's d and d brand Icon
+  static const d_and_d_brand = FontAwesomeIconData(0xef72);
 
-  ///FontAwesomeSolid's suitcase_rolling icon
-  static const suitcase_rolling = FontAwesomeIconDataSolid(0xed98);
+  /// FontAwesome's d and d beyond brand Icon
+  static const d_and_d_beyond_brand = FontAwesomeIconData(0xef73);
 
-  ///FontAwesomeSolid's sun_plant_wilt icon
-  static const sun_plant_wilt = FontAwesomeIconDataSolid(0xed9a);
+  /// FontAwesome's dashcube brand Icon
+  static const dashcube_brand = FontAwesomeIconData(0xef74);
 
-  ///FontAwesomeSolid's superscript icon
-  static const superscript = FontAwesomeIconDataSolid(0xed9b);
+  /// FontAwesome's debian brand Icon
+  static const debian_brand = FontAwesomeIconData(0xef75);
 
-  ///FontAwesomeSolid's swatchbook icon
-  static const swatchbook = FontAwesomeIconDataSolid(0xed9c);
+  /// FontAwesome's deezer brand Icon
+  static const deezer_brand = FontAwesomeIconData(0xef76);
 
-  ///FontAwesomeSolid's synagogue icon
-  static const synagogue = FontAwesomeIconDataSolid(0xed9d);
+  /// FontAwesome's delicious brand Icon
+  static const delicious_brand = FontAwesomeIconData(0xef77);
 
-  ///FontAwesomeSolid's syringe icon
-  static const syringe = FontAwesomeIconDataSolid(0xed9e);
+  /// FontAwesome's deploydog brand Icon
+  static const deploydog_brand = FontAwesomeIconData(0xef78);
 
-  ///FontAwesomeSolid's t icon
-  static const t = FontAwesomeIconDataSolid(0xed9f);
+  /// FontAwesome's deskpro brand Icon
+  static const deskpro_brand = FontAwesomeIconData(0xef79);
 
-  ///FontAwesomeSolid's table icon
-  static const table = FontAwesomeIconDataSolid(0xeda0);
+  /// FontAwesome's dev brand Icon
+  static const dev_brand = FontAwesomeIconData(0xef7a);
 
-  ///FontAwesomeSolid's table_cells icon
-  static const table_cells = FontAwesomeIconDataSolid(0xeda1);
+  /// FontAwesome's deviantart brand Icon
+  static const deviantart_brand = FontAwesomeIconData(0xef7b);
 
-  ///FontAwesomeSolid's table_cells_large icon
-  static const table_cells_large = FontAwesomeIconDataSolid(0xeda2);
+  /// FontAwesome's dhl brand Icon
+  static const dhl_brand = FontAwesomeIconData(0xef7c);
 
-  ///FontAwesomeSolid's table_columns icon
-  static const table_columns = FontAwesomeIconDataSolid(0xeda3);
+  /// FontAwesome's diaspora brand Icon
+  static const diaspora_brand = FontAwesomeIconData(0xef7d);
 
-  ///FontAwesomeSolid's table_list icon
-  static const table_list = FontAwesomeIconDataSolid(0xeda4);
+  /// FontAwesome's digg brand Icon
+  static const digg_brand = FontAwesomeIconData(0xef7e);
 
-  ///FontAwesomeSolid's tablet icon
-  static const tablet = FontAwesomeIconDataSolid(0xeda5);
+  /// FontAwesome's digital ocean brand Icon
+  static const digital_ocean_brand = FontAwesomeIconData(0xef7f);
 
-  ///FontAwesomeSolid's tablet_button icon
-  static const tablet_button = FontAwesomeIconDataSolid(0xeda6);
+  /// FontAwesome's discord brand Icon
+  static const discord_brand = FontAwesomeIconData(0xef80);
 
-  ///FontAwesomeSolid's table_tennis_paddle_ball icon
-  static const table_tennis_paddle_ball = FontAwesomeIconDataSolid(0xeda7);
+  /// FontAwesome's discourse brand Icon
+  static const discourse_brand = FontAwesomeIconData(0xef81);
 
-  ///FontAwesomeSolid's tablets icon
-  static const tablets = FontAwesomeIconDataSolid(0xeda8);
+  /// FontAwesome's dochub brand Icon
+  static const dochub_brand = FontAwesomeIconData(0xef82);
 
-  ///FontAwesomeSolid's tablet_screen_button icon
-  static const tablet_screen_button = FontAwesomeIconDataSolid(0xeda9);
+  /// FontAwesome's docker brand Icon
+  static const docker_brand = FontAwesomeIconData(0xef83);
 
-  ///FontAwesomeSolid's tachograph_digital icon
-  static const tachograph_digital = FontAwesomeIconDataSolid(0xedaa);
+  /// FontAwesome's draft2digital brand Icon
+  static const draft2digital_brand = FontAwesomeIconData(0xef84);
 
-  ///FontAwesomeSolid's tag icon
-  static const tag = FontAwesomeIconDataSolid(0xedab);
+  /// FontAwesome's dribbble brand Icon
+  static const dribbble_brand = FontAwesomeIconData(0xef85);
 
-  ///FontAwesomeSolid's tags icon
-  static const tags = FontAwesomeIconDataSolid(0xedac);
+  /// FontAwesome's dropbox brand Icon
+  static const dropbox_brand = FontAwesomeIconData(0xef86);
 
-  ///FontAwesomeSolid's tape icon
-  static const tape = FontAwesomeIconDataSolid(0xedad);
+  /// FontAwesome's drupal brand Icon
+  static const drupal_brand = FontAwesomeIconData(0xef87);
 
-  ///FontAwesomeSolid's tarp icon
-  static const tarp = FontAwesomeIconDataSolid(0xedae);
+  /// FontAwesome's dyalog brand Icon
+  static const dyalog_brand = FontAwesomeIconData(0xef88);
 
-  ///FontAwesomeSolid's tarp_droplet icon
-  static const tarp_droplet = FontAwesomeIconDataSolid(0xedaf);
+  /// FontAwesome's earlybirds brand Icon
+  static const earlybirds_brand = FontAwesomeIconData(0xef89);
 
-  ///FontAwesomeSolid's taxi icon
-  static const taxi = FontAwesomeIconDataSolid(0xedb0);
+  /// FontAwesome's ebay brand Icon
+  static const ebay_brand = FontAwesomeIconData(0xef8a);
 
-  ///FontAwesomeSolid's teeth icon
-  static const teeth = FontAwesomeIconDataSolid(0xedb1);
+  /// FontAwesome's edge brand Icon
+  static const edge_brand = FontAwesomeIconData(0xef8b);
 
-  ///FontAwesomeSolid's teeth_open icon
-  static const teeth_open = FontAwesomeIconDataSolid(0xedb2);
+  /// FontAwesome's edge legacy brand Icon
+  static const edge_legacy_brand = FontAwesomeIconData(0xef8c);
 
-  ///FontAwesomeSolid's temperature_arrow_down icon
-  static const temperature_arrow_down = FontAwesomeIconDataSolid(0xedb3);
+  /// FontAwesome's elementor brand Icon
+  static const elementor_brand = FontAwesomeIconData(0xef8d);
 
-  ///FontAwesomeSolid's temperature_arrow_up icon
-  static const temperature_arrow_up = FontAwesomeIconDataSolid(0xedb4);
+  /// FontAwesome's ello brand Icon
+  static const ello_brand = FontAwesomeIconData(0xef8e);
 
-  ///FontAwesomeSolid's temperature_empty icon
-  static const temperature_empty = FontAwesomeIconDataSolid(0xedb5);
+  /// FontAwesome's ember brand Icon
+  static const ember_brand = FontAwesomeIconData(0xef8f);
 
-  ///FontAwesomeSolid's temperature_full icon
-  static const temperature_full = FontAwesomeIconDataSolid(0xedb6);
+  /// FontAwesome's empire brand Icon
+  static const empire_brand = FontAwesomeIconData(0xef90);
 
-  ///FontAwesomeSolid's temperature_half icon
-  static const temperature_half = FontAwesomeIconDataSolid(0xedb7);
+  /// FontAwesome's envira brand Icon
+  static const envira_brand = FontAwesomeIconData(0xef91);
 
-  ///FontAwesomeSolid's temperature_high icon
-  static const temperature_high = FontAwesomeIconDataSolid(0xedb8);
+  /// FontAwesome's erlang brand Icon
+  static const erlang_brand = FontAwesomeIconData(0xef92);
 
-  ///FontAwesomeSolid's temperature_low icon
-  static const temperature_low = FontAwesomeIconDataSolid(0xedb9);
+  /// FontAwesome's ethereum brand Icon
+  static const ethereum_brand = FontAwesomeIconData(0xef93);
 
-  ///FontAwesomeSolid's temperature_quarter icon
-  static const temperature_quarter = FontAwesomeIconDataSolid(0xedba);
+  /// FontAwesome's etsy brand Icon
+  static const etsy_brand = FontAwesomeIconData(0xef94);
 
-  ///FontAwesomeSolid's temperature_three_quarters icon
-  static const temperature_three_quarters = FontAwesomeIconDataSolid(0xedbb);
+  /// FontAwesome's evernote brand Icon
+  static const evernote_brand = FontAwesomeIconData(0xef95);
 
-  ///FontAwesomeSolid's tenge_sign icon
-  static const tenge_sign = FontAwesomeIconDataSolid(0xedbc);
+  /// FontAwesome's expeditedssl brand Icon
+  static const expeditedssl_brand = FontAwesomeIconData(0xef96);
 
-  ///FontAwesomeSolid's tent icon
-  static const tent = FontAwesomeIconDataSolid(0xedbd);
+  /// FontAwesome's facebook brand Icon
+  static const facebook_brand = FontAwesomeIconData(0xef97);
 
-  ///FontAwesomeSolid's tent_arrow_down_to_line icon
-  static const tent_arrow_down_to_line = FontAwesomeIconDataSolid(0xedbe);
+  /// FontAwesome's facebook f brand Icon
+  static const facebook_f_brand = FontAwesomeIconData(0xef98);
 
-  ///FontAwesomeSolid's tent_arrow_left_right icon
-  static const tent_arrow_left_right = FontAwesomeIconDataSolid(0xedbf);
+  /// FontAwesome's facebook messenger brand Icon
+  static const facebook_messenger_brand = FontAwesomeIconData(0xef99);
 
-  ///FontAwesomeSolid's tent_arrows_down icon
-  static const tent_arrows_down = FontAwesomeIconDataSolid(0xedc0);
+  /// FontAwesome's fantasy flight games brand Icon
+  static const fantasy_flight_games_brand = FontAwesomeIconData(0xef9a);
 
-  ///FontAwesomeSolid's tent_arrow_turn_left icon
-  static const tent_arrow_turn_left = FontAwesomeIconDataSolid(0xedc1);
+  /// FontAwesome's fedex brand Icon
+  static const fedex_brand = FontAwesomeIconData(0xef9b);
 
-  ///FontAwesomeSolid's tents icon
-  static const tents = FontAwesomeIconDataSolid(0xedc2);
+  /// FontAwesome's fedora brand Icon
+  static const fedora_brand = FontAwesomeIconData(0xef9c);
 
-  ///FontAwesomeSolid's terminal icon
-  static const terminal = FontAwesomeIconDataSolid(0xedc3);
+  /// FontAwesome's figma brand Icon
+  static const figma_brand = FontAwesomeIconData(0xef9d);
 
-  ///FontAwesomeSolid's text_height icon
-  static const text_height = FontAwesomeIconDataSolid(0xedc4);
+  /// FontAwesome's firefox brand Icon
+  static const firefox_brand = FontAwesomeIconData(0xef9e);
 
-  ///FontAwesomeSolid's text_slash icon
-  static const text_slash = FontAwesomeIconDataSolid(0xedc5);
+  /// FontAwesome's firefox browser brand Icon
+  static const firefox_browser_brand = FontAwesomeIconData(0xef9f);
 
-  ///FontAwesomeSolid's text_width icon
-  static const text_width = FontAwesomeIconDataSolid(0xedc6);
+  /// FontAwesome's firstdraft brand Icon
+  static const firstdraft_brand = FontAwesomeIconData(0xefa0);
 
-  ///FontAwesomeSolid's thermometer icon
-  static const thermometer = FontAwesomeIconDataSolid(0xedc7);
+  /// FontAwesome's first order brand Icon
+  static const first_order_brand = FontAwesomeIconData(0xefa1);
 
-  ///FontAwesomeSolid's thumbtack icon
-  static const thumbtack = FontAwesomeIconDataSolid(0xedca);
+  /// FontAwesome's first order alt brand Icon
+  static const first_order_alt_brand = FontAwesomeIconData(0xefa2);
 
-  ///FontAwesomeSolid's ticket icon
-  static const ticket = FontAwesomeIconDataSolid(0xedcb);
+  /// FontAwesome's flickr brand Icon
+  static const flickr_brand = FontAwesomeIconData(0xefa3);
 
-  ///FontAwesomeSolid's ticket_simple icon
-  static const ticket_simple = FontAwesomeIconDataSolid(0xedcc);
+  /// FontAwesome's flipboard brand Icon
+  static const flipboard_brand = FontAwesomeIconData(0xefa4);
 
-  ///FontAwesomeSolid's timeline icon
-  static const timeline = FontAwesomeIconDataSolid(0xedcd);
+  /// FontAwesome's fly brand Icon
+  static const fly_brand = FontAwesomeIconData(0xefa5);
 
-  ///FontAwesomeSolid's toggle_off icon
-  static const toggle_off = FontAwesomeIconDataSolid(0xedce);
+  /// FontAwesome's font awesome brand Icon
+  static const font_awesome_brand = FontAwesomeIconData(0xefa6);
 
-  ///FontAwesomeSolid's toggle_on icon
-  static const toggle_on = FontAwesomeIconDataSolid(0xedcf);
+  /// FontAwesome's fonticons brand Icon
+  static const fonticons_brand = FontAwesomeIconData(0xefa7);
 
-  ///FontAwesomeSolid's toilet icon
-  static const toilet = FontAwesomeIconDataSolid(0xedd0);
+  /// FontAwesome's fonticons fi brand Icon
+  static const fonticons_fi_brand = FontAwesomeIconData(0xefa8);
 
-  ///FontAwesomeSolid's toilet_paper icon
-  static const toilet_paper = FontAwesomeIconDataSolid(0xedd1);
+  /// FontAwesome's fort awesome brand Icon
+  static const fort_awesome_brand = FontAwesomeIconData(0xefa9);
 
-  ///FontAwesomeSolid's toilet_paper_slash icon
-  static const toilet_paper_slash = FontAwesomeIconDataSolid(0xedd2);
+  /// FontAwesome's fort awesome alt brand Icon
+  static const fort_awesome_alt_brand = FontAwesomeIconData(0xefaa);
 
-  ///FontAwesomeSolid's toilet_portable icon
-  static const toilet_portable = FontAwesomeIconDataSolid(0xedd3);
+  /// FontAwesome's forumbee brand Icon
+  static const forumbee_brand = FontAwesomeIconData(0xefab);
 
-  ///FontAwesomeSolid's toilets_portable icon
-  static const toilets_portable = FontAwesomeIconDataSolid(0xedd4);
+  /// FontAwesome's foursquare brand Icon
+  static const foursquare_brand = FontAwesomeIconData(0xefac);
 
-  ///FontAwesomeSolid's toolbox icon
-  static const toolbox = FontAwesomeIconDataSolid(0xedd5);
+  /// FontAwesome's freebsd brand Icon
+  static const freebsd_brand = FontAwesomeIconData(0xefad);
 
-  ///FontAwesomeSolid's tooth icon
-  static const tooth = FontAwesomeIconDataSolid(0xedd6);
+  /// FontAwesome's free code camp brand Icon
+  static const free_code_camp_brand = FontAwesomeIconData(0xefae);
 
-  ///FontAwesomeSolid's torii_gate icon
-  static const torii_gate = FontAwesomeIconDataSolid(0xedd7);
+  /// FontAwesome's fulcrum brand Icon
+  static const fulcrum_brand = FontAwesomeIconData(0xefaf);
 
-  ///FontAwesomeSolid's tornado icon
-  static const tornado = FontAwesomeIconDataSolid(0xedd8);
+  /// FontAwesome's galactic republic brand Icon
+  static const galactic_republic_brand = FontAwesomeIconData(0xefb0);
 
-  ///FontAwesomeSolid's tower_broadcast icon
-  static const tower_broadcast = FontAwesomeIconDataSolid(0xedd9);
+  /// FontAwesome's galactic senate brand Icon
+  static const galactic_senate_brand = FontAwesomeIconData(0xefb1);
 
-  ///FontAwesomeSolid's tower_cell icon
-  static const tower_cell = FontAwesomeIconDataSolid(0xedda);
+  /// FontAwesome's get pocket brand Icon
+  static const get_pocket_brand = FontAwesomeIconData(0xefb2);
 
-  ///FontAwesomeSolid's tower_observation icon
-  static const tower_observation = FontAwesomeIconDataSolid(0xeddb);
+  /// FontAwesome's gg brand Icon
+  static const gg_brand = FontAwesomeIconData(0xefb3);
 
-  ///FontAwesomeSolid's tractor icon
-  static const tractor = FontAwesomeIconDataSolid(0xeddc);
+  /// FontAwesome's gg circle brand Icon
+  static const gg_circle_brand = FontAwesomeIconData(0xefb4);
 
-  ///FontAwesomeSolid's trademark icon
-  static const trademark = FontAwesomeIconDataSolid(0xeddd);
+  /// FontAwesome's git brand Icon
+  static const git_brand = FontAwesomeIconData(0xefb5);
 
-  ///FontAwesomeSolid's traffic_light icon
-  static const traffic_light = FontAwesomeIconDataSolid(0xedde);
+  /// FontAwesome's git alt brand Icon
+  static const git_alt_brand = FontAwesomeIconData(0xefb6);
 
-  ///FontAwesomeSolid's trailer icon
-  static const trailer = FontAwesomeIconDataSolid(0xeddf);
+  /// FontAwesome's github brand Icon
+  static const github_brand = FontAwesomeIconData(0xefb7);
 
-  ///FontAwesomeSolid's train icon
-  static const train = FontAwesomeIconDataSolid(0xede0);
+  /// FontAwesome's github alt brand Icon
+  static const github_alt_brand = FontAwesomeIconData(0xefb8);
 
-  ///FontAwesomeSolid's train_subway icon
-  static const train_subway = FontAwesomeIconDataSolid(0xede1);
+  /// FontAwesome's gitkraken brand Icon
+  static const gitkraken_brand = FontAwesomeIconData(0xefb9);
 
-  ///FontAwesomeSolid's train_tram icon
-  static const train_tram = FontAwesomeIconDataSolid(0xede2);
+  /// FontAwesome's gitlab brand Icon
+  static const gitlab_brand = FontAwesomeIconData(0xefba);
 
-  ///FontAwesomeSolid's transgender icon
-  static const transgender = FontAwesomeIconDataSolid(0xede3);
+  /// FontAwesome's gitter brand Icon
+  static const gitter_brand = FontAwesomeIconData(0xefbb);
 
-  ///FontAwesomeSolid's trash icon
-  static const trash = FontAwesomeIconDataSolid(0xede4);
+  /// FontAwesome's glide brand Icon
+  static const glide_brand = FontAwesomeIconData(0xefbc);
 
-  ///FontAwesomeSolid's trash_arrow_up icon
-  static const trash_arrow_up = FontAwesomeIconDataSolid(0xede5);
+  /// FontAwesome's glide g brand Icon
+  static const glide_g_brand = FontAwesomeIconData(0xefbd);
 
-  ///FontAwesomeSolid's trash_can_arrow_up icon
-  static const trash_can_arrow_up = FontAwesomeIconDataSolid(0xede7);
+  /// FontAwesome's gofore brand Icon
+  static const gofore_brand = FontAwesomeIconData(0xefbe);
 
-  ///FontAwesomeSolid's tree icon
-  static const tree = FontAwesomeIconDataSolid(0xede8);
+  /// FontAwesome's golang brand Icon
+  static const golang_brand = FontAwesomeIconData(0xefbf);
 
-  ///FontAwesomeSolid's tree_city icon
-  static const tree_city = FontAwesomeIconDataSolid(0xede9);
+  /// FontAwesome's goodreads brand Icon
+  static const goodreads_brand = FontAwesomeIconData(0xefc0);
 
-  ///FontAwesomeSolid's triangle_exclamation icon
-  static const triangle_exclamation = FontAwesomeIconDataSolid(0xedea);
+  /// FontAwesome's goodreads g brand Icon
+  static const goodreads_g_brand = FontAwesomeIconData(0xefc1);
 
-  ///FontAwesomeSolid's trophy icon
-  static const trophy = FontAwesomeIconDataSolid(0xedeb);
+  /// FontAwesome's google brand Icon
+  static const google_brand = FontAwesomeIconData(0xefc2);
 
-  ///FontAwesomeSolid's trowel icon
-  static const trowel = FontAwesomeIconDataSolid(0xedec);
+  /// FontAwesome's google drive brand Icon
+  static const google_drive_brand = FontAwesomeIconData(0xefc3);
 
-  ///FontAwesomeSolid's trowel_bricks icon
-  static const trowel_bricks = FontAwesomeIconDataSolid(0xeded);
+  /// FontAwesome's google pay brand Icon
+  static const google_pay_brand = FontAwesomeIconData(0xefc4);
 
-  ///FontAwesomeSolid's truck icon
-  static const truck = FontAwesomeIconDataSolid(0xedee);
+  /// FontAwesome's google play brand Icon
+  static const google_play_brand = FontAwesomeIconData(0xefc5);
 
-  ///FontAwesomeSolid's truck_arrow_right icon
-  static const truck_arrow_right = FontAwesomeIconDataSolid(0xedef);
+  /// FontAwesome's google plus brand Icon
+  static const google_plus_brand = FontAwesomeIconData(0xefc6);
 
-  ///FontAwesomeSolid's truck_droplet icon
-  static const truck_droplet = FontAwesomeIconDataSolid(0xedf0);
+  /// FontAwesome's google plus g brand Icon
+  static const google_plus_g_brand = FontAwesomeIconData(0xefc7);
 
-  ///FontAwesomeSolid's truck_fast icon
-  static const truck_fast = FontAwesomeIconDataSolid(0xedf1);
+  /// FontAwesome's google scholar brand Icon
+  static const google_scholar_brand = FontAwesomeIconData(0xefc8);
 
-  ///FontAwesomeSolid's truck_field icon
-  static const truck_field = FontAwesomeIconDataSolid(0xedf2);
+  /// FontAwesome's google wallet brand Icon
+  static const google_wallet_brand = FontAwesomeIconData(0xefc9);
 
-  ///FontAwesomeSolid's truck_field_un icon
-  static const truck_field_un = FontAwesomeIconDataSolid(0xedf3);
+  /// FontAwesome's gratipay brand Icon
+  static const gratipay_brand = FontAwesomeIconData(0xefca);
 
-  ///FontAwesomeSolid's truck_front icon
-  static const truck_front = FontAwesomeIconDataSolid(0xedf4);
+  /// FontAwesome's grav brand Icon
+  static const grav_brand = FontAwesomeIconData(0xefcb);
 
-  ///FontAwesomeSolid's truck_medical icon
-  static const truck_medical = FontAwesomeIconDataSolid(0xedf5);
+  /// FontAwesome's gripfire brand Icon
+  static const gripfire_brand = FontAwesomeIconData(0xefcc);
 
-  ///FontAwesomeSolid's truck_monster icon
-  static const truck_monster = FontAwesomeIconDataSolid(0xedf6);
+  /// FontAwesome's grunt brand Icon
+  static const grunt_brand = FontAwesomeIconData(0xefcd);
 
-  ///FontAwesomeSolid's truck_moving icon
-  static const truck_moving = FontAwesomeIconDataSolid(0xedf7);
+  /// FontAwesome's guilded brand Icon
+  static const guilded_brand = FontAwesomeIconData(0xefce);
 
-  ///FontAwesomeSolid's truck_pickup icon
-  static const truck_pickup = FontAwesomeIconDataSolid(0xedf8);
+  /// FontAwesome's gulp brand Icon
+  static const gulp_brand = FontAwesomeIconData(0xefcf);
 
-  ///FontAwesomeSolid's truck_plane icon
-  static const truck_plane = FontAwesomeIconDataSolid(0xedf9);
+  /// FontAwesome's hacker news brand Icon
+  static const hacker_news_brand = FontAwesomeIconData(0xefd0);
 
-  ///FontAwesomeSolid's truck_ramp_box icon
-  static const truck_ramp_box = FontAwesomeIconDataSolid(0xedfa);
+  /// FontAwesome's hackerrank brand Icon
+  static const hackerrank_brand = FontAwesomeIconData(0xefd1);
 
-  ///FontAwesomeSolid's tty icon
-  static const tty = FontAwesomeIconDataSolid(0xedfb);
+  /// FontAwesome's hashnode brand Icon
+  static const hashnode_brand = FontAwesomeIconData(0xefd2);
 
-  ///FontAwesomeSolid's turkish_lira_sign icon
-  static const turkish_lira_sign = FontAwesomeIconDataSolid(0xedfc);
+  /// FontAwesome's hips brand Icon
+  static const hips_brand = FontAwesomeIconData(0xefd3);
 
-  ///FontAwesomeSolid's turn_down icon
-  static const turn_down = FontAwesomeIconDataSolid(0xedfd);
+  /// FontAwesome's hire a helper brand Icon
+  static const hire_a_helper_brand = FontAwesomeIconData(0xefd4);
 
-  ///FontAwesomeSolid's turn_up icon
-  static const turn_up = FontAwesomeIconDataSolid(0xedfe);
+  /// FontAwesome's hive brand Icon
+  static const hive_brand = FontAwesomeIconData(0xefd5);
 
-  ///FontAwesomeSolid's tv icon
-  static const tv = FontAwesomeIconDataSolid(0xedff);
+  /// FontAwesome's hooli brand Icon
+  static const hooli_brand = FontAwesomeIconData(0xefd6);
 
-  ///FontAwesomeSolid's u icon
-  static const u = FontAwesomeIconDataSolid(0xee00);
+  /// FontAwesome's hornbill brand Icon
+  static const hornbill_brand = FontAwesomeIconData(0xefd7);
 
-  ///FontAwesomeSolid's umbrella icon
-  static const umbrella = FontAwesomeIconDataSolid(0xee01);
+  /// FontAwesome's hotjar brand Icon
+  static const hotjar_brand = FontAwesomeIconData(0xefd8);
 
-  ///FontAwesomeSolid's umbrella_beach icon
-  static const umbrella_beach = FontAwesomeIconDataSolid(0xee02);
+  /// FontAwesome's houzz brand Icon
+  static const houzz_brand = FontAwesomeIconData(0xefd9);
 
-  ///FontAwesomeSolid's underline icon
-  static const underline = FontAwesomeIconDataSolid(0xee03);
+  /// FontAwesome's html5 brand Icon
+  static const html5_brand = FontAwesomeIconData(0xefda);
 
-  ///FontAwesomeSolid's universal_access icon
-  static const universal_access = FontAwesomeIconDataSolid(0xee04);
+  /// FontAwesome's hubspot brand Icon
+  static const hubspot_brand = FontAwesomeIconData(0xefdb);
 
-  ///FontAwesomeSolid's unlock icon
-  static const unlock = FontAwesomeIconDataSolid(0xee05);
+  /// FontAwesome's ideal brand Icon
+  static const ideal_brand = FontAwesomeIconData(0xefdc);
 
-  ///FontAwesomeSolid's unlock_keyhole icon
-  static const unlock_keyhole = FontAwesomeIconDataSolid(0xee06);
+  /// FontAwesome's imdb brand Icon
+  static const imdb_brand = FontAwesomeIconData(0xefdd);
 
-  ///FontAwesomeSolid's up_down icon
-  static const up_down = FontAwesomeIconDataSolid(0xee07);
+  /// FontAwesome's instagram brand Icon
+  static const instagram_brand = FontAwesomeIconData(0xefde);
 
-  ///FontAwesomeSolid's up_down_left_right icon
-  static const up_down_left_right = FontAwesomeIconDataSolid(0xee08);
+  /// FontAwesome's instalod brand Icon
+  static const instalod_brand = FontAwesomeIconData(0xefdf);
 
-  ///FontAwesomeSolid's upload icon
-  static const upload = FontAwesomeIconDataSolid(0xee09);
+  /// FontAwesome's intercom brand Icon
+  static const intercom_brand = FontAwesomeIconData(0xefe0);
 
-  ///FontAwesomeSolid's up_long icon
-  static const up_long = FontAwesomeIconDataSolid(0xee0a);
+  /// FontAwesome's internet explorer brand Icon
+  static const internet_explorer_brand = FontAwesomeIconData(0xefe1);
 
-  ///FontAwesomeSolid's up_right_and_down_left_from_center icon
-  static const up_right_and_down_left_from_center =
-      FontAwesomeIconDataSolid(0xee0b);
+  /// FontAwesome's invision brand Icon
+  static const invision_brand = FontAwesomeIconData(0xefe2);
 
-  ///FontAwesomeSolid's up_right_from_square icon
-  static const up_right_from_square = FontAwesomeIconDataSolid(0xee0c);
+  /// FontAwesome's ioxhost brand Icon
+  static const ioxhost_brand = FontAwesomeIconData(0xefe3);
 
-  ///FontAwesomeSolid's user_astronaut icon
-  static const user_astronaut = FontAwesomeIconDataSolid(0xee0e);
+  /// FontAwesome's itch io brand Icon
+  static const itch_io_brand = FontAwesomeIconData(0xefe4);
 
-  ///FontAwesomeSolid's user_check icon
-  static const user_check = FontAwesomeIconDataSolid(0xee0f);
+  /// FontAwesome's itunes brand Icon
+  static const itunes_brand = FontAwesomeIconData(0xefe5);
 
-  ///FontAwesomeSolid's user_clock icon
-  static const user_clock = FontAwesomeIconDataSolid(0xee10);
+  /// FontAwesome's itunes note brand Icon
+  static const itunes_note_brand = FontAwesomeIconData(0xefe6);
 
-  ///FontAwesomeSolid's user_doctor icon
-  static const user_doctor = FontAwesomeIconDataSolid(0xee11);
+  /// FontAwesome's java brand Icon
+  static const java_brand = FontAwesomeIconData(0xefe7);
 
-  ///FontAwesomeSolid's user_gear icon
-  static const user_gear = FontAwesomeIconDataSolid(0xee12);
+  /// FontAwesome's jedi order brand Icon
+  static const jedi_order_brand = FontAwesomeIconData(0xefe8);
 
-  ///FontAwesomeSolid's user_graduate icon
-  static const user_graduate = FontAwesomeIconDataSolid(0xee13);
+  /// FontAwesome's jenkins brand Icon
+  static const jenkins_brand = FontAwesomeIconData(0xefe9);
 
-  ///FontAwesomeSolid's user_group icon
-  static const user_group = FontAwesomeIconDataSolid(0xee14);
+  /// FontAwesome's jira brand Icon
+  static const jira_brand = FontAwesomeIconData(0xefea);
 
-  ///FontAwesomeSolid's user_injured icon
-  static const user_injured = FontAwesomeIconDataSolid(0xee15);
+  /// FontAwesome's joget brand Icon
+  static const joget_brand = FontAwesomeIconData(0xefeb);
 
-  ///FontAwesomeSolid's user_large icon
-  static const user_large = FontAwesomeIconDataSolid(0xee16);
+  /// FontAwesome's joomla brand Icon
+  static const joomla_brand = FontAwesomeIconData(0xefec);
 
-  ///FontAwesomeSolid's user_large_slash icon
-  static const user_large_slash = FontAwesomeIconDataSolid(0xee17);
+  /// FontAwesome's js brand Icon
+  static const js_brand = FontAwesomeIconData(0xefed);
 
-  ///FontAwesomeSolid's user_lock icon
-  static const user_lock = FontAwesomeIconDataSolid(0xee18);
+  /// FontAwesome's jsfiddle brand Icon
+  static const jsfiddle_brand = FontAwesomeIconData(0xefee);
 
-  ///FontAwesomeSolid's user_minus icon
-  static const user_minus = FontAwesomeIconDataSolid(0xee19);
+  /// FontAwesome's kaggle brand Icon
+  static const kaggle_brand = FontAwesomeIconData(0xefef);
 
-  ///FontAwesomeSolid's user_ninja icon
-  static const user_ninja = FontAwesomeIconDataSolid(0xee1a);
+  /// FontAwesome's keybase brand Icon
+  static const keybase_brand = FontAwesomeIconData(0xeff0);
 
-  ///FontAwesomeSolid's user_nurse icon
-  static const user_nurse = FontAwesomeIconDataSolid(0xee1b);
+  /// FontAwesome's keycdn brand Icon
+  static const keycdn_brand = FontAwesomeIconData(0xeff1);
 
-  ///FontAwesomeSolid's user_pen icon
-  static const user_pen = FontAwesomeIconDataSolid(0xee1c);
+  /// FontAwesome's kickstarter brand Icon
+  static const kickstarter_brand = FontAwesomeIconData(0xeff2);
 
-  ///FontAwesomeSolid's user_plus icon
-  static const user_plus = FontAwesomeIconDataSolid(0xee1d);
+  /// FontAwesome's kickstarter k brand Icon
+  static const kickstarter_k_brand = FontAwesomeIconData(0xeff3);
 
-  ///FontAwesomeSolid's users icon
-  static const users = FontAwesomeIconDataSolid(0xee1e);
+  /// FontAwesome's korvue brand Icon
+  static const korvue_brand = FontAwesomeIconData(0xeff4);
 
-  ///FontAwesomeSolid's users_between_lines icon
-  static const users_between_lines = FontAwesomeIconDataSolid(0xee1f);
+  /// FontAwesome's laravel brand Icon
+  static const laravel_brand = FontAwesomeIconData(0xeff5);
 
-  ///FontAwesomeSolid's user_secret icon
-  static const user_secret = FontAwesomeIconDataSolid(0xee20);
+  /// FontAwesome's lastfm brand Icon
+  static const lastfm_brand = FontAwesomeIconData(0xeff6);
 
-  ///FontAwesomeSolid's users_gear icon
-  static const users_gear = FontAwesomeIconDataSolid(0xee21);
+  /// FontAwesome's leanpub brand Icon
+  static const leanpub_brand = FontAwesomeIconData(0xeff7);
 
-  ///FontAwesomeSolid's user_shield icon
-  static const user_shield = FontAwesomeIconDataSolid(0xee22);
+  /// FontAwesome's less brand Icon
+  static const less_brand = FontAwesomeIconData(0xeff8);
 
-  ///FontAwesomeSolid's user_slash icon
-  static const user_slash = FontAwesomeIconDataSolid(0xee23);
+  /// FontAwesome's letterboxd brand Icon
+  static const letterboxd_brand = FontAwesomeIconData(0xeff9);
 
-  ///FontAwesomeSolid's users_line icon
-  static const users_line = FontAwesomeIconDataSolid(0xee24);
+  /// FontAwesome's line brand Icon
+  static const line_brand = FontAwesomeIconData(0xeffa);
 
-  ///FontAwesomeSolid's users_rays icon
-  static const users_rays = FontAwesomeIconDataSolid(0xee25);
+  /// FontAwesome's linkedin brand Icon
+  static const linkedin_brand = FontAwesomeIconData(0xeffb);
 
-  ///FontAwesomeSolid's users_rectangle icon
-  static const users_rectangle = FontAwesomeIconDataSolid(0xee26);
+  /// FontAwesome's linkedin in brand Icon
+  static const linkedin_in_brand = FontAwesomeIconData(0xeffc);
 
-  ///FontAwesomeSolid's users_slash icon
-  static const users_slash = FontAwesomeIconDataSolid(0xee27);
+  /// FontAwesome's linode brand Icon
+  static const linode_brand = FontAwesomeIconData(0xeffd);
 
-  ///FontAwesomeSolid's users_viewfinder icon
-  static const users_viewfinder = FontAwesomeIconDataSolid(0xee28);
+  /// FontAwesome's linux brand Icon
+  static const linux_brand = FontAwesomeIconData(0xeffe);
 
-  ///FontAwesomeSolid's user_tag icon
-  static const user_tag = FontAwesomeIconDataSolid(0xee29);
+  /// FontAwesome's lyft brand Icon
+  static const lyft_brand = FontAwesomeIconData(0xefff);
 
-  ///FontAwesomeSolid's user_tie icon
-  static const user_tie = FontAwesomeIconDataSolid(0xee2a);
+  /// FontAwesome's magento brand Icon
+  static const magento_brand = FontAwesomeIconData(0xf000);
 
-  ///FontAwesomeSolid's user_xmark icon
-  static const user_xmark = FontAwesomeIconDataSolid(0xee2b);
+  /// FontAwesome's mailchimp brand Icon
+  static const mailchimp_brand = FontAwesomeIconData(0xf001);
 
-  ///FontAwesomeSolid's utensils icon
-  static const utensils = FontAwesomeIconDataSolid(0xee2c);
+  /// FontAwesome's mandalorian brand Icon
+  static const mandalorian_brand = FontAwesomeIconData(0xf002);
 
-  ///FontAwesomeSolid's v icon
-  static const v = FontAwesomeIconDataSolid(0xee2d);
+  /// FontAwesome's markdown brand Icon
+  static const markdown_brand = FontAwesomeIconData(0xf003);
 
-  ///FontAwesomeSolid's van_shuttle icon
-  static const van_shuttle = FontAwesomeIconDataSolid(0xee2e);
+  /// FontAwesome's mastodon brand Icon
+  static const mastodon_brand = FontAwesomeIconData(0xf004);
 
-  ///FontAwesomeSolid's vault icon
-  static const vault = FontAwesomeIconDataSolid(0xee2f);
+  /// FontAwesome's maxcdn brand Icon
+  static const maxcdn_brand = FontAwesomeIconData(0xf005);
 
-  ///FontAwesomeSolid's vector_square icon
-  static const vector_square = FontAwesomeIconDataSolid(0xee30);
+  /// FontAwesome's mdb brand Icon
+  static const mdb_brand = FontAwesomeIconData(0xf006);
 
-  ///FontAwesomeSolid's venus icon
-  static const venus = FontAwesomeIconDataSolid(0xee31);
+  /// FontAwesome's medapps brand Icon
+  static const medapps_brand = FontAwesomeIconData(0xf007);
 
-  ///FontAwesomeSolid's venus_double icon
-  static const venus_double = FontAwesomeIconDataSolid(0xee32);
+  /// FontAwesome's medium brand Icon
+  static const medium_brand = FontAwesomeIconData(0xf008);
 
-  ///FontAwesomeSolid's venus_mars icon
-  static const venus_mars = FontAwesomeIconDataSolid(0xee33);
+  /// FontAwesome's medrt brand Icon
+  static const medrt_brand = FontAwesomeIconData(0xf009);
 
-  ///FontAwesomeSolid's vest icon
-  static const vest = FontAwesomeIconDataSolid(0xee34);
+  /// FontAwesome's meetup brand Icon
+  static const meetup_brand = FontAwesomeIconData(0xf00a);
 
-  ///FontAwesomeSolid's vest_patches icon
-  static const vest_patches = FontAwesomeIconDataSolid(0xee35);
+  /// FontAwesome's megaport brand Icon
+  static const megaport_brand = FontAwesomeIconData(0xf00b);
 
-  ///FontAwesomeSolid's vial icon
-  static const vial = FontAwesomeIconDataSolid(0xee36);
+  /// FontAwesome's mendeley brand Icon
+  static const mendeley_brand = FontAwesomeIconData(0xf00c);
 
-  ///FontAwesomeSolid's vial_circle_check icon
-  static const vial_circle_check = FontAwesomeIconDataSolid(0xee37);
+  /// FontAwesome's meta brand Icon
+  static const meta_brand = FontAwesomeIconData(0xf00d);
 
-  ///FontAwesomeSolid's vials icon
-  static const vials = FontAwesomeIconDataSolid(0xee38);
+  /// FontAwesome's microblog brand Icon
+  static const microblog_brand = FontAwesomeIconData(0xf00e);
 
-  ///FontAwesomeSolid's vial_virus icon
-  static const vial_virus = FontAwesomeIconDataSolid(0xee39);
+  /// FontAwesome's microsoft brand Icon
+  static const microsoft_brand = FontAwesomeIconData(0xf00f);
 
-  ///FontAwesomeSolid's video icon
-  static const video = FontAwesomeIconDataSolid(0xee3a);
+  /// FontAwesome's mintbit brand Icon
+  static const mintbit_brand = FontAwesomeIconData(0xf010);
 
-  ///FontAwesomeSolid's video_slash icon
-  static const video_slash = FontAwesomeIconDataSolid(0xee3b);
+  /// FontAwesome's mix brand Icon
+  static const mix_brand = FontAwesomeIconData(0xf011);
 
-  ///FontAwesomeSolid's vihara icon
-  static const vihara = FontAwesomeIconDataSolid(0xee3c);
+  /// FontAwesome's mixcloud brand Icon
+  static const mixcloud_brand = FontAwesomeIconData(0xf012);
 
-  ///FontAwesomeSolid's virus icon
-  static const virus = FontAwesomeIconDataSolid(0xee3d);
+  /// FontAwesome's mixer brand Icon
+  static const mixer_brand = FontAwesomeIconData(0xf013);
 
-  ///FontAwesomeSolid's virus_covid icon
-  static const virus_covid = FontAwesomeIconDataSolid(0xee3e);
+  /// FontAwesome's mizuni brand Icon
+  static const mizuni_brand = FontAwesomeIconData(0xf014);
 
-  ///FontAwesomeSolid's virus_covid_slash icon
-  static const virus_covid_slash = FontAwesomeIconDataSolid(0xee3f);
+  /// FontAwesome's modx brand Icon
+  static const modx_brand = FontAwesomeIconData(0xf015);
 
-  ///FontAwesomeSolid's viruses icon
-  static const viruses = FontAwesomeIconDataSolid(0xee40);
+  /// FontAwesome's monero brand Icon
+  static const monero_brand = FontAwesomeIconData(0xf016);
 
-  ///FontAwesomeSolid's virus_slash icon
-  static const virus_slash = FontAwesomeIconDataSolid(0xee41);
+  /// FontAwesome's napster brand Icon
+  static const napster_brand = FontAwesomeIconData(0xf017);
 
-  ///FontAwesomeSolid's voicemail icon
-  static const voicemail = FontAwesomeIconDataSolid(0xee42);
+  /// FontAwesome's neos brand Icon
+  static const neos_brand = FontAwesomeIconData(0xf018);
 
-  ///FontAwesomeSolid's volcano icon
-  static const volcano = FontAwesomeIconDataSolid(0xee43);
+  /// FontAwesome's nfc directional brand Icon
+  static const nfc_directional_brand = FontAwesomeIconData(0xf019);
 
-  ///FontAwesomeSolid's volleyball icon
-  static const volleyball = FontAwesomeIconDataSolid(0xee44);
+  /// FontAwesome's nfc symbol brand Icon
+  static const nfc_symbol_brand = FontAwesomeIconData(0xf01a);
 
-  ///FontAwesomeSolid's volume_high icon
-  static const volume_high = FontAwesomeIconDataSolid(0xee45);
+  /// FontAwesome's nimblr brand Icon
+  static const nimblr_brand = FontAwesomeIconData(0xf01b);
 
-  ///FontAwesomeSolid's volume_low icon
-  static const volume_low = FontAwesomeIconDataSolid(0xee46);
+  /// FontAwesome's node brand Icon
+  static const node_brand = FontAwesomeIconData(0xf01c);
 
-  ///FontAwesomeSolid's volume_off icon
-  static const volume_off = FontAwesomeIconDataSolid(0xee47);
+  /// FontAwesome's node js brand Icon
+  static const node_js_brand = FontAwesomeIconData(0xf01d);
 
-  ///FontAwesomeSolid's volume_xmark icon
-  static const volume_xmark = FontAwesomeIconDataSolid(0xee48);
+  /// FontAwesome's npm brand Icon
+  static const npm_brand = FontAwesomeIconData(0xf01e);
 
-  ///FontAwesomeSolid's vr_cardboard icon
-  static const vr_cardboard = FontAwesomeIconDataSolid(0xee49);
+  /// FontAwesome's ns8 brand Icon
+  static const ns8_brand = FontAwesomeIconData(0xf01f);
 
-  ///FontAwesomeSolid's w icon
-  static const w = FontAwesomeIconDataSolid(0xee4a);
+  /// FontAwesome's num42 group brand Icon
+  static const num42_group_brand = FontAwesomeIconData(0xf020);
 
-  ///FontAwesomeSolid's walkie_talkie icon
-  static const walkie_talkie = FontAwesomeIconDataSolid(0xee4b);
+  /// FontAwesome's num500px brand Icon
+  static const num500px_brand = FontAwesomeIconData(0xf021);
 
-  ///FontAwesomeSolid's wallet icon
-  static const wallet = FontAwesomeIconDataSolid(0xee4c);
+  /// FontAwesome's nutritionix brand Icon
+  static const nutritionix_brand = FontAwesomeIconData(0xf022);
 
-  ///FontAwesomeSolid's wand_magic icon
-  static const wand_magic = FontAwesomeIconDataSolid(0xee4d);
+  /// FontAwesome's octopus deploy brand Icon
+  static const octopus_deploy_brand = FontAwesomeIconData(0xf023);
 
-  ///FontAwesomeSolid's wand_magic_sparkles icon
-  static const wand_magic_sparkles = FontAwesomeIconDataSolid(0xee4e);
+  /// FontAwesome's odnoklassniki brand Icon
+  static const odnoklassniki_brand = FontAwesomeIconData(0xf024);
 
-  ///FontAwesomeSolid's wand_sparkles icon
-  static const wand_sparkles = FontAwesomeIconDataSolid(0xee4f);
+  /// FontAwesome's odysee brand Icon
+  static const odysee_brand = FontAwesomeIconData(0xf025);
 
-  ///FontAwesomeSolid's warehouse icon
-  static const warehouse = FontAwesomeIconDataSolid(0xee50);
+  /// FontAwesome's old republic brand Icon
+  static const old_republic_brand = FontAwesomeIconData(0xf026);
 
-  ///FontAwesomeSolid's water icon
-  static const water = FontAwesomeIconDataSolid(0xee51);
+  /// FontAwesome's opencart brand Icon
+  static const opencart_brand = FontAwesomeIconData(0xf027);
 
-  ///FontAwesomeSolid's water_ladder icon
-  static const water_ladder = FontAwesomeIconDataSolid(0xee52);
+  /// FontAwesome's openid brand Icon
+  static const openid_brand = FontAwesomeIconData(0xf028);
 
-  ///FontAwesomeSolid's wave_square icon
-  static const wave_square = FontAwesomeIconDataSolid(0xee53);
+  /// FontAwesome's opensuse brand Icon
+  static const opensuse_brand = FontAwesomeIconData(0xf029);
 
-  ///FontAwesomeSolid's weight_hanging icon
-  static const weight_hanging = FontAwesomeIconDataSolid(0xee54);
+  /// FontAwesome's opera brand Icon
+  static const opera_brand = FontAwesomeIconData(0xf02a);
 
-  ///FontAwesomeSolid's weight_scale icon
-  static const weight_scale = FontAwesomeIconDataSolid(0xee55);
+  /// FontAwesome's optin monster brand Icon
+  static const optin_monster_brand = FontAwesomeIconData(0xf02b);
 
-  ///FontAwesomeSolid's wheat_awn icon
-  static const wheat_awn = FontAwesomeIconDataSolid(0xee56);
+  /// FontAwesome's orcid brand Icon
+  static const orcid_brand = FontAwesomeIconData(0xf02c);
 
-  ///FontAwesomeSolid's wheat_awn_circle_exclamation icon
-  static const wheat_awn_circle_exclamation = FontAwesomeIconDataSolid(0xee57);
+  /// FontAwesome's osi brand Icon
+  static const osi_brand = FontAwesomeIconData(0xf02d);
 
-  ///FontAwesomeSolid's wheelchair icon
-  static const wheelchair = FontAwesomeIconDataSolid(0xee58);
+  /// FontAwesome's padlet brand Icon
+  static const padlet_brand = FontAwesomeIconData(0xf02e);
 
-  ///FontAwesomeSolid's wheelchair_move icon
-  static const wheelchair_move = FontAwesomeIconDataSolid(0xee59);
+  /// FontAwesome's page4 brand Icon
+  static const page4_brand = FontAwesomeIconData(0xf02f);
 
-  ///FontAwesomeSolid's whiskey_glass icon
-  static const whiskey_glass = FontAwesomeIconDataSolid(0xee5a);
+  /// FontAwesome's pagelines brand Icon
+  static const pagelines_brand = FontAwesomeIconData(0xf030);
 
-  ///FontAwesomeSolid's wifi icon
-  static const wifi = FontAwesomeIconDataSolid(0xee5b);
+  /// FontAwesome's palfed brand Icon
+  static const palfed_brand = FontAwesomeIconData(0xf031);
 
-  ///FontAwesomeSolid's wind icon
-  static const wind = FontAwesomeIconDataSolid(0xee5c);
+  /// FontAwesome's patreon brand Icon
+  static const patreon_brand = FontAwesomeIconData(0xf032);
 
-  ///FontAwesomeSolid's wine_bottle icon
-  static const wine_bottle = FontAwesomeIconDataSolid(0xee60);
+  /// FontAwesome's paypal brand Icon
+  static const paypal_brand = FontAwesomeIconData(0xf033);
 
-  ///FontAwesomeSolid's wine_glass icon
-  static const wine_glass = FontAwesomeIconDataSolid(0xee61);
+  /// FontAwesome's perbyte brand Icon
+  static const perbyte_brand = FontAwesomeIconData(0xf034);
 
-  ///FontAwesomeSolid's wine_glass_empty icon
-  static const wine_glass_empty = FontAwesomeIconDataSolid(0xee62);
+  /// FontAwesome's periscope brand Icon
+  static const periscope_brand = FontAwesomeIconData(0xf035);
 
-  ///FontAwesomeSolid's won_sign icon
-  static const won_sign = FontAwesomeIconDataSolid(0xee63);
+  /// FontAwesome's phabricator brand Icon
+  static const phabricator_brand = FontAwesomeIconData(0xf036);
 
-  ///FontAwesomeSolid's worm icon
-  static const worm = FontAwesomeIconDataSolid(0xee64);
+  /// FontAwesome's phoenix framework brand Icon
+  static const phoenix_framework_brand = FontAwesomeIconData(0xf037);
 
-  ///FontAwesomeSolid's wrench icon
-  static const wrench = FontAwesomeIconDataSolid(0xee65);
+  /// FontAwesome's phoenix squadron brand Icon
+  static const phoenix_squadron_brand = FontAwesomeIconData(0xf038);
 
-  ///FontAwesomeSolid's x icon
-  static const x = FontAwesomeIconDataSolid(0xee66);
+  /// FontAwesome's php brand Icon
+  static const php_brand = FontAwesomeIconData(0xf039);
 
-  ///FontAwesomeSolid's xmark icon
-  static const xmark = FontAwesomeIconDataSolid(0xee67);
+  /// FontAwesome's pied piper brand Icon
+  static const pied_piper_brand = FontAwesomeIconData(0xf03a);
 
-  ///FontAwesomeSolid's xmarks_lines icon
-  static const xmarks_lines = FontAwesomeIconDataSolid(0xee68);
+  /// FontAwesome's pied piper alt brand Icon
+  static const pied_piper_alt_brand = FontAwesomeIconData(0xf03b);
 
-  ///FontAwesomeSolid's x_ray icon
-  static const x_ray = FontAwesomeIconDataSolid(0xee69);
+  /// FontAwesome's pied piper hat brand Icon
+  static const pied_piper_hat_brand = FontAwesomeIconData(0xf03c);
 
-  ///FontAwesomeSolid's y icon
-  static const y = FontAwesomeIconDataSolid(0xee6a);
+  /// FontAwesome's pied piper pp brand Icon
+  static const pied_piper_pp_brand = FontAwesomeIconData(0xf03d);
 
-  ///FontAwesomeSolid's yen_sign icon
-  static const yen_sign = FontAwesomeIconDataSolid(0xee6b);
+  /// FontAwesome's pinterest brand Icon
+  static const pinterest_brand = FontAwesomeIconData(0xf03e);
 
-  ///FontAwesomeSolid's yin_yang icon
-  static const yin_yang = FontAwesomeIconDataSolid(0xee6c);
+  /// FontAwesome's pinterest p brand Icon
+  static const pinterest_p_brand = FontAwesomeIconData(0xf03f);
 
-  ///FontAwesomeSolid's z icon
-  static const z = FontAwesomeIconDataSolid(0xee6d);
+  /// FontAwesome's pix brand Icon
+  static const pix_brand = FontAwesomeIconData(0xf040);
+
+  /// FontAwesome's pixiv brand Icon
+  static const pixiv_brand = FontAwesomeIconData(0xf041);
+
+  /// FontAwesome's playstation brand Icon
+  static const playstation_brand = FontAwesomeIconData(0xf042);
+
+  /// FontAwesome's product hunt brand Icon
+  static const product_hunt_brand = FontAwesomeIconData(0xf043);
+
+  /// FontAwesome's pushed brand Icon
+  static const pushed_brand = FontAwesomeIconData(0xf044);
+
+  /// FontAwesome's python brand Icon
+  static const python_brand = FontAwesomeIconData(0xf045);
+
+  /// FontAwesome's qq brand Icon
+  static const qq_brand = FontAwesomeIconData(0xf046);
+
+  /// FontAwesome's quinscape brand Icon
+  static const quinscape_brand = FontAwesomeIconData(0xf047);
+
+  /// FontAwesome's quora brand Icon
+  static const quora_brand = FontAwesomeIconData(0xf048);
+
+  /// FontAwesome's raspberry pi brand Icon
+  static const raspberry_pi_brand = FontAwesomeIconData(0xf049);
+
+  /// FontAwesome's ravelry brand Icon
+  static const ravelry_brand = FontAwesomeIconData(0xf04a);
+
+  /// FontAwesome's react brand Icon
+  static const react_brand = FontAwesomeIconData(0xf04b);
+
+  /// FontAwesome's reacteurope brand Icon
+  static const reacteurope_brand = FontAwesomeIconData(0xf04c);
+
+  /// FontAwesome's readme brand Icon
+  static const readme_brand = FontAwesomeIconData(0xf04d);
+
+  /// FontAwesome's rebel brand Icon
+  static const rebel_brand = FontAwesomeIconData(0xf04e);
+
+  /// FontAwesome's reddit brand Icon
+  static const reddit_brand = FontAwesomeIconData(0xf04f);
+
+  /// FontAwesome's reddit alien brand Icon
+  static const reddit_alien_brand = FontAwesomeIconData(0xf050);
+
+  /// FontAwesome's redhat brand Icon
+  static const redhat_brand = FontAwesomeIconData(0xf051);
+
+  /// FontAwesome's red river brand Icon
+  static const red_river_brand = FontAwesomeIconData(0xf052);
+
+  /// FontAwesome's renren brand Icon
+  static const renren_brand = FontAwesomeIconData(0xf053);
+
+  /// FontAwesome's replyd brand Icon
+  static const replyd_brand = FontAwesomeIconData(0xf054);
+
+  /// FontAwesome's researchgate brand Icon
+  static const researchgate_brand = FontAwesomeIconData(0xf055);
+
+  /// FontAwesome's resolving brand Icon
+  static const resolving_brand = FontAwesomeIconData(0xf056);
+
+  /// FontAwesome's rev brand Icon
+  static const rev_brand = FontAwesomeIconData(0xf057);
+
+  /// FontAwesome's rocketchat brand Icon
+  static const rocketchat_brand = FontAwesomeIconData(0xf058);
+
+  /// FontAwesome's rockrms brand Icon
+  static const rockrms_brand = FontAwesomeIconData(0xf059);
+
+  /// FontAwesome's r project brand Icon
+  static const r_project_brand = FontAwesomeIconData(0xf05a);
+
+  /// FontAwesome's rust brand Icon
+  static const rust_brand = FontAwesomeIconData(0xf05b);
+
+  /// FontAwesome's safari brand Icon
+  static const safari_brand = FontAwesomeIconData(0xf05c);
+
+  /// FontAwesome's salesforce brand Icon
+  static const salesforce_brand = FontAwesomeIconData(0xf05d);
+
+  /// FontAwesome's sass brand Icon
+  static const sass_brand = FontAwesomeIconData(0xf05e);
+
+  /// FontAwesome's schlix brand Icon
+  static const schlix_brand = FontAwesomeIconData(0xf05f);
+
+  /// FontAwesome's screenpal brand Icon
+  static const screenpal_brand = FontAwesomeIconData(0xf060);
+
+  /// FontAwesome's scribd brand Icon
+  static const scribd_brand = FontAwesomeIconData(0xf061);
+
+  /// FontAwesome's searchengin brand Icon
+  static const searchengin_brand = FontAwesomeIconData(0xf062);
+
+  /// FontAwesome's sellcast brand Icon
+  static const sellcast_brand = FontAwesomeIconData(0xf063);
+
+  /// FontAwesome's sellsy brand Icon
+  static const sellsy_brand = FontAwesomeIconData(0xf064);
+
+  /// FontAwesome's servicestack brand Icon
+  static const servicestack_brand = FontAwesomeIconData(0xf065);
+
+  /// FontAwesome's shirtsinbulk brand Icon
+  static const shirtsinbulk_brand = FontAwesomeIconData(0xf066);
+
+  /// FontAwesome's shoelace brand Icon
+  static const shoelace_brand = FontAwesomeIconData(0xf067);
+
+  /// FontAwesome's shopify brand Icon
+  static const shopify_brand = FontAwesomeIconData(0xf068);
+
+  /// FontAwesome's shopware brand Icon
+  static const shopware_brand = FontAwesomeIconData(0xf069);
+
+  /// FontAwesome's signal messenger brand Icon
+  static const signal_messenger_brand = FontAwesomeIconData(0xf06a);
+
+  /// FontAwesome's simplybuilt brand Icon
+  static const simplybuilt_brand = FontAwesomeIconData(0xf06b);
+
+  /// FontAwesome's sistrix brand Icon
+  static const sistrix_brand = FontAwesomeIconData(0xf06c);
+
+  /// FontAwesome's sith brand Icon
+  static const sith_brand = FontAwesomeIconData(0xf06d);
+
+  /// FontAwesome's sitrox brand Icon
+  static const sitrox_brand = FontAwesomeIconData(0xf06e);
+
+  /// FontAwesome's sketch brand Icon
+  static const sketch_brand = FontAwesomeIconData(0xf06f);
+
+  /// FontAwesome's skyatlas brand Icon
+  static const skyatlas_brand = FontAwesomeIconData(0xf070);
+
+  /// FontAwesome's skype brand Icon
+  static const skype_brand = FontAwesomeIconData(0xf071);
+
+  /// FontAwesome's slack brand Icon
+  static const slack_brand = FontAwesomeIconData(0xf072);
+
+  /// FontAwesome's slideshare brand Icon
+  static const slideshare_brand = FontAwesomeIconData(0xf073);
+
+  /// FontAwesome's snapchat brand Icon
+  static const snapchat_brand = FontAwesomeIconData(0xf074);
+
+  /// FontAwesome's soundcloud brand Icon
+  static const soundcloud_brand = FontAwesomeIconData(0xf075);
+
+  /// FontAwesome's sourcetree brand Icon
+  static const sourcetree_brand = FontAwesomeIconData(0xf076);
+
+  /// FontAwesome's space awesome brand Icon
+  static const space_awesome_brand = FontAwesomeIconData(0xf077);
+
+  /// FontAwesome's speakap brand Icon
+  static const speakap_brand = FontAwesomeIconData(0xf078);
+
+  /// FontAwesome's speaker deck brand Icon
+  static const speaker_deck_brand = FontAwesomeIconData(0xf079);
+
+  /// FontAwesome's spotify brand Icon
+  static const spotify_brand = FontAwesomeIconData(0xf07a);
+
+  /// FontAwesome's square behance brand Icon
+  static const square_behance_brand = FontAwesomeIconData(0xf07b);
+
+  /// FontAwesome's square dribbble brand Icon
+  static const square_dribbble_brand = FontAwesomeIconData(0xf07c);
+
+  /// FontAwesome's square facebook brand Icon
+  static const square_facebook_brand = FontAwesomeIconData(0xf07d);
+
+  /// FontAwesome's square font awesome brand Icon
+  static const square_font_awesome_brand = FontAwesomeIconData(0xf07e);
+
+  /// FontAwesome's square font awesome stroke brand Icon
+  static const square_font_awesome_stroke_brand = FontAwesomeIconData(0xf07f);
+
+  /// FontAwesome's square git brand Icon
+  static const square_git_brand = FontAwesomeIconData(0xf080);
+
+  /// FontAwesome's square github brand Icon
+  static const square_github_brand = FontAwesomeIconData(0xf081);
+
+  /// FontAwesome's square gitlab brand Icon
+  static const square_gitlab_brand = FontAwesomeIconData(0xf082);
+
+  /// FontAwesome's square google plus brand Icon
+  static const square_google_plus_brand = FontAwesomeIconData(0xf083);
+
+  /// FontAwesome's square hacker news brand Icon
+  static const square_hacker_news_brand = FontAwesomeIconData(0xf084);
+
+  /// FontAwesome's square instagram brand Icon
+  static const square_instagram_brand = FontAwesomeIconData(0xf085);
+
+  /// FontAwesome's square js brand Icon
+  static const square_js_brand = FontAwesomeIconData(0xf086);
+
+  /// FontAwesome's square lastfm brand Icon
+  static const square_lastfm_brand = FontAwesomeIconData(0xf087);
+
+  /// FontAwesome's square letterboxd brand Icon
+  static const square_letterboxd_brand = FontAwesomeIconData(0xf088);
+
+  /// FontAwesome's square odnoklassniki brand Icon
+  static const square_odnoklassniki_brand = FontAwesomeIconData(0xf089);
+
+  /// FontAwesome's square pied piper brand Icon
+  static const square_pied_piper_brand = FontAwesomeIconData(0xf08a);
+
+  /// FontAwesome's square pinterest brand Icon
+  static const square_pinterest_brand = FontAwesomeIconData(0xf08b);
+
+  /// FontAwesome's square reddit brand Icon
+  static const square_reddit_brand = FontAwesomeIconData(0xf08c);
+
+  /// FontAwesome's square snapchat brand Icon
+  static const square_snapchat_brand = FontAwesomeIconData(0xf08d);
+
+  /// FontAwesome's squarespace brand Icon
+  static const squarespace_brand = FontAwesomeIconData(0xf08e);
+
+  /// FontAwesome's square steam brand Icon
+  static const square_steam_brand = FontAwesomeIconData(0xf08f);
+
+  /// FontAwesome's square threads brand Icon
+  static const square_threads_brand = FontAwesomeIconData(0xf090);
+
+  /// FontAwesome's square tumblr brand Icon
+  static const square_tumblr_brand = FontAwesomeIconData(0xf091);
+
+  /// FontAwesome's square twitter brand Icon
+  static const square_twitter_brand = FontAwesomeIconData(0xf092);
+
+  /// FontAwesome's square viadeo brand Icon
+  static const square_viadeo_brand = FontAwesomeIconData(0xf093);
+
+  /// FontAwesome's square vimeo brand Icon
+  static const square_vimeo_brand = FontAwesomeIconData(0xf094);
+
+  /// FontAwesome's square whatsapp brand Icon
+  static const square_whatsapp_brand = FontAwesomeIconData(0xf095);
+
+  /// FontAwesome's square xing brand Icon
+  static const square_xing_brand = FontAwesomeIconData(0xf096);
+
+  /// FontAwesome's square x twitter brand Icon
+  static const square_x_twitter_brand = FontAwesomeIconData(0xf097);
+
+  /// FontAwesome's square youtube brand Icon
+  static const square_youtube_brand = FontAwesomeIconData(0xf098);
+
+  /// FontAwesome's stack exchange brand Icon
+  static const stack_exchange_brand = FontAwesomeIconData(0xf099);
+
+  /// FontAwesome's stack overflow brand Icon
+  static const stack_overflow_brand = FontAwesomeIconData(0xf09a);
+
+  /// FontAwesome's stackpath brand Icon
+  static const stackpath_brand = FontAwesomeIconData(0xf09b);
+
+  /// FontAwesome's staylinked brand Icon
+  static const staylinked_brand = FontAwesomeIconData(0xf09c);
+
+  /// FontAwesome's steam brand Icon
+  static const steam_brand = FontAwesomeIconData(0xf09d);
+
+  /// FontAwesome's steam symbol brand Icon
+  static const steam_symbol_brand = FontAwesomeIconData(0xf09e);
+
+  /// FontAwesome's sticker mule brand Icon
+  static const sticker_mule_brand = FontAwesomeIconData(0xf09f);
+
+  /// FontAwesome's strava brand Icon
+  static const strava_brand = FontAwesomeIconData(0xf0a0);
+
+  /// FontAwesome's stripe brand Icon
+  static const stripe_brand = FontAwesomeIconData(0xf0a1);
+
+  /// FontAwesome's stripe s brand Icon
+  static const stripe_s_brand = FontAwesomeIconData(0xf0a2);
+
+  /// FontAwesome's stubber brand Icon
+  static const stubber_brand = FontAwesomeIconData(0xf0a3);
+
+  /// FontAwesome's studiovinari brand Icon
+  static const studiovinari_brand = FontAwesomeIconData(0xf0a4);
+
+  /// FontAwesome's stumbleupon brand Icon
+  static const stumbleupon_brand = FontAwesomeIconData(0xf0a5);
+
+  /// FontAwesome's stumbleupon circle brand Icon
+  static const stumbleupon_circle_brand = FontAwesomeIconData(0xf0a6);
+
+  /// FontAwesome's superpowers brand Icon
+  static const superpowers_brand = FontAwesomeIconData(0xf0a7);
+
+  /// FontAwesome's supple brand Icon
+  static const supple_brand = FontAwesomeIconData(0xf0a8);
+
+  /// FontAwesome's suse brand Icon
+  static const suse_brand = FontAwesomeIconData(0xf0a9);
+
+  /// FontAwesome's swift brand Icon
+  static const swift_brand = FontAwesomeIconData(0xf0aa);
+
+  /// FontAwesome's symfony brand Icon
+  static const symfony_brand = FontAwesomeIconData(0xf0ab);
+
+  /// FontAwesome's teamspeak brand Icon
+  static const teamspeak_brand = FontAwesomeIconData(0xf0ac);
+
+  /// FontAwesome's telegram brand Icon
+  static const telegram_brand = FontAwesomeIconData(0xf0ad);
+
+  /// FontAwesome's tencent weibo brand Icon
+  static const tencent_weibo_brand = FontAwesomeIconData(0xf0ae);
+
+  /// FontAwesome's themeco brand Icon
+  static const themeco_brand = FontAwesomeIconData(0xf0af);
+
+  /// FontAwesome's themeisle brand Icon
+  static const themeisle_brand = FontAwesomeIconData(0xf0b0);
+
+  /// FontAwesome's the red yeti brand Icon
+  static const the_red_yeti_brand = FontAwesomeIconData(0xf0b1);
+
+  /// FontAwesome's think peaks brand Icon
+  static const think_peaks_brand = FontAwesomeIconData(0xf0b2);
+
+  /// FontAwesome's threads brand Icon
+  static const threads_brand = FontAwesomeIconData(0xf0b3);
+
+  /// FontAwesome's tiktok brand Icon
+  static const tiktok_brand = FontAwesomeIconData(0xf0b4);
+
+  /// FontAwesome's trade federation brand Icon
+  static const trade_federation_brand = FontAwesomeIconData(0xf0b5);
+
+  /// FontAwesome's trello brand Icon
+  static const trello_brand = FontAwesomeIconData(0xf0b6);
+
+  /// FontAwesome's tumblr brand Icon
+  static const tumblr_brand = FontAwesomeIconData(0xf0b7);
+
+  /// FontAwesome's twitch brand Icon
+  static const twitch_brand = FontAwesomeIconData(0xf0b8);
+
+  /// FontAwesome's twitter brand Icon
+  static const twitter_brand = FontAwesomeIconData(0xf0b9);
+
+  /// FontAwesome's typo3 brand Icon
+  static const typo3_brand = FontAwesomeIconData(0xf0ba);
+
+  /// FontAwesome's uber brand Icon
+  static const uber_brand = FontAwesomeIconData(0xf0bb);
+
+  /// FontAwesome's ubuntu brand Icon
+  static const ubuntu_brand = FontAwesomeIconData(0xf0bc);
+
+  /// FontAwesome's uikit brand Icon
+  static const uikit_brand = FontAwesomeIconData(0xf0bd);
+
+  /// FontAwesome's umbraco brand Icon
+  static const umbraco_brand = FontAwesomeIconData(0xf0be);
+
+  /// FontAwesome's uncharted brand Icon
+  static const uncharted_brand = FontAwesomeIconData(0xf0bf);
+
+  /// FontAwesome's uniregistry brand Icon
+  static const uniregistry_brand = FontAwesomeIconData(0xf0c0);
+
+  /// FontAwesome's unity brand Icon
+  static const unity_brand = FontAwesomeIconData(0xf0c1);
+
+  /// FontAwesome's unsplash brand Icon
+  static const unsplash_brand = FontAwesomeIconData(0xf0c2);
+
+  /// FontAwesome's untappd brand Icon
+  static const untappd_brand = FontAwesomeIconData(0xf0c3);
+
+  /// FontAwesome's ups brand Icon
+  static const ups_brand = FontAwesomeIconData(0xf0c4);
+
+  /// FontAwesome's upwork brand Icon
+  static const upwork_brand = FontAwesomeIconData(0xf0c5);
+
+  /// FontAwesome's usb brand Icon
+  static const usb_brand = FontAwesomeIconData(0xf0c6);
+
+  /// FontAwesome's usps brand Icon
+  static const usps_brand = FontAwesomeIconData(0xf0c7);
+
+  /// FontAwesome's ussunnah brand Icon
+  static const ussunnah_brand = FontAwesomeIconData(0xf0c8);
+
+  /// FontAwesome's vaadin brand Icon
+  static const vaadin_brand = FontAwesomeIconData(0xf0c9);
+
+  /// FontAwesome's viacoin brand Icon
+  static const viacoin_brand = FontAwesomeIconData(0xf0ca);
+
+  /// FontAwesome's viadeo brand Icon
+  static const viadeo_brand = FontAwesomeIconData(0xf0cb);
+
+  /// FontAwesome's viber brand Icon
+  static const viber_brand = FontAwesomeIconData(0xf0cc);
+
+  /// FontAwesome's vimeo brand Icon
+  static const vimeo_brand = FontAwesomeIconData(0xf0cd);
+
+  /// FontAwesome's vimeo v brand Icon
+  static const vimeo_v_brand = FontAwesomeIconData(0xf0ce);
+
+  /// FontAwesome's vine brand Icon
+  static const vine_brand = FontAwesomeIconData(0xf0cf);
+
+  /// FontAwesome's vk brand Icon
+  static const vk_brand = FontAwesomeIconData(0xf0d0);
+
+  /// FontAwesome's vnv brand Icon
+  static const vnv_brand = FontAwesomeIconData(0xf0d1);
+
+  /// FontAwesome's vuejs brand Icon
+  static const vuejs_brand = FontAwesomeIconData(0xf0d2);
+
+  /// FontAwesome's watchman monitoring brand Icon
+  static const watchman_monitoring_brand = FontAwesomeIconData(0xf0d3);
+
+  /// FontAwesome's waze brand Icon
+  static const waze_brand = FontAwesomeIconData(0xf0d4);
+
+  /// FontAwesome's webflow brand Icon
+  static const webflow_brand = FontAwesomeIconData(0xf0d5);
+
+  /// FontAwesome's weebly brand Icon
+  static const weebly_brand = FontAwesomeIconData(0xf0d6);
+
+  /// FontAwesome's weibo brand Icon
+  static const weibo_brand = FontAwesomeIconData(0xf0d7);
+
+  /// FontAwesome's weixin brand Icon
+  static const weixin_brand = FontAwesomeIconData(0xf0d8);
+
+  /// FontAwesome's whatsapp brand Icon
+  static const whatsapp_brand = FontAwesomeIconData(0xf0d9);
+
+  /// FontAwesome's whmcs brand Icon
+  static const whmcs_brand = FontAwesomeIconData(0xf0da);
+
+  /// FontAwesome's wikipedia w brand Icon
+  static const wikipedia_w_brand = FontAwesomeIconData(0xf0db);
+
+  /// FontAwesome's windows brand Icon
+  static const windows_brand = FontAwesomeIconData(0xf0dc);
+
+  /// FontAwesome's wirsindhandwerk brand Icon
+  static const wirsindhandwerk_brand = FontAwesomeIconData(0xf0dd);
+
+  /// FontAwesome's wix brand Icon
+  static const wix_brand = FontAwesomeIconData(0xf0de);
+
+  /// FontAwesome's wizards of the coast brand Icon
+  static const wizards_of_the_coast_brand = FontAwesomeIconData(0xf0df);
+
+  /// FontAwesome's wodu brand Icon
+  static const wodu_brand = FontAwesomeIconData(0xf0e0);
+
+  /// FontAwesome's wolf pack battalion brand Icon
+  static const wolf_pack_battalion_brand = FontAwesomeIconData(0xf0e1);
+
+  /// FontAwesome's wordpress brand Icon
+  static const wordpress_brand = FontAwesomeIconData(0xf0e2);
+
+  /// FontAwesome's wordpress simple brand Icon
+  static const wordpress_simple_brand = FontAwesomeIconData(0xf0e3);
+
+  /// FontAwesome's wpbeginner brand Icon
+  static const wpbeginner_brand = FontAwesomeIconData(0xf0e4);
+
+  /// FontAwesome's wpexplorer brand Icon
+  static const wpexplorer_brand = FontAwesomeIconData(0xf0e5);
+
+  /// FontAwesome's wpforms brand Icon
+  static const wpforms_brand = FontAwesomeIconData(0xf0e6);
+
+  /// FontAwesome's wpressr brand Icon
+  static const wpressr_brand = FontAwesomeIconData(0xf0e7);
+
+  /// FontAwesome's xbox brand Icon
+  static const xbox_brand = FontAwesomeIconData(0xf0e8);
+
+  /// FontAwesome's xing brand Icon
+  static const xing_brand = FontAwesomeIconData(0xf0e9);
+
+  /// FontAwesome's x twitter brand Icon
+  static const x_twitter_brand = FontAwesomeIconData(0xf0ea);
+
+  /// FontAwesome's yahoo brand Icon
+  static const yahoo_brand = FontAwesomeIconData(0xf0eb);
+
+  /// FontAwesome's yammer brand Icon
+  static const yammer_brand = FontAwesomeIconData(0xf0ec);
+
+  /// FontAwesome's yandex brand Icon
+  static const yandex_brand = FontAwesomeIconData(0xf0ed);
+
+  /// FontAwesome's yandex international brand Icon
+  static const yandex_international_brand = FontAwesomeIconData(0xf0ee);
+
+  /// FontAwesome's yarn brand Icon
+  static const yarn_brand = FontAwesomeIconData(0xf0ef);
+
+  /// FontAwesome's y combinator brand Icon
+  static const y_combinator_brand = FontAwesomeIconData(0xf0f0);
+
+  /// FontAwesome's yelp brand Icon
+  static const yelp_brand = FontAwesomeIconData(0xf0f1);
+
+  /// FontAwesome's yoast brand Icon
+  static const yoast_brand = FontAwesomeIconData(0xf0f2);
+
+  /// FontAwesome's youtube brand Icon
+  static const youtube_brand = FontAwesomeIconData(0xf0f3);
+
+  /// FontAwesome's zhihu brand Icon
+  static const zhihu_brand = FontAwesomeIconData(0xf0f4);
 }
