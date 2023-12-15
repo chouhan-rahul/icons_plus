@@ -2,891 +2,898 @@
 
 import 'package:flutter/widgets.dart';
 
-class HeroIconDataSolid extends IconData {
-  const HeroIconDataSolid(int code)
+class HeroIconData extends IconData {
+  const HeroIconData(int code)
       : super(
           code,
-          fontFamily: 'heroicons-solid',
+          fontFamily: 'HeroIcons',
           fontPackage: 'icons_plus',
         );
 }
 
 class HeroIcons {
-  //HeroIcons - Solid
+  /// HeroIcons' academic cap Icon
+  static const academic_cap = HeroIconData(0xe900);
 
-  ///HeroIconsSolid's academic_cap icon
-  static const academic_cap = HeroIconDataSolid(0xe900);
+  /// HeroIcons' adjustments horizontal Icon
+  static const adjustments_horizontal = HeroIconData(0xe901);
 
-  ///HeroIconsSolid's adjustments_horizontal icon
-  static const adjustments_horizontal = HeroIconDataSolid(0xe901);
+  /// HeroIcons' adjustments vertical Icon
+  static const adjustments_vertical = HeroIconData(0xe902);
 
-  ///HeroIconsSolid's adjustments_vertical icon
-  static const adjustments_vertical = HeroIconDataSolid(0xe902);
+  /// HeroIcons' archive box Icon
+  static const archive_box = HeroIconData(0xe903);
 
-  ///HeroIconsSolid's archive_box icon
-  static const archive_box = HeroIconDataSolid(0xe903);
+  /// HeroIcons' archive box arrow down Icon
+  static const archive_box_arrow_down = HeroIconData(0xe904);
 
-  ///HeroIconsSolid's archive_box_arrow_down icon
-  static const archive_box_arrow_down = HeroIconDataSolid(0xe904);
+  /// HeroIcons' archive box x mark Icon
+  static const archive_box_x_mark = HeroIconData(0xe905);
 
-  ///HeroIconsSolid's archive_box_x_mark icon
-  static const archive_box_x_mark = HeroIconDataSolid(0xe905);
+  /// HeroIcons' arrow down Icon
+  static const arrow_down = HeroIconData(0xe906);
 
-  ///HeroIconsSolid's arrow_down icon
-  static const arrow_down = HeroIconDataSolid(0xe906);
+  /// HeroIcons' arrow down circle Icon
+  static const arrow_down_circle = HeroIconData(0xe907);
 
-  ///HeroIconsSolid's arrow_down_circle icon
-  static const arrow_down_circle = HeroIconDataSolid(0xe907);
+  /// HeroIcons' arrow down left Icon
+  static const arrow_down_left = HeroIconData(0xe908);
 
-  ///HeroIconsSolid's arrow_down_left icon
-  static const arrow_down_left = HeroIconDataSolid(0xe908);
+  /// HeroIcons' arrow down on square Icon
+  static const arrow_down_on_square = HeroIconData(0xe909);
 
-  ///HeroIconsSolid's arrow_down_on_square icon
-  static const arrow_down_on_square = HeroIconDataSolid(0xe909);
+  /// HeroIcons' arrow down on square stack Icon
+  static const arrow_down_on_square_stack = HeroIconData(0xe90a);
 
-  ///HeroIconsSolid's arrow_down_on_square_stack icon
-  static const arrow_down_on_square_stack = HeroIconDataSolid(0xe90a);
+  /// HeroIcons' arrow down right Icon
+  static const arrow_down_right = HeroIconData(0xe90b);
 
-  ///HeroIconsSolid's arrow_down_right icon
-  static const arrow_down_right = HeroIconDataSolid(0xe90b);
+  /// HeroIcons' arrow down tray Icon
+  static const arrow_down_tray = HeroIconData(0xe90c);
 
-  ///HeroIconsSolid's arrow_down_tray icon
-  static const arrow_down_tray = HeroIconDataSolid(0xe90c);
+  /// HeroIcons' arrow left Icon
+  static const arrow_left = HeroIconData(0xe90d);
 
-  ///HeroIconsSolid's arrow_left icon
-  static const arrow_left = HeroIconDataSolid(0xe90d);
+  /// HeroIcons' arrow left circle Icon
+  static const arrow_left_circle = HeroIconData(0xe90e);
 
-  ///HeroIconsSolid's arrow_left_circle icon
-  static const arrow_left_circle = HeroIconDataSolid(0xe90e);
+  /// HeroIcons' arrow left on rectangle Icon
+  static const arrow_left_on_rectangle = HeroIconData(0xe90f);
 
-  ///HeroIconsSolid's arrow_left_on_rectangle icon
-  static const arrow_left_on_rectangle = HeroIconDataSolid(0xe90f);
+  /// HeroIcons' arrow long down Icon
+  static const arrow_long_down = HeroIconData(0xe910);
 
-  ///HeroIconsSolid's arrow_long_down icon
-  static const arrow_long_down = HeroIconDataSolid(0xe910);
+  /// HeroIcons' arrow long left Icon
+  static const arrow_long_left = HeroIconData(0xe911);
 
-  ///HeroIconsSolid's arrow_long_left icon
-  static const arrow_long_left = HeroIconDataSolid(0xe911);
+  /// HeroIcons' arrow long right Icon
+  static const arrow_long_right = HeroIconData(0xe912);
 
-  ///HeroIconsSolid's arrow_long_right icon
-  static const arrow_long_right = HeroIconDataSolid(0xe912);
+  /// HeroIcons' arrow long up Icon
+  static const arrow_long_up = HeroIconData(0xe913);
 
-  ///HeroIconsSolid's arrow_long_up icon
-  static const arrow_long_up = HeroIconDataSolid(0xe913);
+  /// HeroIcons' arrow path Icon
+  static const arrow_path = HeroIconData(0xe914);
 
-  ///HeroIconsSolid's arrow_path icon
-  static const arrow_path = HeroIconDataSolid(0xe914);
+  /// HeroIcons' arrow path rounded square Icon
+  static const arrow_path_rounded_square = HeroIconData(0xe915);
 
-  ///HeroIconsSolid's arrow_path_rounded_square icon
-  static const arrow_path_rounded_square = HeroIconDataSolid(0xe915);
+  /// HeroIcons' arrow right Icon
+  static const arrow_right = HeroIconData(0xe916);
 
-  ///HeroIconsSolid's arrow_right icon
-  static const arrow_right = HeroIconDataSolid(0xe916);
+  /// HeroIcons' arrow right circle Icon
+  static const arrow_right_circle = HeroIconData(0xe917);
 
-  ///HeroIconsSolid's arrow_right_circle icon
-  static const arrow_right_circle = HeroIconDataSolid(0xe917);
+  /// HeroIcons' arrow right on rectangle Icon
+  static const arrow_right_on_rectangle = HeroIconData(0xe918);
 
-  ///HeroIconsSolid's arrow_right_on_rectangle icon
-  static const arrow_right_on_rectangle = HeroIconDataSolid(0xe918);
+  /// HeroIcons' arrow small down Icon
+  static const arrow_small_down = HeroIconData(0xe919);
 
-  ///HeroIconsSolid's arrow_small_down icon
-  static const arrow_small_down = HeroIconDataSolid(0xe919);
+  /// HeroIcons' arrow small left Icon
+  static const arrow_small_left = HeroIconData(0xe91a);
 
-  ///HeroIconsSolid's arrow_small_left icon
-  static const arrow_small_left = HeroIconDataSolid(0xe91a);
+  /// HeroIcons' arrow small right Icon
+  static const arrow_small_right = HeroIconData(0xe91b);
 
-  ///HeroIconsSolid's arrow_small_right icon
-  static const arrow_small_right = HeroIconDataSolid(0xe91b);
+  /// HeroIcons' arrow small up Icon
+  static const arrow_small_up = HeroIconData(0xe91c);
 
-  ///HeroIconsSolid's arrow_small_up icon
-  static const arrow_small_up = HeroIconDataSolid(0xe91c);
+  /// HeroIcons' arrows pointing in Icon
+  static const arrows_pointing_in = HeroIconData(0xe91d);
 
-  ///HeroIconsSolid's arrows_pointing_in icon
-  static const arrows_pointing_in = HeroIconDataSolid(0xe91d);
+  /// HeroIcons' arrows pointing out Icon
+  static const arrows_pointing_out = HeroIconData(0xe91e);
 
-  ///HeroIconsSolid's arrows_pointing_out icon
-  static const arrows_pointing_out = HeroIconDataSolid(0xe91e);
+  /// HeroIcons' arrows right left Icon
+  static const arrows_right_left = HeroIconData(0xe91f);
 
-  ///HeroIconsSolid's arrows_right_left icon
-  static const arrows_right_left = HeroIconDataSolid(0xe91f);
+  /// HeroIcons' arrows up down Icon
+  static const arrows_up_down = HeroIconData(0xe920);
 
-  ///HeroIconsSolid's arrows_up_down icon
-  static const arrows_up_down = HeroIconDataSolid(0xe920);
+  /// HeroIcons' arrow top right on square Icon
+  static const arrow_top_right_on_square = HeroIconData(0xe921);
 
-  ///HeroIconsSolid's arrow_top_right_on_square icon
-  static const arrow_top_right_on_square = HeroIconDataSolid(0xe921);
+  /// HeroIcons' arrow trending down Icon
+  static const arrow_trending_down = HeroIconData(0xe922);
 
-  ///HeroIconsSolid's arrow_trending_down icon
-  static const arrow_trending_down = HeroIconDataSolid(0xe922);
+  /// HeroIcons' arrow trending up Icon
+  static const arrow_trending_up = HeroIconData(0xe923);
 
-  ///HeroIconsSolid's arrow_trending_up icon
-  static const arrow_trending_up = HeroIconDataSolid(0xe923);
+  /// HeroIcons' arrow up Icon
+  static const arrow_up = HeroIconData(0xe924);
 
-  ///HeroIconsSolid's arrow_up icon
-  static const arrow_up = HeroIconDataSolid(0xe924);
+  /// HeroIcons' arrow up circle Icon
+  static const arrow_up_circle = HeroIconData(0xe925);
 
-  ///HeroIconsSolid's arrow_up_circle icon
-  static const arrow_up_circle = HeroIconDataSolid(0xe925);
+  /// HeroIcons' arrow up left Icon
+  static const arrow_up_left = HeroIconData(0xe926);
 
-  ///HeroIconsSolid's arrow_up_left icon
-  static const arrow_up_left = HeroIconDataSolid(0xe926);
+  /// HeroIcons' arrow up on square Icon
+  static const arrow_up_on_square = HeroIconData(0xe927);
 
-  ///HeroIconsSolid's arrow_up_on_square icon
-  static const arrow_up_on_square = HeroIconDataSolid(0xe927);
+  /// HeroIcons' arrow up on square stack Icon
+  static const arrow_up_on_square_stack = HeroIconData(0xe928);
 
-  ///HeroIconsSolid's arrow_up_on_square_stack icon
-  static const arrow_up_on_square_stack = HeroIconDataSolid(0xe928);
+  /// HeroIcons' arrow up right Icon
+  static const arrow_up_right = HeroIconData(0xe929);
 
-  ///HeroIconsSolid's arrow_up_right icon
-  static const arrow_up_right = HeroIconDataSolid(0xe929);
+  /// HeroIcons' arrow up tray Icon
+  static const arrow_up_tray = HeroIconData(0xe92a);
 
-  ///HeroIconsSolid's arrow_up_tray icon
-  static const arrow_up_tray = HeroIconDataSolid(0xe92a);
+  /// HeroIcons' arrow uturn down Icon
+  static const arrow_uturn_down = HeroIconData(0xe92b);
 
-  ///HeroIconsSolid's arrow_uturn_down icon
-  static const arrow_uturn_down = HeroIconDataSolid(0xe92b);
+  /// HeroIcons' arrow uturn left Icon
+  static const arrow_uturn_left = HeroIconData(0xe92c);
 
-  ///HeroIconsSolid's arrow_uturn_left icon
-  static const arrow_uturn_left = HeroIconDataSolid(0xe92c);
+  /// HeroIcons' arrow uturn right Icon
+  static const arrow_uturn_right = HeroIconData(0xe92d);
 
-  ///HeroIconsSolid's arrow_uturn_right icon
-  static const arrow_uturn_right = HeroIconDataSolid(0xe92d);
+  /// HeroIcons' arrow uturn up Icon
+  static const arrow_uturn_up = HeroIconData(0xe92e);
 
-  ///HeroIconsSolid's arrow_uturn_up icon
-  static const arrow_uturn_up = HeroIconDataSolid(0xe92e);
+  /// HeroIcons' at symbol Icon
+  static const at_symbol = HeroIconData(0xe92f);
 
-  ///HeroIconsSolid's at_symbol icon
-  static const at_symbol = HeroIconDataSolid(0xe92f);
+  /// HeroIcons' backspace Icon
+  static const backspace = HeroIconData(0xe930);
 
-  ///HeroIconsSolid's backspace icon
-  static const backspace = HeroIconDataSolid(0xe930);
+  /// HeroIcons' backward Icon
+  static const backward = HeroIconData(0xe931);
 
-  ///HeroIconsSolid's backward icon
-  static const backward = HeroIconDataSolid(0xe931);
+  /// HeroIcons' banknotes Icon
+  static const banknotes = HeroIconData(0xe932);
 
-  ///HeroIconsSolid's banknotes icon
-  static const banknotes = HeroIconDataSolid(0xe932);
+  /// HeroIcons' bars 2 Icon
+  static const bars_2 = HeroIconData(0xe933);
 
-  ///HeroIconsSolid's bars_2 icon
-  static const bars_2 = HeroIconDataSolid(0xe933);
+  /// HeroIcons' bars 3 Icon
+  static const bars_3 = HeroIconData(0xe934);
 
-  ///HeroIconsSolid's bars_3 icon
-  static const bars_3 = HeroIconDataSolid(0xe934);
+  /// HeroIcons' bars 3 bottom left Icon
+  static const bars_3_bottom_left = HeroIconData(0xe935);
 
-  ///HeroIconsSolid's bars_3_bottom_left icon
-  static const bars_3_bottom_left = HeroIconDataSolid(0xe935);
+  /// HeroIcons' bars 3 bottom right Icon
+  static const bars_3_bottom_right = HeroIconData(0xe936);
 
-  ///HeroIconsSolid's bars_3_bottom_right icon
-  static const bars_3_bottom_right = HeroIconDataSolid(0xe936);
+  /// HeroIcons' bars 3 center left Icon
+  static const bars_3_center_left = HeroIconData(0xe937);
 
-  ///HeroIconsSolid's bars_3_center_left icon
-  static const bars_3_center_left = HeroIconDataSolid(0xe937);
+  /// HeroIcons' bars 4 Icon
+  static const bars_4 = HeroIconData(0xe938);
 
-  ///HeroIconsSolid's bars_4 icon
-  static const bars_4 = HeroIconDataSolid(0xe938);
+  /// HeroIcons' bars arrow down Icon
+  static const bars_arrow_down = HeroIconData(0xe939);
 
-  ///HeroIconsSolid's bars_arrow_down icon
-  static const bars_arrow_down = HeroIconDataSolid(0xe939);
+  /// HeroIcons' bars arrow up Icon
+  static const bars_arrow_up = HeroIconData(0xe93a);
 
-  ///HeroIconsSolid's bars_arrow_up icon
-  static const bars_arrow_up = HeroIconDataSolid(0xe93a);
+  /// HeroIcons' battery 0 Icon
+  static const battery_0 = HeroIconData(0xe93b);
 
-  ///HeroIconsSolid's battery_0 icon
-  static const battery_0 = HeroIconDataSolid(0xe93b);
+  /// HeroIcons' battery 50 Icon
+  static const battery_50 = HeroIconData(0xe93c);
 
-  ///HeroIconsSolid's battery_50 icon
-  static const battery_50 = HeroIconDataSolid(0xe93c);
+  /// HeroIcons' battery 100 Icon
+  static const battery_100 = HeroIconData(0xe93d);
 
-  ///HeroIconsSolid's battery_100 icon
-  static const battery_100 = HeroIconDataSolid(0xe93d);
+  /// HeroIcons' beaker Icon
+  static const beaker = HeroIconData(0xe93e);
 
-  ///HeroIconsSolid's beaker icon
-  static const beaker = HeroIconDataSolid(0xe93e);
+  /// HeroIcons' bell Icon
+  static const bell = HeroIconData(0xe93f);
 
-  ///HeroIconsSolid's bell icon
-  static const bell = HeroIconDataSolid(0xe93f);
+  /// HeroIcons' bell alert Icon
+  static const bell_alert = HeroIconData(0xe940);
 
-  ///HeroIconsSolid's bell_alert icon
-  static const bell_alert = HeroIconDataSolid(0xe940);
+  /// HeroIcons' bell slash Icon
+  static const bell_slash = HeroIconData(0xe941);
 
-  ///HeroIconsSolid's bell_slash icon
-  static const bell_slash = HeroIconDataSolid(0xe941);
+  /// HeroIcons' bell snooze Icon
+  static const bell_snooze = HeroIconData(0xe942);
 
-  ///HeroIconsSolid's bell_snooze icon
-  static const bell_snooze = HeroIconDataSolid(0xe942);
+  /// HeroIcons' bold Icon
+  static const bold = HeroIconData(0xe943);
 
-  ///HeroIconsSolid's bolt icon
-  static const bolt = HeroIconDataSolid(0xe943);
+  /// HeroIcons' bolt Icon
+  static const bolt = HeroIconData(0xe944);
 
-  ///HeroIconsSolid's bolt_slash icon
-  static const bolt_slash = HeroIconDataSolid(0xe944);
+  /// HeroIcons' bolt slash Icon
+  static const bolt_slash = HeroIconData(0xe945);
 
-  ///HeroIconsSolid's bookmark icon
-  static const bookmark = HeroIconDataSolid(0xe945);
+  /// HeroIcons' bookmark Icon
+  static const bookmark = HeroIconData(0xe946);
 
-  ///HeroIconsSolid's bookmark_slash icon
-  static const bookmark_slash = HeroIconDataSolid(0xe946);
+  /// HeroIcons' bookmark slash Icon
+  static const bookmark_slash = HeroIconData(0xe947);
 
-  ///HeroIconsSolid's bookmark_square icon
-  static const bookmark_square = HeroIconDataSolid(0xe947);
+  /// HeroIcons' bookmark square Icon
+  static const bookmark_square = HeroIconData(0xe948);
 
-  ///HeroIconsSolid's book_open icon
-  static const book_open = HeroIconDataSolid(0xe948);
+  /// HeroIcons' book open Icon
+  static const book_open = HeroIconData(0xe949);
 
-  ///HeroIconsSolid's briefcase icon
-  static const briefcase = HeroIconDataSolid(0xe949);
+  /// HeroIcons' briefcase Icon
+  static const briefcase = HeroIconData(0xe94a);
 
-  ///HeroIconsSolid's bug_ant icon
-  static const bug_ant = HeroIconDataSolid(0xe94a);
+  /// HeroIcons' bug ant Icon
+  static const bug_ant = HeroIconData(0xe94b);
 
-  ///HeroIconsSolid's building_library icon
-  static const building_library = HeroIconDataSolid(0xe94b);
+  /// HeroIcons' building library Icon
+  static const building_library = HeroIconData(0xe94c);
 
-  ///HeroIconsSolid's building_office icon
-  static const building_office = HeroIconDataSolid(0xe94c);
+  /// HeroIcons' building office Icon
+  static const building_office = HeroIconData(0xe94d);
 
-  ///HeroIconsSolid's building_office_2 icon
-  static const building_office_2 = HeroIconDataSolid(0xe94d);
+  /// HeroIcons' building office 2 Icon
+  static const building_office_2 = HeroIconData(0xe94e);
 
-  ///HeroIconsSolid's building_storefront icon
-  static const building_storefront = HeroIconDataSolid(0xe94e);
+  /// HeroIcons' building storefront Icon
+  static const building_storefront = HeroIconData(0xe94f);
 
-  ///HeroIconsSolid's cake icon
-  static const cake = HeroIconDataSolid(0xe94f);
+  /// HeroIcons' cake Icon
+  static const cake = HeroIconData(0xe950);
 
-  ///HeroIconsSolid's calculator icon
-  static const calculator = HeroIconDataSolid(0xe950);
+  /// HeroIcons' calculator Icon
+  static const calculator = HeroIconData(0xe951);
 
-  ///HeroIconsSolid's calendar icon
-  static const calendar = HeroIconDataSolid(0xe951);
+  /// HeroIcons' calendar Icon
+  static const calendar = HeroIconData(0xe952);
 
-  ///HeroIconsSolid's calendar_days icon
-  static const calendar_days = HeroIconDataSolid(0xe952);
+  /// HeroIcons' calendar days Icon
+  static const calendar_days = HeroIconData(0xe953);
 
-  ///HeroIconsSolid's camera icon
-  static const camera = HeroIconDataSolid(0xe953);
+  /// HeroIcons' camera Icon
+  static const camera = HeroIconData(0xe954);
 
-  ///HeroIconsSolid's chart_bar icon
-  static const chart_bar = HeroIconDataSolid(0xe954);
+  /// HeroIcons' chart bar Icon
+  static const chart_bar = HeroIconData(0xe955);
 
-  ///HeroIconsSolid's chart_bar_square icon
-  static const chart_bar_square = HeroIconDataSolid(0xe955);
+  /// HeroIcons' chart bar square Icon
+  static const chart_bar_square = HeroIconData(0xe956);
 
-  ///HeroIconsSolid's chart_pie icon
-  static const chart_pie = HeroIconDataSolid(0xe956);
+  /// HeroIcons' chart pie Icon
+  static const chart_pie = HeroIconData(0xe957);
 
-  ///HeroIconsSolid's chat_bubble_bottom_center icon
-  static const chat_bubble_bottom_center = HeroIconDataSolid(0xe957);
+  /// HeroIcons' chat bubble bottom center Icon
+  static const chat_bubble_bottom_center = HeroIconData(0xe958);
 
-  ///HeroIconsSolid's chat_bubble_bottom_center_text icon
-  static const chat_bubble_bottom_center_text = HeroIconDataSolid(0xe958);
+  /// HeroIcons' chat bubble bottom center text Icon
+  static const chat_bubble_bottom_center_text = HeroIconData(0xe959);
 
-  ///HeroIconsSolid's chat_bubble_left icon
-  static const chat_bubble_left = HeroIconDataSolid(0xe959);
+  /// HeroIcons' chat bubble left Icon
+  static const chat_bubble_left = HeroIconData(0xe95a);
 
-  ///HeroIconsSolid's chat_bubble_left_ellipsis icon
-  static const chat_bubble_left_ellipsis = HeroIconDataSolid(0xe95a);
+  /// HeroIcons' chat bubble left ellipsis Icon
+  static const chat_bubble_left_ellipsis = HeroIconData(0xe95b);
 
-  ///HeroIconsSolid's chat_bubble_left_right icon
-  static const chat_bubble_left_right = HeroIconDataSolid(0xe95b);
+  /// HeroIcons' chat bubble left right Icon
+  static const chat_bubble_left_right = HeroIconData(0xe95c);
 
-  ///HeroIconsSolid's chat_bubble_oval_left icon
-  static const chat_bubble_oval_left = HeroIconDataSolid(0xe95c);
+  /// HeroIcons' chat bubble oval left Icon
+  static const chat_bubble_oval_left = HeroIconData(0xe95d);
 
-  ///HeroIconsSolid's chat_bubble_oval_left_ellipsis icon
-  static const chat_bubble_oval_left_ellipsis = HeroIconDataSolid(0xe95d);
+  /// HeroIcons' chat bubble oval left ellipsis Icon
+  static const chat_bubble_oval_left_ellipsis = HeroIconData(0xe95e);
 
-  ///HeroIconsSolid's check icon
-  static const check = HeroIconDataSolid(0xe95e);
+  /// HeroIcons' check Icon
+  static const check = HeroIconData(0xe95f);
 
-  ///HeroIconsSolid's check_badge icon
-  static const check_badge = HeroIconDataSolid(0xe95f);
+  /// HeroIcons' check badge Icon
+  static const check_badge = HeroIconData(0xe960);
 
-  ///HeroIconsSolid's check_circle icon
-  static const check_circle = HeroIconDataSolid(0xe960);
+  /// HeroIcons' check circle Icon
+  static const check_circle = HeroIconData(0xe961);
 
-  ///HeroIconsSolid's chevron_double_down icon
-  static const chevron_double_down = HeroIconDataSolid(0xe961);
+  /// HeroIcons' chevron double down Icon
+  static const chevron_double_down = HeroIconData(0xe962);
 
-  ///HeroIconsSolid's chevron_double_left icon
-  static const chevron_double_left = HeroIconDataSolid(0xe962);
+  /// HeroIcons' chevron double left Icon
+  static const chevron_double_left = HeroIconData(0xe963);
 
-  ///HeroIconsSolid's chevron_double_right icon
-  static const chevron_double_right = HeroIconDataSolid(0xe963);
+  /// HeroIcons' chevron double right Icon
+  static const chevron_double_right = HeroIconData(0xe964);
 
-  ///HeroIconsSolid's chevron_double_up icon
-  static const chevron_double_up = HeroIconDataSolid(0xe964);
+  /// HeroIcons' chevron double up Icon
+  static const chevron_double_up = HeroIconData(0xe965);
 
-  ///HeroIconsSolid's chevron_down icon
-  static const chevron_down = HeroIconDataSolid(0xe965);
+  /// HeroIcons' chevron down Icon
+  static const chevron_down = HeroIconData(0xe966);
 
-  ///HeroIconsSolid's chevron_left icon
-  static const chevron_left = HeroIconDataSolid(0xe966);
+  /// HeroIcons' chevron left Icon
+  static const chevron_left = HeroIconData(0xe967);
 
-  ///HeroIconsSolid's chevron_right icon
-  static const chevron_right = HeroIconDataSolid(0xe967);
+  /// HeroIcons' chevron right Icon
+  static const chevron_right = HeroIconData(0xe968);
 
-  ///HeroIconsSolid's chevron_up icon
-  static const chevron_up = HeroIconDataSolid(0xe968);
+  /// HeroIcons' chevron up Icon
+  static const chevron_up = HeroIconData(0xe969);
 
-  ///HeroIconsSolid's chevron_up_down icon
-  static const chevron_up_down = HeroIconDataSolid(0xe969);
+  /// HeroIcons' chevron up down Icon
+  static const chevron_up_down = HeroIconData(0xe96a);
 
-  ///HeroIconsSolid's circle_stack icon
-  static const circle_stack = HeroIconDataSolid(0xe96a);
+  /// HeroIcons' circle stack Icon
+  static const circle_stack = HeroIconData(0xe96b);
 
-  ///HeroIconsSolid's clipboard icon
-  static const clipboard = HeroIconDataSolid(0xe96b);
+  /// HeroIcons' clipboard Icon
+  static const clipboard = HeroIconData(0xe96c);
 
-  ///HeroIconsSolid's clipboard_document icon
-  static const clipboard_document = HeroIconDataSolid(0xe96c);
+  /// HeroIcons' clipboard document Icon
+  static const clipboard_document = HeroIconData(0xe96d);
 
-  ///HeroIconsSolid's clipboard_document_check icon
-  static const clipboard_document_check = HeroIconDataSolid(0xe96d);
+  /// HeroIcons' clipboard document check Icon
+  static const clipboard_document_check = HeroIconData(0xe96e);
 
-  ///HeroIconsSolid's clipboard_document_list icon
-  static const clipboard_document_list = HeroIconDataSolid(0xe96e);
+  /// HeroIcons' clipboard document list Icon
+  static const clipboard_document_list = HeroIconData(0xe96f);
 
-  ///HeroIconsSolid's clock icon
-  static const clock = HeroIconDataSolid(0xe96f);
+  /// HeroIcons' clock Icon
+  static const clock = HeroIconData(0xe970);
 
-  ///HeroIconsSolid's cloud icon
-  static const cloud = HeroIconDataSolid(0xe970);
+  /// HeroIcons' cloud Icon
+  static const cloud = HeroIconData(0xe971);
 
-  ///HeroIconsSolid's cloud_arrow_down icon
-  static const cloud_arrow_down = HeroIconDataSolid(0xe971);
+  /// HeroIcons' cloud arrow down Icon
+  static const cloud_arrow_down = HeroIconData(0xe972);
 
-  ///HeroIconsSolid's cloud_arrow_up icon
-  static const cloud_arrow_up = HeroIconDataSolid(0xe972);
+  /// HeroIcons' cloud arrow up Icon
+  static const cloud_arrow_up = HeroIconData(0xe973);
 
-  ///HeroIconsSolid's code_bracket icon
-  static const code_bracket = HeroIconDataSolid(0xe973);
+  /// HeroIcons' code bracket Icon
+  static const code_bracket = HeroIconData(0xe974);
 
-  ///HeroIconsSolid's code_bracket_square icon
-  static const code_bracket_square = HeroIconDataSolid(0xe974);
+  /// HeroIcons' code bracket square Icon
+  static const code_bracket_square = HeroIconData(0xe975);
 
-  ///HeroIconsSolid's cog icon
-  static const cog = HeroIconDataSolid(0xe975);
+  /// HeroIcons' cog Icon
+  static const cog = HeroIconData(0xe976);
 
-  ///HeroIconsSolid's cog_6_tooth icon
-  static const cog_6_tooth = HeroIconDataSolid(0xe976);
+  /// HeroIcons' cog 6 tooth Icon
+  static const cog_6_tooth = HeroIconData(0xe977);
 
-  ///HeroIconsSolid's cog_8_tooth icon
-  static const cog_8_tooth = HeroIconDataSolid(0xe977);
+  /// HeroIcons' cog 8 tooth Icon
+  static const cog_8_tooth = HeroIconData(0xe978);
 
-  ///HeroIconsSolid's command_line icon
-  static const command_line = HeroIconDataSolid(0xe978);
+  /// HeroIcons' command line Icon
+  static const command_line = HeroIconData(0xe979);
 
-  ///HeroIconsSolid's computer_desktop icon
-  static const computer_desktop = HeroIconDataSolid(0xe979);
+  /// HeroIcons' computer desktop Icon
+  static const computer_desktop = HeroIconData(0xe97a);
 
-  ///HeroIconsSolid's cpu_chip icon
-  static const cpu_chip = HeroIconDataSolid(0xe97a);
+  /// HeroIcons' cpu chip Icon
+  static const cpu_chip = HeroIconData(0xe97b);
 
-  ///HeroIconsSolid's credit_card icon
-  static const credit_card = HeroIconDataSolid(0xe97b);
+  /// HeroIcons' credit card Icon
+  static const credit_card = HeroIconData(0xe97c);
 
-  ///HeroIconsSolid's cube icon
-  static const cube = HeroIconDataSolid(0xe97c);
+  /// HeroIcons' cube Icon
+  static const cube = HeroIconData(0xe97d);
 
-  ///HeroIconsSolid's cube_transparent icon
-  static const cube_transparent = HeroIconDataSolid(0xe97d);
+  /// HeroIcons' cube transparent Icon
+  static const cube_transparent = HeroIconData(0xe97e);
 
-  ///HeroIconsSolid's currency_bangladeshi icon
-  static const currency_bangladeshi = HeroIconDataSolid(0xe97e);
+  /// HeroIcons' currency bangladeshi Icon
+  static const currency_bangladeshi = HeroIconData(0xe97f);
 
-  ///HeroIconsSolid's currency_dollar icon
-  static const currency_dollar = HeroIconDataSolid(0xe97f);
+  /// HeroIcons' currency dollar Icon
+  static const currency_dollar = HeroIconData(0xe980);
 
-  ///HeroIconsSolid's currency_euro icon
-  static const currency_euro = HeroIconDataSolid(0xe980);
+  /// HeroIcons' currency euro Icon
+  static const currency_euro = HeroIconData(0xe981);
 
-  ///HeroIconsSolid's currency_pound icon
-  static const currency_pound = HeroIconDataSolid(0xe981);
+  /// HeroIcons' currency pound Icon
+  static const currency_pound = HeroIconData(0xe982);
 
-  ///HeroIconsSolid's currency_rupee icon
-  static const currency_rupee = HeroIconDataSolid(0xe982);
+  /// HeroIcons' currency rupee Icon
+  static const currency_rupee = HeroIconData(0xe983);
 
-  ///HeroIconsSolid's currency_yen icon
-  static const currency_yen = HeroIconDataSolid(0xe983);
+  /// HeroIcons' currency yen Icon
+  static const currency_yen = HeroIconData(0xe984);
 
-  ///HeroIconsSolid's cursor_arrow_rays icon
-  static const cursor_arrow_rays = HeroIconDataSolid(0xe984);
+  /// HeroIcons' cursor arrow rays Icon
+  static const cursor_arrow_rays = HeroIconData(0xe985);
 
-  ///HeroIconsSolid's cursor_arrow_ripple icon
-  static const cursor_arrow_ripple = HeroIconDataSolid(0xe985);
+  /// HeroIcons' cursor arrow ripple Icon
+  static const cursor_arrow_ripple = HeroIconData(0xe986);
 
-  ///HeroIconsSolid's device_phone_mobile icon
-  static const device_phone_mobile = HeroIconDataSolid(0xe986);
+  /// HeroIcons' device phone mobile Icon
+  static const device_phone_mobile = HeroIconData(0xe987);
 
-  ///HeroIconsSolid's device_tablet icon
-  static const device_tablet = HeroIconDataSolid(0xe987);
+  /// HeroIcons' device tablet Icon
+  static const device_tablet = HeroIconData(0xe988);
 
-  ///HeroIconsSolid's document icon
-  static const document = HeroIconDataSolid(0xe988);
+  /// HeroIcons' document Icon
+  static const document = HeroIconData(0xe989);
 
-  ///HeroIconsSolid's document_arrow_down icon
-  static const document_arrow_down = HeroIconDataSolid(0xe989);
+  /// HeroIcons' document arrow down Icon
+  static const document_arrow_down = HeroIconData(0xe98a);
 
-  ///HeroIconsSolid's document_arrow_up icon
-  static const document_arrow_up = HeroIconDataSolid(0xe98a);
+  /// HeroIcons' document arrow up Icon
+  static const document_arrow_up = HeroIconData(0xe98b);
 
-  ///HeroIconsSolid's document_chart_bar icon
-  static const document_chart_bar = HeroIconDataSolid(0xe98b);
+  /// HeroIcons' document chart bar Icon
+  static const document_chart_bar = HeroIconData(0xe98c);
 
-  ///HeroIconsSolid's document_check icon
-  static const document_check = HeroIconDataSolid(0xe98c);
+  /// HeroIcons' document check Icon
+  static const document_check = HeroIconData(0xe98d);
 
-  ///HeroIconsSolid's document_duplicate icon
-  static const document_duplicate = HeroIconDataSolid(0xe98d);
+  /// HeroIcons' document duplicate Icon
+  static const document_duplicate = HeroIconData(0xe98e);
 
-  ///HeroIconsSolid's document_magnifying_glass icon
-  static const document_magnifying_glass = HeroIconDataSolid(0xe98e);
+  /// HeroIcons' document magnifying glass Icon
+  static const document_magnifying_glass = HeroIconData(0xe98f);
 
-  ///HeroIconsSolid's document_minus icon
-  static const document_minus = HeroIconDataSolid(0xe98f);
+  /// HeroIcons' document minus Icon
+  static const document_minus = HeroIconData(0xe990);
 
-  ///HeroIconsSolid's document_plus icon
-  static const document_plus = HeroIconDataSolid(0xe990);
+  /// HeroIcons' document plus Icon
+  static const document_plus = HeroIconData(0xe991);
 
-  ///HeroIconsSolid's document_text icon
-  static const document_text = HeroIconDataSolid(0xe991);
+  /// HeroIcons' document text Icon
+  static const document_text = HeroIconData(0xe992);
 
-  ///HeroIconsSolid's ellipsis_horizontal icon
-  static const ellipsis_horizontal = HeroIconDataSolid(0xe992);
+  /// HeroIcons' ellipsis horizontal Icon
+  static const ellipsis_horizontal = HeroIconData(0xe993);
 
-  ///HeroIconsSolid's ellipsis_horizontal_circle icon
-  static const ellipsis_horizontal_circle = HeroIconDataSolid(0xe993);
+  /// HeroIcons' ellipsis horizontal circle Icon
+  static const ellipsis_horizontal_circle = HeroIconData(0xe994);
 
-  ///HeroIconsSolid's ellipsis_vertical icon
-  static const ellipsis_vertical = HeroIconDataSolid(0xe994);
+  /// HeroIcons' ellipsis vertical Icon
+  static const ellipsis_vertical = HeroIconData(0xe995);
 
-  ///HeroIconsSolid's envelope icon
-  static const envelope = HeroIconDataSolid(0xe995);
+  /// HeroIcons' envelope Icon
+  static const envelope = HeroIconData(0xe996);
 
-  ///HeroIconsSolid's envelope_open icon
-  static const envelope_open = HeroIconDataSolid(0xe996);
+  /// HeroIcons' envelope open Icon
+  static const envelope_open = HeroIconData(0xe997);
 
-  ///HeroIconsSolid's exclamation_circle icon
-  static const exclamation_circle = HeroIconDataSolid(0xe997);
+  /// HeroIcons' exclamation circle Icon
+  static const exclamation_circle = HeroIconData(0xe998);
 
-  ///HeroIconsSolid's exclamation_triangle icon
-  static const exclamation_triangle = HeroIconDataSolid(0xe998);
+  /// HeroIcons' exclamation triangle Icon
+  static const exclamation_triangle = HeroIconData(0xe999);
 
-  ///HeroIconsSolid's eye icon
-  static const eye = HeroIconDataSolid(0xe999);
+  /// HeroIcons' eye Icon
+  static const eye = HeroIconData(0xe99a);
 
-  ///HeroIconsSolid's eye_dropper icon
-  static const eye_dropper = HeroIconDataSolid(0xe99a);
+  /// HeroIcons' eye dropper Icon
+  static const eye_dropper = HeroIconData(0xe99b);
 
-  ///HeroIconsSolid's eye_slash icon
-  static const eye_slash = HeroIconDataSolid(0xe99b);
+  /// HeroIcons' eye slash Icon
+  static const eye_slash = HeroIconData(0xe99c);
 
-  ///HeroIconsSolid's face_frown icon
-  static const face_frown = HeroIconDataSolid(0xe99c);
+  /// HeroIcons' face frown Icon
+  static const face_frown = HeroIconData(0xe99d);
 
-  ///HeroIconsSolid's face_smile icon
-  static const face_smile = HeroIconDataSolid(0xe99d);
+  /// HeroIcons' face smile Icon
+  static const face_smile = HeroIconData(0xe99e);
 
-  ///HeroIconsSolid's film icon
-  static const film = HeroIconDataSolid(0xe99e);
+  /// HeroIcons' film Icon
+  static const film = HeroIconData(0xe99f);
 
-  ///HeroIconsSolid's finger_print icon
-  static const finger_print = HeroIconDataSolid(0xe99f);
+  /// HeroIcons' finger print Icon
+  static const finger_print = HeroIconData(0xe9a0);
 
-  ///HeroIconsSolid's fire icon
-  static const fire = HeroIconDataSolid(0xe9a0);
+  /// HeroIcons' fire Icon
+  static const fire = HeroIconData(0xe9a1);
 
-  ///HeroIconsSolid's flag icon
-  static const flag = HeroIconDataSolid(0xe9a1);
+  /// HeroIcons' flag Icon
+  static const flag = HeroIconData(0xe9a2);
 
-  ///HeroIconsSolid's folder icon
-  static const folder = HeroIconDataSolid(0xe9a2);
+  /// HeroIcons' folder Icon
+  static const folder = HeroIconData(0xe9a3);
 
-  ///HeroIconsSolid's folder_arrow_down icon
-  static const folder_arrow_down = HeroIconDataSolid(0xe9a3);
+  /// HeroIcons' folder arrow down Icon
+  static const folder_arrow_down = HeroIconData(0xe9a4);
 
-  ///HeroIconsSolid's folder_minus icon
-  static const folder_minus = HeroIconDataSolid(0xe9a4);
+  /// HeroIcons' folder minus Icon
+  static const folder_minus = HeroIconData(0xe9a5);
 
-  ///HeroIconsSolid's folder_open icon
-  static const folder_open = HeroIconDataSolid(0xe9a5);
+  /// HeroIcons' folder open Icon
+  static const folder_open = HeroIconData(0xe9a6);
 
-  ///HeroIconsSolid's folder_plus icon
-  static const folder_plus = HeroIconDataSolid(0xe9a6);
+  /// HeroIcons' folder plus Icon
+  static const folder_plus = HeroIconData(0xe9a7);
 
-  ///HeroIconsSolid's forward icon
-  static const forward = HeroIconDataSolid(0xe9a7);
+  /// HeroIcons' forward Icon
+  static const forward = HeroIconData(0xe9a8);
 
-  ///HeroIconsSolid's funnel icon
-  static const funnel = HeroIconDataSolid(0xe9a8);
+  /// HeroIcons' funnel Icon
+  static const funnel = HeroIconData(0xe9a9);
 
-  ///HeroIconsSolid's gif icon
-  static const gif = HeroIconDataSolid(0xe9a9);
+  /// HeroIcons' gif Icon
+  static const gif = HeroIconData(0xe9aa);
 
-  ///HeroIconsSolid's gift icon
-  static const gift = HeroIconDataSolid(0xe9aa);
+  /// HeroIcons' gift Icon
+  static const gift = HeroIconData(0xe9ab);
 
-  ///HeroIconsSolid's gift_top icon
-  static const gift_top = HeroIconDataSolid(0xe9ab);
+  /// HeroIcons' gift top Icon
+  static const gift_top = HeroIconData(0xe9ac);
 
-  ///HeroIconsSolid's globe_alt icon
-  static const globe_alt = HeroIconDataSolid(0xe9ac);
+  /// HeroIcons' globe alt Icon
+  static const globe_alt = HeroIconData(0xe9ad);
 
-  ///HeroIconsSolid's globe_americas icon
-  static const globe_americas = HeroIconDataSolid(0xe9ad);
+  /// HeroIcons' globe americas Icon
+  static const globe_americas = HeroIconData(0xe9ae);
 
-  ///HeroIconsSolid's globe_asia_australia icon
-  static const globe_asia_australia = HeroIconDataSolid(0xe9ae);
+  /// HeroIcons' globe asia australia Icon
+  static const globe_asia_australia = HeroIconData(0xe9af);
 
-  ///HeroIconsSolid's globe_europe_africa icon
-  static const globe_europe_africa = HeroIconDataSolid(0xe9af);
+  /// HeroIcons' globe europe africa Icon
+  static const globe_europe_africa = HeroIconData(0xe9b0);
 
-  ///HeroIconsSolid's hand_raised icon
-  static const hand_raised = HeroIconDataSolid(0xe9b0);
+  /// HeroIcons' hand raised Icon
+  static const hand_raised = HeroIconData(0xe9b1);
 
-  ///HeroIconsSolid's hand_thumb_down icon
-  static const hand_thumb_down = HeroIconDataSolid(0xe9b1);
+  /// HeroIcons' hand thumb down Icon
+  static const hand_thumb_down = HeroIconData(0xe9b2);
 
-  ///HeroIconsSolid's hand_thumb_up icon
-  static const hand_thumb_up = HeroIconDataSolid(0xe9b2);
+  /// HeroIcons' hand thumb up Icon
+  static const hand_thumb_up = HeroIconData(0xe9b3);
 
-  ///HeroIconsSolid's hashtag icon
-  static const hashtag = HeroIconDataSolid(0xe9b3);
+  /// HeroIcons' hashtag Icon
+  static const hashtag = HeroIconData(0xe9b4);
 
-  ///HeroIconsSolid's heart icon
-  static const heart = HeroIconDataSolid(0xe9b4);
+  /// HeroIcons' heart Icon
+  static const heart = HeroIconData(0xe9b5);
 
-  ///HeroIconsSolid's home icon
-  static const home = HeroIconDataSolid(0xe9b5);
+  /// HeroIcons' home Icon
+  static const home = HeroIconData(0xe9b6);
 
-  ///HeroIconsSolid's home_modern icon
-  static const home_modern = HeroIconDataSolid(0xe9b6);
+  /// HeroIcons' home modern Icon
+  static const home_modern = HeroIconData(0xe9b7);
 
-  ///HeroIconsSolid's identification icon
-  static const identification = HeroIconDataSolid(0xe9b7);
+  /// HeroIcons' identification Icon
+  static const identification = HeroIconData(0xe9b8);
 
-  ///HeroIconsSolid's inbox icon
-  static const inbox = HeroIconDataSolid(0xe9b8);
+  /// HeroIcons' inbox Icon
+  static const inbox = HeroIconData(0xe9b9);
 
-  ///HeroIconsSolid's inbox_arrow_down icon
-  static const inbox_arrow_down = HeroIconDataSolid(0xe9b9);
+  /// HeroIcons' inbox arrow down Icon
+  static const inbox_arrow_down = HeroIconData(0xe9ba);
 
-  ///HeroIconsSolid's inbox_stack icon
-  static const inbox_stack = HeroIconDataSolid(0xe9ba);
+  /// HeroIcons' inbox stack Icon
+  static const inbox_stack = HeroIconData(0xe9bb);
 
-  ///HeroIconsSolid's information_circle icon
-  static const information_circle = HeroIconDataSolid(0xe9bb);
+  /// HeroIcons' information circle Icon
+  static const information_circle = HeroIconData(0xe9bc);
 
-  ///HeroIconsSolid's key icon
-  static const key = HeroIconDataSolid(0xe9bc);
+  /// HeroIcons' italic Icon
+  static const italic = HeroIconData(0xe9bd);
 
-  ///HeroIconsSolid's language icon
-  static const language = HeroIconDataSolid(0xe9bd);
+  /// HeroIcons' key Icon
+  static const key = HeroIconData(0xe9be);
 
-  ///HeroIconsSolid's lifebuoy icon
-  static const lifebuoy = HeroIconDataSolid(0xe9be);
+  /// HeroIcons' language Icon
+  static const language = HeroIconData(0xe9bf);
 
-  ///HeroIconsSolid's light_bulb icon
-  static const light_bulb = HeroIconDataSolid(0xe9bf);
+  /// HeroIcons' lifebuoy Icon
+  static const lifebuoy = HeroIconData(0xe9c0);
 
-  ///HeroIconsSolid's link icon
-  static const link = HeroIconDataSolid(0xe9c0);
+  /// HeroIcons' light bulb Icon
+  static const light_bulb = HeroIconData(0xe9c1);
 
-  ///HeroIconsSolid's list_bullet icon
-  static const list_bullet = HeroIconDataSolid(0xe9c1);
+  /// HeroIcons' link Icon
+  static const link = HeroIconData(0xe9c2);
 
-  ///HeroIconsSolid's lock_closed icon
-  static const lock_closed = HeroIconDataSolid(0xe9c2);
+  /// HeroIcons' list bullet Icon
+  static const list_bullet = HeroIconData(0xe9c3);
 
-  ///HeroIconsSolid's lock_open icon
-  static const lock_open = HeroIconDataSolid(0xe9c3);
+  /// HeroIcons' lock closed Icon
+  static const lock_closed = HeroIconData(0xe9c4);
 
-  ///HeroIconsSolid's magnifying_glass icon
-  static const magnifying_glass = HeroIconDataSolid(0xe9c4);
+  /// HeroIcons' lock open Icon
+  static const lock_open = HeroIconData(0xe9c5);
 
-  ///HeroIconsSolid's magnifying_glass_circle icon
-  static const magnifying_glass_circle = HeroIconDataSolid(0xe9c5);
+  /// HeroIcons' magnifying glass Icon
+  static const magnifying_glass = HeroIconData(0xe9c6);
 
-  ///HeroIconsSolid's magnifying_glass_minus icon
-  static const magnifying_glass_minus = HeroIconDataSolid(0xe9c6);
+  /// HeroIcons' magnifying glass circle Icon
+  static const magnifying_glass_circle = HeroIconData(0xe9c7);
 
-  ///HeroIconsSolid's magnifying_glass_plus icon
-  static const magnifying_glass_plus = HeroIconDataSolid(0xe9c7);
+  /// HeroIcons' magnifying glass minus Icon
+  static const magnifying_glass_minus = HeroIconData(0xe9c8);
 
-  ///HeroIconsSolid's map icon
-  static const map = HeroIconDataSolid(0xe9c8);
+  /// HeroIcons' magnifying glass plus Icon
+  static const magnifying_glass_plus = HeroIconData(0xe9c9);
 
-  ///HeroIconsSolid's map_pin icon
-  static const map_pin = HeroIconDataSolid(0xe9c9);
+  /// HeroIcons' map Icon
+  static const map = HeroIconData(0xe9ca);
 
-  ///HeroIconsSolid's megaphone icon
-  static const megaphone = HeroIconDataSolid(0xe9ca);
+  /// HeroIcons' map pin Icon
+  static const map_pin = HeroIconData(0xe9cb);
 
-  ///HeroIconsSolid's microphone icon
-  static const microphone = HeroIconDataSolid(0xe9cb);
+  /// HeroIcons' megaphone Icon
+  static const megaphone = HeroIconData(0xe9cc);
 
-  ///HeroIconsSolid's minus icon
-  static const minus = HeroIconDataSolid(0xe9cc);
+  /// HeroIcons' microphone Icon
+  static const microphone = HeroIconData(0xe9cd);
 
-  ///HeroIconsSolid's minus_circle icon
-  static const minus_circle = HeroIconDataSolid(0xe9cd);
+  /// HeroIcons' minus Icon
+  static const minus = HeroIconData(0xe9ce);
 
-  ///HeroIconsSolid's minus_small icon
-  static const minus_small = HeroIconDataSolid(0xe9ce);
+  /// HeroIcons' minus circle Icon
+  static const minus_circle = HeroIconData(0xe9cf);
 
-  ///HeroIconsSolid's moon icon
-  static const moon = HeroIconDataSolid(0xe9cf);
+  /// HeroIcons' minus small Icon
+  static const minus_small = HeroIconData(0xe9d0);
 
-  ///HeroIconsSolid's musical_note icon
-  static const musical_note = HeroIconDataSolid(0xe9d0);
+  /// HeroIcons' moon Icon
+  static const moon = HeroIconData(0xe9d1);
 
-  ///HeroIconsSolid's newspaper icon
-  static const newspaper = HeroIconDataSolid(0xe9d1);
+  /// HeroIcons' musical note Icon
+  static const musical_note = HeroIconData(0xe9d2);
 
-  ///HeroIconsSolid's no_symbol icon
-  static const no_symbol = HeroIconDataSolid(0xe9d2);
+  /// HeroIcons' newspaper Icon
+  static const newspaper = HeroIconData(0xe9d3);
 
-  ///HeroIconsSolid's paint_brush icon
-  static const paint_brush = HeroIconDataSolid(0xe9d3);
+  /// HeroIcons' no symbol Icon
+  static const no_symbol = HeroIconData(0xe9d4);
 
-  ///HeroIconsSolid's paper_airplane icon
-  static const paper_airplane = HeroIconDataSolid(0xe9d4);
+  /// HeroIcons' paint brush Icon
+  static const paint_brush = HeroIconData(0xe9d5);
 
-  ///HeroIconsSolid's paper_clip icon
-  static const paper_clip = HeroIconDataSolid(0xe9d5);
+  /// HeroIcons' paper airplane Icon
+  static const paper_airplane = HeroIconData(0xe9d6);
 
-  ///HeroIconsSolid's pause icon
-  static const pause = HeroIconDataSolid(0xe9d6);
+  /// HeroIcons' paper clip Icon
+  static const paper_clip = HeroIconData(0xe9d7);
 
-  ///HeroIconsSolid's pause_circle icon
-  static const pause_circle = HeroIconDataSolid(0xe9d7);
+  /// HeroIcons' pause Icon
+  static const pause = HeroIconData(0xe9d8);
 
-  ///HeroIconsSolid's pencil icon
-  static const pencil = HeroIconDataSolid(0xe9d8);
+  /// HeroIcons' pause circle Icon
+  static const pause_circle = HeroIconData(0xe9d9);
 
-  ///HeroIconsSolid's pencil_square icon
-  static const pencil_square = HeroIconDataSolid(0xe9d9);
+  /// HeroIcons' pencil Icon
+  static const pencil = HeroIconData(0xe9da);
 
-  ///HeroIconsSolid's phone icon
-  static const phone = HeroIconDataSolid(0xe9da);
+  /// HeroIcons' pencil square Icon
+  static const pencil_square = HeroIconData(0xe9db);
 
-  ///HeroIconsSolid's phone_arrow_down_left icon
-  static const phone_arrow_down_left = HeroIconDataSolid(0xe9db);
+  /// HeroIcons' phone Icon
+  static const phone = HeroIconData(0xe9dc);
 
-  ///HeroIconsSolid's phone_arrow_up_right icon
-  static const phone_arrow_up_right = HeroIconDataSolid(0xe9dc);
+  /// HeroIcons' phone arrow down left Icon
+  static const phone_arrow_down_left = HeroIconData(0xe9dd);
 
-  ///HeroIconsSolid's phone_x_mark icon
-  static const phone_x_mark = HeroIconDataSolid(0xe9dd);
+  /// HeroIcons' phone arrow up right Icon
+  static const phone_arrow_up_right = HeroIconData(0xe9de);
 
-  ///HeroIconsSolid's photo icon
-  static const photo = HeroIconDataSolid(0xe9de);
+  /// HeroIcons' phone x mark Icon
+  static const phone_x_mark = HeroIconData(0xe9df);
 
-  ///HeroIconsSolid's play icon
-  static const play = HeroIconDataSolid(0xe9df);
+  /// HeroIcons' photo Icon
+  static const photo = HeroIconData(0xe9e0);
 
-  ///HeroIconsSolid's play_circle icon
-  static const play_circle = HeroIconDataSolid(0xe9e0);
+  /// HeroIcons' play Icon
+  static const play = HeroIconData(0xe9e1);
 
-  ///HeroIconsSolid's play_pause icon
-  static const play_pause = HeroIconDataSolid(0xe9e1);
+  /// HeroIcons' play circle Icon
+  static const play_circle = HeroIconData(0xe9e2);
 
-  ///HeroIconsSolid's plus icon
-  static const plus = HeroIconDataSolid(0xe9e2);
+  /// HeroIcons' play pause Icon
+  static const play_pause = HeroIconData(0xe9e3);
 
-  ///HeroIconsSolid's plus_circle icon
-  static const plus_circle = HeroIconDataSolid(0xe9e3);
+  /// HeroIcons' plus Icon
+  static const plus = HeroIconData(0xe9e4);
 
-  ///HeroIconsSolid's plus_small icon
-  static const plus_small = HeroIconDataSolid(0xe9e4);
+  /// HeroIcons' plus circle Icon
+  static const plus_circle = HeroIconData(0xe9e5);
 
-  ///HeroIconsSolid's power icon
-  static const power = HeroIconDataSolid(0xe9e5);
+  /// HeroIcons' plus small Icon
+  static const plus_small = HeroIconData(0xe9e6);
 
-  ///HeroIconsSolid's presentation_chart_bar icon
-  static const presentation_chart_bar = HeroIconDataSolid(0xe9e6);
+  /// HeroIcons' power Icon
+  static const power = HeroIconData(0xe9e7);
 
-  ///HeroIconsSolid's presentation_chart_line icon
-  static const presentation_chart_line = HeroIconDataSolid(0xe9e7);
+  /// HeroIcons' presentation chart bar Icon
+  static const presentation_chart_bar = HeroIconData(0xe9e8);
 
-  ///HeroIconsSolid's printer icon
-  static const printer = HeroIconDataSolid(0xe9e8);
+  /// HeroIcons' presentation chart line Icon
+  static const presentation_chart_line = HeroIconData(0xe9e9);
 
-  ///HeroIconsSolid's puzzle_piece icon
-  static const puzzle_piece = HeroIconDataSolid(0xe9e9);
+  /// HeroIcons' printer Icon
+  static const printer = HeroIconData(0xe9ea);
 
-  ///HeroIconsSolid's qr_code icon
-  static const qr_code = HeroIconDataSolid(0xe9ea);
+  /// HeroIcons' puzzle piece Icon
+  static const puzzle_piece = HeroIconData(0xe9eb);
 
-  ///HeroIconsSolid's question_mark_circle icon
-  static const question_mark_circle = HeroIconDataSolid(0xe9eb);
+  /// HeroIcons' qr code Icon
+  static const qr_code = HeroIconData(0xe9ec);
 
-  ///HeroIconsSolid's queue_list icon
-  static const queue_list = HeroIconDataSolid(0xe9ec);
+  /// HeroIcons' question mark circle Icon
+  static const question_mark_circle = HeroIconData(0xe9ed);
 
-  ///HeroIconsSolid's radio icon
-  static const radio = HeroIconDataSolid(0xe9ed);
+  /// HeroIcons' queue list Icon
+  static const queue_list = HeroIconData(0xe9ee);
 
-  ///HeroIconsSolid's receipt_percent icon
-  static const receipt_percent = HeroIconDataSolid(0xe9ee);
+  /// HeroIcons' radio Icon
+  static const radio = HeroIconData(0xe9ef);
 
-  ///HeroIconsSolid's receipt_refund icon
-  static const receipt_refund = HeroIconDataSolid(0xe9ef);
+  /// HeroIcons' receipt percent Icon
+  static const receipt_percent = HeroIconData(0xe9f0);
 
-  ///HeroIconsSolid's rectangle_group icon
-  static const rectangle_group = HeroIconDataSolid(0xe9f0);
+  /// HeroIcons' receipt refund Icon
+  static const receipt_refund = HeroIconData(0xe9f1);
 
-  ///HeroIconsSolid's rectangle_stack icon
-  static const rectangle_stack = HeroIconDataSolid(0xe9f1);
+  /// HeroIcons' rectangle group Icon
+  static const rectangle_group = HeroIconData(0xe9f2);
 
-  ///HeroIconsSolid's rocket_launch icon
-  static const rocket_launch = HeroIconDataSolid(0xe9f2);
+  /// HeroIcons' rectangle stack Icon
+  static const rectangle_stack = HeroIconData(0xe9f3);
 
-  ///HeroIconsSolid's rss icon
-  static const rss = HeroIconDataSolid(0xe9f3);
+  /// HeroIcons' rocket launch Icon
+  static const rocket_launch = HeroIconData(0xe9f4);
 
-  ///HeroIconsSolid's scale icon
-  static const scale = HeroIconDataSolid(0xe9f4);
+  /// HeroIcons' rss Icon
+  static const rss = HeroIconData(0xe9f5);
 
-  ///HeroIconsSolid's scissors icon
-  static const scissors = HeroIconDataSolid(0xe9f5);
+  /// HeroIcons' scale Icon
+  static const scale = HeroIconData(0xe9f6);
 
-  ///HeroIconsSolid's server icon
-  static const server = HeroIconDataSolid(0xe9f6);
+  /// HeroIcons' scissors Icon
+  static const scissors = HeroIconData(0xe9f7);
 
-  ///HeroIconsSolid's server_stack icon
-  static const server_stack = HeroIconDataSolid(0xe9f7);
+  /// HeroIcons' server Icon
+  static const server = HeroIconData(0xe9f8);
 
-  ///HeroIconsSolid's share icon
-  static const share = HeroIconDataSolid(0xe9f8);
+  /// HeroIcons' server stack Icon
+  static const server_stack = HeroIconData(0xe9f9);
 
-  ///HeroIconsSolid's shield_check icon
-  static const shield_check = HeroIconDataSolid(0xe9f9);
+  /// HeroIcons' share Icon
+  static const share = HeroIconData(0xe9fa);
 
-  ///HeroIconsSolid's shield_exclamation icon
-  static const shield_exclamation = HeroIconDataSolid(0xe9fa);
+  /// HeroIcons' shield check Icon
+  static const shield_check = HeroIconData(0xe9fb);
 
-  ///HeroIconsSolid's shopping_bag icon
-  static const shopping_bag = HeroIconDataSolid(0xe9fb);
+  /// HeroIcons' shield exclamation Icon
+  static const shield_exclamation = HeroIconData(0xe9fc);
 
-  ///HeroIconsSolid's shopping_cart icon
-  static const shopping_cart = HeroIconDataSolid(0xe9fc);
+  /// HeroIcons' shopping bag Icon
+  static const shopping_bag = HeroIconData(0xe9fd);
 
-  ///HeroIconsSolid's signal icon
-  static const signal = HeroIconDataSolid(0xe9fd);
+  /// HeroIcons' shopping cart Icon
+  static const shopping_cart = HeroIconData(0xe9fe);
 
-  ///HeroIconsSolid's signal_slash icon
-  static const signal_slash = HeroIconDataSolid(0xe9fe);
+  /// HeroIcons' signal Icon
+  static const signal = HeroIconData(0xe9ff);
 
-  ///HeroIconsSolid's sparkles icon
-  static const sparkles = HeroIconDataSolid(0xe9ff);
+  /// HeroIcons' signal slash Icon
+  static const signal_slash = HeroIconData(0xea00);
 
-  ///HeroIconsSolid's speaker_wave icon
-  static const speaker_wave = HeroIconDataSolid(0xea00);
+  /// HeroIcons' sparkles Icon
+  static const sparkles = HeroIconData(0xea01);
 
-  ///HeroIconsSolid's speaker_x_mark icon
-  static const speaker_x_mark = HeroIconDataSolid(0xea01);
+  /// HeroIcons' speaker wave Icon
+  static const speaker_wave = HeroIconData(0xea02);
 
-  ///HeroIconsSolid's square_2_stack icon
-  static const square_2_stack = HeroIconDataSolid(0xea02);
+  /// HeroIcons' speaker x mark Icon
+  static const speaker_x_mark = HeroIconData(0xea03);
 
-  ///HeroIconsSolid's square_3_stack_3d icon
-  static const square_3_stack_3d = HeroIconDataSolid(0xea03);
+  /// HeroIcons' square 2 stack Icon
+  static const square_2_stack = HeroIconData(0xea04);
 
-  ///HeroIconsSolid's squares_2x2 icon
-  static const squares_2x2 = HeroIconDataSolid(0xea04);
+  /// HeroIcons' square 3 stack 3d Icon
+  static const square_3_stack_3d = HeroIconData(0xea05);
 
-  ///HeroIconsSolid's squares_plus icon
-  static const squares_plus = HeroIconDataSolid(0xea05);
+  /// HeroIcons' squares 2x2 Icon
+  static const squares_2x2 = HeroIconData(0xea06);
 
-  ///HeroIconsSolid's star icon
-  static const star = HeroIconDataSolid(0xea06);
+  /// HeroIcons' squares plus Icon
+  static const squares_plus = HeroIconData(0xea07);
 
-  ///HeroIconsSolid's stop icon
-  static const stop = HeroIconDataSolid(0xea07);
+  /// HeroIcons' star Icon
+  static const star = HeroIconData(0xea08);
 
-  ///HeroIconsSolid's stop_circle icon
-  static const stop_circle = HeroIconDataSolid(0xea08);
+  /// HeroIcons' stop Icon
+  static const stop = HeroIconData(0xea09);
 
-  ///HeroIconsSolid's sun icon
-  static const sun = HeroIconDataSolid(0xea09);
+  /// HeroIcons' stop circle Icon
+  static const stop_circle = HeroIconData(0xea0a);
 
-  ///HeroIconsSolid's swatch icon
-  static const swatch = HeroIconDataSolid(0xea0a);
+  /// HeroIcons' sun Icon
+  static const sun = HeroIconData(0xea0b);
 
-  ///HeroIconsSolid's table_cells icon
-  static const table_cells = HeroIconDataSolid(0xea0b);
+  /// HeroIcons' swatch Icon
+  static const swatch = HeroIconData(0xea0c);
 
-  ///HeroIconsSolid's tag icon
-  static const tag = HeroIconDataSolid(0xea0c);
+  /// HeroIcons' table cells Icon
+  static const table_cells = HeroIconData(0xea0d);
 
-  ///HeroIconsSolid's ticket icon
-  static const ticket = HeroIconDataSolid(0xea0d);
+  /// HeroIcons' tag Icon
+  static const tag = HeroIconData(0xea0e);
 
-  ///HeroIconsSolid's trash icon
-  static const trash = HeroIconDataSolid(0xea0e);
+  /// HeroIcons' ticket Icon
+  static const ticket = HeroIconData(0xea0f);
 
-  ///HeroIconsSolid's trophy icon
-  static const trophy = HeroIconDataSolid(0xea0f);
+  /// HeroIcons' trash Icon
+  static const trash = HeroIconData(0xea10);
 
-  ///HeroIconsSolid's truck icon
-  static const truck = HeroIconDataSolid(0xea10);
+  /// HeroIcons' trophy Icon
+  static const trophy = HeroIconData(0xea11);
 
-  ///HeroIconsSolid's tv icon
-  static const tv = HeroIconDataSolid(0xea11);
+  /// HeroIcons' truck Icon
+  static const truck = HeroIconData(0xea12);
 
-  ///HeroIconsSolid's user icon
-  static const user = HeroIconDataSolid(0xea12);
+  /// HeroIcons' tv Icon
+  static const tv = HeroIconData(0xea13);
 
-  ///HeroIconsSolid's user_circle icon
-  static const user_circle = HeroIconDataSolid(0xea13);
+  /// HeroIcons' underline Icon
+  static const underline = HeroIconData(0xea14);
 
-  ///HeroIconsSolid's user_group icon
-  static const user_group = HeroIconDataSolid(0xea14);
+  /// HeroIcons' user Icon
+  static const user = HeroIconData(0xea15);
 
-  ///HeroIconsSolid's user_minus icon
-  static const user_minus = HeroIconDataSolid(0xea15);
+  /// HeroIcons' user circle Icon
+  static const user_circle = HeroIconData(0xea16);
 
-  ///HeroIconsSolid's user_plus icon
-  static const user_plus = HeroIconDataSolid(0xea16);
+  /// HeroIcons' user group Icon
+  static const user_group = HeroIconData(0xea17);
 
-  ///HeroIconsSolid's users icon
-  static const users = HeroIconDataSolid(0xea17);
+  /// HeroIcons' user minus Icon
+  static const user_minus = HeroIconData(0xea18);
 
-  ///HeroIconsSolid's variable icon
-  static const variable = HeroIconDataSolid(0xea18);
+  /// HeroIcons' user plus Icon
+  static const user_plus = HeroIconData(0xea19);
 
-  ///HeroIconsSolid's video_camera icon
-  static const video_camera = HeroIconDataSolid(0xea19);
+  /// HeroIcons' users Icon
+  static const users = HeroIconData(0xea1a);
 
-  ///HeroIconsSolid's video_camera_slash icon
-  static const video_camera_slash = HeroIconDataSolid(0xea1a);
+  /// HeroIcons' variable Icon
+  static const variable = HeroIconData(0xea1b);
 
-  ///HeroIconsSolid's view_columns icon
-  static const view_columns = HeroIconDataSolid(0xea1b);
+  /// HeroIcons' video camera Icon
+  static const video_camera = HeroIconData(0xea1c);
 
-  ///HeroIconsSolid's viewfinder_circle icon
-  static const viewfinder_circle = HeroIconDataSolid(0xea1c);
+  /// HeroIcons' video camera slash Icon
+  static const video_camera_slash = HeroIconData(0xea1d);
 
-  ///HeroIconsSolid's wallet icon
-  static const wallet = HeroIconDataSolid(0xea1d);
+  /// HeroIcons' view columns Icon
+  static const view_columns = HeroIconData(0xea1e);
 
-  ///HeroIconsSolid's wifi icon
-  static const wifi = HeroIconDataSolid(0xea1e);
+  /// HeroIcons' viewfinder circle Icon
+  static const viewfinder_circle = HeroIconData(0xea1f);
 
-  ///HeroIconsSolid's window icon
-  static const window = HeroIconDataSolid(0xea1f);
+  /// HeroIcons' wallet Icon
+  static const wallet = HeroIconData(0xea20);
 
-  ///HeroIconsSolid's wrench icon
-  static const wrench = HeroIconDataSolid(0xea20);
+  /// HeroIcons' wifi Icon
+  static const wifi = HeroIconData(0xea21);
 
-  ///HeroIconsSolid's wrench_screwdriver icon
-  static const wrench_screwdriver = HeroIconDataSolid(0xea21);
+  /// HeroIcons' window Icon
+  static const window = HeroIconData(0xea22);
 
-  ///HeroIconsSolid's x_circle icon
-  static const x_circle = HeroIconDataSolid(0xea22);
+  /// HeroIcons' wrench Icon
+  static const wrench = HeroIconData(0xea23);
 
-  ///HeroIconsSolid's x_mark icon
-  static const x_mark = HeroIconDataSolid(0xea23);
+  /// HeroIcons' wrench screwdriver Icon
+  static const wrench_screwdriver = HeroIconData(0xea24);
+
+  /// HeroIcons' x circle Icon
+  static const x_circle = HeroIconData(0xea25);
+
+  /// HeroIcons' x mark Icon
+  static const x_mark = HeroIconData(0xea26);
 }
