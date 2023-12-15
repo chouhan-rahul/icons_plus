@@ -1,3 +1,13 @@
+## 5.0.0
+
+- All exsiting icons sets are updated with the latest version
+- AntDesign Icons Added
+- Clarity Icons Added
+- MingCute Icons Added
+- TeenyIcons Added
+- ZondIcons Added
+- Now use `Brand` instead of `Logo`
+
 ## 4.0.0
 
 - IconsPlus version 4.0.0 released.
