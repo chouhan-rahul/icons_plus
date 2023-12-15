@@ -1,5 +1,4 @@
 // ignore_for_file: constant_identifier_names
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -11,800 +10,824 @@ class Flag extends SvgPicture {
     ColorFilter? colorFilter,
   }) : super.asset(
           assetName!,
-          package: 'icons_plus',
           key: key,
+          package: 'icons_plus',
           height: size,
           colorFilter: colorFilter,
         );
 }
 
 class Flags {
-  ///FlagIcon's abkhazia flag
-  static const abkhazia = "assets/flags/abkhazia.svg";
+  /// Logos
+  ///
+  /// Flags
+  ///
+  /// Flag logo for abkhazia abkhazia
+  static const abkhazia = "assets/images/logos/flags/abkhazia.svg";
 
-  ///FlagIcon's afghanistan flag
-  static const afghanistan = "assets/flags/afghanistan.svg";
+  /// Flag logo for afghanistan afghanistan
+  static const afghanistan = "assets/images/logos/flags/afghanistan.svg";
 
-  ///FlagIcon's african flag
-  static const african = "assets/flags/african.svg";
+  /// Flag logo for african african
+  static const african = "assets/images/logos/flags/african.svg";
 
-  ///FlagIcon's aland islands flag
-  static const aland_islands = "assets/flags/aland-islands.svg";
+  /// Flag logo for aland islands aland-islands
+  static const aland_islands = "assets/images/logos/flags/aland-islands.svg";
 
-  ///FlagIcon's albania flag
-  static const albania = "assets/flags/albania.svg";
+  /// Flag logo for albania albania
+  static const albania = "assets/images/logos/flags/albania.svg";
 
-  ///FlagIcon's algeria flag
-  static const algeria = "assets/flags/algeria.svg";
+  /// Flag logo for algeria algeria
+  static const algeria = "assets/images/logos/flags/algeria.svg";
 
-  ///FlagIcon's american samoa flag
-  static const american_samoa = "assets/flags/american-samoa.svg";
+  /// Flag logo for american samoa american-samoa
+  static const american_samoa = "assets/images/logos/flags/american-samoa.svg";
 
-  ///FlagIcon's andorra flag
-  static const andorra = "assets/flags/andorra.svg";
+  /// Flag logo for andorra andorra
+  static const andorra = "assets/images/logos/flags/andorra.svg";
 
-  ///FlagIcon's angola flag
-  static const angola = "assets/flags/angola.svg";
+  /// Flag logo for angola angola
+  static const angola = "assets/images/logos/flags/angola.svg";
 
-  ///FlagIcon's anguilla flag
-  static const anguilla = "assets/flags/anguilla.svg";
+  /// Flag logo for anguilla anguilla
+  static const anguilla = "assets/images/logos/flags/anguilla.svg";
 
-  ///FlagIcon's antigua and barbuda flag
-  static const antigua_and_barbuda = "assets/flags/antigua-and-barbuda.svg";
+  /// Flag logo for antigua and barbuda antigua-and-barbuda
+  static const antigua_and_barbuda =
+      "assets/images/logos/flags/antigua-and-barbuda.svg";
 
-  ///FlagIcon's argentina flag
-  static const argentina = "assets/flags/argentina.svg";
+  /// Flag logo for argentina argentina
+  static const argentina = "assets/images/logos/flags/argentina.svg";
 
-  ///FlagIcon's armenia flag
-  static const armenia = "assets/flags/armenia.svg";
+  /// Flag logo for armenia armenia
+  static const armenia = "assets/images/logos/flags/armenia.svg";
 
-  ///FlagIcon's aruba flag
-  static const aruba = "assets/flags/aruba.svg";
+  /// Flag logo for aruba aruba
+  static const aruba = "assets/images/logos/flags/aruba.svg";
 
-  ///FlagIcon's australia flag
-  static const australia = "assets/flags/australia.svg";
+  /// Flag logo for australia australia
+  static const australia = "assets/images/logos/flags/australia.svg";
 
-  ///FlagIcon's austria flag
-  static const austria = "assets/flags/austria.svg";
+  /// Flag logo for austria austria
+  static const austria = "assets/images/logos/flags/austria.svg";
 
-  ///FlagIcon's azerbaijan flag
-  static const azerbaijan = "assets/flags/azerbaijan.svg";
+  /// Flag logo for azerbaijan azerbaijan
+  static const azerbaijan = "assets/images/logos/flags/azerbaijan.svg";
 
-  ///FlagIcon's azores islands flag
-  static const azores_islands = "assets/flags/azores-islands.svg";
+  /// Flag logo for azores islands azores-islands
+  static const azores_islands = "assets/images/logos/flags/azores-islands.svg";
 
-  ///FlagIcon's bahamas flag
-  static const bahamas = "assets/flags/bahamas.svg";
+  /// Flag logo for bahamas bahamas
+  static const bahamas = "assets/images/logos/flags/bahamas.svg";
 
-  ///FlagIcon's bahrain flag
-  static const bahrain = "assets/flags/bahrain.svg";
+  /// Flag logo for bahrain bahrain
+  static const bahrain = "assets/images/logos/flags/bahrain.svg";
 
-  ///FlagIcon's balearic islands flag
-  static const balearic_islands = "assets/flags/balearic-islands.svg";
+  /// Flag logo for balearic islands balearic-islands
+  static const balearic_islands =
+      "assets/images/logos/flags/balearic-islands.svg";
 
-  ///FlagIcon's bangladesh flag
-  static const bangladesh = "assets/flags/bangladesh.svg";
+  /// Flag logo for bangladesh bangladesh
+  static const bangladesh = "assets/images/logos/flags/bangladesh.svg";
 
-  ///FlagIcon's barbados flag
-  static const barbados = "assets/flags/barbados.svg";
+  /// Flag logo for barbados barbados
+  static const barbados = "assets/images/logos/flags/barbados.svg";
 
-  ///FlagIcon's basque country flag
-  static const basque_country = "assets/flags/basque-country.svg";
+  /// Flag logo for basque country basque-country
+  static const basque_country = "assets/images/logos/flags/basque-country.svg";
 
-  ///FlagIcon's belarus flag
-  static const belarus = "assets/flags/belarus.svg";
+  /// Flag logo for belarus belarus
+  static const belarus = "assets/images/logos/flags/belarus.svg";
 
-  ///FlagIcon's belgium flag
-  static const belgium = "assets/flags/belgium.svg";
+  /// Flag logo for belgium belgium
+  static const belgium = "assets/images/logos/flags/belgium.svg";
 
-  ///FlagIcon's belize flag
-  static const belize = "assets/flags/belize.svg";
+  /// Flag logo for belize belize
+  static const belize = "assets/images/logos/flags/belize.svg";
 
-  ///FlagIcon's benin flag
-  static const benin = "assets/flags/benin.svg";
+  /// Flag logo for benin benin
+  static const benin = "assets/images/logos/flags/benin.svg";
 
-  ///FlagIcon's bermuda flag
-  static const bermuda = "assets/flags/bermuda.svg";
+  /// Flag logo for bermuda bermuda
+  static const bermuda = "assets/images/logos/flags/bermuda.svg";
 
-  ///FlagIcon's bhutan flag
-  static const bhutan = "assets/flags/bhutan.svg";
+  /// Flag logo for bhutan bhutan
+  static const bhutan = "assets/images/logos/flags/bhutan.svg";
 
-  ///FlagIcon's bolivia flag
-  static const bolivia = "assets/flags/bolivia.svg";
+  /// Flag logo for bolivia bolivia
+  static const bolivia = "assets/images/logos/flags/bolivia.svg";
 
-  ///FlagIcon's bonaire flag
-  static const bonaire = "assets/flags/bonaire.svg";
+  /// Flag logo for bonaire bonaire
+  static const bonaire = "assets/images/logos/flags/bonaire.svg";
 
-  ///FlagIcon's bosnia and herzegovina flag
+  /// Flag logo for bosnia and herzegovina bosnia-and-herzegovina
   static const bosnia_and_herzegovina =
-      "assets/flags/bosnia-and-herzegovina.svg";
+      "assets/images/logos/flags/bosnia-and-herzegovina.svg";
 
-  ///FlagIcon's botswana flag
-  static const botswana = "assets/flags/botswana.svg";
+  /// Flag logo for botswana botswana
+  static const botswana = "assets/images/logos/flags/botswana.svg";
 
-  ///FlagIcon's brazil flag
-  static const brazil = "assets/flags/brazil.svg";
+  /// Flag logo for brazil brazil
+  static const brazil = "assets/images/logos/flags/brazil.svg";
 
-  ///FlagIcon's british columbia flag
-  static const british_columbia = "assets/flags/british-columbia.svg";
+  /// Flag logo for british columbia british-columbia
+  static const british_columbia =
+      "assets/images/logos/flags/british-columbia.svg";
 
-  ///FlagIcon's british indian ocean territory flag
+  /// Flag logo for british indian ocean territory british-indian-ocean-territory
   static const british_indian_ocean_territory =
-      "assets/flags/british-indian-ocean-territory.svg";
+      "assets/images/logos/flags/british-indian-ocean-territory.svg";
 
-  ///FlagIcon's british virgin islands flag
+  /// Flag logo for british virgin islands british-virgin-islands
   static const british_virgin_islands =
-      "assets/flags/british-virgin-islands.svg";
+      "assets/images/logos/flags/british-virgin-islands.svg";
 
-  ///FlagIcon's brunei flag
-  static const brunei = "assets/flags/brunei.svg";
+  /// Flag logo for brunei brunei
+  static const brunei = "assets/images/logos/flags/brunei.svg";
 
-  ///FlagIcon's bulgaria flag
-  static const bulgaria = "assets/flags/bulgaria.svg";
+  /// Flag logo for bulgaria bulgaria
+  static const bulgaria = "assets/images/logos/flags/bulgaria.svg";
 
-  ///FlagIcon's burkina faso flag
-  static const burkina_faso = "assets/flags/burkina-faso.svg";
+  /// Flag logo for burkina faso burkina-faso
+  static const burkina_faso = "assets/images/logos/flags/burkina-faso.svg";
 
-  ///FlagIcon's burundi flag
-  static const burundi = "assets/flags/burundi.svg";
+  /// Flag logo for burundi burundi
+  static const burundi = "assets/images/logos/flags/burundi.svg";
 
-  ///FlagIcon's cambodia flag
-  static const cambodia = "assets/flags/cambodia.svg";
+  /// Flag logo for cambodia cambodia
+  static const cambodia = "assets/images/logos/flags/cambodia.svg";
 
-  ///FlagIcon's cameroon flag
-  static const cameroon = "assets/flags/cameroon.svg";
+  /// Flag logo for cameroon cameroon
+  static const cameroon = "assets/images/logos/flags/cameroon.svg";
 
-  ///FlagIcon's canada flag
-  static const canada = "assets/flags/canada.svg";
+  /// Flag logo for canada canada
+  static const canada = "assets/images/logos/flags/canada.svg";
 
-  ///FlagIcon's canary islands flag
-  static const canary_islands = "assets/flags/canary-islands.svg";
+  /// Flag logo for canary islands canary-islands
+  static const canary_islands = "assets/images/logos/flags/canary-islands.svg";
 
-  ///FlagIcon's cape verde flag
-  static const cape_verde = "assets/flags/cape-verde.svg";
+  /// Flag logo for cape verde cape-verde
+  static const cape_verde = "assets/images/logos/flags/cape-verde.svg";
 
-  ///FlagIcon's cayman islands flag
-  static const cayman_islands = "assets/flags/cayman-islands.svg";
+  /// Flag logo for cayman islands cayman-islands
+  static const cayman_islands = "assets/images/logos/flags/cayman-islands.svg";
 
-  ///FlagIcon's central african republic flag
+  /// Flag logo for central african republic central-african-republic
   static const central_african_republic =
-      "assets/flags/central-african-republic.svg";
+      "assets/images/logos/flags/central-african-republic.svg";
 
-  ///FlagIcon's ceuta flag
-  static const ceuta = "assets/flags/ceuta.svg";
+  /// Flag logo for ceuta ceuta
+  static const ceuta = "assets/images/logos/flags/ceuta.svg";
 
-  ///FlagIcon's chad flag
-  static const chad = "assets/flags/chad.svg";
+  /// Flag logo for chad chad
+  static const chad = "assets/images/logos/flags/chad.svg";
 
-  ///FlagIcon's chile flag
-  static const chile = "assets/flags/chile.svg";
+  /// Flag logo for chile chile
+  static const chile = "assets/images/logos/flags/chile.svg";
 
-  ///FlagIcon's china flag
-  static const china = "assets/flags/china.svg";
+  /// Flag logo for china china
+  static const china = "assets/images/logos/flags/china.svg";
 
-  ///FlagIcon's christmas island flag
-  static const christmas_island = "assets/flags/christmas-island.svg";
+  /// Flag logo for christmas island christmas-island
+  static const christmas_island =
+      "assets/images/logos/flags/christmas-island.svg";
 
-  ///FlagIcon's cocos island flag
-  static const cocos_island = "assets/flags/cocos-island.svg";
+  /// Flag logo for cocos island cocos-island
+  static const cocos_island = "assets/images/logos/flags/cocos-island.svg";
 
-  ///FlagIcon's colombia flag
-  static const colombia = "assets/flags/colombia.svg";
+  /// Flag logo for colombia colombia
+  static const colombia = "assets/images/logos/flags/colombia.svg";
 
-  ///FlagIcon's comoros flag
-  static const comoros = "assets/flags/comoros.svg";
+  /// Flag logo for comoros comoros
+  static const comoros = "assets/images/logos/flags/comoros.svg";
 
-  ///FlagIcon's cook islands flag
-  static const cook_islands = "assets/flags/cook-islands.svg";
+  /// Flag logo for cook islands cook-islands
+  static const cook_islands = "assets/images/logos/flags/cook-islands.svg";
 
-  ///FlagIcon's corsica flag
-  static const corsica = "assets/flags/corsica.svg";
+  /// Flag logo for corsica corsica
+  static const corsica = "assets/images/logos/flags/corsica.svg";
 
-  ///FlagIcon's costa rica flag
-  static const costa_rica = "assets/flags/costa-rica.svg";
+  /// Flag logo for costa rica costa-rica
+  static const costa_rica = "assets/images/logos/flags/costa-rica.svg";
 
-  ///FlagIcon's croatia flag
-  static const croatia = "assets/flags/croatia.svg";
+  /// Flag logo for croatia croatia
+  static const croatia = "assets/images/logos/flags/croatia.svg";
 
-  ///FlagIcon's cuba flag
-  static const cuba = "assets/flags/cuba.svg";
+  /// Flag logo for cuba cuba
+  static const cuba = "assets/images/logos/flags/cuba.svg";
 
-  ///FlagIcon's curacao flag
-  static const curacao = "assets/flags/curacao.svg";
+  /// Flag logo for curacao curacao
+  static const curacao = "assets/images/logos/flags/curacao.svg";
 
-  ///FlagIcon's cyprus flag
-  static const cyprus = "assets/flags/cyprus.svg";
+  /// Flag logo for cyprus cyprus
+  static const cyprus = "assets/images/logos/flags/cyprus.svg";
 
-  ///FlagIcon's czech republic flag
-  static const czech_republic = "assets/flags/czech-republic.svg";
+  /// Flag logo for czech republic czech-republic
+  static const czech_republic = "assets/images/logos/flags/czech-republic.svg";
 
-  ///FlagIcon's democratic republic of congo flag
+  /// Flag logo for democratic republic of congo democratic-republic-of-congo
   static const democratic_republic_of_congo =
-      "assets/flags/democratic-republic-of-congo.svg";
+      "assets/images/logos/flags/democratic-republic-of-congo.svg";
 
-  ///FlagIcon's denmark flag
-  static const denmark = "assets/flags/denmark.svg";
+  /// Flag logo for denmark denmark
+  static const denmark = "assets/images/logos/flags/denmark.svg";
 
-  ///FlagIcon's djibouti flag
-  static const djibouti = "assets/flags/djibouti.svg";
+  /// Flag logo for djibouti djibouti
+  static const djibouti = "assets/images/logos/flags/djibouti.svg";
 
-  ///FlagIcon's dominica flag
-  static const dominica = "assets/flags/dominica.svg";
+  /// Flag logo for dominica dominica
+  static const dominica = "assets/images/logos/flags/dominica.svg";
 
-  ///FlagIcon's dominican republic flag
-  static const dominican_republic = "assets/flags/dominican-republic.svg";
+  /// Flag logo for dominican republic dominican-republic
+  static const dominican_republic =
+      "assets/images/logos/flags/dominican-republic.svg";
 
-  ///FlagIcon's east timor flag
-  static const east_timor = "assets/flags/east-timor.svg";
+  /// Flag logo for east timor east-timor
+  static const east_timor = "assets/images/logos/flags/east-timor.svg";
 
-  ///FlagIcon's ecuador flag
-  static const ecuador = "assets/flags/ecuador.svg";
+  /// Flag logo for ecuador ecuador
+  static const ecuador = "assets/images/logos/flags/ecuador.svg";
 
-  ///FlagIcon's egypt flag
-  static const egypt = "assets/flags/egypt.svg";
+  /// Flag logo for egypt egypt
+  static const egypt = "assets/images/logos/flags/egypt.svg";
 
-  ///FlagIcon's el salvador flag
-  static const el_salvador = "assets/flags/el-salvador.svg";
+  /// Flag logo for el salvador el-salvador
+  static const el_salvador = "assets/images/logos/flags/el-salvador.svg";
 
-  ///FlagIcon's england flag
-  static const england = "assets/flags/england.svg";
+  /// Flag logo for england england
+  static const england = "assets/images/logos/flags/england.svg";
 
-  ///FlagIcon's equatorial guinea flag
-  static const equatorial_guinea = "assets/flags/equatorial-guinea.svg";
+  /// Flag logo for equatorial guinea equatorial-guinea
+  static const equatorial_guinea =
+      "assets/images/logos/flags/equatorial-guinea.svg";
 
-  ///FlagIcon's eritrea flag
-  static const eritrea = "assets/flags/eritrea.svg";
+  /// Flag logo for eritrea eritrea
+  static const eritrea = "assets/images/logos/flags/eritrea.svg";
 
-  ///FlagIcon's estonia flag
-  static const estonia = "assets/flags/estonia.svg";
+  /// Flag logo for estonia estonia
+  static const estonia = "assets/images/logos/flags/estonia.svg";
 
-  ///FlagIcon's ethiopia flag
-  static const ethiopia = "assets/flags/ethiopia.svg";
+  /// Flag logo for ethiopia ethiopia
+  static const ethiopia = "assets/images/logos/flags/ethiopia.svg";
 
-  ///FlagIcon's european union flag
-  static const european_union = "assets/flags/european-union.svg";
+  /// Flag logo for european union european-union
+  static const european_union = "assets/images/logos/flags/european-union.svg";
 
-  ///FlagIcon's falkland islands flag
-  static const falkland_islands = "assets/flags/falkland-islands.svg";
+  /// Flag logo for falkland islands falkland-islands
+  static const falkland_islands =
+      "assets/images/logos/flags/falkland-islands.svg";
 
-  ///FlagIcon's faroe islands flag
-  static const faroe_islands = "assets/flags/faroe-islands.svg";
+  /// Flag logo for faroe islands faroe-islands
+  static const faroe_islands = "assets/images/logos/flags/faroe-islands.svg";
 
-  ///FlagIcon's fiji flag
-  static const fiji = "assets/flags/fiji.svg";
+  /// Flag logo for fiji fiji
+  static const fiji = "assets/images/logos/flags/fiji.svg";
 
-  ///FlagIcon's finland flag
-  static const finland = "assets/flags/finland.svg";
+  /// Flag logo for finland finland
+  static const finland = "assets/images/logos/flags/finland.svg";
 
-  ///FlagIcon's france flag
-  static const france = "assets/flags/france.svg";
+  /// Flag logo for france france
+  static const france = "assets/images/logos/flags/france.svg";
 
-  ///FlagIcon's french polynesia flag
-  static const french_polynesia = "assets/flags/french-polynesia.svg";
+  /// Flag logo for french polynesia french-polynesia
+  static const french_polynesia =
+      "assets/images/logos/flags/french-polynesia.svg";
 
-  ///FlagIcon's gabon flag
-  static const gabon = "assets/flags/gabon.svg";
+  /// Flag logo for gabon gabon
+  static const gabon = "assets/images/logos/flags/gabon.svg";
 
-  ///FlagIcon's galapagos islands flag
-  static const galapagos_islands = "assets/flags/galapagos-islands.svg";
+  /// Flag logo for galapagos islands galapagos-islands
+  static const galapagos_islands =
+      "assets/images/logos/flags/galapagos-islands.svg";
 
-  ///FlagIcon's gambia flag
-  static const gambia = "assets/flags/gambia.svg";
+  /// Flag logo for gambia gambia
+  static const gambia = "assets/images/logos/flags/gambia.svg";
 
-  ///FlagIcon's georgia flag
-  static const georgia = "assets/flags/georgia.svg";
+  /// Flag logo for georgia georgia
+  static const georgia = "assets/images/logos/flags/georgia.svg";
 
-  ///FlagIcon's germany flag
-  static const germany = "assets/flags/germany.svg";
+  /// Flag logo for germany germany
+  static const germany = "assets/images/logos/flags/germany.svg";
 
-  ///FlagIcon's ghana flag
-  static const ghana = "assets/flags/ghana.svg";
+  /// Flag logo for ghana ghana
+  static const ghana = "assets/images/logos/flags/ghana.svg";
 
-  ///FlagIcon's gibraltar flag
-  static const gibraltar = "assets/flags/gibraltar.svg";
+  /// Flag logo for gibraltar gibraltar
+  static const gibraltar = "assets/images/logos/flags/gibraltar.svg";
 
-  ///FlagIcon's greece flag
-  static const greece = "assets/flags/greece.svg";
+  /// Flag logo for greece greece
+  static const greece = "assets/images/logos/flags/greece.svg";
 
-  ///FlagIcon's greenland flag
-  static const greenland = "assets/flags/greenland.svg";
+  /// Flag logo for greenland greenland
+  static const greenland = "assets/images/logos/flags/greenland.svg";
 
-  ///FlagIcon's grenada flag
-  static const grenada = "assets/flags/grenada.svg";
+  /// Flag logo for grenada grenada
+  static const grenada = "assets/images/logos/flags/grenada.svg";
 
-  ///FlagIcon's guam flag
-  static const guam = "assets/flags/guam.svg";
+  /// Flag logo for guam guam
+  static const guam = "assets/images/logos/flags/guam.svg";
 
-  ///FlagIcon's guatemala flag
-  static const guatemala = "assets/flags/guatemala.svg";
+  /// Flag logo for guatemala guatemala
+  static const guatemala = "assets/images/logos/flags/guatemala.svg";
 
-  ///FlagIcon's guernsey flag
-  static const guernsey = "assets/flags/guernsey.svg";
+  /// Flag logo for guernsey guernsey
+  static const guernsey = "assets/images/logos/flags/guernsey.svg";
 
-  ///FlagIcon's guinea bissau flag
-  static const guinea_bissau = "assets/flags/guinea-bissau.svg";
+  /// Flag logo for guinea bissau guinea-bissau
+  static const guinea_bissau = "assets/images/logos/flags/guinea-bissau.svg";
 
-  ///FlagIcon's guinea flag
-  static const guinea = "assets/flags/guinea.svg";
+  /// Flag logo for guinea guinea
+  static const guinea = "assets/images/logos/flags/guinea.svg";
 
-  ///FlagIcon's haiti flag
-  static const haiti = "assets/flags/haiti.svg";
+  /// Flag logo for haiti haiti
+  static const haiti = "assets/images/logos/flags/haiti.svg";
 
-  ///FlagIcon's hawaii flag
-  static const hawaii = "assets/flags/hawaii.svg";
+  /// Flag logo for hawaii hawaii
+  static const hawaii = "assets/images/logos/flags/hawaii.svg";
 
-  ///FlagIcon's honduras flag
-  static const honduras = "assets/flags/honduras.svg";
+  /// Flag logo for honduras honduras
+  static const honduras = "assets/images/logos/flags/honduras.svg";
 
-  ///FlagIcon's hong kong flag
-  static const hong_kong = "assets/flags/hong-kong.svg";
+  /// Flag logo for hong kong hong-kong
+  static const hong_kong = "assets/images/logos/flags/hong-kong.svg";
 
-  ///FlagIcon's hungary flag
-  static const hungary = "assets/flags/hungary.svg";
+  /// Flag logo for hungary hungary
+  static const hungary = "assets/images/logos/flags/hungary.svg";
 
-  ///FlagIcon's iceland flag
-  static const iceland = "assets/flags/iceland.svg";
+  /// Flag logo for iceland iceland
+  static const iceland = "assets/images/logos/flags/iceland.svg";
 
-  ///FlagIcon's india flag
-  static const india = "assets/flags/india.svg";
+  /// Flag logo for india india
+  static const india = "assets/images/logos/flags/india.svg";
 
-  ///FlagIcon's indonesia flag
-  static const indonesia = "assets/flags/indonesia.svg";
+  /// Flag logo for indonesia indonesia
+  static const indonesia = "assets/images/logos/flags/indonesia.svg";
 
-  ///FlagIcon's iran flag
-  static const iran = "assets/flags/iran.svg";
+  /// Flag logo for iran iran
+  static const iran = "assets/images/logos/flags/iran.svg";
 
-  ///FlagIcon's iraq flag
-  static const iraq = "assets/flags/iraq.svg";
+  /// Flag logo for iraq iraq
+  static const iraq = "assets/images/logos/flags/iraq.svg";
 
-  ///FlagIcon's ireland flag
-  static const ireland = "assets/flags/ireland.svg";
+  /// Flag logo for ireland ireland
+  static const ireland = "assets/images/logos/flags/ireland.svg";
 
-  ///FlagIcon's isle of man flag
-  static const isle_of_man = "assets/flags/isle-of-man.svg";
+  /// Flag logo for isle of man isle-of-man
+  static const isle_of_man = "assets/images/logos/flags/isle-of-man.svg";
 
-  ///FlagIcon's israel flag
-  static const israel = "assets/flags/israel.svg";
+  /// Flag logo for israel israel
+  static const israel = "assets/images/logos/flags/israel.svg";
 
-  ///FlagIcon's italy flag
-  static const italy = "assets/flags/italy.svg";
+  /// Flag logo for italy italy
+  static const italy = "assets/images/logos/flags/italy.svg";
 
-  ///FlagIcon's ivory coast flag
-  static const ivory_coast = "assets/flags/ivory-coast.svg";
+  /// Flag logo for ivory coast ivory-coast
+  static const ivory_coast = "assets/images/logos/flags/ivory-coast.svg";
 
-  ///FlagIcon's jamaica flag
-  static const jamaica = "assets/flags/jamaica.svg";
+  /// Flag logo for jamaica jamaica
+  static const jamaica = "assets/images/logos/flags/jamaica.svg";
 
-  ///FlagIcon's japan flag
-  static const japan = "assets/flags/japan.svg";
+  /// Flag logo for japan japan
+  static const japan = "assets/images/logos/flags/japan.svg";
 
-  ///FlagIcon's jersey flag
-  static const jersey = "assets/flags/jersey.svg";
+  /// Flag logo for jersey jersey
+  static const jersey = "assets/images/logos/flags/jersey.svg";
 
-  ///FlagIcon's jordan flag
-  static const jordan = "assets/flags/jordan.svg";
+  /// Flag logo for jordan jordan
+  static const jordan = "assets/images/logos/flags/jordan.svg";
 
-  ///FlagIcon's kazakhstan flag
-  static const kazakhstan = "assets/flags/kazakhstan.svg";
+  /// Flag logo for kazakhstan kazakhstan
+  static const kazakhstan = "assets/images/logos/flags/kazakhstan.svg";
 
-  ///FlagIcon's kenya flag
-  static const kenya = "assets/flags/kenya.svg";
+  /// Flag logo for kenya kenya
+  static const kenya = "assets/images/logos/flags/kenya.svg";
 
-  ///FlagIcon's kosovo flag
-  static const kosovo = "assets/flags/kosovo.svg";
+  /// Flag logo for kosovo kosovo
+  static const kosovo = "assets/images/logos/flags/kosovo.svg";
 
-  ///FlagIcon's kuwait flag
-  static const kuwait = "assets/flags/kuwait.svg";
+  /// Flag logo for kuwait kuwait
+  static const kuwait = "assets/images/logos/flags/kuwait.svg";
 
-  ///FlagIcon's kyrgyzstan flag
-  static const kyrgyzstan = "assets/flags/kyrgyzstan.svg";
+  /// Flag logo for kyrgyzstan kyrgyzstan
+  static const kyrgyzstan = "assets/images/logos/flags/kyrgyzstan.svg";
 
-  ///FlagIcon's laos flag
-  static const laos = "assets/flags/laos.svg";
+  /// Flag logo for laos laos
+  static const laos = "assets/images/logos/flags/laos.svg";
 
-  ///FlagIcon's latvia flag
-  static const latvia = "assets/flags/latvia.svg";
+  /// Flag logo for latvia latvia
+  static const latvia = "assets/images/logos/flags/latvia.svg";
 
-  ///FlagIcon's lebanon flag
-  static const lebanon = "assets/flags/lebanon.svg";
+  /// Flag logo for lebanon lebanon
+  static const lebanon = "assets/images/logos/flags/lebanon.svg";
 
-  ///FlagIcon's lesotho flag
-  static const lesotho = "assets/flags/lesotho.svg";
+  /// Flag logo for lesotho lesotho
+  static const lesotho = "assets/images/logos/flags/lesotho.svg";
 
-  ///FlagIcon's liberia flag
-  static const liberia = "assets/flags/liberia.svg";
+  /// Flag logo for liberia liberia
+  static const liberia = "assets/images/logos/flags/liberia.svg";
 
-  ///FlagIcon's libya flag
-  static const libya = "assets/flags/libya.svg";
+  /// Flag logo for libya libya
+  static const libya = "assets/images/logos/flags/libya.svg";
 
-  ///FlagIcon's liechtenstein flag
-  static const liechtenstein = "assets/flags/liechtenstein.svg";
+  /// Flag logo for liechtenstein liechtenstein
+  static const liechtenstein = "assets/images/logos/flags/liechtenstein.svg";
 
-  ///FlagIcon's lithuania flag
-  static const lithuania = "assets/flags/lithuania.svg";
+  /// Flag logo for lithuania lithuania
+  static const lithuania = "assets/images/logos/flags/lithuania.svg";
 
-  ///FlagIcon's luxembourg flag
-  static const luxembourg = "assets/flags/luxembourg.svg";
+  /// Flag logo for luxembourg luxembourg
+  static const luxembourg = "assets/images/logos/flags/luxembourg.svg";
 
-  ///FlagIcon's macao flag
-  static const macao = "assets/flags/macao.svg";
+  /// Flag logo for macao macao
+  static const macao = "assets/images/logos/flags/macao.svg";
 
-  ///FlagIcon's madagascar flag
-  static const madagascar = "assets/flags/madagascar.svg";
+  /// Flag logo for madagascar madagascar
+  static const madagascar = "assets/images/logos/flags/madagascar.svg";
 
-  ///FlagIcon's madeira flag
-  static const madeira = "assets/flags/madeira.svg";
+  /// Flag logo for madeira madeira
+  static const madeira = "assets/images/logos/flags/madeira.svg";
 
-  ///FlagIcon's malawi flag
-  static const malawi = "assets/flags/malawi.svg";
+  /// Flag logo for malawi malawi
+  static const malawi = "assets/images/logos/flags/malawi.svg";
 
-  ///FlagIcon's malaysia flag
-  static const malaysia = "assets/flags/malaysia.svg";
+  /// Flag logo for malaysia malaysia
+  static const malaysia = "assets/images/logos/flags/malaysia.svg";
 
-  ///FlagIcon's maldives flag
-  static const maldives = "assets/flags/maldives.svg";
+  /// Flag logo for maldives maldives
+  static const maldives = "assets/images/logos/flags/maldives.svg";
 
-  ///FlagIcon's mali flag
-  static const mali = "assets/flags/mali.svg";
+  /// Flag logo for mali mali
+  static const mali = "assets/images/logos/flags/mali.svg";
 
-  ///FlagIcon's malta flag
-  static const malta = "assets/flags/malta.svg";
+  /// Flag logo for malta malta
+  static const malta = "assets/images/logos/flags/malta.svg";
 
-  ///FlagIcon's marshall island flag
-  static const marshall_island = "assets/flags/marshall-island.svg";
+  /// Flag logo for marshall island marshall-island
+  static const marshall_island =
+      "assets/images/logos/flags/marshall-island.svg";
 
-  ///FlagIcon's martinique flag
-  static const martinique = "assets/flags/martinique.svg";
+  /// Flag logo for martinique martinique
+  static const martinique = "assets/images/logos/flags/martinique.svg";
 
-  ///FlagIcon's mauritania flag
-  static const mauritania = "assets/flags/mauritania.svg";
+  /// Flag logo for mauritania mauritania
+  static const mauritania = "assets/images/logos/flags/mauritania.svg";
 
-  ///FlagIcon's mauritius flag
-  static const mauritius = "assets/flags/mauritius.svg";
+  /// Flag logo for mauritius mauritius
+  static const mauritius = "assets/images/logos/flags/mauritius.svg";
 
-  ///FlagIcon's melilla flag
-  static const melilla = "assets/flags/melilla.svg";
+  /// Flag logo for melilla melilla
+  static const melilla = "assets/images/logos/flags/melilla.svg";
 
-  ///FlagIcon's mexico flag
-  static const mexico = "assets/flags/mexico.svg";
+  /// Flag logo for mexico mexico
+  static const mexico = "assets/images/logos/flags/mexico.svg";
 
-  ///FlagIcon's micronesia flag
-  static const micronesia = "assets/flags/micronesia.svg";
+  /// Flag logo for micronesia micronesia
+  static const micronesia = "assets/images/logos/flags/micronesia.svg";
 
-  ///FlagIcon's moldova flag
-  static const moldova = "assets/flags/moldova.svg";
+  /// Flag logo for moldova moldova
+  static const moldova = "assets/images/logos/flags/moldova.svg";
 
-  ///FlagIcon's monaco flag
-  static const monaco = "assets/flags/monaco.svg";
+  /// Flag logo for monaco monaco
+  static const monaco = "assets/images/logos/flags/monaco.svg";
 
-  ///FlagIcon's mongolia flag
-  static const mongolia = "assets/flags/mongolia.svg";
+  /// Flag logo for mongolia mongolia
+  static const mongolia = "assets/images/logos/flags/mongolia.svg";
 
-  ///FlagIcon's montenegro flag
-  static const montenegro = "assets/flags/montenegro.svg";
+  /// Flag logo for montenegro montenegro
+  static const montenegro = "assets/images/logos/flags/montenegro.svg";
 
-  ///FlagIcon's montserrat flag
-  static const montserrat = "assets/flags/montserrat.svg";
+  /// Flag logo for montserrat montserrat
+  static const montserrat = "assets/images/logos/flags/montserrat.svg";
 
-  ///FlagIcon's morocco flag
-  static const morocco = "assets/flags/morocco.svg";
+  /// Flag logo for morocco morocco
+  static const morocco = "assets/images/logos/flags/morocco.svg";
 
-  ///FlagIcon's mozambique flag
-  static const mozambique = "assets/flags/mozambique.svg";
+  /// Flag logo for mozambique mozambique
+  static const mozambique = "assets/images/logos/flags/mozambique.svg";
 
-  ///FlagIcon's myanmar flag
-  static const myanmar = "assets/flags/myanmar.svg";
+  /// Flag logo for myanmar myanmar
+  static const myanmar = "assets/images/logos/flags/myanmar.svg";
 
-  ///FlagIcon's namibia flag
-  static const namibia = "assets/flags/namibia.svg";
+  /// Flag logo for namibia namibia
+  static const namibia = "assets/images/logos/flags/namibia.svg";
 
-  ///FlagIcon's nauru flag
-  static const nauru = "assets/flags/nauru.svg";
+  /// Flag logo for nauru nauru
+  static const nauru = "assets/images/logos/flags/nauru.svg";
 
-  ///FlagIcon's nepal flag
-  static const nepal = "assets/flags/nepal.svg";
+  /// Flag logo for nepal nepal
+  static const nepal = "assets/images/logos/flags/nepal.svg";
 
-  ///FlagIcon's netherlands flag
-  static const netherlands = "assets/flags/netherlands.svg";
+  /// Flag logo for netherlands netherlands
+  static const netherlands = "assets/images/logos/flags/netherlands.svg";
 
-  ///FlagIcon's new zealand flag
-  static const new_zealand = "assets/flags/new-zealand.svg";
+  /// Flag logo for new zealand new-zealand
+  static const new_zealand = "assets/images/logos/flags/new-zealand.svg";
 
-  ///FlagIcon's nicaragua flag
-  static const nicaragua = "assets/flags/nicaragua.svg";
+  /// Flag logo for nicaragua nicaragua
+  static const nicaragua = "assets/images/logos/flags/nicaragua.svg";
 
-  ///FlagIcon's niger flag
-  static const niger = "assets/flags/niger.svg";
+  /// Flag logo for niger niger
+  static const niger = "assets/images/logos/flags/niger.svg";
 
-  ///FlagIcon's nigeria flag
-  static const nigeria = "assets/flags/nigeria.svg";
+  /// Flag logo for nigeria nigeria
+  static const nigeria = "assets/images/logos/flags/nigeria.svg";
 
-  ///FlagIcon's niue flag
-  static const niue = "assets/flags/niue.svg";
+  /// Flag logo for niue niue
+  static const niue = "assets/images/logos/flags/niue.svg";
 
-  ///FlagIcon's norfolk island flag
-  static const norfolk_island = "assets/flags/norfolk-island.svg";
+  /// Flag logo for norfolk island norfolk-island
+  static const norfolk_island = "assets/images/logos/flags/norfolk-island.svg";
 
-  ///FlagIcon's north korea flag
-  static const north_korea = "assets/flags/north-korea.svg";
+  /// Flag logo for north korea north-korea
+  static const north_korea = "assets/images/logos/flags/north-korea.svg";
 
-  ///FlagIcon's northen cyprus flag
-  static const northen_cyprus = "assets/flags/northen-cyprus.svg";
+  /// Flag logo for northen cyprus northen-cyprus
+  static const northen_cyprus = "assets/images/logos/flags/northen-cyprus.svg";
 
-  ///FlagIcon's northern marianas islands flag
+  /// Flag logo for northern marianas islands northern-marianas-islands
   static const northern_marianas_islands =
-      "assets/flags/northern-marianas-islands.svg";
+      "assets/images/logos/flags/northern-marianas-islands.svg";
 
-  ///FlagIcon's norway flag
-  static const norway = "assets/flags/norway.svg";
+  /// Flag logo for norway norway
+  static const norway = "assets/images/logos/flags/norway.svg";
 
-  ///FlagIcon's oman flag
-  static const oman = "assets/flags/oman.svg";
+  /// Flag logo for oman oman
+  static const oman = "assets/images/logos/flags/oman.svg";
 
-  ///FlagIcon's orkney islands flag
-  static const orkney_islands = "assets/flags/orkney-islands.svg";
+  /// Flag logo for orkney islands orkney-islands
+  static const orkney_islands = "assets/images/logos/flags/orkney-islands.svg";
 
-  ///FlagIcon's ossetia flag
-  static const ossetia = "assets/flags/ossetia.svg";
+  /// Flag logo for ossetia ossetia
+  static const ossetia = "assets/images/logos/flags/ossetia.svg";
 
-  ///FlagIcon's otan flag
-  static const otan = "assets/flags/otan.svg";
+  /// Flag logo for otan otan
+  static const otan = "assets/images/logos/flags/otan.svg";
 
-  ///FlagIcon's pakistan flag
-  static const pakistan = "assets/flags/pakistan.svg";
+  /// Flag logo for pakistan pakistan
+  static const pakistan = "assets/images/logos/flags/pakistan.svg";
 
-  ///FlagIcon's palau flag
-  static const palau = "assets/flags/palau.svg";
+  /// Flag logo for palau palau
+  static const palau = "assets/images/logos/flags/palau.svg";
 
-  ///FlagIcon's palestine flag
-  static const palestine = "assets/flags/palestine.svg";
+  /// Flag logo for palestine palestine
+  static const palestine = "assets/images/logos/flags/palestine.svg";
 
-  ///FlagIcon's panama flag
-  static const panama = "assets/flags/panama.svg";
+  /// Flag logo for panama panama
+  static const panama = "assets/images/logos/flags/panama.svg";
 
-  ///FlagIcon's papua new guinea flag
-  static const papua_new_guinea = "assets/flags/papua-new-guinea.svg";
+  /// Flag logo for papua new guinea papua-new-guinea
+  static const papua_new_guinea =
+      "assets/images/logos/flags/papua-new-guinea.svg";
 
-  ///FlagIcon's paraguay flag
-  static const paraguay = "assets/flags/paraguay.svg";
+  /// Flag logo for paraguay paraguay
+  static const paraguay = "assets/images/logos/flags/paraguay.svg";
 
-  ///FlagIcon's peru flag
-  static const peru = "assets/flags/peru.svg";
+  /// Flag logo for peru peru
+  static const peru = "assets/images/logos/flags/peru.svg";
 
-  ///FlagIcon's philippines flag
-  static const philippines = "assets/flags/philippines.svg";
+  /// Flag logo for philippines philippines
+  static const philippines = "assets/images/logos/flags/philippines.svg";
 
-  ///FlagIcon's pitcairn islands flag
-  static const pitcairn_islands = "assets/flags/pitcairn-islands.svg";
+  /// Flag logo for pitcairn islands pitcairn-islands
+  static const pitcairn_islands =
+      "assets/images/logos/flags/pitcairn-islands.svg";
 
-  ///FlagIcon's poland flag
-  static const poland = "assets/flags/poland.svg";
+  /// Flag logo for poland poland
+  static const poland = "assets/images/logos/flags/poland.svg";
 
-  ///FlagIcon's portugal flag
-  static const portugal = "assets/flags/portugal.svg";
+  /// Flag logo for portugal portugal
+  static const portugal = "assets/images/logos/flags/portugal.svg";
 
-  ///FlagIcon's puerto rico flag
-  static const puerto_rico = "assets/flags/puerto-rico.svg";
+  /// Flag logo for puerto rico puerto-rico
+  static const puerto_rico = "assets/images/logos/flags/puerto-rico.svg";
 
-  ///FlagIcon's qatar flag
-  static const qatar = "assets/flags/qatar.svg";
+  /// Flag logo for qatar qatar
+  static const qatar = "assets/images/logos/flags/qatar.svg";
 
-  ///FlagIcon's rapa nui flag
-  static const rapa_nui = "assets/flags/rapa-nui.svg";
+  /// Flag logo for rapa nui rapa-nui
+  static const rapa_nui = "assets/images/logos/flags/rapa-nui.svg";
 
-  ///FlagIcon's republic of macedonia flag
-  static const republic_of_macedonia = "assets/flags/republic-of-macedonia.svg";
+  /// Flag logo for republic of macedonia republic-of-macedonia
+  static const republic_of_macedonia =
+      "assets/images/logos/flags/republic-of-macedonia.svg";
 
-  ///FlagIcon's republic of the congo flag
-  static const republic_of_the_congo = "assets/flags/republic-of-the-congo.svg";
+  /// Flag logo for republic of the congo republic-of-the-congo
+  static const republic_of_the_congo =
+      "assets/images/logos/flags/republic-of-the-congo.svg";
 
-  ///FlagIcon's romania flag
-  static const romania = "assets/flags/romania.svg";
+  /// Flag logo for romania romania
+  static const romania = "assets/images/logos/flags/romania.svg";
 
-  ///FlagIcon's russia flag
-  static const russia = "assets/flags/russia.svg";
+  /// Flag logo for russia russia
+  static const russia = "assets/images/logos/flags/russia.svg";
 
-  ///FlagIcon's rwanda flag
-  static const rwanda = "assets/flags/rwanda.svg";
+  /// Flag logo for rwanda rwanda
+  static const rwanda = "assets/images/logos/flags/rwanda.svg";
 
-  ///FlagIcon's saba island flag
-  static const saba_island = "assets/flags/saba-island.svg";
+  /// Flag logo for saba island saba-island
+  static const saba_island = "assets/images/logos/flags/saba-island.svg";
 
-  ///FlagIcon's sahrawi arab democratic republic flag
+  /// Flag logo for sahrawi arab democratic republic sahrawi-arab-democratic-republic
   static const sahrawi_arab_democratic_republic =
-      "assets/flags/sahrawi-arab-democratic-republic.svg";
+      "assets/images/logos/flags/sahrawi-arab-democratic-republic.svg";
 
-  ///FlagIcon's saint kitts and nevis flag
-  static const saint_kitts_and_nevis = "assets/flags/saint-kitts-and-nevis.svg";
+  /// Flag logo for saint kitts and nevis saint-kitts-and-nevis
+  static const saint_kitts_and_nevis =
+      "assets/images/logos/flags/saint-kitts-and-nevis.svg";
 
-  ///FlagIcon's samoa flag
-  static const samoa = "assets/flags/samoa.svg";
+  /// Flag logo for samoa samoa
+  static const samoa = "assets/images/logos/flags/samoa.svg";
 
-  ///FlagIcon's san marino flag
-  static const san_marino = "assets/flags/san-marino.svg";
+  /// Flag logo for san marino san-marino
+  static const san_marino = "assets/images/logos/flags/san-marino.svg";
 
-  ///FlagIcon's sao tome and principe flag
-  static const sao_tome_and_principe = "assets/flags/sao-tome-and-principe.svg";
+  /// Flag logo for sao tome and principe sao-tome-and-principe
+  static const sao_tome_and_principe =
+      "assets/images/logos/flags/sao-tome-and-principe.svg";
 
-  ///FlagIcon's sardinia flag
-  static const sardinia = "assets/flags/sardinia.svg";
+  /// Flag logo for sardinia sardinia
+  static const sardinia = "assets/images/logos/flags/sardinia.svg";
 
-  ///FlagIcon's saudi arabia flag
-  static const saudi_arabia = "assets/flags/saudi-arabia.svg";
+  /// Flag logo for saudi arabia saudi-arabia
+  static const saudi_arabia = "assets/images/logos/flags/saudi-arabia.svg";
 
-  ///FlagIcon's scotland flag
-  static const scotland = "assets/flags/scotland.svg";
+  /// Flag logo for scotland scotland
+  static const scotland = "assets/images/logos/flags/scotland.svg";
 
-  ///FlagIcon's senegal flag
-  static const senegal = "assets/flags/senegal.svg";
+  /// Flag logo for senegal senegal
+  static const senegal = "assets/images/logos/flags/senegal.svg";
 
-  ///FlagIcon's serbia flag
-  static const serbia = "assets/flags/serbia.svg";
+  /// Flag logo for serbia serbia
+  static const serbia = "assets/images/logos/flags/serbia.svg";
 
-  ///FlagIcon's seychelles flag
-  static const seychelles = "assets/flags/seychelles.svg";
+  /// Flag logo for seychelles seychelles
+  static const seychelles = "assets/images/logos/flags/seychelles.svg";
 
-  ///FlagIcon's sicily flag
-  static const sicily = "assets/flags/sicily.svg";
+  /// Flag logo for sicily sicily
+  static const sicily = "assets/images/logos/flags/sicily.svg";
 
-  ///FlagIcon's sierra leone flag
-  static const sierra_leone = "assets/flags/sierra-leone.svg";
+  /// Flag logo for sierra leone sierra-leone
+  static const sierra_leone = "assets/images/logos/flags/sierra-leone.svg";
 
-  ///FlagIcon's singapore flag
-  static const singapore = "assets/flags/singapore.svg";
+  /// Flag logo for singapore singapore
+  static const singapore = "assets/images/logos/flags/singapore.svg";
 
-  ///FlagIcon's sint eustatius flag
-  static const sint_eustatius = "assets/flags/sint-eustatius.svg";
+  /// Flag logo for sint eustatius sint-eustatius
+  static const sint_eustatius = "assets/images/logos/flags/sint-eustatius.svg";
 
-  ///FlagIcon's sint maarten flag
-  static const sint_maarten = "assets/flags/sint-maarten.svg";
+  /// Flag logo for sint maarten sint-maarten
+  static const sint_maarten = "assets/images/logos/flags/sint-maarten.svg";
 
-  ///FlagIcon's slovakia flag
-  static const slovakia = "assets/flags/slovakia.svg";
+  /// Flag logo for slovakia slovakia
+  static const slovakia = "assets/images/logos/flags/slovakia.svg";
 
-  ///FlagIcon's slovenia flag
-  static const slovenia = "assets/flags/slovenia.svg";
+  /// Flag logo for slovenia slovenia
+  static const slovenia = "assets/images/logos/flags/slovenia.svg";
 
-  ///FlagIcon's solomon islands flag
-  static const solomon_islands = "assets/flags/solomon-islands.svg";
+  /// Flag logo for solomon islands solomon-islands
+  static const solomon_islands =
+      "assets/images/logos/flags/solomon-islands.svg";
 
-  ///FlagIcon's somalia flag
-  static const somalia = "assets/flags/somalia.svg";
+  /// Flag logo for somalia somalia
+  static const somalia = "assets/images/logos/flags/somalia.svg";
 
-  ///FlagIcon's somaliland flag
-  static const somaliland = "assets/flags/somaliland.svg";
+  /// Flag logo for somaliland somaliland
+  static const somaliland = "assets/images/logos/flags/somaliland.svg";
 
-  ///FlagIcon's south africa flag
-  static const south_africa = "assets/flags/south-africa.svg";
+  /// Flag logo for south africa south-africa
+  static const south_africa = "assets/images/logos/flags/south-africa.svg";
 
-  ///FlagIcon's south korea flag
-  static const south_korea = "assets/flags/south-korea.svg";
+  /// Flag logo for south korea south-korea
+  static const south_korea = "assets/images/logos/flags/south-korea.svg";
 
-  ///FlagIcon's south sudan flag
-  static const south_sudan = "assets/flags/south-sudan.svg";
+  /// Flag logo for south sudan south-sudan
+  static const south_sudan = "assets/images/logos/flags/south-sudan.svg";
 
-  ///FlagIcon's spain flag
-  static const spain = "assets/flags/spain.svg";
+  /// Flag logo for spain spain
+  static const spain = "assets/images/logos/flags/spain.svg";
 
-  ///FlagIcon's sri lanka flag
-  static const sri_lanka = "assets/flags/sri-lanka.svg";
+  /// Flag logo for sri lanka sri-lanka
+  static const sri_lanka = "assets/images/logos/flags/sri-lanka.svg";
 
-  ///FlagIcon's st barts flag
-  static const st_barts = "assets/flags/st-barts.svg";
+  /// Flag logo for st barts st-barts
+  static const st_barts = "assets/images/logos/flags/st-barts.svg";
 
-  ///FlagIcon's st vincent and the grenadines flag
+  /// Flag logo for st vincent and the grenadines st-vincent-and-the-grenadines
   static const st_vincent_and_the_grenadines =
-      "assets/flags/st-vincent-and-the-grenadines.svg";
+      "assets/images/logos/flags/st-vincent-and-the-grenadines.svg";
 
-  ///FlagIcon's sudan flag
-  static const sudan = "assets/flags/sudan.svg";
+  /// Flag logo for sudan sudan
+  static const sudan = "assets/images/logos/flags/sudan.svg";
 
-  ///FlagIcon's suriname flag
-  static const suriname = "assets/flags/suriname.svg";
+  /// Flag logo for suriname suriname
+  static const suriname = "assets/images/logos/flags/suriname.svg";
 
-  ///FlagIcon's sweden flag
-  static const sweden = "assets/flags/sweden.svg";
+  /// Flag logo for sweden sweden
+  static const sweden = "assets/images/logos/flags/sweden.svg";
 
-  ///FlagIcon's switzerland flag
-  static const switzerland = "assets/flags/switzerland.svg";
+  /// Flag logo for switzerland switzerland
+  static const switzerland = "assets/images/logos/flags/switzerland.svg";
 
-  ///FlagIcon's syria flag
-  static const syria = "assets/flags/syria.svg";
+  /// Flag logo for syria syria
+  static const syria = "assets/images/logos/flags/syria.svg";
 
-  ///FlagIcon's taiwan flag
-  static const taiwan = "assets/flags/taiwan.svg";
+  /// Flag logo for taiwan taiwan
+  static const taiwan = "assets/images/logos/flags/taiwan.svg";
 
-  ///FlagIcon's tajikistan flag
-  static const tajikistan = "assets/flags/tajikistan.svg";
+  /// Flag logo for tajikistan tajikistan
+  static const tajikistan = "assets/images/logos/flags/tajikistan.svg";
 
-  ///FlagIcon's tanzania flag
-  static const tanzania = "assets/flags/tanzania.svg";
+  /// Flag logo for tanzania tanzania
+  static const tanzania = "assets/images/logos/flags/tanzania.svg";
 
-  ///FlagIcon's thailand flag
-  static const thailand = "assets/flags/thailand.svg";
+  /// Flag logo for thailand thailand
+  static const thailand = "assets/images/logos/flags/thailand.svg";
 
-  ///FlagIcon's tibet flag
-  static const tibet = "assets/flags/tibet.svg";
+  /// Flag logo for tibet tibet
+  static const tibet = "assets/images/logos/flags/tibet.svg";
 
-  ///FlagIcon's togo flag
-  static const togo = "assets/flags/togo.svg";
+  /// Flag logo for togo togo
+  static const togo = "assets/images/logos/flags/togo.svg";
 
-  ///FlagIcon's tokelau flag
-  static const tokelau = "assets/flags/tokelau.svg";
+  /// Flag logo for tokelau tokelau
+  static const tokelau = "assets/images/logos/flags/tokelau.svg";
 
-  ///FlagIcon's tonga flag
-  static const tonga = "assets/flags/tonga.svg";
+  /// Flag logo for tonga tonga
+  static const tonga = "assets/images/logos/flags/tonga.svg";
 
-  ///FlagIcon's transnistria flag
-  static const transnistria = "assets/flags/transnistria.svg";
+  /// Flag logo for transnistria transnistria
+  static const transnistria = "assets/images/logos/flags/transnistria.svg";
 
-  ///FlagIcon's trinidad and tobago flag
-  static const trinidad_and_tobago = "assets/flags/trinidad-and-tobago.svg";
+  /// Flag logo for trinidad and tobago trinidad-and-tobago
+  static const trinidad_and_tobago =
+      "assets/images/logos/flags/trinidad-and-tobago.svg";
 
-  ///FlagIcon's tubalu flag
-  static const tubalu = "assets/flags/tubalu.svg";
+  /// Flag logo for tubalu tubalu
+  static const tubalu = "assets/images/logos/flags/tubalu.svg";
 
-  ///FlagIcon's tunisia flag
-  static const tunisia = "assets/flags/tunisia.svg";
+  /// Flag logo for tunisia tunisia
+  static const tunisia = "assets/images/logos/flags/tunisia.svg";
 
-  ///FlagIcon's turkey flag
-  static const turkey = "assets/flags/turkey.svg";
+  /// Flag logo for turkey turkey
+  static const turkey = "assets/images/logos/flags/turkey.svg";
 
-  ///FlagIcon's turkmenistan flag
-  static const turkmenistan = "assets/flags/turkmenistan.svg";
+  /// Flag logo for turkmenistan turkmenistan
+  static const turkmenistan = "assets/images/logos/flags/turkmenistan.svg";
 
-  ///FlagIcon's turks and caicos flag
-  static const turks_and_caicos = "assets/flags/turks-and-caicos.svg";
+  /// Flag logo for turks and caicos turks-and-caicos
+  static const turks_and_caicos =
+      "assets/images/logos/flags/turks-and-caicos.svg";
 
-  ///FlagIcon's uganda flag
-  static const uganda = "assets/flags/uganda.svg";
+  /// Flag logo for uganda uganda
+  static const uganda = "assets/images/logos/flags/uganda.svg";
 
-  ///FlagIcon's ukraine flag
-  static const ukraine = "assets/flags/ukraine.svg";
+  /// Flag logo for ukraine ukraine
+  static const ukraine = "assets/images/logos/flags/ukraine.svg";
 
-  ///FlagIcon's united arab emirates flag
-  static const united_arab_emirates = "assets/flags/united-arab-emirates.svg";
+  /// Flag logo for united arab emirates united-arab-emirates
+  static const united_arab_emirates =
+      "assets/images/logos/flags/united-arab-emirates.svg";
 
-  ///FlagIcon's united kingdom flag
-  static const united_kingdom = "assets/flags/united-kingdom.svg";
+  /// Flag logo for united kingdom united-kingdom
+  static const united_kingdom = "assets/images/logos/flags/united-kingdom.svg";
 
-  ///FlagIcon's united nations flag
-  static const united_nations = "assets/flags/united-nations.svg";
+  /// Flag logo for united nations united-nations
+  static const united_nations = "assets/images/logos/flags/united-nations.svg";
 
-  ///FlagIcon's united states of america flag
+  /// Flag logo for united states of america united-states-of-america
   static const united_states_of_america =
-      "assets/flags/united-states-of-america.svg";
+      "assets/images/logos/flags/united-states-of-america.svg";
 
-  ///FlagIcon's uruguay flag
-  static const uruguay = "assets/flags/uruguay.svg";
+  /// Flag logo for uruguay uruguay
+  static const uruguay = "assets/images/logos/flags/uruguay.svg";
 
-  ///FlagIcon's uzbekistan flag
-  static const uzbekistan = "assets/flags/uzbekistan.svg";
+  /// Flag logo for uzbekistan uzbekistan
+  static const uzbekistan = "assets/images/logos/flags/uzbekistan.svg";
 
-  ///FlagIcon's vanuatu flag
-  static const vanuatu = "assets/flags/vanuatu.svg";
+  /// Flag logo for vanuatu vanuatu
+  static const vanuatu = "assets/images/logos/flags/vanuatu.svg";
 
-  ///FlagIcon's vatican city flag
-  static const vatican_city = "assets/flags/vatican-city.svg";
+  /// Flag logo for vatican city vatican-city
+  static const vatican_city = "assets/images/logos/flags/vatican-city.svg";
 
-  ///FlagIcon's venezuela flag
-  static const venezuela = "assets/flags/venezuela.svg";
+  /// Flag logo for venezuela venezuela
+  static const venezuela = "assets/images/logos/flags/venezuela.svg";
 
-  ///FlagIcon's vietnam flag
-  static const vietnam = "assets/flags/vietnam.svg";
+  /// Flag logo for vietnam vietnam
+  static const vietnam = "assets/images/logos/flags/vietnam.svg";
 
-  ///FlagIcon's virgin islands flag
-  static const virgin_islands = "assets/flags/virgin-islands.svg";
+  /// Flag logo for virgin islands virgin-islands
+  static const virgin_islands = "assets/images/logos/flags/virgin-islands.svg";
 
-  ///FlagIcon's wales flag
-  static const wales = "assets/flags/wales.svg";
+  /// Flag logo for wales wales
+  static const wales = "assets/images/logos/flags/wales.svg";
 
-  ///FlagIcon's yemen flag
-  static const yemen = "assets/flags/yemen.svg";
+  /// Flag logo for yemen yemen
+  static const yemen = "assets/images/logos/flags/yemen.svg";
 
-  ///FlagIcon's zambia flag
-  static const zambia = "assets/flags/zambia.svg";
+  /// Flag logo for zambia zambia
+  static const zambia = "assets/images/logos/flags/zambia.svg";
 
-  ///FlagIcon's zimbabwe flag
-  static const zimbabwe = "assets/flags/zimbabwe.svg";
+  /// Flag logo for zimbabwe zimbabwe
+  static const zimbabwe = "assets/images/logos/flags/zimbabwe.svg";
 }
