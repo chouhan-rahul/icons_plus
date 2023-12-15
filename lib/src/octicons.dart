@@ -6,1689 +6,978 @@ class OctIconData extends IconData {
   const OctIconData(int code)
       : super(
           code,
-          fontFamily: 'octicons',
+          fontFamily: 'OctIcons',
           fontPackage: 'icons_plus',
         );
 }
 
 class OctIcons {
-  ///OctIcons' accessibility_16 icon
-  static const accessibility_16 = OctIconData(0xe900);
+  /// OctIcons' accessibility Icon
+  static const accessibility = OctIconData(0xe900);
 
-  ///OctIcons' accessibility_inset_16 icon
-  static const accessibility_inset_16 = OctIconData(0xe901);
+  /// OctIcons' accessibility inset Icon
+  static const accessibility_inset = OctIconData(0xe901);
 
-  ///OctIcons' alert_16 icon
-  static const alert_16 = OctIconData(0xe902);
+  /// OctIcons' alert Icon
+  static const alert = OctIconData(0xe902);
 
-  ///OctIcons' alert_24 icon
-  static const alert_24 = OctIconData(0xe903);
+  /// OctIcons' alert fill Icon
+  static const alert_fill = OctIconData(0xe903);
 
-  ///OctIcons' alert_fill_12 icon
-  static const alert_fill_12 = OctIconData(0xe904);
+  /// OctIcons' apps Icon
+  static const apps = OctIconData(0xe904);
 
-  ///OctIcons' alert_fill_16 icon
-  static const alert_fill_16 = OctIconData(0xe905);
+  /// OctIcons' archive Icon
+  static const archive = OctIconData(0xe905);
 
-  ///OctIcons' alert_fill_24 icon
-  static const alert_fill_24 = OctIconData(0xe906);
+  /// OctIcons' arrow both Icon
+  static const arrow_both = OctIconData(0xe906);
 
-  ///OctIcons' apps_16 icon
-  static const apps_16 = OctIconData(0xe907);
+  /// OctIcons' arrow down Icon
+  static const arrow_down = OctIconData(0xe907);
 
-  ///OctIcons' archive_16 icon
-  static const archive_16 = OctIconData(0xe908);
+  /// OctIcons' arrow down left Icon
+  static const arrow_down_left = OctIconData(0xe908);
 
-  ///OctIcons' archive_24 icon
-  static const archive_24 = OctIconData(0xe909);
+  /// OctIcons' arrow down right Icon
+  static const arrow_down_right = OctIconData(0xe909);
 
-  ///OctIcons' arrow_both_16 icon
-  static const arrow_both_16 = OctIconData(0xe90a);
+  /// OctIcons' arrow left Icon
+  static const arrow_left = OctIconData(0xe90a);
 
-  ///OctIcons' arrow_both_24 icon
-  static const arrow_both_24 = OctIconData(0xe90b);
+  /// OctIcons' arrow right Icon
+  static const arrow_right = OctIconData(0xe90b);
 
-  ///OctIcons' arrow_down_16 icon
-  static const arrow_down_16 = OctIconData(0xe90c);
+  /// OctIcons' arrow switch Icon
+  static const arrow_switch = OctIconData(0xe90c);
 
-  ///OctIcons' arrow_down_24 icon
-  static const arrow_down_24 = OctIconData(0xe90d);
+  /// OctIcons' arrow up Icon
+  static const arrow_up = OctIconData(0xe90d);
 
-  ///OctIcons' arrow_down_left_16 icon
-  static const arrow_down_left_16 = OctIconData(0xe90e);
+  /// OctIcons' arrow up left Icon
+  static const arrow_up_left = OctIconData(0xe90e);
 
-  ///OctIcons' arrow_down_left_24 icon
-  static const arrow_down_left_24 = OctIconData(0xe90f);
+  /// OctIcons' arrow up right Icon
+  static const arrow_up_right = OctIconData(0xe90f);
 
-  ///OctIcons' arrow_down_right_16 icon
-  static const arrow_down_right_16 = OctIconData(0xe910);
+  /// OctIcons' beaker Icon
+  static const beaker = OctIconData(0xe910);
 
-  ///OctIcons' arrow_down_right_24 icon
-  static const arrow_down_right_24 = OctIconData(0xe911);
+  /// OctIcons' bell Icon
+  static const bell = OctIconData(0xe911);
 
-  ///OctIcons' arrow_left_16 icon
-  static const arrow_left_16 = OctIconData(0xe912);
+  /// OctIcons' bell fill Icon
+  static const bell_fill = OctIconData(0xe912);
 
-  ///OctIcons' arrow_left_24 icon
-  static const arrow_left_24 = OctIconData(0xe913);
+  /// OctIcons' bell slash Icon
+  static const bell_slash = OctIconData(0xe913);
 
-  ///OctIcons' arrow_right_16 icon
-  static const arrow_right_16 = OctIconData(0xe914);
+  /// OctIcons' blocked Icon
+  static const blocked = OctIconData(0xe914);
 
-  ///OctIcons' arrow_right_24 icon
-  static const arrow_right_24 = OctIconData(0xe915);
+  /// OctIcons' bold Icon
+  static const bold = OctIconData(0xe915);
 
-  ///OctIcons' arrow_switch_16 icon
-  static const arrow_switch_16 = OctIconData(0xe916);
+  /// OctIcons' book Icon
+  static const book = OctIconData(0xe916);
 
-  ///OctIcons' arrow_switch_24 icon
-  static const arrow_switch_24 = OctIconData(0xe917);
+  /// OctIcons' bookmark Icon
+  static const bookmark = OctIconData(0xe917);
 
-  ///OctIcons' arrow_up_16 icon
-  static const arrow_up_16 = OctIconData(0xe918);
+  /// OctIcons' bookmark slash Icon
+  static const bookmark_slash = OctIconData(0xe918);
 
-  ///OctIcons' arrow_up_24 icon
-  static const arrow_up_24 = OctIconData(0xe919);
+  /// OctIcons' briefcase Icon
+  static const briefcase = OctIconData(0xe919);
 
-  ///OctIcons' arrow_up_left_16 icon
-  static const arrow_up_left_16 = OctIconData(0xe91a);
+  /// OctIcons' broadcast Icon
+  static const broadcast = OctIconData(0xe91a);
 
-  ///OctIcons' arrow_up_left_24 icon
-  static const arrow_up_left_24 = OctIconData(0xe91b);
+  /// OctIcons' browser Icon
+  static const browser = OctIconData(0xe91b);
 
-  ///OctIcons' arrow_up_right_16 icon
-  static const arrow_up_right_16 = OctIconData(0xe91c);
+  /// OctIcons' bug Icon
+  static const bug = OctIconData(0xe91c);
 
-  ///OctIcons' arrow_up_right_24 icon
-  static const arrow_up_right_24 = OctIconData(0xe91d);
+  /// OctIcons' cache Icon
+  static const cache = OctIconData(0xe91d);
 
-  ///OctIcons' beaker_16 icon
-  static const beaker_16 = OctIconData(0xe91e);
+  /// OctIcons' calendar Icon
+  static const calendar = OctIconData(0xe91e);
 
-  ///OctIcons' beaker_24 icon
-  static const beaker_24 = OctIconData(0xe91f);
+  /// OctIcons' check Icon
+  static const check = OctIconData(0xe91f);
 
-  ///OctIcons' bell_16 icon
-  static const bell_16 = OctIconData(0xe920);
+  /// OctIcons' checkbox Icon
+  static const checkbox = OctIconData(0xe920);
 
-  ///OctIcons' bell_24 icon
-  static const bell_24 = OctIconData(0xe921);
+  /// OctIcons' check circle Icon
+  static const check_circle = OctIconData(0xe921);
 
-  ///OctIcons' bell_fill_16 icon
-  static const bell_fill_16 = OctIconData(0xe922);
+  /// OctIcons' check circle fill Icon
+  static const check_circle_fill = OctIconData(0xe922);
 
-  ///OctIcons' bell_fill_24 icon
-  static const bell_fill_24 = OctIconData(0xe923);
+  /// OctIcons' checklist Icon
+  static const checklist = OctIconData(0xe923);
 
-  ///OctIcons' bell_slash_16 icon
-  static const bell_slash_16 = OctIconData(0xe924);
+  /// OctIcons' chevron down Icon
+  static const chevron_down = OctIconData(0xe924);
 
-  ///OctIcons' bell_slash_24 icon
-  static const bell_slash_24 = OctIconData(0xe925);
+  /// OctIcons' chevron left Icon
+  static const chevron_left = OctIconData(0xe925);
 
-  ///OctIcons' blocked_16 icon
-  static const blocked_16 = OctIconData(0xe926);
+  /// OctIcons' chevron right Icon
+  static const chevron_right = OctIconData(0xe926);
 
-  ///OctIcons' blocked_24 icon
-  static const blocked_24 = OctIconData(0xe927);
+  /// OctIcons' chevron up Icon
+  static const chevron_up = OctIconData(0xe927);
 
-  ///OctIcons' bold_16 icon
-  static const bold_16 = OctIconData(0xe928);
+  /// OctIcons' circle Icon
+  static const circle = OctIconData(0xe928);
 
-  ///OctIcons' bold_24 icon
-  static const bold_24 = OctIconData(0xe929);
+  /// OctIcons' circle slash Icon
+  static const circle_slash = OctIconData(0xe929);
 
-  ///OctIcons' book_16 icon
-  static const book_16 = OctIconData(0xe92a);
+  /// OctIcons' clock Icon
+  static const clock = OctIconData(0xe92a);
 
-  ///OctIcons' book_24 icon
-  static const book_24 = OctIconData(0xe92b);
+  /// OctIcons' clock fill Icon
+  static const clock_fill = OctIconData(0xe92b);
 
-  ///OctIcons' bookmark_16 icon
-  static const bookmark_16 = OctIconData(0xe92c);
+  /// OctIcons' cloud Icon
+  static const cloud = OctIconData(0xe92c);
 
-  ///OctIcons' bookmark_24 icon
-  static const bookmark_24 = OctIconData(0xe92d);
+  /// OctIcons' cloud offline Icon
+  static const cloud_offline = OctIconData(0xe92d);
 
-  ///OctIcons' bookmark_fill_24 icon
-  static const bookmark_fill_24 = OctIconData(0xe92e);
+  /// OctIcons' code Icon
+  static const code = OctIconData(0xe92e);
 
-  ///OctIcons' bookmark_slash_16 icon
-  static const bookmark_slash_16 = OctIconData(0xe92f);
+  /// OctIcons' code of conduct Icon
+  static const code_of_conduct = OctIconData(0xe92f);
 
-  ///OctIcons' bookmark_slash_24 icon
-  static const bookmark_slash_24 = OctIconData(0xe930);
+  /// OctIcons' code review Icon
+  static const code_review = OctIconData(0xe930);
 
-  ///OctIcons' bookmark_slash_fill_24 icon
-  static const bookmark_slash_fill_24 = OctIconData(0xe931);
+  /// OctIcons' codescan Icon
+  static const codescan = OctIconData(0xe931);
 
-  ///OctIcons' briefcase_16 icon
-  static const briefcase_16 = OctIconData(0xe932);
+  /// OctIcons' codescan checkmark Icon
+  static const codescan_checkmark = OctIconData(0xe932);
 
-  ///OctIcons' briefcase_24 icon
-  static const briefcase_24 = OctIconData(0xe933);
+  /// OctIcons' codespaces Icon
+  static const codespaces = OctIconData(0xe933);
 
-  ///OctIcons' broadcast_16 icon
-  static const broadcast_16 = OctIconData(0xe934);
+  /// OctIcons' code square Icon
+  static const code_square = OctIconData(0xe934);
 
-  ///OctIcons' broadcast_24 icon
-  static const broadcast_24 = OctIconData(0xe935);
+  /// OctIcons' columns Icon
+  static const columns = OctIconData(0xe935);
 
-  ///OctIcons' browser_16 icon
-  static const browser_16 = OctIconData(0xe936);
+  /// OctIcons' command palette Icon
+  static const command_palette = OctIconData(0xe936);
 
-  ///OctIcons' browser_24 icon
-  static const browser_24 = OctIconData(0xe937);
+  /// OctIcons' comment Icon
+  static const comment = OctIconData(0xe937);
 
-  ///OctIcons' bug_16 icon
-  static const bug_16 = OctIconData(0xe938);
+  /// OctIcons' comment discussion Icon
+  static const comment_discussion = OctIconData(0xe938);
 
-  ///OctIcons' bug_24 icon
-  static const bug_24 = OctIconData(0xe939);
+  /// OctIcons' container Icon
+  static const container = OctIconData(0xe939);
 
-  ///OctIcons' cache_16 icon
-  static const cache_16 = OctIconData(0xe93a);
+  /// OctIcons' copilot Icon
+  static const copilot = OctIconData(0xe93a);
 
-  ///OctIcons' calendar_16 icon
-  static const calendar_16 = OctIconData(0xe93b);
+  /// OctIcons' copilot 48 Icon
+  static const copilot_48 = OctIconData(0xe93b);
 
-  ///OctIcons' calendar_24 icon
-  static const calendar_24 = OctIconData(0xe93c);
+  /// OctIcons' copilot 96 Icon
+  static const copilot_96 = OctIconData(0xe93c);
 
-  ///OctIcons' check_16 icon
-  static const check_16 = OctIconData(0xe93d);
+  /// OctIcons' copilot error Icon
+  static const copilot_error = OctIconData(0xe93d);
 
-  ///OctIcons' check_24 icon
-  static const check_24 = OctIconData(0xe93e);
+  /// OctIcons' copilot warning Icon
+  static const copilot_warning = OctIconData(0xe93e);
 
-  ///OctIcons' checkbox_16 icon
-  static const checkbox_16 = OctIconData(0xe93f);
+  /// OctIcons' copy Icon
+  static const copy = OctIconData(0xe93f);
 
-  ///OctIcons' checkbox_24 icon
-  static const checkbox_24 = OctIconData(0xe940);
+  /// OctIcons' cpu Icon
+  static const cpu = OctIconData(0xe940);
 
-  ///OctIcons' check_circle_16 icon
-  static const check_circle_16 = OctIconData(0xe941);
+  /// OctIcons' credit card Icon
+  static const credit_card = OctIconData(0xe941);
 
-  ///OctIcons' check_circle_24 icon
-  static const check_circle_24 = OctIconData(0xe942);
+  /// OctIcons' cross reference Icon
+  static const cross_reference = OctIconData(0xe942);
 
-  ///OctIcons' check_circle_fill_12 icon
-  static const check_circle_fill_12 = OctIconData(0xe943);
+  /// OctIcons' dash Icon
+  static const dash = OctIconData(0xe943);
 
-  ///OctIcons' check_circle_fill_16 icon
-  static const check_circle_fill_16 = OctIconData(0xe944);
+  /// OctIcons' database Icon
+  static const database = OctIconData(0xe944);
 
-  ///OctIcons' check_circle_fill_24 icon
-  static const check_circle_fill_24 = OctIconData(0xe945);
+  /// OctIcons' dependabot Icon
+  static const dependabot = OctIconData(0xe945);
 
-  ///OctIcons' checklist_16 icon
-  static const checklist_16 = OctIconData(0xe946);
+  /// OctIcons' desktop download Icon
+  static const desktop_download = OctIconData(0xe946);
 
-  ///OctIcons' checklist_24 icon
-  static const checklist_24 = OctIconData(0xe947);
+  /// OctIcons' device camera Icon
+  static const device_camera = OctIconData(0xe947);
 
-  ///OctIcons' chevron_down_12 icon
-  static const chevron_down_12 = OctIconData(0xe948);
+  /// OctIcons' device camera video Icon
+  static const device_camera_video = OctIconData(0xe948);
 
-  ///OctIcons' chevron_down_16 icon
-  static const chevron_down_16 = OctIconData(0xe949);
+  /// OctIcons' device desktop Icon
+  static const device_desktop = OctIconData(0xe949);
 
-  ///OctIcons' chevron_down_24 icon
-  static const chevron_down_24 = OctIconData(0xe94a);
+  /// OctIcons' device mobile Icon
+  static const device_mobile = OctIconData(0xe94a);
 
-  ///OctIcons' chevron_left_16 icon
-  static const chevron_left_16 = OctIconData(0xe94b);
+  /// OctIcons' devices Icon
+  static const devices = OctIconData(0xe94b);
 
-  ///OctIcons' chevron_left_24 icon
-  static const chevron_left_24 = OctIconData(0xe94c);
+  /// OctIcons' diamond Icon
+  static const diamond = OctIconData(0xe94c);
 
-  ///OctIcons' chevron_right_12 icon
-  static const chevron_right_12 = OctIconData(0xe94d);
+  /// OctIcons' diff Icon
+  static const diff = OctIconData(0xe94d);
 
-  ///OctIcons' chevron_right_16 icon
-  static const chevron_right_16 = OctIconData(0xe94e);
+  /// OctIcons' diff added Icon
+  static const diff_added = OctIconData(0xe94e);
 
-  ///OctIcons' chevron_right_24 icon
-  static const chevron_right_24 = OctIconData(0xe94f);
+  /// OctIcons' diff ignored Icon
+  static const diff_ignored = OctIconData(0xe94f);
 
-  ///OctIcons' chevron_up_12 icon
-  static const chevron_up_12 = OctIconData(0xe950);
+  /// OctIcons' diff modified Icon
+  static const diff_modified = OctIconData(0xe950);
 
-  ///OctIcons' chevron_up_16 icon
-  static const chevron_up_16 = OctIconData(0xe951);
+  /// OctIcons' diff removed Icon
+  static const diff_removed = OctIconData(0xe951);
 
-  ///OctIcons' chevron_up_24 icon
-  static const chevron_up_24 = OctIconData(0xe952);
+  /// OctIcons' diff renamed Icon
+  static const diff_renamed = OctIconData(0xe952);
 
-  ///OctIcons' circle_16 icon
-  static const circle_16 = OctIconData(0xe953);
+  /// OctIcons' discussion closed Icon
+  static const discussion_closed = OctIconData(0xe953);
 
-  ///OctIcons' circle_24 icon
-  static const circle_24 = OctIconData(0xe954);
+  /// OctIcons' discussion duplicate Icon
+  static const discussion_duplicate = OctIconData(0xe954);
 
-  ///OctIcons' circle_slash_16 icon
-  static const circle_slash_16 = OctIconData(0xe955);
+  /// OctIcons' discussion outdated Icon
+  static const discussion_outdated = OctIconData(0xe955);
 
-  ///OctIcons' circle_slash_24 icon
-  static const circle_slash_24 = OctIconData(0xe956);
+  /// OctIcons' dot Icon
+  static const dot = OctIconData(0xe956);
 
-  ///OctIcons' clock_16 icon
-  static const clock_16 = OctIconData(0xe957);
+  /// OctIcons' dot fill Icon
+  static const dot_fill = OctIconData(0xe957);
 
-  ///OctIcons' clock_24 icon
-  static const clock_24 = OctIconData(0xe958);
+  /// OctIcons' download Icon
+  static const download = OctIconData(0xe958);
 
-  ///OctIcons' clock_fill_16 icon
-  static const clock_fill_16 = OctIconData(0xe959);
+  /// OctIcons' duplicate Icon
+  static const duplicate = OctIconData(0xe959);
 
-  ///OctIcons' clock_fill_24 icon
-  static const clock_fill_24 = OctIconData(0xe95a);
+  /// OctIcons' ellipsis Icon
+  static const ellipsis = OctIconData(0xe95a);
 
-  ///OctIcons' cloud_16 icon
-  static const cloud_16 = OctIconData(0xe95b);
+  /// OctIcons' eye Icon
+  static const eye = OctIconData(0xe95b);
 
-  ///OctIcons' cloud_24 icon
-  static const cloud_24 = OctIconData(0xe95c);
+  /// OctIcons' eye closed Icon
+  static const eye_closed = OctIconData(0xe95c);
 
-  ///OctIcons' cloud_offline_16 icon
-  static const cloud_offline_16 = OctIconData(0xe95d);
+  /// OctIcons' feed discussion Icon
+  static const feed_discussion = OctIconData(0xe95d);
 
-  ///OctIcons' cloud_offline_24 icon
-  static const cloud_offline_24 = OctIconData(0xe95e);
+  /// OctIcons' feed forked Icon
+  static const feed_forked = OctIconData(0xe95e);
 
-  ///OctIcons' code_16 icon
-  static const code_16 = OctIconData(0xe95f);
+  /// OctIcons' feed heart Icon
+  static const feed_heart = OctIconData(0xe95f);
 
-  ///OctIcons' code_24 icon
-  static const code_24 = OctIconData(0xe960);
+  /// OctIcons' feed issue closed Icon
+  static const feed_issue_closed = OctIconData(0xe960);
 
-  ///OctIcons' code_of_conduct_16 icon
-  static const code_of_conduct_16 = OctIconData(0xe961);
+  /// OctIcons' feed issue draft Icon
+  static const feed_issue_draft = OctIconData(0xe961);
 
-  ///OctIcons' code_of_conduct_24 icon
-  static const code_of_conduct_24 = OctIconData(0xe962);
+  /// OctIcons' feed issue open Icon
+  static const feed_issue_open = OctIconData(0xe962);
 
-  ///OctIcons' code_review_16 icon
-  static const code_review_16 = OctIconData(0xe963);
+  /// OctIcons' feed issue reopen Icon
+  static const feed_issue_reopen = OctIconData(0xe963);
 
-  ///OctIcons' code_review_24 icon
-  static const code_review_24 = OctIconData(0xe964);
+  /// OctIcons' feed merged Icon
+  static const feed_merged = OctIconData(0xe964);
 
-  ///OctIcons' codescan_16 icon
-  static const codescan_16 = OctIconData(0xe965);
+  /// OctIcons' feed person Icon
+  static const feed_person = OctIconData(0xe965);
 
-  ///OctIcons' codescan_24 icon
-  static const codescan_24 = OctIconData(0xe966);
+  /// OctIcons' feed plus Icon
+  static const feed_plus = OctIconData(0xe966);
 
-  ///OctIcons' codescan_checkmark_16 icon
-  static const codescan_checkmark_16 = OctIconData(0xe967);
+  /// OctIcons' feed public Icon
+  static const feed_public = OctIconData(0xe967);
 
-  ///OctIcons' codescan_checkmark_24 icon
-  static const codescan_checkmark_24 = OctIconData(0xe968);
+  /// OctIcons' feed pull request closed Icon
+  static const feed_pull_request_closed = OctIconData(0xe968);
 
-  ///OctIcons' codespaces_16 icon
-  static const codespaces_16 = OctIconData(0xe969);
+  /// OctIcons' feed pull request draft Icon
+  static const feed_pull_request_draft = OctIconData(0xe969);
 
-  ///OctIcons' codespaces_24 icon
-  static const codespaces_24 = OctIconData(0xe96a);
+  /// OctIcons' feed pull request open Icon
+  static const feed_pull_request_open = OctIconData(0xe96a);
 
-  ///OctIcons' code_square_16 icon
-  static const code_square_16 = OctIconData(0xe96b);
+  /// OctIcons' feed repo Icon
+  static const feed_repo = OctIconData(0xe96b);
 
-  ///OctIcons' code_square_24 icon
-  static const code_square_24 = OctIconData(0xe96c);
+  /// OctIcons' feed rocket Icon
+  static const feed_rocket = OctIconData(0xe96c);
 
-  ///OctIcons' columns_16 icon
-  static const columns_16 = OctIconData(0xe96d);
+  /// OctIcons' feed star Icon
+  static const feed_star = OctIconData(0xe96d);
 
-  ///OctIcons' columns_24 icon
-  static const columns_24 = OctIconData(0xe96e);
+  /// OctIcons' feed tag Icon
+  static const feed_tag = OctIconData(0xe96e);
 
-  ///OctIcons' command_palette_16 icon
-  static const command_palette_16 = OctIconData(0xe96f);
+  /// OctIcons' feed trophy Icon
+  static const feed_trophy = OctIconData(0xe96f);
 
-  ///OctIcons' command_palette_24 icon
-  static const command_palette_24 = OctIconData(0xe970);
+  /// OctIcons' file Icon
+  static const file = OctIconData(0xe970);
 
-  ///OctIcons' comment_16 icon
-  static const comment_16 = OctIconData(0xe971);
+  /// OctIcons' file added Icon
+  static const file_added = OctIconData(0xe971);
 
-  ///OctIcons' comment_24 icon
-  static const comment_24 = OctIconData(0xe972);
+  /// OctIcons' file badge Icon
+  static const file_badge = OctIconData(0xe972);
 
-  ///OctIcons' comment_discussion_16 icon
-  static const comment_discussion_16 = OctIconData(0xe973);
+  /// OctIcons' file binary Icon
+  static const file_binary = OctIconData(0xe973);
 
-  ///OctIcons' comment_discussion_24 icon
-  static const comment_discussion_24 = OctIconData(0xe974);
+  /// OctIcons' file code Icon
+  static const file_code = OctIconData(0xe974);
 
-  ///OctIcons' commit_24 icon
-  static const commit_24 = OctIconData(0xe975);
+  /// OctIcons' file diff Icon
+  static const file_diff = OctIconData(0xe975);
 
-  ///OctIcons' container_16 icon
-  static const container_16 = OctIconData(0xe976);
+  /// OctIcons' file directory Icon
+  static const file_directory = OctIconData(0xe976);
 
-  ///OctIcons' container_24 icon
-  static const container_24 = OctIconData(0xe977);
+  /// OctIcons' file directory fill Icon
+  static const file_directory_fill = OctIconData(0xe977);
 
-  ///OctIcons' copilot_16 icon
-  static const copilot_16 = OctIconData(0xe978);
+  /// OctIcons' file directory open fill Icon
+  static const file_directory_open_fill = OctIconData(0xe978);
 
-  ///OctIcons' copilot_24 icon
-  static const copilot_24 = OctIconData(0xe979);
+  /// OctIcons' file directory symlink Icon
+  static const file_directory_symlink = OctIconData(0xe979);
 
-  ///OctIcons' copilot_48 icon
-  static const copilot_48 = OctIconData(0xe97a);
+  /// OctIcons' file moved Icon
+  static const file_moved = OctIconData(0xe97a);
 
-  ///OctIcons' copilot_96 icon
-  static const copilot_96 = OctIconData(0xe97b);
+  /// OctIcons' file removed Icon
+  static const file_removed = OctIconData(0xe97b);
 
-  ///OctIcons' copilot_error_16 icon
-  static const copilot_error_16 = OctIconData(0xe97c);
+  /// OctIcons' file submodule Icon
+  static const file_submodule = OctIconData(0xe97c);
 
-  ///OctIcons' copilot_warning_16 icon
-  static const copilot_warning_16 = OctIconData(0xe97d);
+  /// OctIcons' file symlink file Icon
+  static const file_symlink_file = OctIconData(0xe97d);
 
-  ///OctIcons' copy_16 icon
-  static const copy_16 = OctIconData(0xe97e);
+  /// OctIcons' file zip Icon
+  static const file_zip = OctIconData(0xe97e);
 
-  ///OctIcons' copy_24 icon
-  static const copy_24 = OctIconData(0xe97f);
+  /// OctIcons' filter Icon
+  static const filter = OctIconData(0xe97f);
 
-  ///OctIcons' cpu_16 icon
-  static const cpu_16 = OctIconData(0xe980);
+  /// OctIcons' filter remove Icon
+  static const filter_remove = OctIconData(0xe980);
 
-  ///OctIcons' cpu_24 icon
-  static const cpu_24 = OctIconData(0xe981);
+  /// OctIcons' fiscal host Icon
+  static const fiscal_host = OctIconData(0xe981);
 
-  ///OctIcons' credit_card_16 icon
-  static const credit_card_16 = OctIconData(0xe982);
+  /// OctIcons' flame Icon
+  static const flame = OctIconData(0xe982);
 
-  ///OctIcons' credit_card_24 icon
-  static const credit_card_24 = OctIconData(0xe983);
+  /// OctIcons' fold Icon
+  static const fold = OctIconData(0xe983);
 
-  ///OctIcons' cross_reference_16 icon
-  static const cross_reference_16 = OctIconData(0xe984);
+  /// OctIcons' fold down Icon
+  static const fold_down = OctIconData(0xe984);
 
-  ///OctIcons' cross_reference_24 icon
-  static const cross_reference_24 = OctIconData(0xe985);
+  /// OctIcons' fold up Icon
+  static const fold_up = OctIconData(0xe985);
 
-  ///OctIcons' dash_16 icon
-  static const dash_16 = OctIconData(0xe986);
+  /// OctIcons' gear Icon
+  static const gear = OctIconData(0xe986);
 
-  ///OctIcons' dash_24 icon
-  static const dash_24 = OctIconData(0xe987);
+  /// OctIcons' gift Icon
+  static const gift = OctIconData(0xe987);
 
-  ///OctIcons' database_16 icon
-  static const database_16 = OctIconData(0xe988);
+  /// OctIcons' git branch Icon
+  static const git_branch = OctIconData(0xe988);
 
-  ///OctIcons' database_24 icon
-  static const database_24 = OctIconData(0xe989);
+  /// OctIcons' git commit Icon
+  static const git_commit = OctIconData(0xe989);
 
-  ///OctIcons' dependabot_16 icon
-  static const dependabot_16 = OctIconData(0xe98a);
+  /// OctIcons' git compare Icon
+  static const git_compare = OctIconData(0xe98a);
 
-  ///OctIcons' dependabot_24 icon
-  static const dependabot_24 = OctIconData(0xe98b);
+  /// OctIcons' git merge Icon
+  static const git_merge = OctIconData(0xe98b);
 
-  ///OctIcons' desktop_download_16 icon
-  static const desktop_download_16 = OctIconData(0xe98c);
+  /// OctIcons' git merge queue Icon
+  static const git_merge_queue = OctIconData(0xe98c);
 
-  ///OctIcons' desktop_download_24 icon
-  static const desktop_download_24 = OctIconData(0xe98d);
+  /// OctIcons' git pull request Icon
+  static const git_pull_request = OctIconData(0xe98d);
 
-  ///OctIcons' device_camera_16 icon
-  static const device_camera_16 = OctIconData(0xe98e);
+  /// OctIcons' git pull request closed Icon
+  static const git_pull_request_closed = OctIconData(0xe98e);
 
-  ///OctIcons' device_camera_video_16 icon
-  static const device_camera_video_16 = OctIconData(0xe98f);
+  /// OctIcons' git pull request draft Icon
+  static const git_pull_request_draft = OctIconData(0xe98f);
 
-  ///OctIcons' device_camera_video_24 icon
-  static const device_camera_video_24 = OctIconData(0xe990);
+  /// OctIcons' globe Icon
+  static const globe = OctIconData(0xe990);
 
-  ///OctIcons' device_desktop_16 icon
-  static const device_desktop_16 = OctIconData(0xe991);
+  /// OctIcons' goal Icon
+  static const goal = OctIconData(0xe991);
 
-  ///OctIcons' device_desktop_24 icon
-  static const device_desktop_24 = OctIconData(0xe992);
+  /// OctIcons' grabber Icon
+  static const grabber = OctIconData(0xe992);
 
-  ///OctIcons' device_mobile_16 icon
-  static const device_mobile_16 = OctIconData(0xe993);
+  /// OctIcons' graph Icon
+  static const graph = OctIconData(0xe993);
 
-  ///OctIcons' device_mobile_24 icon
-  static const device_mobile_24 = OctIconData(0xe994);
+  /// OctIcons' hash Icon
+  static const hash = OctIconData(0xe994);
 
-  ///OctIcons' diamond_16 icon
-  static const diamond_16 = OctIconData(0xe995);
+  /// OctIcons' heading Icon
+  static const heading = OctIconData(0xe995);
 
-  ///OctIcons' diamond_24 icon
-  static const diamond_24 = OctIconData(0xe996);
+  /// OctIcons' heart Icon
+  static const heart = OctIconData(0xe996);
 
-  ///OctIcons' diff_16 icon
-  static const diff_16 = OctIconData(0xe997);
+  /// OctIcons' heart fill Icon
+  static const heart_fill = OctIconData(0xe997);
 
-  ///OctIcons' diff_24 icon
-  static const diff_24 = OctIconData(0xe998);
+  /// OctIcons' history Icon
+  static const history = OctIconData(0xe998);
 
-  ///OctIcons' diff_added_16 icon
-  static const diff_added_16 = OctIconData(0xe999);
+  /// OctIcons' home Icon
+  static const home = OctIconData(0xe999);
 
-  ///OctIcons' diff_ignored_16 icon
-  static const diff_ignored_16 = OctIconData(0xe99a);
+  /// OctIcons' horizontal rule Icon
+  static const horizontal_rule = OctIconData(0xe99a);
 
-  ///OctIcons' diff_modified_16 icon
-  static const diff_modified_16 = OctIconData(0xe99b);
+  /// OctIcons' hourglass Icon
+  static const hourglass = OctIconData(0xe99b);
 
-  ///OctIcons' diff_removed_16 icon
-  static const diff_removed_16 = OctIconData(0xe99c);
+  /// OctIcons' hubot Icon
+  static const hubot = OctIconData(0xe99c);
 
-  ///OctIcons' diff_renamed_16 icon
-  static const diff_renamed_16 = OctIconData(0xe99d);
+  /// OctIcons' id badge Icon
+  static const id_badge = OctIconData(0xe99d);
 
-  ///OctIcons' dot_16 icon
-  static const dot_16 = OctIconData(0xe99e);
+  /// OctIcons' image Icon
+  static const image = OctIconData(0xe99e);
 
-  ///OctIcons' dot_24 icon
-  static const dot_24 = OctIconData(0xe99f);
+  /// OctIcons' inbox Icon
+  static const inbox = OctIconData(0xe99f);
 
-  ///OctIcons' dot_fill_16 icon
-  static const dot_fill_16 = OctIconData(0xe9a0);
+  /// OctIcons' infinity Icon
+  static const infinity = OctIconData(0xe9a0);
 
-  ///OctIcons' dot_fill_24 icon
-  static const dot_fill_24 = OctIconData(0xe9a1);
+  /// OctIcons' info Icon
+  static const info = OctIconData(0xe9a1);
 
-  ///OctIcons' download_16 icon
-  static const download_16 = OctIconData(0xe9a2);
+  /// OctIcons' issue closed Icon
+  static const issue_closed = OctIconData(0xe9a2);
 
-  ///OctIcons' download_24 icon
-  static const download_24 = OctIconData(0xe9a3);
+  /// OctIcons' issue draft Icon
+  static const issue_draft = OctIconData(0xe9a3);
 
-  ///OctIcons' duplicate_16 icon
-  static const duplicate_16 = OctIconData(0xe9a4);
+  /// OctIcons' issue opened Icon
+  static const issue_opened = OctIconData(0xe9a4);
 
-  ///OctIcons' duplicate_24 icon
-  static const duplicate_24 = OctIconData(0xe9a5);
+  /// OctIcons' issue reopened Icon
+  static const issue_reopened = OctIconData(0xe9a5);
 
-  ///OctIcons' ellipsis_16 icon
-  static const ellipsis_16 = OctIconData(0xe9a6);
+  /// OctIcons' issue tracked by Icon
+  static const issue_tracked_by = OctIconData(0xe9a6);
 
-  ///OctIcons' eye_16 icon
-  static const eye_16 = OctIconData(0xe9a7);
+  /// OctIcons' issue tracks Icon
+  static const issue_tracks = OctIconData(0xe9a7);
 
-  ///OctIcons' eye_24 icon
-  static const eye_24 = OctIconData(0xe9a8);
+  /// OctIcons' italic Icon
+  static const italic = OctIconData(0xe9a8);
 
-  ///OctIcons' eye_closed_16 icon
-  static const eye_closed_16 = OctIconData(0xe9a9);
+  /// OctIcons' iterations Icon
+  static const iterations = OctIconData(0xe9a9);
 
-  ///OctIcons' eye_closed_24 icon
-  static const eye_closed_24 = OctIconData(0xe9aa);
+  /// OctIcons' kebab horizontal Icon
+  static const kebab_horizontal = OctIconData(0xe9aa);
 
-  ///OctIcons' feed_discussion_16 icon
-  static const feed_discussion_16 = OctIconData(0xe9ab);
+  /// OctIcons' key Icon
+  static const key = OctIconData(0xe9ab);
 
-  ///OctIcons' feed_forked_16 icon
-  static const feed_forked_16 = OctIconData(0xe9ac);
+  /// OctIcons' key asterisk Icon
+  static const key_asterisk = OctIconData(0xe9ac);
 
-  ///OctIcons' feed_heart_16 icon
-  static const feed_heart_16 = OctIconData(0xe9ad);
+  /// OctIcons' law Icon
+  static const law = OctIconData(0xe9ad);
 
-  ///OctIcons' feed_merged_16 icon
-  static const feed_merged_16 = OctIconData(0xe9ae);
+  /// OctIcons' light bulb Icon
+  static const light_bulb = OctIconData(0xe9ae);
 
-  ///OctIcons' feed_person_16 icon
-  static const feed_person_16 = OctIconData(0xe9af);
+  /// OctIcons' link Icon
+  static const link = OctIconData(0xe9af);
 
-  ///OctIcons' feed_repo_16 icon
-  static const feed_repo_16 = OctIconData(0xe9b0);
+  /// OctIcons' link external Icon
+  static const link_external = OctIconData(0xe9b0);
 
-  ///OctIcons' feed_rocket_16 icon
-  static const feed_rocket_16 = OctIconData(0xe9b1);
+  /// OctIcons' list ordered Icon
+  static const list_ordered = OctIconData(0xe9b1);
 
-  ///OctIcons' feed_star_16 icon
-  static const feed_star_16 = OctIconData(0xe9b2);
+  /// OctIcons' list unordered Icon
+  static const list_unordered = OctIconData(0xe9b2);
 
-  ///OctIcons' feed_tag_16 icon
-  static const feed_tag_16 = OctIconData(0xe9b3);
+  /// OctIcons' location Icon
+  static const location = OctIconData(0xe9b3);
 
-  ///OctIcons' feed_trophy_16 icon
-  static const feed_trophy_16 = OctIconData(0xe9b4);
+  /// OctIcons' lock Icon
+  static const lock = OctIconData(0xe9b4);
 
-  ///OctIcons' file_16 icon
-  static const file_16 = OctIconData(0xe9b5);
+  /// OctIcons' log Icon
+  static const log = OctIconData(0xe9b5);
 
-  ///OctIcons' file_24 icon
-  static const file_24 = OctIconData(0xe9b6);
+  /// OctIcons' logo gist Icon
+  static const logo_gist = OctIconData(0xe9b6);
 
-  ///OctIcons' file_added_16 icon
-  static const file_added_16 = OctIconData(0xe9b7);
+  /// OctIcons' logo github Icon
+  static const logo_github = OctIconData(0xe9b7);
 
-  ///OctIcons' file_badge_16 icon
-  static const file_badge_16 = OctIconData(0xe9b8);
+  /// OctIcons' mail Icon
+  static const mail = OctIconData(0xe9b8);
 
-  ///OctIcons' file_binary_16 icon
-  static const file_binary_16 = OctIconData(0xe9b9);
+  /// OctIcons' markdown Icon
+  static const markdown = OctIconData(0xe9b9);
 
-  ///OctIcons' file_binary_24 icon
-  static const file_binary_24 = OctIconData(0xe9ba);
+  /// OctIcons' mark github Icon
+  static const mark_github = OctIconData(0xe9ba);
 
-  ///OctIcons' file_code_16 icon
-  static const file_code_16 = OctIconData(0xe9bb);
+  /// OctIcons' megaphone Icon
+  static const megaphone = OctIconData(0xe9bb);
 
-  ///OctIcons' file_code_24 icon
-  static const file_code_24 = OctIconData(0xe9bc);
+  /// OctIcons' mention Icon
+  static const mention = OctIconData(0xe9bc);
 
-  ///OctIcons' file_diff_16 icon
-  static const file_diff_16 = OctIconData(0xe9bd);
+  /// OctIcons' meter Icon
+  static const meter = OctIconData(0xe9bd);
 
-  ///OctIcons' file_diff_24 icon
-  static const file_diff_24 = OctIconData(0xe9be);
+  /// OctIcons' milestone Icon
+  static const milestone = OctIconData(0xe9be);
 
-  ///OctIcons' file_directory_16 icon
-  static const file_directory_16 = OctIconData(0xe9bf);
+  /// OctIcons' mirror Icon
+  static const mirror = OctIconData(0xe9bf);
 
-  ///OctIcons' file_directory_24 icon
-  static const file_directory_24 = OctIconData(0xe9c0);
+  /// OctIcons' moon Icon
+  static const moon = OctIconData(0xe9c0);
 
-  ///OctIcons' file_directory_fill_16 icon
-  static const file_directory_fill_16 = OctIconData(0xe9c1);
+  /// OctIcons' mortar board Icon
+  static const mortar_board = OctIconData(0xe9c1);
 
-  ///OctIcons' file_directory_fill_24 icon
-  static const file_directory_fill_24 = OctIconData(0xe9c2);
+  /// OctIcons' move to bottom Icon
+  static const move_to_bottom = OctIconData(0xe9c2);
 
-  ///OctIcons' file_directory_open_fill_16 icon
-  static const file_directory_open_fill_16 = OctIconData(0xe9c3);
+  /// OctIcons' move to end Icon
+  static const move_to_end = OctIconData(0xe9c3);
 
-  ///OctIcons' file_media_24 icon
-  static const file_media_24 = OctIconData(0xe9c4);
+  /// OctIcons' move to start Icon
+  static const move_to_start = OctIconData(0xe9c4);
 
-  ///OctIcons' file_moved_16 icon
-  static const file_moved_16 = OctIconData(0xe9c5);
+  /// OctIcons' move to top Icon
+  static const move_to_top = OctIconData(0xe9c5);
 
-  ///OctIcons' file_removed_16 icon
-  static const file_removed_16 = OctIconData(0xe9c6);
+  /// OctIcons' multi select Icon
+  static const multi_select = OctIconData(0xe9c6);
 
-  ///OctIcons' file_submodule_16 icon
-  static const file_submodule_16 = OctIconData(0xe9c7);
+  /// OctIcons' mute Icon
+  static const mute = OctIconData(0xe9c7);
 
-  ///OctIcons' file_submodule_24 icon
-  static const file_submodule_24 = OctIconData(0xe9c8);
+  /// OctIcons' no entry Icon
+  static const no_entry = OctIconData(0xe9c8);
 
-  ///OctIcons' file_symlink_file_16 icon
-  static const file_symlink_file_16 = OctIconData(0xe9c9);
+  /// OctIcons' north star Icon
+  static const north_star = OctIconData(0xe9c9);
 
-  ///OctIcons' file_symlink_file_24 icon
-  static const file_symlink_file_24 = OctIconData(0xe9ca);
+  /// OctIcons' note Icon
+  static const note = OctIconData(0xe9ca);
 
-  ///OctIcons' file_zip_16 icon
-  static const file_zip_16 = OctIconData(0xe9cb);
+  /// OctIcons' number Icon
+  static const number = OctIconData(0xe9cb);
 
-  ///OctIcons' file_zip_24 icon
-  static const file_zip_24 = OctIconData(0xe9cc);
+  /// OctIcons' organization Icon
+  static const organization = OctIconData(0xe9cc);
 
-  ///OctIcons' filter_16 icon
-  static const filter_16 = OctIconData(0xe9cd);
+  /// OctIcons' package Icon
+  static const package = OctIconData(0xe9cd);
 
-  ///OctIcons' filter_24 icon
-  static const filter_24 = OctIconData(0xe9ce);
+  /// OctIcons' package dependencies Icon
+  static const package_dependencies = OctIconData(0xe9ce);
 
-  ///OctIcons' fiscal_host_16 icon
-  static const fiscal_host_16 = OctIconData(0xe9cf);
+  /// OctIcons' package dependents Icon
+  static const package_dependents = OctIconData(0xe9cf);
 
-  ///OctIcons' flame_16 icon
-  static const flame_16 = OctIconData(0xe9d0);
+  /// OctIcons' paintbrush Icon
+  static const paintbrush = OctIconData(0xe9d0);
 
-  ///OctIcons' flame_24 icon
-  static const flame_24 = OctIconData(0xe9d1);
+  /// OctIcons' paper airplane Icon
+  static const paper_airplane = OctIconData(0xe9d1);
 
-  ///OctIcons' fold_16 icon
-  static const fold_16 = OctIconData(0xe9d2);
+  /// OctIcons' paperclip Icon
+  static const paperclip = OctIconData(0xe9d2);
 
-  ///OctIcons' fold_24 icon
-  static const fold_24 = OctIconData(0xe9d3);
+  /// OctIcons' passkey fill Icon
+  static const passkey_fill = OctIconData(0xe9d3);
 
-  ///OctIcons' fold_down_16 icon
-  static const fold_down_16 = OctIconData(0xe9d4);
+  /// OctIcons' paste Icon
+  static const paste = OctIconData(0xe9d4);
 
-  ///OctIcons' fold_down_24 icon
-  static const fold_down_24 = OctIconData(0xe9d5);
+  /// OctIcons' pencil Icon
+  static const pencil = OctIconData(0xe9d5);
 
-  ///OctIcons' fold_up_16 icon
-  static const fold_up_16 = OctIconData(0xe9d6);
+  /// OctIcons' people Icon
+  static const people = OctIconData(0xe9d6);
 
-  ///OctIcons' fold_up_24 icon
-  static const fold_up_24 = OctIconData(0xe9d7);
+  /// OctIcons' person Icon
+  static const person = OctIconData(0xe9d7);
 
-  ///OctIcons' gear_16 icon
-  static const gear_16 = OctIconData(0xe9d8);
+  /// OctIcons' person add Icon
+  static const person_add = OctIconData(0xe9d8);
 
-  ///OctIcons' gear_24 icon
-  static const gear_24 = OctIconData(0xe9d9);
+  /// OctIcons' person fill Icon
+  static const person_fill = OctIconData(0xe9d9);
 
-  ///OctIcons' gift_16 icon
-  static const gift_16 = OctIconData(0xe9da);
+  /// OctIcons' pin Icon
+  static const pin = OctIconData(0xe9da);
 
-  ///OctIcons' gift_24 icon
-  static const gift_24 = OctIconData(0xe9db);
+  /// OctIcons' pin slash Icon
+  static const pin_slash = OctIconData(0xe9db);
 
-  ///OctIcons' git_branch_16 icon
-  static const git_branch_16 = OctIconData(0xe9dc);
+  /// OctIcons' pivot column Icon
+  static const pivot_column = OctIconData(0xe9dc);
 
-  ///OctIcons' git_branch_24 icon
-  static const git_branch_24 = OctIconData(0xe9dd);
+  /// OctIcons' play Icon
+  static const play = OctIconData(0xe9dd);
 
-  ///OctIcons' git_commit_16 icon
-  static const git_commit_16 = OctIconData(0xe9de);
+  /// OctIcons' plug Icon
+  static const plug = OctIconData(0xe9de);
 
-  ///OctIcons' git_commit_24 icon
-  static const git_commit_24 = OctIconData(0xe9df);
+  /// OctIcons' plus Icon
+  static const plus = OctIconData(0xe9df);
 
-  ///OctIcons' git_compare_16 icon
-  static const git_compare_16 = OctIconData(0xe9e0);
+  /// OctIcons' plus circle Icon
+  static const plus_circle = OctIconData(0xe9e0);
 
-  ///OctIcons' git_compare_24 icon
-  static const git_compare_24 = OctIconData(0xe9e1);
+  /// OctIcons' project Icon
+  static const project = OctIconData(0xe9e1);
 
-  ///OctIcons' git_merge_16 icon
-  static const git_merge_16 = OctIconData(0xe9e2);
+  /// OctIcons' project roadmap Icon
+  static const project_roadmap = OctIconData(0xe9e2);
 
-  ///OctIcons' git_merge_24 icon
-  static const git_merge_24 = OctIconData(0xe9e3);
+  /// OctIcons' project symlink Icon
+  static const project_symlink = OctIconData(0xe9e3);
 
-  ///OctIcons' git_merge_queue_16 icon
-  static const git_merge_queue_16 = OctIconData(0xe9e4);
+  /// OctIcons' project template Icon
+  static const project_template = OctIconData(0xe9e4);
 
-  ///OctIcons' git_pull_request_16 icon
-  static const git_pull_request_16 = OctIconData(0xe9e5);
+  /// OctIcons' pulse Icon
+  static const pulse = OctIconData(0xe9e5);
 
-  ///OctIcons' git_pull_request_24 icon
-  static const git_pull_request_24 = OctIconData(0xe9e6);
+  /// OctIcons' question Icon
+  static const question = OctIconData(0xe9e6);
 
-  ///OctIcons' git_pull_request_closed_16 icon
-  static const git_pull_request_closed_16 = OctIconData(0xe9e7);
+  /// OctIcons' quote Icon
+  static const quote = OctIconData(0xe9e7);
 
-  ///OctIcons' git_pull_request_closed_24 icon
-  static const git_pull_request_closed_24 = OctIconData(0xe9e8);
+  /// OctIcons' read Icon
+  static const read = OctIconData(0xe9e8);
 
-  ///OctIcons' git_pull_request_draft_16 icon
-  static const git_pull_request_draft_16 = OctIconData(0xe9e9);
+  /// OctIcons' redo Icon
+  static const redo = OctIconData(0xe9e9);
 
-  ///OctIcons' git_pull_request_draft_24 icon
-  static const git_pull_request_draft_24 = OctIconData(0xe9ea);
+  /// OctIcons' rel file path Icon
+  static const rel_file_path = OctIconData(0xe9ea);
 
-  ///OctIcons' globe_16 icon
-  static const globe_16 = OctIconData(0xe9eb);
+  /// OctIcons' reply Icon
+  static const reply = OctIconData(0xe9eb);
 
-  ///OctIcons' globe_24 icon
-  static const globe_24 = OctIconData(0xe9ec);
+  /// OctIcons' repo Icon
+  static const repo = OctIconData(0xe9ec);
 
-  ///OctIcons' goal_16 icon
-  static const goal_16 = OctIconData(0xe9ed);
+  /// OctIcons' repo clone Icon
+  static const repo_clone = OctIconData(0xe9ed);
 
-  ///OctIcons' goal_24 icon
-  static const goal_24 = OctIconData(0xe9ee);
+  /// OctIcons' repo deleted Icon
+  static const repo_deleted = OctIconData(0xe9ee);
 
-  ///OctIcons' grabber_16 icon
-  static const grabber_16 = OctIconData(0xe9ef);
+  /// OctIcons' repo forked Icon
+  static const repo_forked = OctIconData(0xe9ef);
 
-  ///OctIcons' grabber_24 icon
-  static const grabber_24 = OctIconData(0xe9f0);
+  /// OctIcons' repo locked Icon
+  static const repo_locked = OctIconData(0xe9f0);
 
-  ///OctIcons' graph_16 icon
-  static const graph_16 = OctIconData(0xe9f1);
+  /// OctIcons' repo pull Icon
+  static const repo_pull = OctIconData(0xe9f1);
 
-  ///OctIcons' graph_24 icon
-  static const graph_24 = OctIconData(0xe9f2);
+  /// OctIcons' repo push Icon
+  static const repo_push = OctIconData(0xe9f2);
 
-  ///OctIcons' hash_16 icon
-  static const hash_16 = OctIconData(0xe9f3);
+  /// OctIcons' report Icon
+  static const report = OctIconData(0xe9f3);
 
-  ///OctIcons' hash_24 icon
-  static const hash_24 = OctIconData(0xe9f4);
+  /// OctIcons' repo template Icon
+  static const repo_template = OctIconData(0xe9f4);
 
-  ///OctIcons' heading_16 icon
-  static const heading_16 = OctIconData(0xe9f5);
+  /// OctIcons' rocket Icon
+  static const rocket = OctIconData(0xe9f5);
 
-  ///OctIcons' heading_24 icon
-  static const heading_24 = OctIconData(0xe9f6);
+  /// OctIcons' rows Icon
+  static const rows = OctIconData(0xe9f6);
 
-  ///OctIcons' heart_16 icon
-  static const heart_16 = OctIconData(0xe9f7);
+  /// OctIcons' rss Icon
+  static const rss = OctIconData(0xe9f7);
 
-  ///OctIcons' heart_24 icon
-  static const heart_24 = OctIconData(0xe9f8);
+  /// OctIcons' ruby Icon
+  static const ruby = OctIconData(0xe9f8);
 
-  ///OctIcons' heart_fill_16 icon
-  static const heart_fill_16 = OctIconData(0xe9f9);
+  /// OctIcons' screen full Icon
+  static const screen_full = OctIconData(0xe9f9);
 
-  ///OctIcons' heart_fill_24 icon
-  static const heart_fill_24 = OctIconData(0xe9fa);
+  /// OctIcons' screen normal Icon
+  static const screen_normal = OctIconData(0xe9fa);
 
-  ///OctIcons' history_16 icon
-  static const history_16 = OctIconData(0xe9fb);
+  /// OctIcons' search Icon
+  static const search = OctIconData(0xe9fb);
 
-  ///OctIcons' history_24 icon
-  static const history_24 = OctIconData(0xe9fc);
+  /// OctIcons' server Icon
+  static const server = OctIconData(0xe9fc);
 
-  ///OctIcons' home_16 icon
-  static const home_16 = OctIconData(0xe9fd);
+  /// OctIcons' share Icon
+  static const share = OctIconData(0xe9fd);
 
-  ///OctIcons' home_24 icon
-  static const home_24 = OctIconData(0xe9fe);
+  /// OctIcons' share android Icon
+  static const share_android = OctIconData(0xe9fe);
 
-  ///OctIcons' home_fill_24 icon
-  static const home_fill_24 = OctIconData(0xe9ff);
+  /// OctIcons' shield Icon
+  static const shield = OctIconData(0xe9ff);
 
-  ///OctIcons' horizontal_rule_16 icon
-  static const horizontal_rule_16 = OctIconData(0xea00);
+  /// OctIcons' shield check Icon
+  static const shield_check = OctIconData(0xea00);
 
-  ///OctIcons' horizontal_rule_24 icon
-  static const horizontal_rule_24 = OctIconData(0xea01);
+  /// OctIcons' shield lock Icon
+  static const shield_lock = OctIconData(0xea01);
 
-  ///OctIcons' hourglass_16 icon
-  static const hourglass_16 = OctIconData(0xea02);
+  /// OctIcons' shield slash Icon
+  static const shield_slash = OctIconData(0xea02);
 
-  ///OctIcons' hourglass_24 icon
-  static const hourglass_24 = OctIconData(0xea03);
+  /// OctIcons' shield x Icon
+  static const shield_x = OctIconData(0xea03);
 
-  ///OctIcons' hubot_16 icon
-  static const hubot_16 = OctIconData(0xea04);
+  /// OctIcons' sidebar collapse Icon
+  static const sidebar_collapse = OctIconData(0xea04);
 
-  ///OctIcons' hubot_24 icon
-  static const hubot_24 = OctIconData(0xea05);
+  /// OctIcons' sidebar expand Icon
+  static const sidebar_expand = OctIconData(0xea05);
 
-  ///OctIcons' id_badge_16 icon
-  static const id_badge_16 = OctIconData(0xea06);
+  /// OctIcons' sign in Icon
+  static const sign_in = OctIconData(0xea06);
 
-  ///OctIcons' image_16 icon
-  static const image_16 = OctIconData(0xea07);
+  /// OctIcons' sign out Icon
+  static const sign_out = OctIconData(0xea07);
 
-  ///OctIcons' image_24 icon
-  static const image_24 = OctIconData(0xea08);
+  /// OctIcons' single select Icon
+  static const single_select = OctIconData(0xea08);
 
-  ///OctIcons' inbox_16 icon
-  static const inbox_16 = OctIconData(0xea09);
+  /// OctIcons' skip Icon
+  static const skip = OctIconData(0xea09);
 
-  ///OctIcons' inbox_24 icon
-  static const inbox_24 = OctIconData(0xea0a);
+  /// OctIcons' skip fill Icon
+  static const skip_fill = OctIconData(0xea0a);
 
-  ///OctIcons' infinity_16 icon
-  static const infinity_16 = OctIconData(0xea0b);
+  /// OctIcons' sliders Icon
+  static const sliders = OctIconData(0xea0b);
 
-  ///OctIcons' infinity_24 icon
-  static const infinity_24 = OctIconData(0xea0c);
+  /// OctIcons' smiley Icon
+  static const smiley = OctIconData(0xea0c);
 
-  ///OctIcons' info_16 icon
-  static const info_16 = OctIconData(0xea0d);
+  /// OctIcons' sort asc Icon
+  static const sort_asc = OctIconData(0xea0d);
 
-  ///OctIcons' info_24 icon
-  static const info_24 = OctIconData(0xea0e);
+  /// OctIcons' sort desc Icon
+  static const sort_desc = OctIconData(0xea0e);
 
-  ///OctIcons' issue_closed_16 icon
-  static const issue_closed_16 = OctIconData(0xea0f);
+  /// OctIcons' sparkle fill Icon
+  static const sparkle_fill = OctIconData(0xea0f);
 
-  ///OctIcons' issue_closed_24 icon
-  static const issue_closed_24 = OctIconData(0xea10);
+  /// OctIcons' sponsor tiers Icon
+  static const sponsor_tiers = OctIconData(0xea10);
 
-  ///OctIcons' issue_draft_16 icon
-  static const issue_draft_16 = OctIconData(0xea11);
+  /// OctIcons' square Icon
+  static const square = OctIconData(0xea11);
 
-  ///OctIcons' issue_draft_24 icon
-  static const issue_draft_24 = OctIconData(0xea12);
+  /// OctIcons' square fill Icon
+  static const square_fill = OctIconData(0xea12);
 
-  ///OctIcons' issue_opened_16 icon
-  static const issue_opened_16 = OctIconData(0xea13);
+  /// OctIcons' squirrel Icon
+  static const squirrel = OctIconData(0xea13);
 
-  ///OctIcons' issue_opened_24 icon
-  static const issue_opened_24 = OctIconData(0xea14);
+  /// OctIcons' stack Icon
+  static const stack = OctIconData(0xea14);
 
-  ///OctIcons' issue_reopened_16 icon
-  static const issue_reopened_16 = OctIconData(0xea15);
+  /// OctIcons' star Icon
+  static const star = OctIconData(0xea15);
 
-  ///OctIcons' issue_reopened_24 icon
-  static const issue_reopened_24 = OctIconData(0xea16);
+  /// OctIcons' star fill Icon
+  static const star_fill = OctIconData(0xea16);
 
-  ///OctIcons' issue_tracked_by_16 icon
-  static const issue_tracked_by_16 = OctIconData(0xea17);
+  /// OctIcons' stop Icon
+  static const stop = OctIconData(0xea17);
 
-  ///OctIcons' issue_tracked_by_24 icon
-  static const issue_tracked_by_24 = OctIconData(0xea18);
+  /// OctIcons' stopwatch Icon
+  static const stopwatch = OctIconData(0xea18);
 
-  ///OctIcons' issue_tracked_in_16 icon
-  static const issue_tracked_in_16 = OctIconData(0xea19);
+  /// OctIcons' strikethrough Icon
+  static const strikethrough = OctIconData(0xea19);
 
-  ///OctIcons' issue_tracked_in_24 icon
-  static const issue_tracked_in_24 = OctIconData(0xea1a);
+  /// OctIcons' sun Icon
+  static const sun = OctIconData(0xea1a);
 
-  ///OctIcons' italic_16 icon
-  static const italic_16 = OctIconData(0xea1b);
+  /// OctIcons' sync Icon
+  static const sync = OctIconData(0xea1b);
 
-  ///OctIcons' italic_24 icon
-  static const italic_24 = OctIconData(0xea1c);
+  /// OctIcons' tab external Icon
+  static const tab_external = OctIconData(0xea1c);
 
-  ///OctIcons' iterations_16 icon
-  static const iterations_16 = OctIconData(0xea1d);
+  /// OctIcons' table Icon
+  static const table = OctIconData(0xea1d);
 
-  ///OctIcons' iterations_24 icon
-  static const iterations_24 = OctIconData(0xea1e);
+  /// OctIcons' tag Icon
+  static const tag = OctIconData(0xea1e);
 
-  ///OctIcons' kebab_horizontal_16 icon
-  static const kebab_horizontal_16 = OctIconData(0xea1f);
+  /// OctIcons' tasklist Icon
+  static const tasklist = OctIconData(0xea1f);
 
-  ///OctIcons' kebab_horizontal_24 icon
-  static const kebab_horizontal_24 = OctIconData(0xea20);
+  /// OctIcons' telescope Icon
+  static const telescope = OctIconData(0xea20);
 
-  ///OctIcons' key_16 icon
-  static const key_16 = OctIconData(0xea21);
+  /// OctIcons' telescope fill Icon
+  static const telescope_fill = OctIconData(0xea21);
 
-  ///OctIcons' key_24 icon
-  static const key_24 = OctIconData(0xea22);
+  /// OctIcons' terminal Icon
+  static const terminal = OctIconData(0xea22);
 
-  ///OctIcons' key_asterisk_16 icon
-  static const key_asterisk_16 = OctIconData(0xea23);
+  /// OctIcons' three bars Icon
+  static const three_bars = OctIconData(0xea23);
 
-  ///OctIcons' law_16 icon
-  static const law_16 = OctIconData(0xea24);
+  /// OctIcons' thumbsdown Icon
+  static const thumbsdown = OctIconData(0xea24);
 
-  ///OctIcons' law_24 icon
-  static const law_24 = OctIconData(0xea25);
+  /// OctIcons' thumbsup Icon
+  static const thumbsup = OctIconData(0xea25);
 
-  ///OctIcons' light_bulb_16 icon
-  static const light_bulb_16 = OctIconData(0xea26);
+  /// OctIcons' tools Icon
+  static const tools = OctIconData(0xea26);
 
-  ///OctIcons' light_bulb_24 icon
-  static const light_bulb_24 = OctIconData(0xea27);
+  /// OctIcons' tracked by closed completed Icon
+  static const tracked_by_closed_completed = OctIconData(0xea27);
 
-  ///OctIcons' link_16 icon
-  static const link_16 = OctIconData(0xea28);
+  /// OctIcons' tracked by closed not planned Icon
+  static const tracked_by_closed_not_planned = OctIconData(0xea28);
 
-  ///OctIcons' link_24 icon
-  static const link_24 = OctIconData(0xea29);
+  /// OctIcons' trash Icon
+  static const trash = OctIconData(0xea29);
 
-  ///OctIcons' link_external_16 icon
-  static const link_external_16 = OctIconData(0xea2a);
+  /// OctIcons' triangle down Icon
+  static const triangle_down = OctIconData(0xea2a);
 
-  ///OctIcons' link_external_24 icon
-  static const link_external_24 = OctIconData(0xea2b);
+  /// OctIcons' triangle left Icon
+  static const triangle_left = OctIconData(0xea2b);
 
-  ///OctIcons' list_ordered_16 icon
-  static const list_ordered_16 = OctIconData(0xea2c);
+  /// OctIcons' triangle right Icon
+  static const triangle_right = OctIconData(0xea2c);
 
-  ///OctIcons' list_ordered_24 icon
-  static const list_ordered_24 = OctIconData(0xea2d);
+  /// OctIcons' triangle up Icon
+  static const triangle_up = OctIconData(0xea2d);
 
-  ///OctIcons' list_unordered_16 icon
-  static const list_unordered_16 = OctIconData(0xea2e);
+  /// OctIcons' trophy Icon
+  static const trophy = OctIconData(0xea2e);
 
-  ///OctIcons' list_unordered_24 icon
-  static const list_unordered_24 = OctIconData(0xea2f);
+  /// OctIcons' typography Icon
+  static const typography = OctIconData(0xea2f);
 
-  ///OctIcons' location_16 icon
-  static const location_16 = OctIconData(0xea30);
+  /// OctIcons' undo Icon
+  static const undo = OctIconData(0xea30);
 
-  ///OctIcons' location_24 icon
-  static const location_24 = OctIconData(0xea31);
+  /// OctIcons' unfold Icon
+  static const unfold = OctIconData(0xea31);
 
-  ///OctIcons' lock_16 icon
-  static const lock_16 = OctIconData(0xea32);
+  /// OctIcons' unlink Icon
+  static const unlink = OctIconData(0xea32);
 
-  ///OctIcons' lock_24 icon
-  static const lock_24 = OctIconData(0xea33);
+  /// OctIcons' unlock Icon
+  static const unlock = OctIconData(0xea33);
 
-  ///OctIcons' log_16 icon
-  static const log_16 = OctIconData(0xea34);
+  /// OctIcons' unmute Icon
+  static const unmute = OctIconData(0xea34);
 
-  ///OctIcons' log_24 icon
-  static const log_24 = OctIconData(0xea35);
+  /// OctIcons' unread Icon
+  static const unread = OctIconData(0xea35);
 
-  ///OctIcons' logo_gist_16 icon
-  static const logo_gist_16 = OctIconData(0xea36);
+  /// OctIcons' unverified Icon
+  static const unverified = OctIconData(0xea36);
 
-  ///OctIcons' logo_github_16 icon
-  static const logo_github_16 = OctIconData(0xea37);
+  /// OctIcons' upload Icon
+  static const upload = OctIconData(0xea37);
 
-  ///OctIcons' mail_16 icon
-  static const mail_16 = OctIconData(0xea38);
+  /// OctIcons' verified Icon
+  static const verified = OctIconData(0xea38);
 
-  ///OctIcons' mail_24 icon
-  static const mail_24 = OctIconData(0xea39);
+  /// OctIcons' versions Icon
+  static const versions = OctIconData(0xea39);
 
-  ///OctIcons' markdown_16 icon
-  static const markdown_16 = OctIconData(0xea3a);
+  /// OctIcons' video Icon
+  static const video = OctIconData(0xea3a);
 
-  ///OctIcons' mark_github_16 icon
-  static const mark_github_16 = OctIconData(0xea3b);
+  /// OctIcons' webhook Icon
+  static const webhook = OctIconData(0xea3b);
 
-  ///OctIcons' megaphone_16 icon
-  static const megaphone_16 = OctIconData(0xea3c);
+  /// OctIcons' workflow Icon
+  static const workflow = OctIconData(0xea3c);
 
-  ///OctIcons' megaphone_24 icon
-  static const megaphone_24 = OctIconData(0xea3d);
+  /// OctIcons' x Icon
+  static const x = OctIconData(0xea3d);
 
-  ///OctIcons' mention_16 icon
-  static const mention_16 = OctIconData(0xea3e);
+  /// OctIcons' x circle Icon
+  static const x_circle = OctIconData(0xea3e);
 
-  ///OctIcons' mention_24 icon
-  static const mention_24 = OctIconData(0xea3f);
+  /// OctIcons' x circle fill Icon
+  static const x_circle_fill = OctIconData(0xea3f);
 
-  ///OctIcons' meter_16 icon
-  static const meter_16 = OctIconData(0xea40);
+  /// OctIcons' zap Icon
+  static const zap = OctIconData(0xea40);
 
-  ///OctIcons' milestone_16 icon
-  static const milestone_16 = OctIconData(0xea41);
+  /// OctIcons' zoom in Icon
+  static const zoom_in = OctIconData(0xea41);
 
-  ///OctIcons' milestone_24 icon
-  static const milestone_24 = OctIconData(0xea42);
-
-  ///OctIcons' mirror_16 icon
-  static const mirror_16 = OctIconData(0xea43);
-
-  ///OctIcons' mirror_24 icon
-  static const mirror_24 = OctIconData(0xea44);
-
-  ///OctIcons' moon_16 icon
-  static const moon_16 = OctIconData(0xea45);
-
-  ///OctIcons' moon_24 icon
-  static const moon_24 = OctIconData(0xea46);
-
-  ///OctIcons' mortar_board_16 icon
-  static const mortar_board_16 = OctIconData(0xea47);
-
-  ///OctIcons' mortar_board_24 icon
-  static const mortar_board_24 = OctIconData(0xea48);
-
-  ///OctIcons' move_to_bottom_16 icon
-  static const move_to_bottom_16 = OctIconData(0xea49);
-
-  ///OctIcons' move_to_bottom_24 icon
-  static const move_to_bottom_24 = OctIconData(0xea4a);
-
-  ///OctIcons' move_to_end_16 icon
-  static const move_to_end_16 = OctIconData(0xea4b);
-
-  ///OctIcons' move_to_end_24 icon
-  static const move_to_end_24 = OctIconData(0xea4c);
-
-  ///OctIcons' move_to_start_16 icon
-  static const move_to_start_16 = OctIconData(0xea4d);
-
-  ///OctIcons' move_to_start_24 icon
-  static const move_to_start_24 = OctIconData(0xea4e);
-
-  ///OctIcons' move_to_top_16 icon
-  static const move_to_top_16 = OctIconData(0xea4f);
-
-  ///OctIcons' move_to_top_24 icon
-  static const move_to_top_24 = OctIconData(0xea50);
-
-  ///OctIcons' multi_select_16 icon
-  static const multi_select_16 = OctIconData(0xea51);
-
-  ///OctIcons' multi_select_24 icon
-  static const multi_select_24 = OctIconData(0xea52);
-
-  ///OctIcons' mute_16 icon
-  static const mute_16 = OctIconData(0xea53);
-
-  ///OctIcons' mute_24 icon
-  static const mute_24 = OctIconData(0xea54);
-
-  ///OctIcons' no_entry_16 icon
-  static const no_entry_16 = OctIconData(0xea55);
-
-  ///OctIcons' no_entry_24 icon
-  static const no_entry_24 = OctIconData(0xea56);
-
-  ///OctIcons' no_entry_fill_12 icon
-  static const no_entry_fill_12 = OctIconData(0xea57);
-
-  ///OctIcons' north_star_16 icon
-  static const north_star_16 = OctIconData(0xea58);
-
-  ///OctIcons' north_star_24 icon
-  static const north_star_24 = OctIconData(0xea59);
-
-  ///OctIcons' note_16 icon
-  static const note_16 = OctIconData(0xea5a);
-
-  ///OctIcons' note_24 icon
-  static const note_24 = OctIconData(0xea5b);
-
-  ///OctIcons' number_16 icon
-  static const number_16 = OctIconData(0xea5c);
-
-  ///OctIcons' number_24 icon
-  static const number_24 = OctIconData(0xea5d);
-
-  ///OctIcons' organization_16 icon
-  static const organization_16 = OctIconData(0xea5e);
-
-  ///OctIcons' organization_24 icon
-  static const organization_24 = OctIconData(0xea5f);
-
-  ///OctIcons' package_16 icon
-  static const package_16 = OctIconData(0xea60);
-
-  ///OctIcons' package_24 icon
-  static const package_24 = OctIconData(0xea61);
-
-  ///OctIcons' package_dependencies_16 icon
-  static const package_dependencies_16 = OctIconData(0xea62);
-
-  ///OctIcons' package_dependencies_24 icon
-  static const package_dependencies_24 = OctIconData(0xea63);
-
-  ///OctIcons' package_dependents_16 icon
-  static const package_dependents_16 = OctIconData(0xea64);
-
-  ///OctIcons' package_dependents_24 icon
-  static const package_dependents_24 = OctIconData(0xea65);
-
-  ///OctIcons' paintbrush_16 icon
-  static const paintbrush_16 = OctIconData(0xea66);
-
-  ///OctIcons' paper_airplane_16 icon
-  static const paper_airplane_16 = OctIconData(0xea67);
-
-  ///OctIcons' paper_airplane_24 icon
-  static const paper_airplane_24 = OctIconData(0xea68);
-
-  ///OctIcons' paperclip_16 icon
-  static const paperclip_16 = OctIconData(0xea69);
-
-  ///OctIcons' paperclip_24 icon
-  static const paperclip_24 = OctIconData(0xea6a);
-
-  ///OctIcons' paste_16 icon
-  static const paste_16 = OctIconData(0xea6b);
-
-  ///OctIcons' paste_24 icon
-  static const paste_24 = OctIconData(0xea6c);
-
-  ///OctIcons' pencil_16 icon
-  static const pencil_16 = OctIconData(0xea6d);
-
-  ///OctIcons' pencil_24 icon
-  static const pencil_24 = OctIconData(0xea6e);
-
-  ///OctIcons' people_16 icon
-  static const people_16 = OctIconData(0xea6f);
-
-  ///OctIcons' people_24 icon
-  static const people_24 = OctIconData(0xea70);
-
-  ///OctIcons' person_16 icon
-  static const person_16 = OctIconData(0xea71);
-
-  ///OctIcons' person_24 icon
-  static const person_24 = OctIconData(0xea72);
-
-  ///OctIcons' person_add_16 icon
-  static const person_add_16 = OctIconData(0xea73);
-
-  ///OctIcons' person_add_24 icon
-  static const person_add_24 = OctIconData(0xea74);
-
-  ///OctIcons' person_fill_16 icon
-  static const person_fill_16 = OctIconData(0xea75);
-
-  ///OctIcons' person_fill_24 icon
-  static const person_fill_24 = OctIconData(0xea76);
-
-  ///OctIcons' pin_16 icon
-  static const pin_16 = OctIconData(0xea77);
-
-  ///OctIcons' pin_24 icon
-  static const pin_24 = OctIconData(0xea78);
-
-  ///OctIcons' play_16 icon
-  static const play_16 = OctIconData(0xea79);
-
-  ///OctIcons' play_24 icon
-  static const play_24 = OctIconData(0xea7a);
-
-  ///OctIcons' plug_16 icon
-  static const plug_16 = OctIconData(0xea7b);
-
-  ///OctIcons' plug_24 icon
-  static const plug_24 = OctIconData(0xea7c);
-
-  ///OctIcons' plus_16 icon
-  static const plus_16 = OctIconData(0xea7d);
-
-  ///OctIcons' plus_24 icon
-  static const plus_24 = OctIconData(0xea7e);
-
-  ///OctIcons' plus_circle_16 icon
-  static const plus_circle_16 = OctIconData(0xea7f);
-
-  ///OctIcons' plus_circle_24 icon
-  static const plus_circle_24 = OctIconData(0xea80);
-
-  ///OctIcons' project_16 icon
-  static const project_16 = OctIconData(0xea81);
-
-  ///OctIcons' project_24 icon
-  static const project_24 = OctIconData(0xea82);
-
-  ///OctIcons' project_roadmap_16 icon
-  static const project_roadmap_16 = OctIconData(0xea83);
-
-  ///OctIcons' project_roadmap_24 icon
-  static const project_roadmap_24 = OctIconData(0xea84);
-
-  ///OctIcons' project_symlink_16 icon
-  static const project_symlink_16 = OctIconData(0xea85);
-
-  ///OctIcons' project_symlink_24 icon
-  static const project_symlink_24 = OctIconData(0xea86);
-
-  ///OctIcons' pulse_16 icon
-  static const pulse_16 = OctIconData(0xea87);
-
-  ///OctIcons' pulse_24 icon
-  static const pulse_24 = OctIconData(0xea88);
-
-  ///OctIcons' question_16 icon
-  static const question_16 = OctIconData(0xea89);
-
-  ///OctIcons' question_24 icon
-  static const question_24 = OctIconData(0xea8a);
-
-  ///OctIcons' quote_16 icon
-  static const quote_16 = OctIconData(0xea8b);
-
-  ///OctIcons' quote_24 icon
-  static const quote_24 = OctIconData(0xea8c);
-
-  ///OctIcons' read_16 icon
-  static const read_16 = OctIconData(0xea8d);
-
-  ///OctIcons' read_24 icon
-  static const read_24 = OctIconData(0xea8e);
-
-  ///OctIcons' rel_file_path_16 icon
-  static const rel_file_path_16 = OctIconData(0xea8f);
-
-  ///OctIcons' rel_file_path_24 icon
-  static const rel_file_path_24 = OctIconData(0xea90);
-
-  ///OctIcons' reply_16 icon
-  static const reply_16 = OctIconData(0xea91);
-
-  ///OctIcons' reply_24 icon
-  static const reply_24 = OctIconData(0xea92);
-
-  ///OctIcons' repo_16 icon
-  static const repo_16 = OctIconData(0xea93);
-
-  ///OctIcons' repo_24 icon
-  static const repo_24 = OctIconData(0xea94);
-
-  ///OctIcons' repo_clone_16 icon
-  static const repo_clone_16 = OctIconData(0xea95);
-
-  ///OctIcons' repo_deleted_16 icon
-  static const repo_deleted_16 = OctIconData(0xea96);
-
-  ///OctIcons' repo_forked_16 icon
-  static const repo_forked_16 = OctIconData(0xea97);
-
-  ///OctIcons' repo_forked_24 icon
-  static const repo_forked_24 = OctIconData(0xea98);
-
-  ///OctIcons' repo_locked_16 icon
-  static const repo_locked_16 = OctIconData(0xea99);
-
-  ///OctIcons' repo_locked_24 icon
-  static const repo_locked_24 = OctIconData(0xea9a);
-
-  ///OctIcons' repo_pull_16 icon
-  static const repo_pull_16 = OctIconData(0xea9b);
-
-  ///OctIcons' repo_push_16 icon
-  static const repo_push_16 = OctIconData(0xea9c);
-
-  ///OctIcons' repo_push_24 icon
-  static const repo_push_24 = OctIconData(0xea9d);
-
-  ///OctIcons' report_16 icon
-  static const report_16 = OctIconData(0xea9e);
-
-  ///OctIcons' report_24 icon
-  static const report_24 = OctIconData(0xea9f);
-
-  ///OctIcons' repo_template_16 icon
-  static const repo_template_16 = OctIconData(0xeaa0);
-
-  ///OctIcons' repo_template_24 icon
-  static const repo_template_24 = OctIconData(0xeaa1);
-
-  ///OctIcons' rocket_16 icon
-  static const rocket_16 = OctIconData(0xeaa2);
-
-  ///OctIcons' rocket_24 icon
-  static const rocket_24 = OctIconData(0xeaa3);
-
-  ///OctIcons' rows_16 icon
-  static const rows_16 = OctIconData(0xeaa4);
-
-  ///OctIcons' rows_24 icon
-  static const rows_24 = OctIconData(0xeaa5);
-
-  ///OctIcons' rss_16 icon
-  static const rss_16 = OctIconData(0xeaa6);
-
-  ///OctIcons' rss_24 icon
-  static const rss_24 = OctIconData(0xeaa7);
-
-  ///OctIcons' ruby_16 icon
-  static const ruby_16 = OctIconData(0xeaa8);
-
-  ///OctIcons' ruby_24 icon
-  static const ruby_24 = OctIconData(0xeaa9);
-
-  ///OctIcons' screen_full_16 icon
-  static const screen_full_16 = OctIconData(0xeaaa);
-
-  ///OctIcons' screen_full_24 icon
-  static const screen_full_24 = OctIconData(0xeaab);
-
-  ///OctIcons' screen_normal_16 icon
-  static const screen_normal_16 = OctIconData(0xeaac);
-
-  ///OctIcons' screen_normal_24 icon
-  static const screen_normal_24 = OctIconData(0xeaad);
-
-  ///OctIcons' search_16 icon
-  static const search_16 = OctIconData(0xeaae);
-
-  ///OctIcons' search_24 icon
-  static const search_24 = OctIconData(0xeaaf);
-
-  ///OctIcons' server_16 icon
-  static const server_16 = OctIconData(0xeab0);
-
-  ///OctIcons' server_24 icon
-  static const server_24 = OctIconData(0xeab1);
-
-  ///OctIcons' share_16 icon
-  static const share_16 = OctIconData(0xeab2);
-
-  ///OctIcons' share_24 icon
-  static const share_24 = OctIconData(0xeab3);
-
-  ///OctIcons' share_android_16 icon
-  static const share_android_16 = OctIconData(0xeab4);
-
-  ///OctIcons' share_android_24 icon
-  static const share_android_24 = OctIconData(0xeab5);
-
-  ///OctIcons' shield_16 icon
-  static const shield_16 = OctIconData(0xeab6);
-
-  ///OctIcons' shield_24 icon
-  static const shield_24 = OctIconData(0xeab7);
-
-  ///OctIcons' shield_check_16 icon
-  static const shield_check_16 = OctIconData(0xeab8);
-
-  ///OctIcons' shield_check_24 icon
-  static const shield_check_24 = OctIconData(0xeab9);
-
-  ///OctIcons' shield_lock_16 icon
-  static const shield_lock_16 = OctIconData(0xeaba);
-
-  ///OctIcons' shield_lock_24 icon
-  static const shield_lock_24 = OctIconData(0xeabb);
-
-  ///OctIcons' shield_slash_16 icon
-  static const shield_slash_16 = OctIconData(0xeabc);
-
-  ///OctIcons' shield_x_16 icon
-  static const shield_x_16 = OctIconData(0xeabd);
-
-  ///OctIcons' shield_x_24 icon
-  static const shield_x_24 = OctIconData(0xeabe);
-
-  ///OctIcons' sidebar_collapse_16 icon
-  static const sidebar_collapse_16 = OctIconData(0xeabf);
-
-  ///OctIcons' sidebar_collapse_24 icon
-  static const sidebar_collapse_24 = OctIconData(0xeac0);
-
-  ///OctIcons' sidebar_expand_16 icon
-  static const sidebar_expand_16 = OctIconData(0xeac1);
-
-  ///OctIcons' sidebar_expand_24 icon
-  static const sidebar_expand_24 = OctIconData(0xeac2);
-
-  ///OctIcons' sign_in_16 icon
-  static const sign_in_16 = OctIconData(0xeac3);
-
-  ///OctIcons' sign_in_24 icon
-  static const sign_in_24 = OctIconData(0xeac4);
-
-  ///OctIcons' sign_out_16 icon
-  static const sign_out_16 = OctIconData(0xeac5);
-
-  ///OctIcons' sign_out_24 icon
-  static const sign_out_24 = OctIconData(0xeac6);
-
-  ///OctIcons' single_select_16 icon
-  static const single_select_16 = OctIconData(0xeac7);
-
-  ///OctIcons' single_select_24 icon
-  static const single_select_24 = OctIconData(0xeac8);
-
-  ///OctIcons' skip_16 icon
-  static const skip_16 = OctIconData(0xeac9);
-
-  ///OctIcons' skip_24 icon
-  static const skip_24 = OctIconData(0xeaca);
-
-  ///OctIcons' skip_fill_16 icon
-  static const skip_fill_16 = OctIconData(0xeacb);
-
-  ///OctIcons' skip_fill_24 icon
-  static const skip_fill_24 = OctIconData(0xeacc);
-
-  ///OctIcons' sliders_16 icon
-  static const sliders_16 = OctIconData(0xeacd);
-
-  ///OctIcons' smiley_16 icon
-  static const smiley_16 = OctIconData(0xeace);
-
-  ///OctIcons' smiley_24 icon
-  static const smiley_24 = OctIconData(0xeacf);
-
-  ///OctIcons' sort_asc_16 icon
-  static const sort_asc_16 = OctIconData(0xead0);
-
-  ///OctIcons' sort_asc_24 icon
-  static const sort_asc_24 = OctIconData(0xead1);
-
-  ///OctIcons' sort_desc_16 icon
-  static const sort_desc_16 = OctIconData(0xead2);
-
-  ///OctIcons' sort_desc_24 icon
-  static const sort_desc_24 = OctIconData(0xead3);
-
-  ///OctIcons' sparkle_fill_16 icon
-  static const sparkle_fill_16 = OctIconData(0xead4);
-
-  ///OctIcons' sponsor_tiers_16 icon
-  static const sponsor_tiers_16 = OctIconData(0xead5);
-
-  ///OctIcons' sponsor_tiers_24 icon
-  static const sponsor_tiers_24 = OctIconData(0xead6);
-
-  ///OctIcons' square_16 icon
-  static const square_16 = OctIconData(0xead7);
-
-  ///OctIcons' square_24 icon
-  static const square_24 = OctIconData(0xead8);
-
-  ///OctIcons' square_fill_16 icon
-  static const square_fill_16 = OctIconData(0xead9);
-
-  ///OctIcons' square_fill_24 icon
-  static const square_fill_24 = OctIconData(0xeada);
-
-  ///OctIcons' squirrel_16 icon
-  static const squirrel_16 = OctIconData(0xeadb);
-
-  ///OctIcons' squirrel_24 icon
-  static const squirrel_24 = OctIconData(0xeadc);
-
-  ///OctIcons' stack_16 icon
-  static const stack_16 = OctIconData(0xeadd);
-
-  ///OctIcons' stack_24 icon
-  static const stack_24 = OctIconData(0xeade);
-
-  ///OctIcons' star_16 icon
-  static const star_16 = OctIconData(0xeadf);
-
-  ///OctIcons' star_24 icon
-  static const star_24 = OctIconData(0xeae0);
-
-  ///OctIcons' star_fill_16 icon
-  static const star_fill_16 = OctIconData(0xeae1);
-
-  ///OctIcons' star_fill_24 icon
-  static const star_fill_24 = OctIconData(0xeae2);
-
-  ///OctIcons' stop_16 icon
-  static const stop_16 = OctIconData(0xeae3);
-
-  ///OctIcons' stop_24 icon
-  static const stop_24 = OctIconData(0xeae4);
-
-  ///OctIcons' stopwatch_16 icon
-  static const stopwatch_16 = OctIconData(0xeae5);
-
-  ///OctIcons' stopwatch_24 icon
-  static const stopwatch_24 = OctIconData(0xeae6);
-
-  ///OctIcons' strikethrough_16 icon
-  static const strikethrough_16 = OctIconData(0xeae7);
-
-  ///OctIcons' strikethrough_24 icon
-  static const strikethrough_24 = OctIconData(0xeae8);
-
-  ///OctIcons' sun_16 icon
-  static const sun_16 = OctIconData(0xeae9);
-
-  ///OctIcons' sun_24 icon
-  static const sun_24 = OctIconData(0xeaea);
-
-  ///OctIcons' sync_16 icon
-  static const sync_16 = OctIconData(0xeaeb);
-
-  ///OctIcons' sync_24 icon
-  static const sync_24 = OctIconData(0xeaec);
-
-  ///OctIcons' tab_24 icon
-  static const tab_24 = OctIconData(0xeaed);
-
-  ///OctIcons' tab_external_16 icon
-  static const tab_external_16 = OctIconData(0xeaee);
-
-  ///OctIcons' table_16 icon
-  static const table_16 = OctIconData(0xeaef);
-
-  ///OctIcons' table_24 icon
-  static const table_24 = OctIconData(0xeaf0);
-
-  ///OctIcons' tag_16 icon
-  static const tag_16 = OctIconData(0xeaf1);
-
-  ///OctIcons' tag_24 icon
-  static const tag_24 = OctIconData(0xeaf2);
-
-  ///OctIcons' tasklist_16 icon
-  static const tasklist_16 = OctIconData(0xeaf3);
-
-  ///OctIcons' tasklist_24 icon
-  static const tasklist_24 = OctIconData(0xeaf4);
-
-  ///OctIcons' telescope_16 icon
-  static const telescope_16 = OctIconData(0xeaf5);
-
-  ///OctIcons' telescope_24 icon
-  static const telescope_24 = OctIconData(0xeaf6);
-
-  ///OctIcons' telescope_fill_16 icon
-  static const telescope_fill_16 = OctIconData(0xeaf7);
-
-  ///OctIcons' telescope_fill_24 icon
-  static const telescope_fill_24 = OctIconData(0xeaf8);
-
-  ///OctIcons' terminal_16 icon
-  static const terminal_16 = OctIconData(0xeaf9);
-
-  ///OctIcons' terminal_24 icon
-  static const terminal_24 = OctIconData(0xeafa);
-
-  ///OctIcons' three_bars_16 icon
-  static const three_bars_16 = OctIconData(0xeafb);
-
-  ///OctIcons' thumbsdown_16 icon
-  static const thumbsdown_16 = OctIconData(0xeafc);
-
-  ///OctIcons' thumbsdown_24 icon
-  static const thumbsdown_24 = OctIconData(0xeafd);
-
-  ///OctIcons' thumbsup_16 icon
-  static const thumbsup_16 = OctIconData(0xeafe);
-
-  ///OctIcons' thumbsup_24 icon
-  static const thumbsup_24 = OctIconData(0xeaff);
-
-  ///OctIcons' tools_16 icon
-  static const tools_16 = OctIconData(0xeb00);
-
-  ///OctIcons' tools_24 icon
-  static const tools_24 = OctIconData(0xeb01);
-
-  ///OctIcons' trash_16 icon
-  static const trash_16 = OctIconData(0xeb02);
-
-  ///OctIcons' trash_24 icon
-  static const trash_24 = OctIconData(0xeb03);
-
-  ///OctIcons' triangle_down_16 icon
-  static const triangle_down_16 = OctIconData(0xeb04);
-
-  ///OctIcons' triangle_down_24 icon
-  static const triangle_down_24 = OctIconData(0xeb05);
-
-  ///OctIcons' triangle_left_16 icon
-  static const triangle_left_16 = OctIconData(0xeb06);
-
-  ///OctIcons' triangle_left_24 icon
-  static const triangle_left_24 = OctIconData(0xeb07);
-
-  ///OctIcons' triangle_right_16 icon
-  static const triangle_right_16 = OctIconData(0xeb08);
-
-  ///OctIcons' triangle_right_24 icon
-  static const triangle_right_24 = OctIconData(0xeb09);
-
-  ///OctIcons' triangle_up_16 icon
-  static const triangle_up_16 = OctIconData(0xeb0a);
-
-  ///OctIcons' triangle_up_24 icon
-  static const triangle_up_24 = OctIconData(0xeb0b);
-
-  ///OctIcons' trophy_16 icon
-  static const trophy_16 = OctIconData(0xeb0c);
-
-  ///OctIcons' trophy_24 icon
-  static const trophy_24 = OctIconData(0xeb0d);
-
-  ///OctIcons' typography_16 icon
-  static const typography_16 = OctIconData(0xeb0e);
-
-  ///OctIcons' typography_24 icon
-  static const typography_24 = OctIconData(0xeb0f);
-
-  ///OctIcons' unfold_16 icon
-  static const unfold_16 = OctIconData(0xeb10);
-
-  ///OctIcons' unfold_24 icon
-  static const unfold_24 = OctIconData(0xeb11);
-
-  ///OctIcons' unlink_16 icon
-  static const unlink_16 = OctIconData(0xeb12);
-
-  ///OctIcons' unlink_24 icon
-  static const unlink_24 = OctIconData(0xeb13);
-
-  ///OctIcons' unlock_16 icon
-  static const unlock_16 = OctIconData(0xeb14);
-
-  ///OctIcons' unlock_24 icon
-  static const unlock_24 = OctIconData(0xeb15);
-
-  ///OctIcons' unmute_16 icon
-  static const unmute_16 = OctIconData(0xeb16);
-
-  ///OctIcons' unmute_24 icon
-  static const unmute_24 = OctIconData(0xeb17);
-
-  ///OctIcons' unread_16 icon
-  static const unread_16 = OctIconData(0xeb18);
-
-  ///OctIcons' unread_24 icon
-  static const unread_24 = OctIconData(0xeb19);
-
-  ///OctIcons' unverified_16 icon
-  static const unverified_16 = OctIconData(0xeb1a);
-
-  ///OctIcons' unverified_24 icon
-  static const unverified_24 = OctIconData(0xeb1b);
-
-  ///OctIcons' upload_16 icon
-  static const upload_16 = OctIconData(0xeb1c);
-
-  ///OctIcons' upload_24 icon
-  static const upload_24 = OctIconData(0xeb1d);
-
-  ///OctIcons' verified_16 icon
-  static const verified_16 = OctIconData(0xeb1e);
-
-  ///OctIcons' verified_24 icon
-  static const verified_24 = OctIconData(0xeb1f);
-
-  ///OctIcons' versions_16 icon
-  static const versions_16 = OctIconData(0xeb20);
-
-  ///OctIcons' versions_24 icon
-  static const versions_24 = OctIconData(0xeb21);
-
-  ///OctIcons' video_16 icon
-  static const video_16 = OctIconData(0xeb22);
-
-  ///OctIcons' video_24 icon
-  static const video_24 = OctIconData(0xeb23);
-
-  ///OctIcons' webhook_16 icon
-  static const webhook_16 = OctIconData(0xeb24);
-
-  ///OctIcons' workflow_16 icon
-  static const workflow_16 = OctIconData(0xeb25);
-
-  ///OctIcons' workflow_24 icon
-  static const workflow_24 = OctIconData(0xeb26);
-
-  ///OctIcons' x_16 icon
-  static const x_16 = OctIconData(0xeb27);
-
-  ///OctIcons' x_24 icon
-  static const x_24 = OctIconData(0xeb28);
-
-  ///OctIcons' x_circle_16 icon
-  static const x_circle_16 = OctIconData(0xeb29);
-
-  ///OctIcons' x_circle_24 icon
-  static const x_circle_24 = OctIconData(0xeb2a);
-
-  ///OctIcons' x_circle_fill_12 icon
-  static const x_circle_fill_12 = OctIconData(0xeb2b);
-
-  ///OctIcons' x_circle_fill_16 icon
-  static const x_circle_fill_16 = OctIconData(0xeb2c);
-
-  ///OctIcons' x_circle_fill_24 icon
-  static const x_circle_fill_24 = OctIconData(0xeb2d);
-
-  ///OctIcons' zap_16 icon
-  static const zap_16 = OctIconData(0xeb2e);
-
-  ///OctIcons' zap_24 icon
-  static const zap_24 = OctIconData(0xeb2f);
+  /// OctIcons' zoom out Icon
+  static const zoom_out = OctIconData(0xea42);
 }
